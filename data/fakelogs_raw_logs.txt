@@ -1,0 +1,16 @@
+commit fakedatainhex
+Author: Katy <katy.herrick@nyu.edu>
+Date:   Mon Apr 18 12:03:06 2016 +0100
+
+    1. First commit
+
+    2. First commit after new line
+
+commit mergecommitinhex
+Merge: hex3029 f3395f
+Author: Deniz <heh@domain.com>
+Date:   Sat Jan 30 11:37:15 2016 -0800
+
+    Merge pull request #1
+
+    Master
