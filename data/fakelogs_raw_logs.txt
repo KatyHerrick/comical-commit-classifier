@@ -1,3 +1,21 @@
+commit easycommitnumber
+Author: Katy <katy.herrick@nyu.edu>
+Date:   Mon Apr 18 12:09:06 2016 +0100
+
+    1. all happens on one line like a good message
+
+commit anothereasycommitnumber
+Author: Katy <katy.herrick@nyu.edu>
+Date:   Mon Apr 18 12:10:06 2016 +0100
+
+    2. also all happens on one line like a good message
+
+commit thirdeasycommitnumber
+Author: Katy <katy.herrick@nyu.edu>
+Date:   Mon Apr 18 12:10:06 2016 +0100
+
+    3. all happens on one line like a good message
+
 commit fakedatainhex
 Author: Katy <katy.herrick@nyu.edu>
 Date:   Mon Apr 18 12:03:06 2016 +0100
