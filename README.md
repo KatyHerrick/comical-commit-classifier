@@ -14,11 +14,18 @@ Commit Logs From Last Night (http://www.commitlogsfromlastnight.com/) is an exte
 ##### Prepare your commit logs
 1. Navigate to the repo you want to analyze and run
 `git log > reponame_raw_logs.txt ; mv reponame_raw_logs.txt [path/to/comical-commit-classifier]/data`. This should save the logs in the proper place. Replace the `[path/to/comical-commit-classifier]` with the path to this repo.
-2. Run `python raw_log_processor.py -log "data/reponame_raw_logs.txt"`. This should output a file called `reponame_commits.txt.`
-3. Run`naive_classifier.py -coms "reponame_commits.txt"`. [Don't do this yet; naive_classifer is still a to-do.]
+2. Run `python raw_log_processor.py -log "data/reponame_raw_logs.txt"`. This should output a file called `reponame_commits.txt`.
+
+##### Create an answer key
+1. Run `python manual_annotator.py -f "data/reponame_commits.txt"`. [Don't do this yet; manual_annotator is still a to-do.]
+2. As each commit appears, type `s` for serious and `f` for funny, followed by the return key. For extra fun, think of it like swiping left or right on Tinder.
+
+##### Classify the commits
+1. Run`naive_classifier.py -coms "reponame_commits.txt"`. [Don't do this yet; naive_classifer is still a to-do.] This should output something TBD.
+
 
 ### Collaborator Setup
-1. In the terminal, navigate to your preferred directory and run the following commands to set up your environment:
+In the terminal, navigate to your preferred directory and run the following commands to set up your environment:
 ```shell
 git clone git@github.com:KatyHerrick/comical-commit-classifier.git
 sudo easy_install pip    # get pip in case you don't have it
@@ -28,13 +35,15 @@ virtualenv --prompt="(ccc)" env    # make your virtualenv
 pip install -r requirements.txt    # install all dependencies
 ```
 This will install all needed packages into a per-project environment so you don't pollute your global environment. If when you run the classifier it tells you that you don't have nltk, you probably just forgot to reactivate your virtualenv.
-2. Every time you start work run:
+
+Every time you start work run:
 ```shell
 . env/bin/activate
 git pull
 ```
 This will make sure you have the most up-to-date code locally. :)
-3. Test-driven development is cool, so you'll see a /tests folder. To run the tests, use the command:
+
+Test-driven development is cool, so you'll see a /tests folder. To run the tests, use the command:
 ```shell
 nosetests tests/ -v -s
 ```
