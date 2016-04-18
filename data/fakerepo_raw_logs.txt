@@ -1,0 +1,51 @@
+commit firstcommit
+Author: Katy <katy.herrick@nyu.edu>
+Date:   Mon Apr 18 12:09:06 2016 +0100
+
+    1. one-line commit
+
+commit secondcommit
+Author: Katy <katy.herrick@nyu.edu>
+Date:   Mon Apr 18 12:10:06 2016 +0100
+
+    2. another one-line commit
+
+commit thirdcommit
+Author: Katy <katy.herrick@nyu.edu>
+Date:   Mon Apr 18 12:03:06 2016 +0100
+
+    3. first line of multi-line
+    3. second line of multi-line
+
+commit fourthcommit
+Author: Katy <katy.herrick@nyu.edu>
+Date:   Mon Apr 18 12:03:06 2016 +0100
+
+    4. first line of multi-line with extra newline
+
+    4. second line of multi-line with extra newline
+
+commit mergecommit
+Merge: hex3029 f3395f
+Author: Deniz <heh@domain.com>
+Date:   Mon Apr 18 12:03:06 2016 +0100
+
+    Merge pull request #1 (5)
+
+    Master (5)
+
+commit 9ee83a22953954bae4a37a8ce3763d9d71bb580b
+Author: hsyoo <hsyoo@sfu.ca>
+Date:   Mon Apr 18 12:05:06 2016 +0100
+
+    commit before sync because whatever
+
+commit lastcommit
+Author: Katy <katy.herrick@nyu.edu>
+Date:   Mon Apr 18 12:03:06 2016 +0100
+
+    last. anything and everything
+     starting with a space (last)
+    'quotes too' (last)
+     "double quotes" (last)
+    :circus-tent:

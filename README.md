@@ -20,10 +20,15 @@ virtualenv --prompt="(ccc)" env    # make your virtualenv
 . env/bin/activate    # activate the env
 pip install -r requirements.txt    # install all dependencies
 ```
-This will install all needed packages (which at the time of writing, is only nltk) into a per-project environment so you don't pollute your global environment. If when you run the classifier it tells you that you don't have nltk, you probably just forgot to reactivate your virtualenv.
+This will install all needed packages into a per-project environment so you don't pollute your global environment. If when you run the classifier it tells you that you don't have nltk, you probably just forgot to reactivate your virtualenv.
 2. Every time you start work run:
 ```shell
 . env/bin/activate
 git pull
 ```
 This will make sure you have the most up-to-date code locally. :)
+3. Test-driven development is cool, so you'll see a /tests folder. To run the tests, use the command:
+```shell
+nosetests tests/ -v
+```
+Or to run only one set of tests, replace with `tests/file_name.py`.

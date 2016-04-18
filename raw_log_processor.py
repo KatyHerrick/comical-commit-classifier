@@ -56,8 +56,9 @@ def make_commit_list(raw_logs):
 
 if __name__ == "__main__":
 
-    parser = argparse.ArgumentParser(description='Cleans unaltered git log output for classification')
-    parser.add_argument('-log', action='store', type=str, help="repo_name_raw_logs.txt", default="data/fakelogs_raw_logs.txt")
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-log', action='store', type=str, help="repo_name_raw_logs.txt", \
+        default="data/fakerepo_raw_logs.txt")
 
     args = parser.parse_args()
 
