@@ -6,9 +6,6 @@ Commit Logs From Last Night (http://www.commitlogsfromlastnight.com/) is an exte
 ### Files
 1. raw_log_processor.py --> Given an unaltered file of logs (git log > repo_name_raw_logs.txt), will strip out all commit, author, and dates.
 2. manual_annotator.py --> Given a processed file of logs (i.e. that only contains commit messages separated by a newline character), allows the user to manually mark each message as "funny" or "serious" in order to create an answer key for the classifier.
-3. naive_classifier.py --> Uses nltk's NaiveBayesClassifier to classify a list of commits. Takes in a processed file of logs (i.e. that only contains commit messages separated by a newline character) and outputs a list of tuples of the form:
-``` python
-[(“commit message”, “funny”), (“commit message 2”, “serious"), …]
-```
+3. naive_classifier.py --> Uses nltk's NaiveBayesClassifier to classify a list of commits. Takes in a processed file of logs (i.e. that only contains commit messages separated by a newline character) and outputs a list of tuples of the form: ` [(“commit message”, “funny”), (“commit message 2”, “serious"), …] `
 4. commit_classifier.py --> Our customized classifier that we tweak to give better results than the NaiveBayesClassifier. TBD if this is possible to do within our time frame.
 5. scoring.py --> Given an answer key and the output from one of our classifiers, calculates the accuracy of the classifier.
