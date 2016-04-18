@@ -1,0 +1,7 @@
+1. one-line commit
+2. another one-line commit
+3. first line of multi-line3. second line of multi-line
+4. first line of multi-line with extra newline4. second line of multi-line with extra newline
+Merge pull request #1 (5)Master (5)
+commit before sync because whatever
+last. anything and everythingstarting with a space (last)'quotes too' (last)"double quotes" (last):circus-tent:
