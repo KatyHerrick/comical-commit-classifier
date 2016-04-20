@@ -31,6 +31,11 @@ if __name__ == "__main__":
                 print "Mark this commit as (s)erious or (f)unny"
                 classification = raw_input()
 
+            if classification == "s":
+                classification = "serious"
+            elif classification == "f":
+                classification = "funny"
+
             answer_key.append((commit, classification))
 
         for answer in answer_key:
