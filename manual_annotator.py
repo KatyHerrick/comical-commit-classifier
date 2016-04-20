@@ -24,14 +24,14 @@ if __name__ == "__main__":
         commits = f.readlines()
         print "Mark commits as either (s)erious or (f)unny"
         for commit in commits:
-            sys.stdout.write(line)  # display the next commit to classify
+            sys.stdout.write(commit)  # display the next commit to classify
             classification = raw_input()
 
             while not re.match(r's|f', classification):
                 print "Mark this commit as (s)erious or (f)unny"
                 classification = raw_input()
 
-            answer_key.append((line, classification))
+            answer_key.append((commit, classification))
 
         for answer in answer_key:
             o.write(str(answer) + '\n')
