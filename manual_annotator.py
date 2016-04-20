@@ -3,6 +3,10 @@
 # tuples of the form:
 
 import argparse
+import os.path
+
+def cwd():
+    return os.path.dirname(os.path.dirname(__file__))
 
 if __name__ == "__main__":
 
@@ -11,8 +15,12 @@ if __name__ == "__main__":
         default="data/fakerepo_commits.txt")
 
     args = parser.parse_args()
+    answer_key = []
 
-    with open(args.file) as f:
+    input_file = cwd() + args.file
+    output_file = args.file.split('_')[0] + '_answer_key.txt'
+
+    with open(input_file, 'r') as f, open(output_file, 'w') as o:
         content = f.readlines()
         for line in content:
             print line + "\n"
