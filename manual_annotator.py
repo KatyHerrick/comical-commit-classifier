@@ -23,4 +23,9 @@ if __name__ == "__main__":
     with open(input_file, 'r') as f, open(output_file, 'w') as o:
         content = f.readlines()
         for line in content:
-            print line + "\n"
+            print line  # display the next commit to classify
+            classification = raw_input()
+            answer_key.append((line, classification))
+
+        for answer in answer_key:
+            o.write(str(answer) + '\n')
