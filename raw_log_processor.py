@@ -50,20 +50,20 @@ def make_commit_list(raw_logs):
                 commit = ''
             else:
                 line = ' '.join(line)
-                commit += line
+                commit += ' '+line
 
     return commits
 
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('-log', action='store', type=str, help="repo_name_raw_logs.txt", \
+    parser.add_argument('-file', action='store', type=str, help="reponame_raw_logs.txt", \
         default="data/fakerepo_raw_logs.txt")
 
     args = parser.parse_args()
 
-    input_file = cwd() + args.log
-    output_file = args.log.split('_')[0] + '_commits.txt'
+    input_file = cwd() + args.file
+    output_file = args.file.split('_')[0] + '_commits.txt'
     with open(input_file, 'r') as f, open(output_file, 'w') as o:
 
         raw_logs = read_file(f)
