@@ -1,521 +1,521 @@
-Archer (5th) Sound Script* Replaced UBW sounds, if reverting sound reverse alsosoundscripts/hero_archer.vsndevts
-Heracles Sound Script
-Merge pull request #1 from dun1007/masterUpdate from master
-v1.45c
-v1.45b
-hotfix
-1.45
-Update Archer's BP and Hrunting mechanicsnow channeling based
-v1.44i
-Alpha version of Fatepediahttp://i.imgur.com/ef9zoev.png
-savepoint
-v1.44h
-hotfix
-v1.44f
-savepoint
-hotfix
-1.44e
-v1.44d
-v1.44c
-Finish playable alpha version of trio rumble and FFATODO:global objectiveround-based mechanics bugfix
-Finish details and prototype build of FFA map* Global objective - free shard upon picking an item in arbitrarylocation within center circle, occurs every 3 mins. No shard ofprosperity for first 10 minutes(early 5 levels too good)* XP generator when hero is present at center - 10+2% every second* 3 seconds special invulnerability on respawn, and when player stayswithin base(3v3 only)
-Finish Ryuudo temple(FFA) map
-Finish prototype version of 3v3v3v3TODO:Add global objectiveAdd spawn camp prevention mechanicsAdd XP generatorMake FFA mapBugfixes
-Trio scoreboard
-Merge pull request #24 from F1l00/mastersorry was busy for a bit
-Finish Trio Rumble map
-True Assassin Sound Script* Tamamo Spawn line updated* Add 3rd TA's attack line (TO-DO)
-savepoint(trio rumble)
-Merge
-v1.44b
-Update README.md
-Remove GOB additional note
-update addon_english_changes
-v1.44
-Revert physics class
-hotfix
-Merge pull request #23 from F1l00/masterDiarmuid (Lancer 5th) Sound Script
-Diarmuid (Lancer 5th) Sound Script
-v1.43c
-Possible bugfix to Saber avalon
-animated portrait cards
-hotfix
-v1.43b
-v1.43
-v1.43 savepointTODO:Assassin(Extra)'s No Second Strike reworkDamage displayCC unification
-Update addon_english_changes
-Remove Lancer(5th)'s ult's tracking projectile useyou can tell i'm a real software engineer because i'd rather just maketiny tweaks to the clusterfuck that is lancer's ult code until it worksthan actually take half an hour to rewrite it so it's sane
-hotfix
-v1.42
-Revert Saber Alter's excalibur sound
-Merge pull request #22 from F1l00/masterSaber Alter Sound Script
-Saber Alter Sound Script* Changed Excaibur to Excalibur Morgan, descriptions need update (ifreverting back, revert also hero_saber_alter script)* Spectre's custom voice' lines unchanged (to-do)
-Hookup Luminosite Eternelle particles (incl. zone radius)
-Half finished combo, misc changesTried illusion approach but it was being goddamn complex and gimmicky asusual. RIP 3 hoursIf everything goes well Ruler should be ready for release tomorrowevening, although my crunch will have to continue for some attributereworks and system changes T_T
-Finish Ruler's RThings left to do:R particles(sacred_zone requires radius CP, luminousite_eternelle.vpcfneeds to be changed so it is not projectile system reliant, also speedCP)Code combo and attributes
-the (involuntary) particle cleanupthanks copy system definition
-Merge pull request #21 from F1l00/masterCasster (Extra) Sound Script
-Caster (Extra) Sound Script* Revert hero_tamamo script if reverting to old tamamo_amaterasu.mp3
-holy shit i'm bad at literally everything
-Add particles for Ruler's Charisma, and edit tooltip slightly
-Finish Ruler's QWE abilitiesult is just a pseudocode for now
-Merge pull request #20 from F1l00/masterLancelot Sound Script
-Lancelot Sound Script
-Compile Panorama vtex files, update Ruler's skill icons and finish innate abilities,Rest of abilities still in WIP
-Ruler skill icons, tooltip fixJeekarose's tooltip fix was lost in the middle of conflict and merge,brought it back
-Merge pull request #19 from F1l00/masterRuler Sound Script
-Ruler Sound Script
-Merge remote-tracking branch 'refs/remotes/dun1007/master'
-Fix KV glitch
-Merge pull request #18 from dun1007/pr/17Pr/17
-Merge remote-tracking branch 'refs/remotes/origin/master' into pr/17
-Merge branch 'master' of https://github.com/dun1007/fateanothere/dota_addons/fateanother/resource/addon_english.txt
-more Ruler stuffs
-Saber Sound Script
-hi im here to forget things
-Edit Ruler strings
-Finish Ruler's ability tooltipsLore and additional notes are pending for now
-Merge pull request #16 from F1l00/masterNew Stats' Icons
-Merge remote-tracking branch 'refs/remotes/dun1007/master'
-New Stats' Icons
-Update Ruler's animation, portrait, and base statsTodo:Finish writing tooltips for her attributesFind her assets(mainly .png icons for portrait and such)Code abilities
-Soundclips:+1:
-Merge pull request #15 from F1l00/masterLancer (5th) Sound Scripts
-Fix Jeanne modelMeshes fixed, but jeanne_acc.vmat material's alpha channel for whitetransparency is not working properly.
-Lancer (5th) Sound Scripts+ Updated Gae Bolg and Heartbreak sounds
-1.41
-Some Ruler tooltipsalso a savepoint
-Merge pull request #14 from F1l00/masterLaus & Rosa Sounds (Nero)
-Laus & Rosa Sounds (Nero)
-Lasu and Rosa Remove
-Laus & Rosa Sounds (Nero)
-Merge pull request #13 from F1l00/master
-Nero Sounds and Scripts+ Caster (5th) Volume increase
-Merge pull request #12 from F1l00/masterMaster
-Caster (5th) Sound Files
-Caster (5th) Soundevent Script
-Revert "Caster (5th) Sound Script"This reverts commit cf0f4e34b12bd89d63e53cf3e7dc81c883cee249.
-Caster (5th) Sound Script
-herolist
-v1.40c
-savepoint 2
-savepoint
-1/27 Hotfix
-v1.40b
-v1.40
-v1.39b
-v1.39
-Fix and add 1x1 collisions
-v1.38calso includes Jeanne's assets
-v1.38buh oh spaghettios
-missing bit
-v1.38
-syncOngoing mission:Remove ApplyModifier KV and replace them with lua scriptCC unificationItem mechanic changes
-Add particle for Reincarnation regen
-Tweak/add God Hand particlesI also made the God Hand buff go away when Berserker's out of chargesbecause it was confusing me
-Tweak Fissure Strike particle
-Merge branch 'master' of github.com:dun1007/fateanother
-v1.37b*china intensifies*
-Fix hrunting particle CPs (#6)
-Update the list of changed string since Sep
-v1.37 Final
-Change reference stack properties
-Attempt at fixing sound issue
-Some precache statements
-v1.37
-Extra Assassin worksThings left to do:Finish implement combo(halfway through)AttributesBugfixWill be released in v1.37, planned to ship tomorrow evening
-Fix a bug where FA illusions were not receiving default ASPD bonus from AGI
-Make my poor lua stop crashing on map launch
-Merge branch 'experimental'Conflicts:game/dota_addons/fateanother/scripts/vscripts/archer_ability.lua
-v1.36bLancelot had issues with the un-rubickness(his spellbook dynamicallyadds and removes empty slots), and his Nine Lives attempted to referenceCourage ability which he does not possess. Fixed both
-Fix the woe of batch string replacementDeductCourageDamageStack
-Display time to next Overedge stack as buff duration
-Tweak Nine Lives particle
-Make Overedge look very slightly less clowny
-Fix UBW particle flickering in FoWlol why the fuck does this work
-Fix saber alter's improve ferocity tooltip
-Change Overedge from hidden to unlearnable
-oops
-Fix ability layout bug
-preliminary ability layout fiddling
-fix nine lives particle dependency (oops)
-clean up some compiled files
-Update Nine Lives particles; tweak ability codeI changed Nine Lives slightly and Courage's damage buff's interactionswith abilities in general, because the global Courage ability handlecausing lua errors was driving me very slightly insane
-Hotfix 2spaghettierino
-Hotfix
-v1.36
-v1.35
-sync
-add what is almost a fix to ubw particle bugginessi hate particle visibility so muchit is going to make me cry ;_;
-Update particles for Courage
-Merge branch 'master' of github.com:dun1007/fateanother
-v1.35 base buildmissing Assassin's clone implementation
-Update particles for Berserk
-Fix Hecatic Graea/Fiery Finale targetingPreviously, damage was targeted in a square area around caster(resulting in fire outside of Saber's arena's area and hecatic using areally weird smaller radius?); changed it to actually find random targetsin circular areas of the stated respective radius
-Edit extra assassin strings
-Update Extra Assassin strings
-Invictus Spiritus fixesFixed not-revoked condition not respecting all revoke effects, added a debuffshowing cooldown, tweaked tooltip
-Update statecollection to v4, slight change to Tsubame Gaeshi particlecolor scheme changed to blue from purple
-statcollection
-Tweaked Tsubame Gaeshi particles
-RB bugfixI am retarded LOL
-checkpoint
-Merge branch 'master' of github.com:dun1007/fateanother
-Fixed enuma particle flickering, updated max enuma elish particle
-Missed something from last commit
-v1.34d
-added cracks to enuma elish particle + some other tweaks
-Merge branch 'master' of github.com:dun1007/fateanother
-Updated Enuma Elish projectile particle
-Update Extra Assassin assets
-Fix for Sacrifice not being applied consistently
-Updated UBW initial cast particles
-Fixed Hecatic Graea's initial barrage targeting
-v1.34c
-Bugfix to Hecatic GraeaFound some wrong parameters while testing
-fixed some debug circle draws being left on
-Caster tooltip tweaks
-updated HGP particles, consolidated HG/HGP code a little
-Merge branch 'master' of github.com:dun1007/fateanother
-fixed divine words particle visibility
-ACT_DOTA_DISABLEDadded disabled animation for two models, although it doesn't seem to domuch
-Hecatic Graea particle tweaks
-Fixed Hecatic Graea hitting impassable positions
-Updated Caster's Hecatic Graea particles
-v1.34b
-v1.34
-Saber alter Excalibur particle update
-Merge branch 'master' of github.com:dun1007/fateanother
-Saber particle updates: Max Excalibur, Strike Air
-Fixed saber ability particle precaching
-Add video link to Readme
-Make Readme a bit more pretty
-Remove outdated documentations
-Geez readme has been missing for 11 months
-v1.33b
-Saber tooltip tweaks, try #2
-Merge branch 'master' of github.com:dun1007/fateanotherConflicts:game/dota_addons/fateanother/resource/addon_english.txt
-these binaries are making me so sad so i killed them
-Saber tooltip tweaks
-Saber particle changes: Caliburn, Excalibur, Avalon
-v1.33
-1.32c
-1.32(timer UI, master panel)
-Sidepanel
-1.31
-sync
-Checkbox
-Inventory
-multiteam scoreboard, vote panel
-sync
-1.3
-sync
-1.23
-Tamamo Savepoint
-savepoint
-SChinese compatibility
-savepoint
-Beta 1.22
-checkpoint
-sync1
-Beta 1.21
-latest11
-9/10 Update
-9/7 Patch
-9/6 dump
-28th June BreakpointLast stable version before code structure overhaul
-June 23th Patch
-June 21st Update versionRefer to Fate/Another steam webpage for patch logs.
-Source 2 updateMilestone
-Finish alpha version of Fatepedia- Finished first push of Fatepedia on Scaleform. Subject to change asPanorama hits the bed- Renamed skill images- Added Fatepedia tooltips
-Tooltips
-Add Scaleform resource for Fatepedia
-Archer changes* Archer(5th) *- Broken Phantasm stun duration now scales with level(1/1.3/1.6/1.9/2.2)- Rho Aias shield durability reduced to 600/750/900/1050/1200, butpassively grants 0/100/200/300/400 health- UBW ambient projectiles are now fired twice as slowly- Sword Barrage max channeling duration increased to 5 seconds anddamage now scales with UBW's level(200/250/300/350/400).- Nine Lives damage now scales with UBW's level(440/570/700/830/960total)- Improve Projection attribute changes:* Removed bonus damage on ambient projectile* Kanshou Bakuya deals (INT) bonus damage and reduces Sword Barrage'scooldown by 1 second* Sword Barrage deals (STR+INT)*2 extra damage* Nine Lives' each strike inflicts 5% of target's current health asbonus magic damage
-June 5th Patch* General *- Fixed tooltip errors and improved consistency of wordings.* Saber *- Caliburn casting point increased to 0.8 seconds, but impact is nowinstant(no longer launches invisible projectile). Cast range bufferincreased to 200.- Invisible Air passively grants 10/20/30/40/50 attack damage- BAT decreased to 1.15- Strike Air now scales with Invisible Air and Caliburn* Berserker(4th) *- Same change to Caliburn- Base MR increased to 10%* White Saber(Extra) *- Fixed a bug where spell block was not working against WSaber's spells
-June 1st Patch- Presence detection now becomes enabled 1 minute into round(as itshould have been the whole time)- Finalized Tamamo's tooltips, may take about a week to build up skillsand polish stuffs
-Bugfix- Added 0.1 second casting point to Archer(5th)'s combo in order toprevent him from being able to cast combo outside occasionally- Updated Tamamo's assets
-Add Tamamo's Tooltip- Slightly adjusted custom timer duration- Improved Lancer's HB particle- Added tooltip for draft version of abilities
-May 21th Update* White Saber(Extra) *- Removed health regen from Artificial Sun aura effect- Blade of the Devoted damage scaling adjusted to 370/425/480/535/590- Fixed a bug where Blessing of Fairy was overlapping with DivineMeltdown* Caster(5th) *- Fixed a bug where Argos attribute was not working- Removed bonus magic resistance from Argos attribute* Rider(4th) *- Forward! no longer has 0.3 second casting point. Duration increased to1.6/2.2/2.8/3.4/4.0* General *- Army of the King and UBW now display the exit location on minimap- Added custom UI for round timer- Updated tip quotes
-May 18th Update* Lancer(4th) *- Replaced model- Attribute 'Double Spear Strike' mana cost reduced to 18, and'Rosebloom' to 12- Warrior's Charge slows primary target by 50% for 2 seconds- Gae Buidhe range buffer increased by 150- Gae Dearg range buffer increased by 100* Red Saber(Extra) *- Updated recommended items* Avenger *- True Form no longer increases damage. Health bonus increased by 100 onall levels- Base damage reduced by 8- Base health reduced by 50- Stat gain per level changed to 0.95/1.3/0.75- Murderous Instinct critical damage reduced to 200% on all levels.Cooldown reduced to 16 seconds- Unlimited Remain minions last for 45 seconds, down from 75. Explosiondamage increased to 160/185/210/235/260* Lancer(5th) *- Replaced model- Fixed a bug where Lancer could queue abilities while spellbook is opento activate Rune Magic twice
-May 17th Update- Added Gawain* False Assassin *- Removed passive component from Heart of Harmony- Tsubame Mai's 7 slashes can critically strike- Vitrification now removes global cooldown from Heart of Harmony andturns Assassin invisible for duration. Quickdraw damage amplificationremoved.
-Finish Gawain basic abilities
-Gawain CheckpointReturn back to this commit when problem arises
-May 11st Update* Red Saber(Extra) *- Gladiusanus Blauserum max damage increased to 320%, attribute now addsAGI*5 + STR*5 damage instead- Attribute 'Pari Tenu Blauserum' mana cost reduced to 10- Attribute 'Invictus Spiritus' mana cost reduced to 10- Attribute 'Soverign's Glory' mana cost reduced to 15. Removed allybuff component. Now allows Aestus Domus Aurea to deal 35% more damagewhether enemies are facing Saber or not* Lancer(5th) *- Fixed a bug where Lancer could use Relentless Spear during Gae Bolgcast- Relentless Spear atttack speed bonus increased to 50/100/150/200/250* Saber Alter *- Mana Burst and Unleashed Ferocity now apply ministun on each instanceof damage- Unleashed Ferocity now deals damage based on current health of enemy.Attribute adds (STR+INT) bonus damage.* True Assassin *- BAT decreased to 0.8- AGI gain per kill increased to 0.75/1.5/2.25/3.0/3.75- Weakening Venom attribute now allows Dirk to reduce -5 strength.Duration increased to 10 seconds* General *- Fixed a bug where Command Seal could be used while dead- Added minimap icon to master units
-Minor bugfix- Fixed a bug where Imperial Privilege's cooldown was not reset onrespawn- Fixed a bug where Aestus Domus Aurea was put more than once at thesame time
-May 9th Update- Reworked FA's Heart of Harmony and Combo- Added Red Saber(Extra)- Fixed a bug where DS was not able to use combo after acquiring certainattribute- Fixed a bug where -bgmoff command was not working for some players
-Update Gawain's ability template
-Update Nero's ability template
-Merge
-Merge
-Merge
-Update Gawain and Li Shuen's assets
-Reworked FA, Added Nero's tooltips and assets- Heart of Harmony remade. Combo changed to Tsubame Mai - Swallow Dance.Refer to addon_english.txt
-Retrieve Caster's item sprites from old commit
-Merge branch 'master' into stable
-Stable version with ZC
-Savepoint
-Revert "Revert "April 15th Update""This reverts commit 82f7a43641201d11336ffe2e8b7f9b0dd82bd75d.
-Revert "April 15th Update"This reverts commit d9960b1ab4645c14628b7a690f476d5682b97128.
-Fixed minor bugs with Zero Caster and added tooltips
-April 18th Update- Enabled Caster(4th)- BGM now plays 5 seconds after game starts(this is an attempt to fix anissue where some players do not start with BGM)
-Update Zero Caster abilities
-Update Zero Caster's assets and ability template
-April 15th Update- Fixed a bug where picking certain heroes crash 2 other people- Fixed a bug where Nine Lives does not move onto slash phase but casterremains frozen- Fixed a bug where combo would not activate when stat list was open onMaster 2 unit- Relieved the lag on activating Army of the King and Phalanx
-Performance optimization
-April 13rd Update- Added suggested item builds to Rider(4th)- The round system now declares winner based on current score standing,regardless of whether casualty occured in that round.- Fixed a bug where Saber Alter's Mana Catalyst stack was notinitializing after death- Fixeda bug where Rider(4th)'s basic ability layout would be altered insome circumstances- Added effect and sound to Army of the King- Changed Nine Lives' dash mechanism
-Remove Chinese stuffs temporarily
-April 11st Update + Zero Caster stuffs- Iskander released- Added Gilles' assets and tooltips
-April 8th Update- Increased visibility of beam abilities- Fixed a bug where Lancelot could queue Knight of Honor afteractivating Arondite- Fixed a bug where Archer's Sword Barrage replaces Clairvoyance whenUBW was cast while Hrunting was active.
-Small fix
-Update Iskander abilitiesHopefully done by tomorrow?
-Increase duration for diarmuid weapon trail
-Implement AOTK interaction with UBW
-Updated to pause mechanism and Rider particle- No longer restricts command, meaning you can queue ability while incasting- Beams now release towards direction caster is heading at the fire- Removed ground spike from Bellerophon and smoke from Nail Swing
-Update Iskandar attack of the king particle
-Update Iskander abilities
-Update attachment point on diarmuid
-Update new diarmuid weapon trail
-QoL changes- UBW now moves camera of players caught within to inside world- Item can be bought now, even when you are selecting unit
-Update Iskander's model and add soldier templates
-Update Iskander's abilities
-Update diarmuid weapon trail
-Update green and red shield
-QoL changes- Increased hitbox of all heroes to 80 for easier targeting- Forced random at 60 seconds is disabled for the time being- Added better sound and particle effects for S and EX scroll
-Update2
-Add custom particle
-Fix symbolic link issue
-Remove unnecessary precache lines
-Clean up files from remote repo
-Revisit repo structure
-Revisit repo structure
-Adjust Avenger's numbers a bit- True form health bonus increased to 300/400/500/600/700- Blood Mark's casting point reduced by 0.1 second- Unlimited Remains damage increased to 150/165/180/195/210
-Finish Iskander's ability template and tooltip
-Update Avenger's Verg Avesta particles
-Fix Teleport bug- Fixed a bug where teleport scroll allowed hero to target ward that'salready killed- Improved particle and sound
-Update Iskander tooltips
-Update recommended item list for Diarmuid
-Finish Diarmuid and fix Avenger bug- Fixed a bug where Avenger's Unlimited Remain values were 1 levelhigher than current level values.
-Adjust Caster's Hecatic Graea- Now drops ray only on untraversable area- Ray AoE increaseed by 50
-Fix blink bug- Fixed a bug where blinking into not traversable point would place unitin unexpected location
-Add entity checker to prevent script from getting the nil handle
-Update Diarmuid abilities and Fix Lancer and Caster bug- Fixed a bug where Rule Breaker purged target instead of hard dispel- Fixed a bug where Rune of Disengage did not cleanse caster
-Make QoL changes to FA's Tsubame GaeshiNow teleports FA to the point100 range away in the direction of unit toFA's original location, rather than giving random location determined byspace clear
-Finish Diarmuid ability skeleton and icon
-Update Diarmuid's ability format
-Fix False Assassin and Caster bug- Fixed a bug where round system would terminate when FA dies leavingclones behind- Fixed a bug where Caster's Rule Breaker would not apply banish debuffoccasionally
-Change encoding format of addon_englishUCS-2 Little Endian option
-Finish Avenger, Fix Lancelot and Saber Alter bug- Fixed a bug where Arondite's level was reset to 1 when opening Knightof Honor spellbook.- Fixed a bug where Saber Alter would gain 53 attack per point afteracquiring Sword of Darklight attribute
-Finished Avenger abilities
-Merge
-Update Avenger's Dark Passage particle
-Updated Avenger abilities
-Update archer_sword_barrage_impact_circleNow takes CP1 as radius
-Fixed many bugs and updated effect and sound of some abilities- Fixed a bug where Spirit Link would not consider physical damagereduction from armor when applying damage to secondary targets- Fixed a bug where Rule Breaker's banish goes through Arondite's singletarget immunity
-QoL update to command seal, and Lancelot bug fix- 1st command seal now displays duration in modifier section- Other seals now display cooldown in modifier section- Fixed a bug where Lancelot could not cleanse Enkidu
-Fixed a bug associated with Spirit Link-Fixed a bug where MR was twice as effective on linked primary target
-Fixed a bug where Lancelot's combo could be reset
-Updated Avenger abilities
-Fixed Lancelot bug- Fixed a bug where acquiring attribute on Lancelot does not reducemaster 1's mana
-Fixed a bug with Archer and updated Avenger's skill template- Fixed a bug where UBW weapons would remain after round ended anddamage enemy heroes at respawn
-Re-enabled Spirit Link and Fixed Lancelot bug
-Fixed Lancelot bug and added FA effects
-March 12nd Update- Berserker(4th) enabled- Fixed a bug where Rider's Breaker Gorgon would last forever- Fixed a bug where TA could attack while in ambush
-Merge
-Update Lancelot's Arondite particles
-Fixed tooltips
-Added effect to Lancer's runes and Adjusted base stats
-Updated Attributes
-Update Lancelot's SMG with new particles
-Updated Lancelot's attribute and Finished nuke
-Update Lancelot's SMG
-Updated Lancelot NukeTACTICAL NUKE INCOMING
-Several bugfixes and Lancelot update- Fixed a bug where Breaker Gorgon would last forever- Fixed a bug where TA could attack while invisible if auttoatack wasissued during fade time- Completed Lancelot's QWER
-Updated Lancelot's abilities and attributesStill in progress
-Merge
-Fix Saber's Invisible Air- Fix the pseudo-projectile, it should now launch properly towards thetarget- Fix the alpha, size and color of particle, it should now be easier tosee.
-Fix Caster HG's particle and descend function- Add ground particle to HG with CP2.x = radius- Fix Caster's z position when user uses HG from higher ground. Now itshould always snap to the ground.
-Update March 6th- Fixed a bug where UBW would leave permanent sight on casted location- Added shield durability particle to Caster's Argos
-Fix Argos' durability for taking ability damage
-Disable Archer's Clair dust particle for nowWill come back to fix this later
-Merge
-Update Caster's Argos durability number
-Updated Lancelot's skil template
-Updated lancelot's template
-Update Caster's hecatic graea particles
-Update some values for face_splash
-Update March 3rd- Adjusted base stats- Added tooltip for Lancelot- Added stack count for Archer's Overedge- Fixed bug associated with ability acquisition level- Fixed bug where Archer UBW can teleport enemy ward as well
-Added StatCollection
-First public release version
-Bulk update before public release- Reconnect bug is fixed
-EXP changes
-Added a callback function for looping through players- Round bug should be fixed(requires 10 man setting to make sure)
-Merge
-commit before sync
-Finish Gilgamesh's VFX, and fix multiple other particles- Updated Gilgamesh's Enkidu particle- Updated Gilgamesh's Enuma Elish with particles during the charge- Updated Gilgamesh's Max Enuma Elish with particles during the charge- Updated Saber's Excalibur/Max Excalibur particles color to be a bitdarker- Fix Archer's Clairvoyance, it should no longer have white flickeringtexture
-Added UBW timer, Fixed round freeze bug when 1on1Reconnect glitch still not fixed
-Tons of bug fix- Added -50 to 50 hitbox for all heroes for easier targeting- Fixed a bug where UBW does not let invulnerable units exit- Fixed a bug where stat bonus can be attained up to lvl 10- Fixed a bug where Archer(4th) could gain gold before game begins andcan stack the passive on every death.- Fixed a bug where C scroll does not get disjointed- Fixed a bug where dead person could still detect presence
-Added round timer
-Added personal C scroll stock and stat gain limitation
-Enforced combo constraint
-Fixed bug with 2nd Seal, Adjusted blink particle
-Added known issues file
-Fixed bug with heart break and round finish- No longer breaks heart infinitely- All non-hero units(ward, territory) are killed at the end of round
-Reduced music volume, Added BGM on and off feature-bgmon / -bgmoff
-Adjust GOB's projectile start pointAdjust it backward a bit so it doesn't start from thin air
-Update VFX on Gilgamesh and 4 projectiles- Saber's Max/Normal Excalibur projectile now binds to dummy and willtravel along.- Saber Alter's Excalibur, same as above- Gilgamesh's Enuma Elish, same as above- Increase transparency and size of Gilgamesh's Gate of Babilon.
-Update Bloodfort to reduce lag.It should upgrade overall performance now
-Updated Berserker's suggested item listso much for a doom bringer
-Updated combo requirement
-Updated 10 minute bonus and win condition
-Update unsaved change in GOB particles
-Update Gilgamesh's GOB portal particle
-Update Gilgamesh's GOB projectileMove the projectile a bit forward so it will spawn in portal.
-Updated gold command-goldpls : Pops a message to ask for gold from team-(pID) (goldAmt) : Sends goldAmt gold to assigned hero of pID
-Updated Master initialization and death counter-testsetup : Fully replenishes master's mana and sets hero up for comboby giving 20 all stats-unpause : Removes pause status at the start of round
-Finished Gilgamesh's Sword Barrage
-Remove particles in case of multiple instances of spell
-Added effect, sound and fixed bugs for lot of abilities
-Updated lot of things- Dynamic item cost- Tooltip update- Added bridge model- Added sounds for many abilities- Fixed bugs for Archer ability(namely Hrunting and UBW)- Fixed UBW bugs
-Make minor adjustment to the particles
-Adjust cyclone angleThis is done so it can be seen easier.
-Increase the particle count for outline
-Update with unsaved changes on particles
-Updated Gilgamesh's Enuma Elish projectile
-Updated Lancer's Heart Break particle
-Finished Caster
-Finished Shard Systemscrew static KV and item cost
-Fix for Saber Alter's Derange particles
-Added screen splash for Gilgamesh's combo
-Added cooldown to regular ability after using combo
-Slightly changed slam timer and moved particles into itThis is so effect actually shows when the damage goes in
-Update life time of one sub particle system
-Update Rider's Bellerophon particles
-Added effects and sounds to items, Modified attributesNow correctly reduces Master 1's mana when acquired
-Updated Shard items and CS effects
-Update to test performance on bloodfort
-Updated tooltips for Shard system
-Disable some children
-Reduce particle counts in bloodfort
-Uploaded spellicon images
-Added base structure for Shard system
-Update Rider's Bellerophon 2
-Update one of the sub particle color
-Update Saber Alter's Excalibur with new particles
-Update Saber's Excalibur with new particles
-Removed mystic eye debuff effect
-Adjust nail swing particles' alpha and offset
-Update Rider's Nail Swing and some alpha value
-Update Rider's Bloodfort Andromeda
-Model update and Rider's particles update- Add attachment point to asn.vmdl model- Add attachment point to rider.vmdl model- Add particles for mystic eye and breaker gorgon- Delete modifier_petrified in breaker_gorgon since it seems to involveparticle only and is not used any more.
-Update Gate Keeper's Particles
-Added movement control to Bellerophon
-Updated general tip
-Update FA Quick Draw
-Remove debug variable
-Update FA Tsubame Gaeshi
-Updated FA 2 abilities- Gate Keeper- Heart of HarmonyNote: I kept it simple to allow more time to work on other particles. Ifthis is required to change later, let me know, I will fix them afterthis weekend.
-Update FA's Illusory Wanderer with small fixes- Particles should all show up and attach properly on illusions.- Add new variables to reflect maximum number of illusions spawned.- Make illusions spawn around the caster instead of cramping them in onespot which used to cause initial movement becomes stuck.
-Fix unexpected error in Vortigern
-Fix the bug for corrupt models in the actual client
-Updated tooltips for Caster territory
-Updated textured splash screen to show up immediately
-Fixed Caster's far sight
-Optimized texture splash screen
-Updated GARRRR splash screen and berserker combo
-Updated combo splash screen
-Made splash a bit more bright
-Made splash a bit more bright
-Upload brown splash screen
-commit before sync
-Updated Archer's hrunting
-Updated Archer's Arrow Rain and minor fixOn sword_barrage:- Merge two timers into one
-Improve Sword Barrage's particleIt now rotates to the correct direction on its own without using lua.
-Add particle clean up to overedge
-Updated Archer's Overedge
-Modified Archer combo's ascension and descension speed
-Updated Archer's Rhoaias' particles
-Updated Archer's nine lives VFX- Comment out some debug texts
-Revisited Caster's Territorynot done yet
-Enforced target location constraint for jumps/blinks
-Merge
-Fixed issue with Clairvoyance particle
-Fix ClairvoyanceOnly allies with hero in control are able to see the particles.
-Reduce impact radius in Sword Barrage
-Upload the correct particle files
-Added tooltips for UBW abilities
-Updated Archer's Sword Barrage
-Added UBW flame spread
-Updated Archer's UBW and the particles
-Updated Archer's Clairvoyance and small fix- Fix for a bug where multiple instances of the spell is casted butolder dummies will not get destroyed.- Finished VFX
-Small tooltip fix
-Finished TA
-Finished TA attribute abilities
-Finished FA
-Implemented FA combo and TA AmbushI gave up on RemoveWearables
-Added cosmetic removal function, fixed camera distanceI was an idiot and had two camera overrides. FML
-Removed ground particle from script
-Remove ground particle for vortigern
-Tooltip fix, Increased camera distance
-Updated Saber Alter's Vortigern particles
-Fixes to VortigernAdded DeleteOnHit KV to Vortigern so projectile doesn't disppear afterhitting one enemyAdded varying damage factorAdded stun upon landingSlightly changed start and end radius
-Revert the previous revertCorrect the incorrect commit due to conflict before sync
-Revert "Updated Saber Alter to show Mana Catalyst's counter"This reverts commit 9e5daf4e08a8c0581570d8ff5ccbdb8469f164d6.Conflicts:scripts/vscripts/saber_alter_ability.lua
-Remove debug variable
-Updated Saber Alter to show Mana Catalyst's counterThis update is for the user to be able to see the exact stack of ManaCatalyst he/she has before actually spending it. It is shown viaDerange's passive icon.
-Fixes on VortigernBy rotating the point and find new forward vector, it seems to work outwell. However as noted, if you want to use more than 9 projectiles, youhave to use other units such as thinker or dummy to store the projectileinstead, but shouldn't be much more work if it's really necessary.
-Updated Saber Alter's Mana Catalyst and minor fix- New particles for mana catalyst- Minor fix for ManaBlastCount where user can have more than the maximumamount allowed
-Fixed critical bug associated with KV and timer
-Put cap to Mana Blast attribute, updated shop item list
-Updated Saber Alter's Excalibur and minor fixDelete unnecessary children in saber_excalibur to reduce unnecessaryparticle counts due to the excalibur size is much bigger than thosesmall particles making them unseeable.
-Added screen overlay to DS combo, added item spritsItems still being worked on
-Added blue splash particle
-Updated Saber Alter's Max Mana Burst
-Added items for master functioning as item transferMight be incomplete, need further testing when I am back at home
-Edited scroll icons, Added player storage unit, etcAdded SKIP brushes around bottom black region, made some fixes to items
-Allowed master to pick up itemCouldn't fix spirit link gg
-Added range buffer for single target abilities, finished most itemsSpirit Link is still buggy when linked ally reaches 1 health, removingthat hero from link table results in error in DoDamage function in util(target nil)
-Added suggested items, Fixed some tooltips
-Finished presence detection, enforced seal constraintAlso added customerror UI(refer to master_ability.lua for its uses)
-Updated presence detectionRequires custom error UI to pop up an warning(SendCustomMessage does notprint warning only to yourself)
-commited without putting end
-Minor commit before sync
-Update Saber Alter's Mana Burst flagMake modifier invisible
-Updated Saber Alter's Mana Burst
-Implemented base for presence detection systemEmitSoundOnClient does not work for some reason
-Added scaleform to latch player_say event
-Added infinite cooldown and mana cost to attributes
-minor commit before sync
-Updated Saber Alter's Unleashed Ferocity
-Finished attribute and stat systemDoes not cost master's mana or health for test purpose at the moment
-Fixed a bug associated with -createheroFixed a bug where -createhero would put a real player into index 2times, causing it to gain double xp and gold at the start of round.
-Finished tooltips for 4 heroes and Enabled attributesArcher, Lancer, Saber, and Saber Alter tooltips are in, and attributescan be gained from master unit that spawns at (0,0,0). Costs no mana topurchase for test purpose for now
-Added decrement to mana blast loop
-Fixed error associated with local variable access
-Revert "Revert "Tooltip fixes, still setting up master unit""This reverts commit 3aa50341425dfd277327ad0656adcc4d7a0772a0.
-Revert "Tooltip fixes, still setting up master unit"This reverts commit 5b63a3e94b2ed553fae7271a8e2a75e6f980a6f9.
-Tooltip fixes, still setting up master unit
-Updated Saber's Strike Air and minor fixes- Include all particles necessary for strike air- Move splash particles to correct folder- Change some styling in npc_abilities_custom.txt to keep consistency- Change variable name max to max_excal to avoid reserve word
-Implemented Caster's Territory and Item Creation
-Fixed OnProjectileHitUnit block for Max Excalibur
-Updated Max Excalibur's VFX
-Removed duplicates
-Applied yellow screen overlay to Max Excalibur
-Upload particle files for Avalon dash
-Upload Screen Splash
-Updated Avalon dash's Explosion VFX
-Added custom XP requirement, bounty gold and XP
-Updated Avalon's Shield VFX
-merge4test
-Fixed reliable gold bug associated with Golden Rule
-Updated Avalon's Shield VFX
-Update custom particleReduce emission rate, change offset and increase emission radius
-More attributes and bugfixes to some abilities
-attribute implementations halfway through
-Update Excalibur VFXContent includes- Excalibur VFX in KV and swap projectile particle in script- Custom particles for excalibur
-Updated Caliburn's slow VFX
-Update Caliburn's VFX
-i was missing AbilitySpecial
-invisible air particles
-first commitfirst commit123Revert "asd"This reverts commit79dcd48bd6b917049fa850be1be217809fbc4636.asdfirst commitscriptsScripts
-Revert ":circus_tent: Added .gitattributes"This reverts commit 8498d4e0691be12f07788e38a89d80df115be42c.
-:circus_tent: Added .gitattributes
+ Archer (5th) Sound Script * Replaced UBW sounds, if reverting sound reverse also soundscripts/hero_archer.vsndevts
+ Heracles Sound Script
+ Merge pull request #1 from dun1007/master Update from master
+ v1.45c
+ v1.45b
+ hotfix
+ 1.45
+ Update Archer's BP and Hrunting mechanics now channeling based
+ v1.44i
+ Alpha version of Fatepedia http://i.imgur.com/ef9zoev.png
+ savepoint
+ v1.44h
+ hotfix
+ v1.44f
+ savepoint
+ hotfix
+ 1.44e
+ v1.44d
+ v1.44c
+ Finish playable alpha version of trio rumble and FFA TODO: global objective round-based mechanics bugfix
+ Finish details and prototype build of FFA map * Global objective - free shard upon picking an item in arbitrary location within center circle, occurs every 3 mins. No shard of prosperity for first 10 minutes(early 5 levels too good) * XP generator when hero is present at center - 10+2% every second * 3 seconds special invulnerability on respawn, and when player stays within base(3v3 only)
+ Finish Ryuudo temple(FFA) map
+ Finish prototype version of 3v3v3v3 TODO: Add global objective Add spawn camp prevention mechanics Add XP generator Make FFA map Bugfixes
+ Trio scoreboard
+ Merge pull request #24 from F1l00/master sorry was busy for a bit
+ Finish Trio Rumble map
+ True Assassin Sound Script * Tamamo Spawn line updated * Add 3rd TA's attack line (TO-DO)
+ savepoint(trio rumble)
+ Merge
+ v1.44b
+ Update README.md
+ Remove GOB additional note
+ update addon_english_changes
+ v1.44
+ Revert physics class
+ hotfix
+ Merge pull request #23 from F1l00/master Diarmuid (Lancer 5th) Sound Script
+ Diarmuid (Lancer 5th) Sound Script
+ v1.43c
+ Possible bugfix to Saber avalon
+ animated portrait cards
+ hotfix
+ v1.43b
+ v1.43
+ v1.43 savepoint TODO: Assassin(Extra)'s No Second Strike rework Damage display CC unification
+ Update addon_english_changes
+ Remove Lancer(5th)'s ult's tracking projectile use you can tell i'm a real software engineer because i'd rather just make tiny tweaks to the clusterfuck that is lancer's ult code until it works than actually take half an hour to rewrite it so it's sane
+ hotfix
+ v1.42
+ Revert Saber Alter's excalibur sound
+ Merge pull request #22 from F1l00/master Saber Alter Sound Script
+ Saber Alter Sound Script * Changed Excaibur to Excalibur Morgan, descriptions need update (if reverting back, revert also hero_saber_alter script) * Spectre's custom voice' lines unchanged (to-do)
+ Hookup Luminosite Eternelle particles (incl. zone radius)
+ Half finished combo, misc changes Tried illusion approach but it was being goddamn complex and gimmicky as usual. RIP 3 hours If everything goes well Ruler should be ready for release tomorrow evening, although my crunch will have to continue for some attribute reworks and system changes T_T
+ Finish Ruler's R Things left to do: R particles(sacred_zone requires radius CP, luminousite_eternelle.vpcf needs to be changed so it is not projectile system reliant, also speed CP) Code combo and attributes
+ the (involuntary) particle cleanup thanks copy system definition
+ Merge pull request #21 from F1l00/master Casster (Extra) Sound Script
+ Caster (Extra) Sound Script * Revert hero_tamamo script if reverting to old tamamo_amaterasu.mp3
+ holy shit i'm bad at literally everything
+ Add particles for Ruler's Charisma, and edit tooltip slightly
+ Finish Ruler's QWE abilities ult is just a pseudocode for now
+ Merge pull request #20 from F1l00/master Lancelot Sound Script
+ Lancelot Sound Script
+ Compile Panorama vtex files, update Ruler's skill icons and finish innate abilities, Rest of abilities still in WIP
+ Ruler skill icons, tooltip fix Jeekarose's tooltip fix was lost in the middle of conflict and merge, brought it back
+ Merge pull request #19 from F1l00/master Ruler Sound Script
+ Ruler Sound Script
+ Merge remote-tracking branch 'refs/remotes/dun1007/master'
+ Fix KV glitch
+ Merge pull request #18 from dun1007/pr/17 Pr/17
+ Merge remote-tracking branch 'refs/remotes/origin/master' into pr/17
+ Merge branch 'master' of https://github.com/dun1007/fateanother e/dota_addons/fateanother/resource/addon_english.txt
+ more Ruler stuffs
+ Saber Sound Script
+ hi im here to forget things
+ Edit Ruler strings
+ Finish Ruler's ability tooltips Lore and additional notes are pending for now
+ Merge pull request #16 from F1l00/master New Stats' Icons
+ Merge remote-tracking branch 'refs/remotes/dun1007/master'
+ New Stats' Icons
+ Update Ruler's animation, portrait, and base stats Todo: Finish writing tooltips for her attributes Find her assets(mainly .png icons for portrait and such) Code abilities
+ Soundclips :+1:
+ Merge pull request #15 from F1l00/master Lancer (5th) Sound Scripts
+ Fix Jeanne model Meshes fixed, but jeanne_acc.vmat material's alpha channel for white transparency is not working properly.
+ Lancer (5th) Sound Scripts + Updated Gae Bolg and Heartbreak sounds
+ 1.41
+ Some Ruler tooltips also a savepoint
+ Merge pull request #14 from F1l00/master Laus & Rosa Sounds (Nero)
+ Laus & Rosa Sounds (Nero)
+ Lasu and Rosa Remove
+ Laus & Rosa Sounds (Nero)
+ Merge pull request #13 from F1l00/master
+ Nero Sounds and Scripts + Caster (5th) Volume increase
+ Merge pull request #12 from F1l00/master Master
+ Caster (5th) Sound Files
+ Caster (5th) Soundevent Script
+ Revert "Caster (5th) Sound Script" This reverts commit cf0f4e34b12bd89d63e53cf3e7dc81c883cee249.
+ Caster (5th) Sound Script
+ herolist
+ v1.40c
+ savepoint 2
+ savepoint
+ 1/27 Hotfix
+ v1.40b
+ v1.40
+ v1.39b
+ v1.39
+ Fix and add 1x1 collisions
+ v1.38c also includes Jeanne's assets
+ v1.38b uh oh spaghettios
+ missing bit
+ v1.38
+ sync Ongoing mission: Remove ApplyModifier KV and replace them with lua script CC unification Item mechanic changes
+ Add particle for Reincarnation regen
+ Tweak/add God Hand particles I also made the God Hand buff go away when Berserker's out of charges because it was confusing me
+ Tweak Fissure Strike particle
+ Merge branch 'master' of github.com:dun1007/fateanother
+ v1.37b *china intensifies*
+ Fix hrunting particle CPs (#6)
+ Update the list of changed string since Sep
+ v1.37 Final
+ Change reference stack properties
+ Attempt at fixing sound issue
+ Some precache statements
+ v1.37
+ Extra Assassin works Things left to do: Finish implement combo(halfway through) Attributes Bugfix Will be released in v1.37, planned to ship tomorrow evening
+ Fix a bug where FA illusions were not receiving default ASPD bonus from AGI
+ Make my poor lua stop crashing on map launch
+ Merge branch 'experimental' Conflicts: game/dota_addons/fateanother/scripts/vscripts/archer_ability.lua
+ v1.36b Lancelot had issues with the un-rubickness(his spellbook dynamically adds and removes empty slots), and his Nine Lives attempted to reference Courage ability which he does not possess. Fixed both
+ Fix the woe of batch string replacement DeductCourageDamageStack
+ Display time to next Overedge stack as buff duration
+ Tweak Nine Lives particle
+ Make Overedge look very slightly less clowny
+ Fix UBW particle flickering in FoW lol why the fuck does this work
+ Fix saber alter's improve ferocity tooltip
+ Change Overedge from hidden to unlearnable
+ oops
+ Fix ability layout bug
+ preliminary ability layout fiddling
+ fix nine lives particle dependency (oops)
+ clean up some compiled files
+ Update Nine Lives particles; tweak ability code I changed Nine Lives slightly and Courage's damage buff's interactions with abilities in general, because the global Courage ability handle causing lua errors was driving me very slightly insane
+ Hotfix 2 spaghettierino
+ Hotfix
+ v1.36
+ v1.35
+ sync
+ add what is almost a fix to ubw particle bugginess i hate particle visibility so much it is going to make me cry ;_;
+ Update particles for Courage
+ Merge branch 'master' of github.com:dun1007/fateanother
+ v1.35 base build missing Assassin's clone implementation
+ Update particles for Berserk
+ Fix Hecatic Graea/Fiery Finale targeting Previously, damage was targeted in a square area around caster (resulting in fire outside of Saber's arena's area and hecatic using a really weird smaller radius?); changed it to actually find random targets in circular areas of the stated respective radius
+ Edit extra assassin strings
+ Update Extra Assassin strings
+ Invictus Spiritus fixes Fixed not-revoked condition not respecting all revoke effects, added a debuff showing cooldown, tweaked tooltip
+ Update statecollection to v4, slight change to Tsubame Gaeshi particle color scheme changed to blue from purple
+ statcollection
+ Tweaked Tsubame Gaeshi particles
+ RB bugfix I am retarded LOL
+ checkpoint
+ Merge branch 'master' of github.com:dun1007/fateanother
+ Fixed enuma particle flickering, updated max enuma elish particle
+ Missed something from last commit
+ v1.34d
+ added cracks to enuma elish particle + some other tweaks
+ Merge branch 'master' of github.com:dun1007/fateanother
+ Updated Enuma Elish projectile particle
+ Update Extra Assassin assets
+ Fix for Sacrifice not being applied consistently
+ Updated UBW initial cast particles
+ Fixed Hecatic Graea's initial barrage targeting
+ v1.34c
+ Bugfix to Hecatic Graea Found some wrong parameters while testing
+ fixed some debug circle draws being left on
+ Caster tooltip tweaks
+ updated HGP particles, consolidated HG/HGP code a little
+ Merge branch 'master' of github.com:dun1007/fateanother
+ fixed divine words particle visibility
+ ACT_DOTA_DISABLED added disabled animation for two models, although it doesn't seem to do much
+ Hecatic Graea particle tweaks
+ Fixed Hecatic Graea hitting impassable positions
+ Updated Caster's Hecatic Graea particles
+ v1.34b
+ v1.34
+ Saber alter Excalibur particle update
+ Merge branch 'master' of github.com:dun1007/fateanother
+ Saber particle updates: Max Excalibur, Strike Air
+ Fixed saber ability particle precaching
+ Add video link to Readme
+ Make Readme a bit more pretty
+ Remove outdated documentations
+ Geez readme has been missing for 11 months
+ v1.33b
+ Saber tooltip tweaks, try #2
+ Merge branch 'master' of github.com:dun1007/fateanother Conflicts: game/dota_addons/fateanother/resource/addon_english.txt
+ these binaries are making me so sad so i killed them
+ Saber tooltip tweaks
+ Saber particle changes: Caliburn, Excalibur, Avalon
+ v1.33
+ 1.32c
+ 1.32(timer UI, master panel)
+ Sidepanel
+ 1.31
+ sync
+ Checkbox
+ Inventory
+ multiteam scoreboard, vote panel
+ sync
+ 1.3
+ sync
+ 1.23
+ Tamamo Savepoint
+ savepoint
+ SChinese compatibility
+ savepoint
+ Beta 1.22
+ checkpoint
+ sync 1
+ Beta 1.21
+ latest 11
+ 9/10 Update
+ 9/7 Patch
+ 9/6 dump
+ 28th June Breakpoint Last stable version before code structure overhaul
+ June 23th Patch
+ June 21st Update version Refer to Fate/Another steam webpage for patch logs.
+ Source 2 update Milestone
+ Finish alpha version of Fatepedia - Finished first push of Fatepedia on Scaleform. Subject to change as Panorama hits the bed - Renamed skill images - Added Fatepedia tooltips
+ Tooltips
+ Add Scaleform resource for Fatepedia
+ Archer changes * Archer(5th) * - Broken Phantasm stun duration now scales with level(1/1.3/1.6/1.9/2.2) - Rho Aias shield durability reduced to 600/750/900/1050/1200, but passively grants 0/100/200/300/400 health - UBW ambient projectiles are now fired twice as slowly - Sword Barrage max channeling duration increased to 5 seconds and damage now scales with UBW's level(200/250/300/350/400). - Nine Lives damage now scales with UBW's level(440/570/700/830/960 total) - Improve Projection attribute changes: * Removed bonus damage on ambient projectile * Kanshou Bakuya deals (INT) bonus damage and reduces Sword Barrage's cooldown by 1 second * Sword Barrage deals (STR+INT)*2 extra damage * Nine Lives' each strike inflicts 5% of target's current health as bonus magic damage
+ June 5th Patch * General * - Fixed tooltip errors and improved consistency of wordings. * Saber * - Caliburn casting point increased to 0.8 seconds, but impact is now instant(no longer launches invisible projectile). Cast range buffer increased to 200. - Invisible Air passively grants 10/20/30/40/50 attack damage - BAT decreased to 1.15 - Strike Air now scales with Invisible Air and Caliburn * Berserker(4th) * - Same change to Caliburn - Base MR increased to 10% * White Saber(Extra) * - Fixed a bug where spell block was not working against WSaber's spells
+ June 1st Patch - Presence detection now becomes enabled 1 minute into round(as it should have been the whole time) - Finalized Tamamo's tooltips, may take about a week to build up skills and polish stuffs
+ Bugfix - Added 0.1 second casting point to Archer(5th)'s combo in order to prevent him from being able to cast combo outside occasionally - Updated Tamamo's assets
+ Add Tamamo's Tooltip - Slightly adjusted custom timer duration - Improved Lancer's HB particle - Added tooltip for draft version of abilities
+ May 21th Update * White Saber(Extra) * - Removed health regen from Artificial Sun aura effect - Blade of the Devoted damage scaling adjusted to 370/425/480/535/590 - Fixed a bug where Blessing of Fairy was overlapping with Divine Meltdown * Caster(5th) * - Fixed a bug where Argos attribute was not working - Removed bonus magic resistance from Argos attribute * Rider(4th) * - Forward! no longer has 0.3 second casting point. Duration increased to 1.6/2.2/2.8/3.4/4.0 * General * - Army of the King and UBW now display the exit location on minimap - Added custom UI for round timer - Updated tip quotes
+ May 18th Update * Lancer(4th) * - Replaced model - Attribute 'Double Spear Strike' mana cost reduced to 18, and 'Rosebloom' to 12 - Warrior's Charge slows primary target by 50% for 2 seconds - Gae Buidhe range buffer increased by 150 - Gae Dearg range buffer increased by 100 * Red Saber(Extra) * - Updated recommended items * Avenger * - True Form no longer increases damage. Health bonus increased by 100 on all levels - Base damage reduced by 8 - Base health reduced by 50 - Stat gain per level changed to 0.95/1.3/0.75 - Murderous Instinct critical damage reduced to 200% on all levels. Cooldown reduced to 16 seconds - Unlimited Remain minions last for 45 seconds, down from 75. Explosion damage increased to 160/185/210/235/260 * Lancer(5th) * - Replaced model - Fixed a bug where Lancer could queue abilities while spellbook is open to activate Rune Magic twice
+ May 17th Update - Added Gawain * False Assassin * - Removed passive component from Heart of Harmony - Tsubame Mai's 7 slashes can critically strike - Vitrification now removes global cooldown from Heart of Harmony and turns Assassin invisible for duration. Quickdraw damage amplification removed.
+ Finish Gawain basic abilities
+ Gawain Checkpoint Return back to this commit when problem arises
+ May 11st Update * Red Saber(Extra) * - Gladiusanus Blauserum max damage increased to 320%, attribute now adds AGI*5 + STR*5 damage instead - Attribute 'Pari Tenu Blauserum' mana cost reduced to 10 - Attribute 'Invictus Spiritus' mana cost reduced to 10 - Attribute 'Soverign's Glory' mana cost reduced to 15. Removed ally buff component. Now allows Aestus Domus Aurea to deal 35% more damage whether enemies are facing Saber or not * Lancer(5th) * - Fixed a bug where Lancer could use Relentless Spear during Gae Bolg cast - Relentless Spear atttack speed bonus increased to 50/100/150/200/250 * Saber Alter * - Mana Burst and Unleashed Ferocity now apply ministun on each instance of damage - Unleashed Ferocity now deals damage based on current health of enemy. Attribute adds (STR+INT) bonus damage. * True Assassin * - BAT decreased to 0.8 - AGI gain per kill increased to 0.75/1.5/2.25/3.0/3.75 - Weakening Venom attribute now allows Dirk to reduce -5 strength. Duration increased to 10 seconds * General * - Fixed a bug where Command Seal could be used while dead - Added minimap icon to master units
+ Minor bugfix - Fixed a bug where Imperial Privilege's cooldown was not reset on respawn - Fixed a bug where Aestus Domus Aurea was put more than once at the same time
+ May 9th Update - Reworked FA's Heart of Harmony and Combo - Added Red Saber(Extra) - Fixed a bug where DS was not able to use combo after acquiring certain attribute - Fixed a bug where -bgmoff command was not working for some players
+ Update Gawain's ability template
+ Update Nero's ability template
+ Merge
+ Merge
+ Merge
+ Update Gawain and Li Shuen's assets
+ Reworked FA, Added Nero's tooltips and assets - Heart of Harmony remade. Combo changed to Tsubame Mai - Swallow Dance. Refer to addon_english.txt
+ Retrieve Caster's item sprites from old commit
+ Merge branch 'master' into stable
+ Stable version with ZC
+ Savepoint
+ Revert "Revert "April 15th Update"" This reverts commit 82f7a43641201d11336ffe2e8b7f9b0dd82bd75d.
+ Revert "April 15th Update" This reverts commit d9960b1ab4645c14628b7a690f476d5682b97128.
+ Fixed minor bugs with Zero Caster and added tooltips
+ April 18th Update - Enabled Caster(4th) - BGM now plays 5 seconds after game starts(this is an attempt to fix an issue where some players do not start with BGM)
+ Update Zero Caster abilities
+ Update Zero Caster's assets and ability template
+ April 15th Update - Fixed a bug where picking certain heroes crash 2 other people - Fixed a bug where Nine Lives does not move onto slash phase but caster remains frozen - Fixed a bug where combo would not activate when stat list was open on Master 2 unit - Relieved the lag on activating Army of the King and Phalanx
+ Performance optimization
+ April 13rd Update - Added suggested item builds to Rider(4th) - The round system now declares winner based on current score standing, regardless of whether casualty occured in that round. - Fixed a bug where Saber Alter's Mana Catalyst stack was not initializing after death - Fixeda bug where Rider(4th)'s basic ability layout would be altered in some circumstances - Added effect and sound to Army of the King - Changed Nine Lives' dash mechanism
+ Remove Chinese stuffs temporarily
+ April 11st Update + Zero Caster stuffs - Iskander released - Added Gilles' assets and tooltips
+ April 8th Update - Increased visibility of beam abilities - Fixed a bug where Lancelot could queue Knight of Honor after activating Arondite - Fixed a bug where Archer's Sword Barrage replaces Clairvoyance when UBW was cast while Hrunting was active.
+ Small fix
+ Update Iskander abilities Hopefully done by tomorrow?
+ Increase duration for diarmuid weapon trail
+ Implement AOTK interaction with UBW
+ Updated to pause mechanism and Rider particle - No longer restricts command, meaning you can queue ability while in casting - Beams now release towards direction caster is heading at the fire - Removed ground spike from Bellerophon and smoke from Nail Swing
+ Update Iskandar attack of the king particle
+ Update Iskander abilities
+ Update attachment point on diarmuid
+ Update new diarmuid weapon trail
+ QoL changes - UBW now moves camera of players caught within to inside world - Item can be bought now, even when you are selecting unit
+ Update Iskander's model and add soldier templates
+ Update Iskander's abilities
+ Update diarmuid weapon trail
+ Update green and red shield
+ QoL changes - Increased hitbox of all heroes to 80 for easier targeting - Forced random at 60 seconds is disabled for the time being - Added better sound and particle effects for S and EX scroll
+ Update2
+ Add custom particle
+ Fix symbolic link issue
+ Remove unnecessary precache lines
+ Clean up files from remote repo
+ Revisit repo structure
+ Revisit repo structure
+ Adjust Avenger's numbers a bit - True form health bonus increased to 300/400/500/600/700 - Blood Mark's casting point reduced by 0.1 second - Unlimited Remains damage increased to 150/165/180/195/210
+ Finish Iskander's ability template and tooltip
+ Update Avenger's Verg Avesta particles
+ Fix Teleport bug - Fixed a bug where teleport scroll allowed hero to target ward that's already killed - Improved particle and sound
+ Update Iskander tooltips
+ Update recommended item list for Diarmuid
+ Finish Diarmuid and fix Avenger bug - Fixed a bug where Avenger's Unlimited Remain values were 1 level higher than current level values.
+ Adjust Caster's Hecatic Graea - Now drops ray only on untraversable area - Ray AoE increaseed by 50
+ Fix blink bug - Fixed a bug where blinking into not traversable point would place unit in unexpected location
+ Add entity checker to prevent script from getting the nil handle
+ Update Diarmuid abilities and Fix Lancer and Caster bug - Fixed a bug where Rule Breaker purged target instead of hard dispel - Fixed a bug where Rune of Disengage did not cleanse caster
+ Make QoL changes to FA's Tsubame Gaeshi Now teleports FA to the point100 range away in the direction of unit to FA's original location, rather than giving random location determined by space clear
+ Finish Diarmuid ability skeleton and icon
+ Update Diarmuid's ability format
+ Fix False Assassin and Caster bug - Fixed a bug where round system would terminate when FA dies leaving clones behind - Fixed a bug where Caster's Rule Breaker would not apply banish debuff occasionally
+ Change encoding format of addon_english UCS-2 Little Endian option
+ Finish Avenger, Fix Lancelot and Saber Alter bug - Fixed a bug where Arondite's level was reset to 1 when opening Knight of Honor spellbook. - Fixed a bug where Saber Alter would gain 53 attack per point after acquiring Sword of Darklight attribute
+ Finished Avenger abilities
+ Merge
+ Update Avenger's Dark Passage particle
+ Updated Avenger abilities
+ Update archer_sword_barrage_impact_circle Now takes CP1 as radius
+ Fixed many bugs and updated effect and sound of some abilities - Fixed a bug where Spirit Link would not consider physical damage reduction from armor when applying damage to secondary targets - Fixed a bug where Rule Breaker's banish goes through Arondite's single target immunity
+ QoL update to command seal, and Lancelot bug fix - 1st command seal now displays duration in modifier section - Other seals now display cooldown in modifier section - Fixed a bug where Lancelot could not cleanse Enkidu
+ Fixed a bug associated with Spirit Link -Fixed a bug where MR was twice as effective on linked primary target
+ Fixed a bug where Lancelot's combo could be reset
+ Updated Avenger abilities
+ Fixed Lancelot bug - Fixed a bug where acquiring attribute on Lancelot does not reduce master 1's mana
+ Fixed a bug with Archer and updated Avenger's skill template - Fixed a bug where UBW weapons would remain after round ended and damage enemy heroes at respawn
+ Re-enabled Spirit Link and Fixed Lancelot bug
+ Fixed Lancelot bug and added FA effects
+ March 12nd Update - Berserker(4th) enabled - Fixed a bug where Rider's Breaker Gorgon would last forever - Fixed a bug where TA could attack while in ambush
+ Merge
+ Update Lancelot's Arondite particles
+ Fixed tooltips
+ Added effect to Lancer's runes and Adjusted base stats
+ Updated Attributes
+ Update Lancelot's SMG with new particles
+ Updated Lancelot's attribute and Finished nuke
+ Update Lancelot's SMG
+ Updated Lancelot Nuke TACTICAL NUKE INCOMING
+ Several bugfixes and Lancelot update - Fixed a bug where Breaker Gorgon would last forever - Fixed a bug where TA could attack while invisible if auttoatack was issued during fade time - Completed Lancelot's QWER
+ Updated Lancelot's abilities and attributes Still in progress
+ Merge
+ Fix Saber's Invisible Air - Fix the pseudo-projectile, it should now launch properly towards the target - Fix the alpha, size and color of particle, it should now be easier to see.
+ Fix Caster HG's particle and descend function - Add ground particle to HG with CP2.x = radius - Fix Caster's z position when user uses HG from higher ground. Now it should always snap to the ground.
+ Update March 6th - Fixed a bug where UBW would leave permanent sight on casted location - Added shield durability particle to Caster's Argos
+ Fix Argos' durability for taking ability damage
+ Disable Archer's Clair dust particle for now Will come back to fix this later
+ Merge
+ Update Caster's Argos durability number
+ Updated Lancelot's skil template
+ Updated lancelot's template
+ Update Caster's hecatic graea particles
+ Update some values for face_splash
+ Update March 3rd - Adjusted base stats - Added tooltip for Lancelot - Added stack count for Archer's Overedge - Fixed bug associated with ability acquisition level - Fixed bug where Archer UBW can teleport enemy ward as well
+ Added StatCollection
+ First public release version
+ Bulk update before public release - Reconnect bug is fixed
+ EXP changes
+ Added a callback function for looping through players - Round bug should be fixed(requires 10 man setting to make sure)
+ Merge
+ commit before sync
+ Finish Gilgamesh's VFX, and fix multiple other particles - Updated Gilgamesh's Enkidu particle - Updated Gilgamesh's Enuma Elish with particles during the charge - Updated Gilgamesh's Max Enuma Elish with particles during the charge - Updated Saber's Excalibur/Max Excalibur particles color to be a bit darker - Fix Archer's Clairvoyance, it should no longer have white flickering texture
+ Added UBW timer, Fixed round freeze bug when 1on1 Reconnect glitch still not fixed
+ Tons of bug fix - Added -50 to 50 hitbox for all heroes for easier targeting - Fixed a bug where UBW does not let invulnerable units exit - Fixed a bug where stat bonus can be attained up to lvl 10 - Fixed a bug where Archer(4th) could gain gold before game begins and can stack the passive on every death. - Fixed a bug where C scroll does not get disjointed - Fixed a bug where dead person could still detect presence
+ Added round timer
+ Added personal C scroll stock and stat gain limitation
+ Enforced combo constraint
+ Fixed bug with 2nd Seal, Adjusted blink particle
+ Added known issues file
+ Fixed bug with heart break and round finish - No longer breaks heart infinitely - All non-hero units(ward, territory) are killed at the end of round
+ Reduced music volume, Added BGM on and off feature -bgmon / -bgmoff
+ Adjust GOB's projectile start point Adjust it backward a bit so it doesn't start from thin air
+ Update VFX on Gilgamesh and 4 projectiles - Saber's Max/Normal Excalibur projectile now binds to dummy and will travel along. - Saber Alter's Excalibur, same as above - Gilgamesh's Enuma Elish, same as above - Increase transparency and size of Gilgamesh's Gate of Babilon.
+ Update Bloodfort to reduce lag. It should upgrade overall performance now
+ Updated Berserker's suggested item list so much for a doom bringer
+ Updated combo requirement
+ Updated 10 minute bonus and win condition
+ Update unsaved change in GOB particles
+ Update Gilgamesh's GOB portal particle
+ Update Gilgamesh's GOB projectile Move the projectile a bit forward so it will spawn in portal.
+ Updated gold command -goldpls : Pops a message to ask for gold from team -(pID) (goldAmt) : Sends goldAmt gold to assigned hero of pID
+ Updated Master initialization and death counter -testsetup : Fully replenishes master's mana and sets hero up for combo by giving 20 all stats -unpause : Removes pause status at the start of round
+ Finished Gilgamesh's Sword Barrage
+ Remove particles in case of multiple instances of spell
+ Added effect, sound and fixed bugs for lot of abilities
+ Updated lot of things - Dynamic item cost - Tooltip update - Added bridge model - Added sounds for many abilities - Fixed bugs for Archer ability(namely Hrunting and UBW) - Fixed UBW bugs
+ Make minor adjustment to the particles
+ Adjust cyclone angle This is done so it can be seen easier.
+ Increase the particle count for outline
+ Update with unsaved changes on particles
+ Updated Gilgamesh's Enuma Elish projectile
+ Updated Lancer's Heart Break particle
+ Finished Caster
+ Finished Shard System screw static KV and item cost
+ Fix for Saber Alter's Derange particles
+ Added screen splash for Gilgamesh's combo
+ Added cooldown to regular ability after using combo
+ Slightly changed slam timer and moved particles into it This is so effect actually shows when the damage goes in
+ Update life time of one sub particle system
+ Update Rider's Bellerophon particles
+ Added effects and sounds to items, Modified attributes Now correctly reduces Master 1's mana when acquired
+ Updated Shard items and CS effects
+ Update to test performance on bloodfort
+ Updated tooltips for Shard system
+ Disable some children
+ Reduce particle counts in bloodfort
+ Uploaded spellicon images
+ Added base structure for Shard system
+ Update Rider's Bellerophon 2
+ Update one of the sub particle color
+ Update Saber Alter's Excalibur with new particles
+ Update Saber's Excalibur with new particles
+ Removed mystic eye debuff effect
+ Adjust nail swing particles' alpha and offset
+ Update Rider's Nail Swing and some alpha value
+ Update Rider's Bloodfort Andromeda
+ Model update and Rider's particles update - Add attachment point to asn.vmdl model - Add attachment point to rider.vmdl model - Add particles for mystic eye and breaker gorgon - Delete modifier_petrified in breaker_gorgon since it seems to involve particle only and is not used any more.
+ Update Gate Keeper's Particles
+ Added movement control to Bellerophon
+ Updated general tip
+ Update FA Quick Draw
+ Remove debug variable
+ Update FA Tsubame Gaeshi
+ Updated FA 2 abilities - Gate Keeper - Heart of Harmony Note: I kept it simple to allow more time to work on other particles. If this is required to change later, let me know, I will fix them after this weekend.
+ Update FA's Illusory Wanderer with small fixes - Particles should all show up and attach properly on illusions. - Add new variables to reflect maximum number of illusions spawned. - Make illusions spawn around the caster instead of cramping them in one spot which used to cause initial movement becomes stuck.
+ Fix unexpected error in Vortigern
+ Fix the bug for corrupt models in the actual client
+ Updated tooltips for Caster territory
+ Updated textured splash screen to show up immediately
+ Fixed Caster's far sight
+ Optimized texture splash screen
+ Updated GARRRR splash screen and berserker combo
+ Updated combo splash screen
+ Made splash a bit more bright
+ Made splash a bit more bright
+ Upload brown splash screen
+ commit before sync
+ Updated Archer's hrunting
+ Updated Archer's Arrow Rain and minor fix On sword_barrage: - Merge two timers into one
+ Improve Sword Barrage's particle It now rotates to the correct direction on its own without using lua.
+ Add particle clean up to overedge
+ Updated Archer's Overedge
+ Modified Archer combo's ascension and descension speed
+ Updated Archer's Rhoaias' particles
+ Updated Archer's nine lives VFX - Comment out some debug texts
+ Revisited Caster's Territory not done yet
+ Enforced target location constraint for jumps/blinks
+ Merge
+ Fixed issue with Clairvoyance particle
+ Fix Clairvoyance Only allies with hero in control are able to see the particles.
+ Reduce impact radius in Sword Barrage
+ Upload the correct particle files
+ Added tooltips for UBW abilities
+ Updated Archer's Sword Barrage
+ Added UBW flame spread
+ Updated Archer's UBW and the particles
+ Updated Archer's Clairvoyance and small fix - Fix for a bug where multiple instances of the spell is casted but older dummies will not get destroyed. - Finished VFX
+ Small tooltip fix
+ Finished TA
+ Finished TA attribute abilities
+ Finished FA
+ Implemented FA combo and TA Ambush I gave up on RemoveWearables
+ Added cosmetic removal function, fixed camera distance I was an idiot and had two camera overrides. FML
+ Removed ground particle from script
+ Remove ground particle for vortigern
+ Tooltip fix, Increased camera distance
+ Updated Saber Alter's Vortigern particles
+ Fixes to Vortigern Added DeleteOnHit KV to Vortigern so projectile doesn't disppear after hitting one enemy Added varying damage factor Added stun upon landing Slightly changed start and end radius
+ Revert the previous revert Correct the incorrect commit due to conflict before sync
+ Revert "Updated Saber Alter to show Mana Catalyst's counter" This reverts commit 9e5daf4e08a8c0581570d8ff5ccbdb8469f164d6. Conflicts: scripts/vscripts/saber_alter_ability.lua
+ Remove debug variable
+ Updated Saber Alter to show Mana Catalyst's counter This update is for the user to be able to see the exact stack of Mana Catalyst he/she has before actually spending it. It is shown via Derange's passive icon.
+ Fixes on Vortigern By rotating the point and find new forward vector, it seems to work out well. However as noted, if you want to use more than 9 projectiles, you have to use other units such as thinker or dummy to store the projectile instead, but shouldn't be much more work if it's really necessary.
+ Updated Saber Alter's Mana Catalyst and minor fix - New particles for mana catalyst - Minor fix for ManaBlastCount where user can have more than the maximum amount allowed
+ Fixed critical bug associated with KV and timer
+ Put cap to Mana Blast attribute, updated shop item list
+ Updated Saber Alter's Excalibur and minor fix Delete unnecessary children in saber_excalibur to reduce unnecessary particle counts due to the excalibur size is much bigger than those small particles making them unseeable.
+ Added screen overlay to DS combo, added item sprits Items still being worked on
+ Added blue splash particle
+ Updated Saber Alter's Max Mana Burst
+ Added items for master functioning as item transfer Might be incomplete, need further testing when I am back at home
+ Edited scroll icons, Added player storage unit, etc Added SKIP brushes around bottom black region, made some fixes to items
+ Allowed master to pick up item Couldn't fix spirit link gg
+ Added range buffer for single target abilities, finished most items Spirit Link is still buggy when linked ally reaches 1 health, removing that hero from link table results in error in DoDamage function in util (target nil)
+ Added suggested items, Fixed some tooltips
+ Finished presence detection, enforced seal constraint Also added customerror UI(refer to master_ability.lua for its uses)
+ Updated presence detection Requires custom error UI to pop up an warning(SendCustomMessage does not print warning only to yourself)
+ commited without putting end
+ Minor commit before sync
+ Update Saber Alter's Mana Burst flag Make modifier invisible
+ Updated Saber Alter's Mana Burst
+ Implemented base for presence detection system EmitSoundOnClient does not work for some reason
+ Added scaleform to latch player_say event
+ Added infinite cooldown and mana cost to attributes
+ minor commit before sync
+ Updated Saber Alter's Unleashed Ferocity
+ Finished attribute and stat system Does not cost master's mana or health for test purpose at the moment
+ Fixed a bug associated with -createhero Fixed a bug where -createhero would put a real player into index 2 times, causing it to gain double xp and gold at the start of round.
+ Finished tooltips for 4 heroes and Enabled attributes Archer, Lancer, Saber, and Saber Alter tooltips are in, and attributes can be gained from master unit that spawns at (0,0,0). Costs no mana to purchase for test purpose for now
+ Added decrement to mana blast loop
+ Fixed error associated with local variable access
+ Revert "Revert "Tooltip fixes, still setting up master unit"" This reverts commit 3aa50341425dfd277327ad0656adcc4d7a0772a0.
+ Revert "Tooltip fixes, still setting up master unit" This reverts commit 5b63a3e94b2ed553fae7271a8e2a75e6f980a6f9.
+ Tooltip fixes, still setting up master unit
+ Updated Saber's Strike Air and minor fixes - Include all particles necessary for strike air - Move splash particles to correct folder - Change some styling in npc_abilities_custom.txt to keep consistency - Change variable name max to max_excal to avoid reserve word
+ Implemented Caster's Territory and Item Creation
+ Fixed OnProjectileHitUnit block for Max Excalibur
+ Updated Max Excalibur's VFX
+ Removed duplicates
+ Applied yellow screen overlay to Max Excalibur
+ Upload particle files for Avalon dash
+ Upload Screen Splash
+ Updated Avalon dash's Explosion VFX
+ Added custom XP requirement, bounty gold and XP
+ Updated Avalon's Shield VFX
+ merge4test
+ Fixed reliable gold bug associated with Golden Rule
+ Updated Avalon's Shield VFX
+ Update custom particle Reduce emission rate, change offset and increase emission radius
+ More attributes and bugfixes to some abilities
+ attribute implementations halfway through
+ Update Excalibur VFX Content includes - Excalibur VFX in KV and swap projectile particle in script - Custom particles for excalibur
+ Updated Caliburn's slow VFX
+ Update Caliburn's VFX
+ i was missing AbilitySpecial
+ invisible air particles
+ first commit first commit 123 Revert "asd" This reverts commit 79dcd48bd6b917049fa850be1be217809fbc4636. asd first commit scripts Scripts
+ Revert ":circus_tent: Added .gitattributes" This reverts commit 8498d4e0691be12f07788e38a89d80df115be42c.
+ :circus_tent: Added .gitattributes
