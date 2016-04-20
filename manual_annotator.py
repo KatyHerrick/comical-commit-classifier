@@ -4,6 +4,8 @@
 
 import argparse
 import os.path
+import re
+import sys
 
 def cwd():
     return os.path.dirname(os.path.dirname(__file__))
@@ -22,9 +24,15 @@ if __name__ == "__main__":
 
     with open(input_file, 'r') as f, open(output_file, 'w') as o:
         content = f.readlines()
+        print "Mark commits as either (s)erious or (f)unny"
         for line in content:
-            print line  # display the next commit to classify
+            sys.stdout.write(line)  # display the next commit to classify
             classification = raw_input()
+
+            while not re.match(r's|f', classification):
+                print "Mark this commit as (s)erious or (f)unny"
+                classification = raw_input()
+
             answer_key.append((line, classification))
 
         for answer in answer_key:
