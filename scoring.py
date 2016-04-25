@@ -23,4 +23,4 @@ if __name__ == "__main__":
         else:
             print "ERROR: Lengths of answer key and classified commits incorrect."
     else:
-        print "ERROR: Must use two arguments (python scoring {path_to_answer_key} {path_to_classifier_key})"
+        print "ERROR: Must use two arguments (python scoring.py {path_to_answer_key} {path_to_classifier_key})"
