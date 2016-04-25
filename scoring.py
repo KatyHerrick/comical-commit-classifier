@@ -18,8 +18,8 @@ if __name__ == "__main__":
             for x in range(1, len(answers)):
                 if answers[x-1] == classified[x-1]:
                     correct += 1      
-            print "The classifier identified " + correct + " commits correctly out of " + len(answers) + " total commits."
-            print "The classifier scored " + correct/len(answers + "%."
+            print "The classifier identified " + str(correct) + " commits correctly out of " + str(len(answers)) + " total commits."
+            print "The classifier scored " + str(100 * float(correct)/float(len(answers))) + "%."
         else:
             print "ERROR: Lengths of answer key and classified commits incorrect."
     else:
