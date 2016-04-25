@@ -2,7 +2,6 @@
 # either the naive_classifier or commit_classifier, calculates the
 # effectiveness of the classifier.
 
-import re
 import sys
 
 if __name__ == "__main__":
