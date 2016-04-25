@@ -16,7 +16,7 @@ if __name__ == "__main__":
             answers = a.readlines()
             classified = c.readlines()
         if len(answers) == len(classified):
-            for x in range(1, len(answers)):
+            for x in range(0, len(answers)):
                 if answers[x-1] == classified[x-1]:
                     correct += 1
                 else:
