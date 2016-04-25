@@ -17,7 +17,7 @@ if __name__ == "__main__":
             classified = c.readlines()
         if len(answers) == len(classified):
             for x in range(0, len(answers)):
-                if answers[x-1] == classified[x-1]:
+                if answers[x] == classified[x]:
                     correct += 1
                 else:
                     incorrect_answers.append(x)
