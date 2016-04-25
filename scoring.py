@@ -6,6 +6,8 @@ import sys
 
 if __name__ == "__main__":
     correct = 0
+    answers = []
+    classified = []
     if sys.argv[1] and sys.argv[2]:
         answer_key = sys.argv[1]
         classifier = sys.argv[2]
