@@ -17,10 +17,10 @@ if __name__ == "__main__":
             classified = c.readlines()
         if len(answers) == len(classified):
             for x in range(0, len(answers)):
-                if answers[x-1] == classified[x-1]:
+                if answers[x] == classified[x]:
                     correct += 1
                 else:
-                    incorrect_answers.append(x)
+                    incorrect_answers.append(x + 1) # +1 because conventional systems start at 1
             print "The classifier identified " + str(correct) + " commits correctly out of " + str(len(answers)) + " total commits."
             print "The classifier scored " + str(100 * float(correct)/float(len(answers))) + "%."
             print "Differing lines are: " + str(incorrect_answers)
