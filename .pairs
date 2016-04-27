@@ -1,5 +1,8 @@
 pairs:
   kh: Katy Herrick; kmh530
   dp: Deniz Parlar; dep295
-email:
-  domain: nyu.edu
+  ak: Andrew Klingelhofer;
+email_addresses:
+  kh: kmh530@nyu.edu
+  dp: dep295@nyu.edu
+  ak: andrewcklingelhofer@gmail.com
