@@ -36,7 +36,8 @@ if __name__ == "__main__":
             elif classification == "f":
                 classification = "funny"
 
-            answer_key.append((commit, classification))
+            answer_key.append(commit)
+            answer_key.append(classification)
 
         for answer in answer_key:
             o.write(str(answer) + '\n')
