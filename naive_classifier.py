@@ -3,6 +3,7 @@
 
 import nltk
 import os.path
+import sys
 
 def cwd():
     return os.path.dirname(os.path.dirname(__file__))
@@ -19,7 +20,7 @@ if __name__ == "__main__":
 
     def get_word_features(word_list):
         word_list = nltk.FreqDist(word_list)
-        word_features = wordList.keys()
+        word_features = word_list.keys()
 
         return word_features
 
@@ -32,36 +33,30 @@ if __name__ == "__main__":
 
         return features
 
+    answer_key = "data/fateanother_answer_key.txt"
 
-    if sys.argv[1]:
-        answer_key = sys.argv[1]
-    else:
-        answer_key = "data/fateanother_answer_key.txt"
+    with open(answer_key, 'r') as f:
+        answer_key = f.readlines()
 
-    with open(commit_file, 'r') as f:
-        answer_key = answer_key.readlines()
+        srs_commits = []
+        fun_commits = []
+        classification = ""
+        for line in answer_key:
+            if line == "serious\n":
+                classification = line
+                srs_commits.append((msg, classification))
+            elif line == "funny\n":
+                classification = line
+                fun_commits.append((msg, classification))
+            else:  # it's a commit message
+                msg = line
 
         commits = []
-        commit = ()
-        for line in answer_key:
-            if line == "serious" or line == "funny":
-                commit += (line,)
-                commits.append(commit)
-                commit = ()
-            else:
-                commit += (line,)
+        for (words, sentiment) in fun_commits + srs_commits:
+            words_normalized = [w.lower() for w in words.split()]
+            commits.append((words_normalized, sentiment))
 
-        for commit in commits:
-            print(commit)
+        word_features = get_word_features(get_words_in_commits(commits))
 
-
-
-        # for (words, sentiment) in fun_commits + srs_commits:
-        #     words_normalized = [w.lower() for w in words.split()]
-        #     commits.append((words_normalized, sentiment))
-
-        # word_features = get_word_features(get_words_in_commits(commits))
-
-        # training_set = nltk.classify.apply_features(extract_features, commits[0])
-        # print training_set
+        training_set = nltk.classify.apply_features(extract_features, commits[0])
 
