@@ -1023,7 +1023,7 @@ serious
 More attributes and bugfixes to some abilities
 serious
 attribute implementations halfway through
-funny
+serious
 Update Excalibur VFX Content includes - Excalibur VFX in KV and swap projectile particle in script - Custom particles for excalibur
 serious
 Updated Caliburn's slow VFX
