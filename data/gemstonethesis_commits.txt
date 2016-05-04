@@ -1,0 +1,468 @@
+ fixed app a and (indirectly) bini citation
+ Update ch-future.tex
+ Update ch-future.tex
+ Update ch-future.tex
+ Update main.bib
+ Update main.bib
+ Update ch-future.tex
+ Update main.bib
+ Update ch-future.tex
+ Update main.bib
+ Update main.bib
+ Update main.bib
+ Update ch-future.tex
+ Update main.bib
+ Update ch-future.tex
+ Update main.bib
+ Update ch-future.tex
+ Update ch-future.tex
+ Update main.bib
+ Update ch-future.tex
+ Update main.bib
+ Update ch-future.tex
+ Update ch-future.tex
+ Update appa.tex
+ Update appa.tex
+ Update appa.tex
+ Update appa.tex
+ Update appa.tex
+ Edits
+ Commented into oblivion
+ Commented out appendix B unless we have content for it
+ Update ch-future.tex
+ Fixed figure reference for ltr-process
+ Removed Rectenna Future Section
+ Update ch-nltr-expr-diff.tex
+ Update ch-lit-review.tex
+ Update ch-future.tex
+ Update ch-future.tex
+ Fixed some shit for sedwick
+ Remove super todo
+ Update ch-nltr-expr-diff.tex
+ Update ch-nltr-simulation.tex
+ Update ch-nltr-simulation.tex
+ Update ch-nltr-purpose.tex
+ Update ch-nltr-simulation.tex
+ Updated text of harmonic gen. section
+ New harmonic gen. test setup image
+ fixed figure caption double oops
+ fixed figure caption oops
+ added figure moar figures baby
+ added gigabox diagram ist der blumengarten echt oder falsch
+ top level bc why not
+ same old train it's just a different line
+ let's name this something better
+ the one for the overlapping reconstructions the dark blue on the right
+ Cleaned up information protection section
+ Fixed references in figures
+ I FOUND THE BUG
+ FIxed figure code issue?
+ #bringbinihome
+ Removed Bini as bug testing
+ Fixed formatting of figures
+ Added Bini's thesis as citation
+ Raised the geist of the Nikster for one final haunting
+ Fixed comment about Bini
+ Exorcised Nikki T
+ Finished future work ideas Except... for timing analysis For rectenna design
+ Updated freq_profile.pdf
+ Fixed with Numbers
+ Added Info Protection Image for Future Work
+ actual todo
+ Added Comment on Title
+ Small Section Title Change Conclusion to Summary
+ Formatting 2
+ Formating
+ Added Caption
+ Added fit parameters with confidence intervals
+ Added Reflection Graph for Future Work
+ Almost done with Future work! Added some questionable science/predictions. Tyler, could you take a look at this?
+ Added sub cavity figure
+ Completed TR expansion topics. Completed iteration, multiple transmitter, and exponential amplification. Still to complete: sub cavities, local chaos, timing concerns, and rectenna design.
+ Normalizing table size attempt 2 \tiny
+ Normalizing table size attempt 1 changing size to fit page
+ Updated Purpose Section Elaborated on: "The reverse is also true: A time reversed sona will generate a reconstruction that is significantly shorter than it in time."
+ removed skeleton's appendix http://imgur.com/gallery/Wxzbl
+ Doctor, Doctor. Doctor, Doctor. Doctor, this is Doctor Doctor. Doctor Doctor, this is Doctor, Doctor.
+ Added Table of confidence values I'll add caption soon
+ Added package multirow
+ added appendix skeletons
+ Removed Asspull
+ Update ch-nltr-simulation.tex
+ Wrote Stuff
+ also pls work
+ Added files via upload
+ pls work
+ Delete selective-recon-low.jpg
+ Delete selective-recon-high.jpg
+ Added files via upload
+ test2
+ merge
+ added missing package
+ test
+ test
+ Added corded cell charger efficiency
+ Added corded cell charger efficiency (Ken Sherriff's blog)
+ Added label for referencing
+ Updating terminology
+ Added files via upload
+ Added files via upload
+ Cited Boaventura
+ Update ch-linear-meth.tex
+ merge
+ Added Boaventura article
+ Removed future work discussion
+ added future work header from wptc
+ Rectenna diode topology (no citation)
+ Updated subtitle
+ Added System Schematic Pic
+ added new expanded future work chapter
+ from earlier
+ merge
+ Fleshed out future work Here it is!
+ Inline comments by Sedwick
+ Update ch-nltr-expr-diff.tex
+ sedwicks comments on intro
+ fixed sedwicks names
+ Update ch-linear-moving.tex
+ Update ch-linear-overlapping.tex
+ Update ch-linear-meth.tex
+ also for frank
+ for frank
+ final version (i guess)
+ jk dont want subsubsections to be numbered
+ fixed chapter and section styling and spacing and fixed lots of user-defined command spacing crap
+ Update ch-nltr-purpose.tex
+ Update tesla-glossary.tex
+ Update ch-linear-moving.tex
+ Update ch-nltr-simulation.tex
+ Update ch-nltr-simulation.tex
+ Update ch-nltr-simulation.tex
+ fixed matlab capitalization
+ hypenated all instances of peak-to-peak
+ merge with andrew
+ fixed some missing references
+ Update ch-intro.tex
+ Update ch-intro.tex
+ Update ch-intro.tex
+ brought all the discussants back up to the title page
+ revmoed some leftover files
+ fixed gigabox command
+ more consistency stuff in linear and lit review
+ merge with tim, git dont fail me now
+ consistency in rectenna and nltr simulation
+ anu AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH HHHHHHHHHHHHHHHHHHHH
+ anu AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+ anu AHHHH
+ merge with tim
+ more conclusion changes..
+ missed a spot no point trying to polish shit without shit polish
+ anu anu anu I don't wanna leave the banu
+ anu comments anu please just make the changes yourself next time you had the knowledge and the capability
+ darn you bluepill and your outdated tex packages ㅠㅠ
+ added los
+ anus conclusion fixes
+ added some naming conventions
+ more spelling tweaks for nltr and conclusion
+ tweaks in linear and rectenna
+ anu's tweaks
+ merge
+ spelling fixes in intro and rectenna
+ fixed lengthy wi-charge captions
+ fixed figures in lit review and linear
+ fixed a bunch of figures in nltr and rectenna
+ merge
+ margins might actually be fixed, thanks tim
+ Update ch-conclusion.tex
+ Update ch-rectenna.tex
+ Update ch-nltr-expr-diff.tex
+ Update ch-linear-moving.tex
+ Update ch-linear-overlapping.tex
+ Update ch-linear-meth.tex
+ Update ch-lit-review.tex
+ forgot a comma, my b
+ alex 3 for fuck's sake don't do this again
+ alex 2 electric boogaloo
+ alex 1 who keeps doing this
+ merge
+ single spaced figure captions
+ 오빤 skendall style
+ Added files via upload
+ Delete voltage_per_recon.png
+ fixed new bibtex entries
+ addressed todo oooh skin man villain in disguise
+ Update ch-conclusion.tex
+ Update ch-linear-moving.tex
+ made less blurry made more photocopier-y
+ Update ch-linear-overlapping.tex
+ this file has been subsumed in nltr-expr-diff
+ Updated Todo
+ Update ch-linear-meth.tex
+ Update ch-linear-meth.tex
+ oops screwed up the transparency on the last one, should be fixed now
+ improved resolution
+ Nice one, Harry
+ Removed todos
+ Added citation for intro
+ fix typo B-field -> calcium strength
+ Update ch-lit-review.tex
+ Removed subsection heading to improve flow
+ Update ch-intro.tex
+ Responding to TODOS
+ Removed todo's.
+ Removed range
+ Update ch-intro.tex
+ removed magnetism line was just too long defeated iron barkus
+ Minor changes to plots
+ Update ch-intro.tex
+ added scott's changes you just put them in the wrong place you dunkus I told you that when I picked up the phone you weren't listening to what I was saying at all
+ Added comment for future formatting
+ Minor formatting
+ Fixed figure formatting
+ Fixed some formatting
+ Updated figure formatting
+ Minor formatting Done
+ Changed formatting of figures Lab equipment setup <- original label for the caption, in the event I screwed something up.
+ Minor edits
+ Updated abstract to include all research topics We were originally just talking about spatial/moving.
+ modified equation environment to always be single-spaced
+ minor edits and lots of comments added some todos cleaned up a few inaccuracies fixed typos hatched a plan against Iron Barkus
+ more minor word choices Iron Barkus bars the way
+ word choices and see notes split paragraphs along where I think they were intended to be split in the first place, but weren't because of the copy/paste additionally we should redo the claims paragraph, it's not very well suited to what we actually did
+ fixed typo in acknoledgments didn't seem like a good place for them
+ fixed bibliography ordering and fixed a couple seperated cites
+ spelling...
+ new options for datetime package not working on server, removed w/o problems
+ added compile time header to draft version
+ fixed some stray errors
+ turned off pdflatex interactive mode in makefile for server building
+ took compiled pdf out of repo (should not be version controlled)
+ 0 dbm to 10 dbm correction
+ Adding thing that needs to be cited later
+ Update ch-linear-moving.tex finished for the night
+ update year 207 -> 2007 We need to standardize months, too, by the way
+ Update ch-linear-moving.tex
+ Update ch-nanorods.tex
+ This should be finished now.
+ Update ch-linear-moving.tex Save so I don't lose everything like my mortgage
+ REMOVED FROM CURRENT VERSION
+ (Hopefully) fixed referencing error
+ This should be finished now.
+ Phrasing and structural edits Note the to-do's that I've added. These were things that I was concerned about; I'm happy to revert them if you want.
+ Update ch-nanorods.tex
+ Update ch-nanorods.tex
+ Update ch-linear-moving.tex intermediate save since its been a while
+ load before making glossary fukken heisenbugs
+ Update ch-linear-spatial.tex Removed all content, transferred it to ch-linear-moving.tex
+ Fixed hyphenation of TR
+ Tex inline math updates initial commit
+ Update ch-nltr-purpose.tex
+ reverted for now
+ Update ch-linear-overlapping.tex Did a lot of shit
+ drop mit's in favor of umd's cls worth a try
+ hail mary on formatting I smell lovely cause I don't eat meat
+ uneclipsed todo things are case sensitive, you poor sweet Patrick
+ moved abstract page lower previous abstract was high as a fukken kite
+ Added files via upload added two MORE figs
+ Added files via upload uploaded 2 figs
+ made things boring and sad
+ Updated image labels
+ Fixed typo, removed extraneous citation
+ Fixed citations, updated
+ fix ben's name again sorry I messed it up the first time
+ fixed ben's name added Tabatabai
+ moved abstract first
+ Updated Tex expressions added dongle arm
+ Undoing test changes version .8 - added Ghasts
+ Testing piecewise formatting introducing load buffers
+ Piecewise function size reduction combobulating combobulator
+ Update ch-linear-meth.tex git er done
+ micro seconds Testing Springs
+ Update ch-conclusion.tex
+ Update ch-linear-meth.tex Tentative finish of the introduction and methodology for LTR
+ Changed test setup image based on comments
+ Delete Rectenna-Harmonics-Updated.png
+ Delete test-3-setup.png
+ New harmonic gen image
+ Update ch-linear-meth.tex Saving progress - updating to new format
+ subordinated spatial profiling
+ subordinated under moving
+ More anlage changes
+ Update main.bib Added witricity2013subsea
+ create README.md the Easter bunny is in town
+ Rezzed NikkiT Using the blood of several horny pigeons and a summoning circle within a tesla coil, I was able to return Nikola Tesla to this world. He immediately looked up the location of Edison's grave, and took a dump on it.
+ forgot to actually rename, my b removed Herobrine
+ Updated citations NikkiT is back in the thesis
+ renamestructure added Herobrine
+ rename and restructure
+ restructure and rename
+ support consistency renames
+ Added citations
+ reorder as part of massive reordering
+ Update ch-linear-meth.tex Updating to new outline format
+ Minor changes based on Anlage comments
+ restructure as part of massive restructuring
+ Updated with Intro Proposal Committing just to get the version in. Going to add the citations to the citation list. (Though most wont' be used)
+ removed extra nanorods
+ Update main.tex
+ reheaded as part of massive restructure
+ rename to promote consistency
+ new file as part of massive reordering
+ edits as part of major reorder
+ rename nltr-purpose
+ Update mitthesis.cls
+ final pdf for submitting to skendall
+ changed to vpp
+ recaptioned
+ removed a few more stray pages
+ changed style to umd formatting requirements
+ removed page numbers from glossary
+ some package changes for compilation on older server
+ {Got rid of the double periods}
+ {Caption Numbering}
+ {Caption Numbering}
+ {Caption update}
+ {Anlage | Caption}
+ Overall{Anlage Comments | Caption?}
+ {Minor3}
+ Conclusion{Minor2}
+ Conclusion{Moderate2}
+ anlage suggested changes, part 2 no comprende -> bonjarmis removed more tech racism, dramatically shortening the section for next draft, we'll want to look back at revisions before this and add a new pro/con section, including our pros and cons
+ Conclusion{Moderate}
+ anlage suggested changes, see desc cited ubeam again, why the hell was that taken out answered line of sight between what really tried to stamp out the sense of technological racism that permeates this section paper -> thesis
+ Update ch-overlapping.tex
+ added ubeam source
+ Update ch-linear-meth.tex Edited and updated some information that wasn't quite correct. Rewrote time reversal description.
+ retitled as per old Stevie A
+ Added entry for rectenna
+ Wording and rectenna section changes
+ retitling as per SMA
+ measurements Anlage wanted measurements, so measurements
+ measurements hey Jefferey, wanna measurements?
+ added super rectenna good DPS, high ammo consumption also nerfed auto rectenna
+ Update ch-nanorods.tex
+ Abstract{Minor}
+ minor remaining change to the cover page
+ fixed cover page
+ Finished factoids. Removed Reverse-capacitance.
+ Updating Glossary
+ fixed figures in nanorods and spatial
+ Apostrophe fix {Minor}
+ Removed To Do
+ Update ch-rectenna.tex
+ '
+ figure captions
+ Updated conclusion
+ Update ch-nltr-selective.tex
+ fix todo
+ ?? Reminder
+ Update ch-moving.tex
+ merge nanorods
+ fixed nanorod pfigures
+ Update ch-moving.tex
+ Update ch-spatial.tex
+ nanorods todo
+ Fixed references to Figures 8 and 9
+ Update ch-spatial.tex
+ beginning of nanorods figures
+ SUMMMARIES
+ Updated acknowledgements
+ Update ch-lit-review.tex
+ Update ch-lit-review.tex
+ Fixed Nokia's screwy quote.
+ more merging yay
+ idk
+ Conclusion{Minor}
+ Update ch-lit-review.tex
+ removed appendix
+ Added figures for nanorods
+ Conclusion {Minor}
+ merge AGAIN ㅠㅠ
+ updated pdf
+ finally fixed glossary nonsense
+ Gave this piece of shit purpose
+ Update main.bib
+ fixed glossary nonsense
+ merge
+ some minor build fixes
+ Fixed formatting for sections
+ got some figure shit pulled together
+ Update main.bib
+ Intro{Moderate}
+ Update ch-moving.tex $t_c$ and $t_d$ added
+ merge
+ mege
+ Update glossary.tex
+ merge
+ added summaries of LTR sections
+ fixed equations and figs in moving
+ Introduction {Minor?}
+ Update ch-spatial.tex
+ {Introduction concision}
+ Fixed some fonts
+ v1 nanorods again figures
+ Update ch-lit-review.tex
+ Updated "experience" section.
+ v1 moving images to be implemented
+ v1 spatial Images importing still needs to be implemented
+ Update main.bib
+ Update main.bib
+ Update main.bib
+ v1
+ Reworded Equipment Limitations for Flow
+ added selective recon section
+ Cleaned up {Future Work} intro paragraph
+ Update main.bib
+ Reformatting layout of future work section.
+ merged
+ added example sona and recon figures in lit review
+ Minor modifications to future work.
+ Update ch-nltr-simulation.tex
+ fixed butler's apostrapheeeees
+ updated pdf
+ added a citation and added some spacing in lit review
+ added bulleted list in lit review
+ merge
+ more figure work in nltr
+ Changes made to Future Work {Moderate}
+ fixed figure in nltr sim
+ added a REALLY weak outro
+ Delete selective-recon-low.png
+ Delete selective-recon-high.png
+ Added files via upload
+ some glossary fixes
+ Update ch-nltr-simulation.tex
+ I'm bringing the glossary back
+ updated glossary
+ lit review finally added
+ Delete sonas.png
+ Delete room-model-b.png
+ Delete room-model-a.png
+ Delete cst-box.png
+ Added files via upload
+ banished the bug people
+ added a weak outro
+ Update ch-conclusion.tex
+ Update ch-lit-review.tex Proofed.
+ fixed screwy quotes and apostrophes
+ updated intro
+ bye bye armadillos :(
+ Added equations
+ changed figure name
+ changed figure name
+ fixed screwy quotes additionally ray chaotic is two words
+ fixed screwy quotes and apostrophes
+ Deleted sentence referencing deleted plot
+ Minor text rewrites to test commits
+ Update ch-conclusion.tex
+ added, y'know, text
+ deleted a newline changed a (I think unintentional) extra newline between paragraphs
+ Added the one with the numbers
+ no this is patrick
+ added the intro nltr section
+ added patricks little intro to experiments, maybe should be a seperate chapter? i dunno
+ fixed the nltr organization bs and added the linear time reversal methodology section
+ added the overlapping section
+ added empty chapter sections, added full rectenna section and figures
+ added figs for spatial profile chapter
+ initial commit

@@ -1,0 +1,3019 @@
+commit c8a46cbfe26678c2ce267e8bdc4733c77bd1beb9
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Wed May 4 14:59:09 2016 +0100
+
+    fixed app a and (indirectly) bini citation
+
+commit 686637db567b6e0bf50c353aa50535ed9b76f9dc
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Wed May 4 09:20:24 2016 -0400
+
+    Update ch-future.tex
+
+commit 92a6dd57f8d845c36a408fe4466a99ae57eb3363
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 23:39:53 2016 -0400
+
+    Update ch-future.tex
+
+commit 5f2ef9a04ee1a24e369a83934b04fd68769bde63
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 23:39:02 2016 -0400
+
+    Update ch-future.tex
+
+commit b87804716f453c166442355f09fefd79d1df8b61
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 23:38:34 2016 -0400
+
+    Update main.bib
+
+commit 679aa02a266f6ee969530dea153d67ade9684ccc
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 23:37:20 2016 -0400
+
+    Update main.bib
+
+commit 8b2730ca8719844b920fbd5a1a571edd390db105
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 23:31:21 2016 -0400
+
+    Update ch-future.tex
+
+commit ff64f7039cbdbe8d25b1d5e19f47b745093da581
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 23:30:56 2016 -0400
+
+    Update main.bib
+
+commit 3f58d35f3506861ebca503a3b4497991732c5990
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 23:29:27 2016 -0400
+
+    Update ch-future.tex
+
+commit 2dc353ccd233109ad194fde77f311bf5bee0eeeb
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 23:27:45 2016 -0400
+
+    Update main.bib
+
+commit 2aec72240f6bbe613305ad8ac39b6c0910403a52
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 23:22:46 2016 -0400
+
+    Update main.bib
+
+commit eb57bf7f0862d89b95a1b06d826b0246d3354be9
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 23:19:04 2016 -0400
+
+    Update main.bib
+
+commit dde25f44246bb8e48c7148d7ac509a384577dcb7
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 23:15:08 2016 -0400
+
+    Update ch-future.tex
+
+commit 3fd347ee2cb8d17ade5139ea112d3598c142f4f9
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 23:14:47 2016 -0400
+
+    Update main.bib
+
+commit 06f81424ace0f29003c967aa35118b1e3f8a8f15
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 23:00:11 2016 -0400
+
+    Update ch-future.tex
+
+commit 2e6ca7598e97dc1e66de736d26d858872c9be885
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 22:58:18 2016 -0400
+
+    Update main.bib
+
+commit da0463a717d7b897f7f298850aae735e22de9684
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 22:56:40 2016 -0400
+
+    Update ch-future.tex
+
+commit 45963f9613fc0ce334895d11e5f1a2d9986464b6
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 22:43:22 2016 -0400
+
+    Update ch-future.tex
+
+commit 09085f69907241ccd1c5a94358a371c0dddc2790
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 22:40:35 2016 -0400
+
+    Update main.bib
+
+commit ad7bc0260b7ed8233ffb354bd077c7841ac4f74b
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 22:38:00 2016 -0400
+
+    Update ch-future.tex
+
+commit 562efaf9a493371d41c982e90dff6c2b16a7d5e8
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 22:37:40 2016 -0400
+
+    Update main.bib
+
+commit 7964a0abed1d5fe7f3966c31a81fa6e38a13fcdb
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 22:35:59 2016 -0400
+
+    Update ch-future.tex
+
+commit 479a39819c8e218b0bdec2a75620b417c441c9fd
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 22:28:11 2016 -0400
+
+    Update ch-future.tex
+
+commit 7f13d37c0fc61afc61e3d589f34f62fb0e65ab8a
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 22:17:54 2016 -0400
+
+    Update appa.tex
+
+commit e33c3cb12a5d2f07abb112b7351e759d6a577f97
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 22:16:29 2016 -0400
+
+    Update appa.tex
+
+commit a5edf7aa053eab1f513c0c1100b90d2b4b256804
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 22:14:33 2016 -0400
+
+    Update appa.tex
+
+commit 96bedc85154a7505f74971564008141e8d2fe80c
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 22:13:21 2016 -0400
+
+    Update appa.tex
+
+commit 1623c2b7c4ae02dfd6e54c83d9e4ca4dc74a88d9
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 22:11:29 2016 -0400
+
+    Update appa.tex
+
+commit 7e472d082991cd5a07118241311b9cc4a0b17bb6
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 22:08:43 2016 -0400
+
+    Edits
+
+commit a68090beb60e6fc0294ec4e082fc5a84fa40f76f
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 22:04:30 2016 -0400
+
+    Commented into oblivion
+
+commit 4a2aafc86b8f3a8cacc86cfb7f22f0ec05895038
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 22:03:30 2016 -0400
+
+    Commented out appendix B unless we have content for it
+
+commit 2439d66514b925af65b066e1b8c9301135e30f43
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 21:57:20 2016 -0400
+
+    Update ch-future.tex
+
+commit 7a5abecb158cee0346aa26acbb5eb21beeb56f56
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Tue May 3 21:21:12 2016 -0400
+
+    Fixed figure reference for ltr-process
+
+commit cde281c0079b6785ca5593e07f66189699180a7a
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Tue May 3 00:17:22 2016 -0400
+
+    Removed Rectenna Future Section
+
+commit 607a1b881beb45c9588e2c0a7d907ad969da1093
+Author: K1ngf1sherKenob1 <bphilip@terpmail.umd.edu>
+Date:   Tue May 3 00:09:36 2016 -0400
+
+    Update ch-nltr-expr-diff.tex
+
+commit dbd948d6c216f9f588bf30091bab84733d934129
+Author: K1ngf1sherKenob1 <bphilip@terpmail.umd.edu>
+Date:   Mon May 2 23:58:39 2016 -0400
+
+    Update ch-lit-review.tex
+
+commit 79e651bec735c3662d5372c1c7397821472d2b16
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Mon May 2 23:38:19 2016 -0400
+
+    Update ch-future.tex
+
+commit 62f4722e2bc83ab2e3a75050f95e2c494148429e
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Mon May 2 23:30:58 2016 -0400
+
+    Update ch-future.tex
+
+commit f6bfd8d04bb4b6d36cb81029918d2e1086fe1916
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Mon May 2 22:37:56 2016 -0400
+
+    Fixed some shit for sedwick
+
+commit 44d9f27bc47e0d38717d6eae763bcba606cc62ff
+Author: Lctao <LCTAO13@gmail.com>
+Date:   Mon May 2 18:11:00 2016 -0400
+
+    Remove super todo
+
+commit fd3e20d9032d761d26061d10a4a423ba17885e74
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Sun May 1 23:59:59 2016 -0400
+
+    Update ch-nltr-expr-diff.tex
+
+commit 7ea3942fe67d6d5794524fd7f20d3d82678cd893
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Sun May 1 23:58:52 2016 -0400
+
+    Update ch-nltr-simulation.tex
+
+commit cbd2c9769dc491075bb5869ea3b53234ff2fb051
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Sun May 1 23:41:18 2016 -0400
+
+    Update ch-nltr-simulation.tex
+
+commit 03dacc2e138ee1ee077d916b28cd8c00f7242b16
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Sun May 1 23:36:16 2016 -0400
+
+    Update ch-nltr-purpose.tex
+
+commit d6bafe30fe8c9d3f7b2e2cb403897c6d83e6c1d8
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Sun May 1 22:13:43 2016 -0400
+
+    Update ch-nltr-simulation.tex
+
+commit 50e782a2145ef8c093977828c78d58267b78661d
+Author: Lctao <LCTAO13@gmail.com>
+Date:   Sun May 1 21:25:49 2016 -0400
+
+    Updated text of harmonic gen. section
+
+commit 01f89cc05de011bc57938d6a91d1db5d8222a300
+Author: Lctao <LCTAO13@gmail.com>
+Date:   Sun May 1 21:18:07 2016 -0400
+
+    New harmonic gen. test setup image
+
+commit 5c3bfda90fc7e55261cc95f86dd5af781d1dd76e
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sun May 1 11:05:27 2016 -0400
+
+    fixed figure caption
+    
+    double oops
+
+commit 6e56ee5a1ec88fbaf77a4a3ba1959134729429fd
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sun May 1 11:04:45 2016 -0400
+
+    fixed figure caption
+    
+    oops
+
+commit f5edd8282119932ca2ed0c602a9008a95bafba31
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sun May 1 11:01:29 2016 -0400
+
+    added figure
+    
+    moar figures baby
+
+commit 2fc9bb45052e747ccd0658f964e0369a3fde4027
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sun May 1 10:44:09 2016 -0400
+
+    added gigabox diagram
+    
+    ist der blumengarten echt oder falsch
+
+commit 82dec42c1ca2c9179372e3d6e0d9f6ef9357913b
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sun May 1 10:33:38 2016 -0400
+
+    top level bc why not
+
+commit 937183147e3e24fea4e6677fdfa7c435dae975b9
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sun May 1 10:02:09 2016 -0400
+
+    same old train
+    
+    it's just a different line
+
+commit 6c47e58eee0f5e1276908ad21a87bac27054ae44
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sun May 1 10:01:21 2016 -0400
+
+    let's name this something better
+
+commit a46d4ca97941be4c56d92504b88cea56a205b18e
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sun May 1 09:58:22 2016 -0400
+
+    the one for the overlapping reconstructions
+    
+    the dark blue on the right
+
+commit a32ec62c2d1451f9be809fb17ff03a60aa5ce9a2
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sun May 1 02:51:40 2016 -0400
+
+    Cleaned up information protection section
+
+commit 45763ecebc1a717c67a884d1ff56abb0cd59d748
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sun May 1 00:33:23 2016 -0400
+
+    Fixed references in figures
+
+commit 7632515c5488d375c2ad448ef7338f0188b1bd4a
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sun May 1 00:30:45 2016 -0400
+
+    I FOUND THE BUG
+
+commit ee12ca2fe56133e7f995989a49e576f78b7f36be
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sun May 1 00:23:53 2016 -0400
+
+    FIxed figure code issue?
+
+commit 92c7fdaf0bcd1d9e14707ecb549dd493e9c8eaab
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sun May 1 00:16:05 2016 -0400
+
+    #bringbinihome
+
+commit 1ad8a1739bea7974e42c5ed43d144ac80ed72a88
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sun May 1 00:15:23 2016 -0400
+
+    Removed Bini as bug testing
+
+commit 4d27fa7091bb6b529eeafcf9bacff7ff341e81d6
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sun May 1 00:13:24 2016 -0400
+
+    Fixed formatting of figures
+
+commit 3b89a2de91dc00e1c29d98be63cdaef8fe408ba9
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sat Apr 30 23:23:31 2016 -0400
+
+    Added Bini's thesis as citation
+
+commit 6521bee2046123a51deb4b0e0325eab0967f27f3
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sat Apr 30 23:20:17 2016 -0400
+
+    Raised the geist of the Nikster for one final haunting
+
+commit 7be33dd6cbe49e391cc5940b3949ed34adcb7dfe
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sat Apr 30 23:18:47 2016 -0400
+
+    Fixed comment about Bini
+
+commit 582ac476818e0885f13607c6c92d763aed7c3d7b
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sat Apr 30 23:13:19 2016 -0400
+
+    Exorcised Nikki T
+
+commit 99d9677dbaf901db07796b6f1be03476d1a2d9b8
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sat Apr 30 22:38:09 2016 -0400
+
+    Finished future work ideas
+    
+    Except...
+    for timing analysis
+    For rectenna design
+
+commit 758ac51066c28b647fd5505a34a7c4f8afa5e9b8
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Sat Apr 30 22:36:38 2016 -0400
+
+    Updated freq_profile.pdf
+
+commit 753aae836857d2c57be5d0640d629304f6a8d493
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sat Apr 30 22:24:10 2016 -0400
+
+    Fixed with Numbers
+
+commit 69b9f917410347069b51312c87ea6dc3a470f60d
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sat Apr 30 22:18:38 2016 -0400
+
+    Added Info Protection Image for Future Work
+
+commit dd6bb1f23e63b75cdbf0618b7c11ee7a71cfc47b
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Sat Apr 30 21:39:00 2016 -0400
+
+    actual todo
+
+commit b5ecbc062085301aa55de4e75e19e1a1af0d0c82
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Sat Apr 30 21:34:52 2016 -0400
+
+    Added Comment on Title
+
+commit f8bd83220ca4a77a4475d87f8cf2616dba700d81
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Sat Apr 30 21:28:56 2016 -0400
+
+    Small Section Title Change
+    
+    Conclusion to Summary
+
+commit 99087b5408221f6ec5c694b3c6d184808c5b7f29
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Sat Apr 30 19:46:01 2016 -0400
+
+    Formatting 2
+
+commit 45bc3ed5b72eb56d4a730ab5dc1611c046f2f872
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Sat Apr 30 19:43:40 2016 -0400
+
+    Formating
+
+commit 823ae3797740aa9573e7ef33ba0a4329597678c6
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Sat Apr 30 19:40:12 2016 -0400
+
+    Added Caption
+
+commit 3c2c056e11c0ae3fe1075acc918b07cc123d8752
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Sat Apr 30 19:17:48 2016 -0400
+
+    Added fit parameters with confidence intervals
+
+commit 2d810c442b3c37f6ce44a82883dc0540c0bed493
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sat Apr 30 18:02:45 2016 -0400
+
+    Added Reflection Graph for Future Work
+
+commit d8df11f3cb7beced56b84d9d672363020d2c0f28
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sat Apr 30 18:00:00 2016 -0400
+
+    Almost done with Future work!
+    
+    Added some questionable science/predictions. Tyler, could you take a look at this?
+
+commit e7aa64e3e2c88747bb2565d5efc79fe9c1212abf
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sat Apr 30 17:05:03 2016 -0400
+
+    Added sub cavity figure
+
+commit 65223c35d1d62d7cd3a9b543053dc956e57c2b3d
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sat Apr 30 15:05:09 2016 -0400
+
+    Completed TR expansion topics.
+    
+     Completed iteration, multiple transmitter, and exponential amplification.
+    Still to complete: sub cavities, local chaos, timing concerns, and rectenna design.
+
+commit a4ae56df92b118d65f27eb1c02860b8061d8a019
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Sat Apr 30 00:02:28 2016 -0400
+
+    Normalizing table size attempt 2
+    
+    \tiny
+
+commit 17355a34c9008dc1dd67902965da9c6713082609
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Sat Apr 30 00:01:01 2016 -0400
+
+    Normalizing table size attempt 1
+    
+    changing size to fit page
+
+commit 630dc7e4590c0d8c1e730c14f0f10eeed7e32ca3
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Fri Apr 29 23:48:29 2016 -0400
+
+    Updated Purpose Section
+    
+    Elaborated on: "The reverse is also true: A time reversed sona will generate a reconstruction
+    that is significantly shorter than it in time."
+
+commit 19213e881c08345a859969d1cb8c968a165b273d
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Fri Apr 29 23:42:33 2016 -0400
+
+    removed skeleton's appendix
+    
+    http://imgur.com/gallery/Wxzbl
+
+commit c952aca9a44bc3d3ab321859e66166b85058b4b3
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Fri Apr 29 23:35:14 2016 -0400
+
+    Doctor, Doctor. Doctor, Doctor.
+    
+    Doctor, this is Doctor Doctor. Doctor Doctor, this is Doctor, Doctor.
+
+commit 573861b10444f1c8f97515aa6498e99d875fac54
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Fri Apr 29 22:53:28 2016 -0400
+
+    Added Table of confidence values
+    
+    I'll add caption soon
+
+commit 19e29e57784211f6459aefe9b1a464442bae353f
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Fri Apr 29 22:52:04 2016 -0400
+
+    Added package multirow
+
+commit e1166186dc83873e2b6b17456d51ae271b3dc74f
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Fri Apr 29 22:48:41 2016 -0400
+
+    added appendix skeletons
+
+commit da18127b51f2ea35d204e16d043a9ccd8fd2b451
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Fri Apr 29 22:10:25 2016 -0400
+
+    Removed Asspull
+
+commit f229d6bc7b4800becbd6e771864cb47d836bcbc8
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Wed Apr 27 20:37:39 2016 -0400
+
+    Update ch-nltr-simulation.tex
+
+commit f01cd678a7e6abc92f4cf500a241e738aea23681
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Mon Apr 25 21:00:20 2016 -0400
+
+    Wrote Stuff
+
+commit b062c4b2cb9d554b915cb7e46ade7fb1d5affbd9
+Author: achalla <anupama.challa@gmail.com>
+Date:   Mon Apr 25 20:40:08 2016 -0400
+
+    also pls work
+
+commit 2c89ebfefbe949eb615e52584360f8248ef85bcd
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Mon Apr 25 20:39:57 2016 -0400
+
+    Added files via upload
+
+commit 70a7fae244213a7ea4e7f9e21a6ff980b02ad3e5
+Author: achalla <anupama.challa@gmail.com>
+Date:   Mon Apr 25 20:39:49 2016 -0400
+
+    pls work
+
+commit 846b70f4cc5b43495917da097fbdd410c88165b7
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Mon Apr 25 20:37:13 2016 -0400
+
+    Delete selective-recon-low.jpg
+
+commit a07179a2b6055f4ded784d2dcee9978ccd57d632
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Mon Apr 25 20:37:07 2016 -0400
+
+    Delete selective-recon-high.jpg
+
+commit 3897c3857ed307153899380ee550af33dafd9645
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Mon Apr 25 20:36:05 2016 -0400
+
+    Added files via upload
+
+commit 182630483341f35acba2c421c5c2c2016de435c8
+Author: achalla <anupama.challa@gmail.com>
+Date:   Mon Apr 25 20:33:26 2016 -0400
+
+    test2
+
+commit 2f744374da7058ba27d9e85db53f961486e46245
+Merge: fbf7541 481e37e
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 25 20:26:51 2016 -0400
+
+    merge
+
+commit fbf754174ceed8ee4e532801ec98efe0cf2e6ea0
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 25 20:26:35 2016 -0400
+
+    added missing package
+
+commit 481e37e196a4f5b34b684e34887f1e12736983ee
+Author: achalla <anupama.challa@gmail.com>
+Date:   Mon Apr 25 20:26:29 2016 -0400
+
+    test
+
+commit cbc243f2fe20803e781b0c80bb5a0e52eb71491f
+Author: achalla <anupama.challa@gmail.com>
+Date:   Mon Apr 25 20:25:55 2016 -0400
+
+    test
+
+commit 0928921a6a9a92c3e7a3abbe6b6727db6170fe24
+Author: achalla <anupama.challa@gmail.com>
+Date:   Mon Apr 25 20:20:43 2016 -0400
+
+    Added corded cell charger efficiency
+
+commit c26d29ec80806b5b37bc5364f39d12adc9008455
+Author: achalla <anupama.challa@gmail.com>
+Date:   Mon Apr 25 20:19:42 2016 -0400
+
+    Added corded cell charger efficiency (Ken Sherriff's blog)
+
+commit 846cda2c9722198c6fbea4f75d22e3d094ff5372
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Mon Apr 25 20:11:43 2016 -0400
+
+    Added label for referencing
+
+commit cd7d930f1d1f9cfba08b57ad0c575bbf479b6cf5
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Mon Apr 25 20:09:48 2016 -0400
+
+    Updating terminology
+
+commit 23df561157fe6bd43ed5deb6925d5fc05eabf21a
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Mon Apr 25 20:05:53 2016 -0400
+
+    Added files via upload
+
+commit 30e86e4cdf7cb324d607421a70a6393bcf2fe987
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Mon Apr 25 20:02:35 2016 -0400
+
+    Added files via upload
+
+commit ed51d1b94b15508c22773394f3fd04a76c521c4e
+Author: Lctao <LCTAO13@gmail.com>
+Date:   Mon Apr 25 19:57:05 2016 -0400
+
+    Cited Boaventura
+
+commit 8f64e49af9dec650cb6ad6fa7de9ab857e161bf1
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Mon Apr 25 19:54:41 2016 -0400
+
+    Update ch-linear-meth.tex
+
+commit 72524e202628208f31a7d3892fb613d2e6704bb4
+Merge: ad17185 ee90082
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 25 19:54:26 2016 -0400
+
+    merge
+
+commit ee9008288ba8e6fa7dbe9887db417a2d44ee9fb1
+Author: Lctao <LCTAO13@gmail.com>
+Date:   Mon Apr 25 19:54:09 2016 -0400
+
+    Added Boaventura article
+
+commit 1a7575a64eca685035ddef10d01a5695fb386a90
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Mon Apr 25 19:52:32 2016 -0400
+
+    Removed future work discussion
+
+commit ad17185a155d5d1678be74c4e7998d866a52c4fe
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 25 19:51:36 2016 -0400
+
+    added future work header from wptc
+
+commit 6565c06ad1f206167ed8cbfce028e9941435a85e
+Author: Lctao <LCTAO13@gmail.com>
+Date:   Mon Apr 25 19:49:34 2016 -0400
+
+    Rectenna diode topology (no citation)
+
+commit 9ed9dbf51a809fdd96e15bba48814a80f5e2ed6c
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Mon Apr 25 19:47:38 2016 -0400
+
+    Updated subtitle
+
+commit 6d7d2e8e0c1cfe566d57b643d0dc8cad5f7fdd75
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Mon Apr 25 19:36:49 2016 -0400
+
+    Added System Schematic Pic
+
+commit 045b469d37a200eb4a4f35daffbf3b0999d70d9e
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 25 19:35:58 2016 -0400
+
+    added new expanded future work chapter
+
+commit 14ba33aa0be28301cb924349979900a43018dfc5
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 25 19:28:19 2016 -0400
+
+    from earlier
+
+commit 660d36c01139e1dbb7be4fd5945ac657d50461e4
+Merge: 600e4d4 fb5b7ca
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 25 19:28:03 2016 -0400
+
+    merge
+
+commit fb5b7caa66445e0496a089d424f15ee2bd3e84b3
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Mon Apr 25 19:27:12 2016 -0400
+
+    Fleshed out future work
+    
+     Here it is!
+
+commit 8d1b18e8e1decba43c612d400b224339a65a3ec2
+Author: Lctao <LCTAO13@gmail.com>
+Date:   Mon Apr 25 19:19:21 2016 -0400
+
+    Inline comments by Sedwick
+
+commit 4634de3e10f263edeceba04c23994842143522b2
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Mon Apr 25 19:18:57 2016 -0400
+
+    Update ch-nltr-expr-diff.tex
+
+commit 600e4d407a67fba7b3d6602c2a4171ccf03ef626
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 25 19:01:29 2016 -0400
+
+    sedwicks comments on intro
+
+commit 14e1095ae72dd01b25f0bc33741748c13f02a943
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 25 18:58:57 2016 -0400
+
+    fixed sedwicks names
+
+commit 470eed969b585425c1c6a147dfc6b6b85c8b643a
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Mon Apr 25 18:54:14 2016 -0400
+
+    Update ch-linear-moving.tex
+
+commit 363f790c2981cfec81ffab57f5d711ccec047a17
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Mon Apr 25 18:48:06 2016 -0400
+
+    Update ch-linear-overlapping.tex
+
+commit 1cd37ebf981d0b91b28aa7943d730417c20bf4eb
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Mon Apr 25 18:41:28 2016 -0400
+
+    Update ch-linear-meth.tex
+
+commit 6ef1f69f95105632efcea3c34a1e9638b989a369
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Thu Apr 14 23:05:06 2016 -0400
+
+    also for frank
+
+commit 67ccd5f338a90dc19680e00ec9c9200138aef240
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Thu Apr 14 23:01:29 2016 -0400
+
+    for frank
+
+commit 5b1f9b1e56a51e5b3f6d5adba976dde05aeebf43
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 14:03:32 2016 -0400
+
+    final version (i guess)
+
+commit 46d68e518d9afa4210343d7a02d399ef31a90583
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 14:01:34 2016 -0400
+
+    jk dont want subsubsections to be numbered
+
+commit b7813c907216aa45dde50b3cb314d30e3009ead4
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 13:55:45 2016 -0400
+
+    fixed chapter and section styling and spacing and fixed lots of user-defined command spacing crap
+
+commit 1e8731c8a44e79087997aadd0af104507a2d1ef2
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Mon Apr 4 13:38:22 2016 -0400
+
+    Update ch-nltr-purpose.tex
+
+commit afe8e96bdd1763ba277b30a53f99abbb62da1ff1
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Mon Apr 4 13:28:56 2016 -0400
+
+    Update tesla-glossary.tex
+
+commit 4e1ecb5c77988bce9b8be4ec269df5969575b34e
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Mon Apr 4 13:26:06 2016 -0400
+
+    Update ch-linear-moving.tex
+
+commit 3ea4167b6130fc38f95454104f9db0163c93bf6f
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Mon Apr 4 13:25:18 2016 -0400
+
+    Update ch-nltr-simulation.tex
+
+commit b9f2d2fde65e26437d32b4be945eda3fb5b654ca
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Mon Apr 4 13:25:04 2016 -0400
+
+    Update ch-nltr-simulation.tex
+
+commit e9cf10c51ca32540082b56ba8acb8d3214ba095d
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Mon Apr 4 13:18:15 2016 -0400
+
+    Update ch-nltr-simulation.tex
+
+commit f1b3cd80baaa1ba976efef7b2ce78556ab619d65
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 13:15:11 2016 -0400
+
+    fixed matlab capitalization
+
+commit de974ebbb27c3fe082600e2e580ffe7b96544093
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 13:10:03 2016 -0400
+
+    hypenated all instances of peak-to-peak
+
+commit f91bd0745b636a424a46a6b3512bb0c90766ee11
+Merge: c589353 d09d602
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 13:05:00 2016 -0400
+
+    merge with andrew
+
+commit c58935316db93fe0936fabfba4fa96292aa4566f
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 13:04:51 2016 -0400
+
+    fixed some missing references
+
+commit d09d6025212a454be0b2ef66bd4498d7752175b6
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Mon Apr 4 13:02:18 2016 -0400
+
+    Update ch-intro.tex
+
+commit bdc431be0e08d09cadc37995680820a358205a27
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Mon Apr 4 12:59:25 2016 -0400
+
+    Update ch-intro.tex
+
+commit 0d6ea78883cecdcddf37134977896742e6e2f000
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Mon Apr 4 12:57:26 2016 -0400
+
+    Update ch-intro.tex
+
+commit 4f220c83d74e53e2ba92cf305ff635885ab31c5f
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 12:57:17 2016 -0400
+
+    brought all the discussants back up to the title page
+
+commit ac3cb9cd04bc98e13d44c400e5f531dd7ceadada
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 12:57:00 2016 -0400
+
+    revmoed some leftover files
+
+commit a863c08201fc23cf23f0a12c4671129330ffffa5
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 12:50:50 2016 -0400
+
+    fixed gigabox command
+
+commit 6096737c938e2be254d1f4bfa8554f1f88e0e2ac
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 12:47:26 2016 -0400
+
+    more consistency stuff in linear and lit review
+
+commit 9f12b8bca3bfee768229eaa4dc375c803de96366
+Merge: c74ef5f e947fc4
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 12:37:46 2016 -0400
+
+    merge with tim, git dont fail me now
+
+commit c74ef5f62535ec712b028565feb28f2c8333fc16
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 12:37:28 2016 -0400
+
+    consistency in rectenna and nltr simulation
+
+commit e947fc469123190034cbbcda7417fb10ae42d8ba
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Mon Apr 4 12:34:11 2016 -0400
+
+    anu
+    
+    AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+    HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+    HHHHHHHHHHHHHHHHHHHH
+
+commit 204bd69844f0cd1159de9d0f9d92245293ca9ab0
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Mon Apr 4 12:29:52 2016 -0400
+
+    anu
+    
+    AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+commit 73cab67a0eb490ec9711465dc9960c0964f167da
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Mon Apr 4 12:23:50 2016 -0400
+
+    anu
+    
+    AHHHH
+
+commit a1e35a0846ef9d3decc457b088efbbaa5ef256dd
+Merge: 25385fe f4bb3a7
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 12:19:40 2016 -0400
+
+    merge with tim
+
+commit 25385fedb613dccbf8436b58279a128d58d969ef
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 12:19:31 2016 -0400
+
+    more conclusion changes..
+
+commit f4bb3a7d773a59c8658311fadb84c817553be000
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Mon Apr 4 12:19:24 2016 -0400
+
+    missed a spot
+    
+    no point trying to polish shit without shit polish
+
+commit aaf2bd6336e27b2c4d31d04de13bde5ad819cde6
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Mon Apr 4 12:17:41 2016 -0400
+
+    anu anu anu
+    
+    I don't wanna leave the banu
+
+commit 7bcd75d4109970a1affe4197d6dcfa4e21e58c8e
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Mon Apr 4 12:13:51 2016 -0400
+
+    anu comments
+    
+    anu please just make the changes yourself next time
+    you had the knowledge and the capability
+
+commit 856f62fa211cd36e0bedf99a1d1b5f9009a2756b
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 12:11:44 2016 -0400
+
+    darn you bluepill and your outdated tex packages ㅠㅠ
+
+commit 8e13d75cafdabac1acd157d7f111e5a0e73681ff
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 12:10:16 2016 -0400
+
+    added los
+
+commit c99bbe79a97937928473eb15935f2a50cd1ea3c9
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 12:06:33 2016 -0400
+
+    anus conclusion fixes
+
+commit e67e6c8c868db72b2be30931b6ab460a49d83f50
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 11:54:05 2016 -0400
+
+    added some naming conventions
+
+commit 68fff683990d5a5e2e743caac3e11216509306b7
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 11:52:15 2016 -0400
+
+    more spelling tweaks for nltr and conclusion
+
+commit a118145ca9dcac0a29179c4e93974c12e9e680e1
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 11:30:46 2016 -0400
+
+    tweaks in linear and rectenna
+
+commit 1fc49ba21802ca2324d8ff67709582244f87e63e
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Mon Apr 4 11:27:48 2016 -0400
+
+    anu's tweaks
+
+commit 89290badb27495ca7cc870ed910b65d7034d5f01
+Merge: b3046ec 6a591bd
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 11:15:53 2016 -0400
+
+    merge
+
+commit b3046eca92b6ea4f3c5538ffb52372216618982d
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 11:15:45 2016 -0400
+
+    spelling fixes in intro and rectenna
+
+commit 6a591bd0066235b0760c43f07f679d1c654f4ec8
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Mon Apr 4 11:09:49 2016 -0400
+
+    fixed lengthy wi-charge captions
+
+commit f748f1cea1aafdaba48d0348801275a32b30ee22
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 11:01:00 2016 -0400
+
+    fixed figures in lit review and linear
+
+commit b706870fe1111f852da11a067f789fc5ce9eeb59
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 10:39:39 2016 -0400
+
+    fixed a bunch of figures in nltr and rectenna
+
+commit e9fcb00e174efa4a8d38d63e1eed70d5b982980a
+Merge: c2224d2 c4979df
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 09:57:57 2016 -0400
+
+    merge
+
+commit c2224d2e5dcbe29eb1b4bbea9e262ba782c0c34f
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 09:57:25 2016 -0400
+
+    margins might actually be fixed, thanks tim
+
+commit c4979df6b37adcacdcfe7128c635768806a6ca8b
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Mon Apr 4 09:31:35 2016 -0400
+
+    Update ch-conclusion.tex
+
+commit 7c6a62a9af47349256a20b88b6c74b87adaade7a
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Mon Apr 4 09:31:00 2016 -0400
+
+    Update ch-rectenna.tex
+
+commit 499993aaaf32ece1b252b99d96904038dfb2dd17
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Mon Apr 4 09:22:24 2016 -0400
+
+    Update ch-nltr-expr-diff.tex
+
+commit f4b7513fd9ab22875579a5f4794855a6ef87b45b
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Mon Apr 4 09:20:47 2016 -0400
+
+    Update ch-linear-moving.tex
+
+commit 99c1cc2747119eb72ecc53b93dec34215e132102
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Mon Apr 4 09:11:26 2016 -0400
+
+    Update ch-linear-overlapping.tex
+
+commit 8b3cada0466c1c8ea9fe3f41231c7b36f39ab435
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Mon Apr 4 09:09:07 2016 -0400
+
+    Update ch-linear-meth.tex
+
+commit 2333bfc4888b2ddb7fef9995115d71baa23a14f3
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Mon Apr 4 09:00:31 2016 -0400
+
+    Update ch-lit-review.tex
+
+commit 8edbb396115ce079e2ada600c797a25b817d3ef8
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Mon Apr 4 08:25:45 2016 -0400
+
+    forgot a comma, my b
+
+commit 7638bd60661f68973d68b9b62fc5d91c59764e48
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Mon Apr 4 08:22:30 2016 -0400
+
+    alex 3
+    
+    for fuck's sake don't do this again
+
+commit 6fa373bd47ded36c1c64c3cc3d237f97b636b88f
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Mon Apr 4 08:19:09 2016 -0400
+
+    alex 2
+    
+    electric boogaloo
+
+commit 32ea88c7b2d0cc62f2af713d59b65626435a9852
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Mon Apr 4 08:18:06 2016 -0400
+
+    alex 1
+    
+    who keeps doing this
+
+commit 966e6ab72cf1065995c7f0e37c5469e5cf2fc001
+Merge: 3a51f54 88a2bbc
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 07:19:20 2016 -0400
+
+    merge
+
+commit 88a2bbc46e9923e73ec8147b72d001f6e243fffe
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 07:18:22 2016 -0400
+
+    single spaced figure captions
+
+commit b5a0e7fde286d4573958efd4e2ca981f66a3eaec
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Mon Apr 4 01:09:20 2016 -0400
+
+    오빤 skendall style
+
+commit 3a51f542e004451545289f9c078471ac170ec4fa
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Mon Apr 4 00:26:38 2016 -0400
+
+    Added files via upload
+
+commit d56522deeb805c9c32673271b56f0560ca3cd117
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Mon Apr 4 00:26:26 2016 -0400
+
+    Delete voltage_per_recon.png
+
+commit 7ee3d0a4d47f5809cbb821584cda2d0f3be7291f
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Sun Apr 3 23:25:27 2016 -0400
+
+    fixed new bibtex entries
+
+commit 98baa60082b707f20bd00ee7742475160ab82f78
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sun Apr 3 16:28:09 2016 -0400
+
+    addressed todo
+    
+    oooh skin man
+    villain in disguise
+
+commit 3772bf2b2115dd9eb89735ec015eeaa85eb32c5c
+Author: K1ngf1sherKenob1 <bphilip@terpmail.umd.edu>
+Date:   Sun Apr 3 16:19:45 2016 -0400
+
+    Update ch-conclusion.tex
+
+commit 6c97c7f018346e5a062e73a38d6bda3101887ba5
+Author: K1ngf1sherKenob1 <bphilip@terpmail.umd.edu>
+Date:   Sun Apr 3 16:15:08 2016 -0400
+
+    Update ch-linear-moving.tex
+
+commit e86337a331f5354944c8623b9235832c070552d9
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sun Apr 3 16:10:34 2016 -0400
+
+    made less blurry
+    
+    made more photocopier-y
+
+commit 82366dfd59f5531d2ce2f70a5eabf2d5cab190a7
+Author: K1ngf1sherKenob1 <bphilip@terpmail.umd.edu>
+Date:   Sun Apr 3 16:06:34 2016 -0400
+
+    Update ch-linear-overlapping.tex
+
+commit 98d0747b319451d33fcff32280dfe072f563887b
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sun Apr 3 15:57:49 2016 -0400
+
+    this file has been subsumed in nltr-expr-diff
+
+commit d1511b0d7c8fe7fc917681e52ba67eabbfc59c27
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Sun Apr 3 15:55:54 2016 -0400
+
+    Updated Todo
+
+commit dab9827e0c6e40db71e081992637846188845223
+Author: K1ngf1sherKenob1 <bphilip@terpmail.umd.edu>
+Date:   Sun Apr 3 15:50:12 2016 -0400
+
+    Update ch-linear-meth.tex
+
+commit 2d62cd7ffb9ceb5f55e3f017efe97ccbd2da8412
+Author: K1ngf1sherKenob1 <bphilip@terpmail.umd.edu>
+Date:   Sun Apr 3 15:49:18 2016 -0400
+
+    Update ch-linear-meth.tex
+
+commit 93cae9dd752cd6f7b8f773884439d59ea1212c79
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sun Apr 3 15:37:54 2016 -0400
+
+    oops
+    
+    screwed up the transparency on the last one, should be fixed now
+
+commit 422abbec6ed29a89a954156311bd0cc988ba2a25
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sun Apr 3 15:33:40 2016 -0400
+
+    improved resolution
+
+commit 29959b6f5f459e6d8b7acf15732bf491381ffd4b
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Sun Apr 3 15:24:22 2016 -0400
+
+    Nice one, Harry
+
+commit aaa22075d84e0942e7ae0b635cca20d65ce05578
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sun Apr 3 15:21:03 2016 -0400
+
+    Removed todos
+
+commit 8ab1c5eefe85e257f380a384c1e76d6c6349cc96
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sun Apr 3 15:00:53 2016 -0400
+
+    Added citation for intro
+
+commit 3d4e29b6a3720bed9147aaf3192b7767e6aaaf46
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sun Apr 3 14:50:14 2016 -0400
+
+    fix typo
+    
+    B-field -> calcium strength
+
+commit 8071ca1f9714764941ae586e1b9039d7a5468683
+Author: K1ngf1sherKenob1 <bphilip@terpmail.umd.edu>
+Date:   Sun Apr 3 14:43:02 2016 -0400
+
+    Update ch-lit-review.tex
+
+commit 246f989391026daf05674a0a0cce4a6d67fe5054
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sun Apr 3 14:42:58 2016 -0400
+
+    Removed subsection heading to improve flow
+
+commit d01c74093d5fdb13796a123ba0ddbbc6f412fcb2
+Author: K1ngf1sherKenob1 <bphilip@terpmail.umd.edu>
+Date:   Sun Apr 3 14:30:42 2016 -0400
+
+    Update ch-intro.tex
+
+commit 771e05d8826f634aa4afc1ece622a0eae731f592
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sun Apr 3 14:24:35 2016 -0400
+
+    Responding to TODOS
+
+commit 176a69b662c55c884e86e08d14f0b2d6c329ef74
+Author: K1ngf1sherKenob1 <bphilip@terpmail.umd.edu>
+Date:   Sun Apr 3 14:23:49 2016 -0400
+
+    Removed todo's.
+
+commit ebf20026ff25fb5eaeaaf6ec7b353630b0d1872b
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sun Apr 3 14:11:50 2016 -0400
+
+    Removed range
+
+commit 369fcd3165f2cf7ad19d0c3327d0388f53b4d3be
+Author: K1ngf1sherKenob1 <bphilip@terpmail.umd.edu>
+Date:   Sun Apr 3 14:08:20 2016 -0400
+
+    Update ch-intro.tex
+
+commit 87671499a96f2ad53a31b9dfe2ea9deace8f8f76
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sun Apr 3 14:05:08 2016 -0400
+
+    removed magnetism
+    
+    line was just too long
+    
+    defeated iron barkus
+
+commit a730a6a152cbcf66c784890610110674f03fcebb
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sun Apr 3 14:05:04 2016 -0400
+
+    Minor changes to plots
+
+commit 5cb2a4e5845912e16f5784f0bceeefeaa8ae77a9
+Author: K1ngf1sherKenob1 <bphilip@terpmail.umd.edu>
+Date:   Sun Apr 3 14:01:15 2016 -0400
+
+    Update ch-intro.tex
+
+commit bcda3741c03e5237fe12f66a9c4ad4355465c208
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sun Apr 3 13:35:47 2016 -0400
+
+    added scott's changes
+    
+    you just put them in the wrong place you dunkus
+    I told you that when I picked up the phone
+    you weren't listening to what I was saying at all
+
+commit 37c13ee8fac2b5bff70c79c9e2d4af7cc66c8c80
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sun Apr 3 13:13:34 2016 -0400
+
+    Added comment for future formatting
+
+commit 5f97e93b01c16eef82b1b209a85f5097d585d289
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sun Apr 3 13:01:21 2016 -0400
+
+    Minor formatting
+
+commit 6427737742493d047911f1c14134f67aba71e240
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sun Apr 3 12:48:44 2016 -0400
+
+    Fixed figure formatting
+
+commit c770c952bbb0df08404e9a14fcfb3fc31dfc115d
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sun Apr 3 12:36:47 2016 -0400
+
+    Fixed some formatting
+
+commit 383e1e7625220b205d49ffccc79383d579377f25
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sun Apr 3 12:32:14 2016 -0400
+
+    Updated figure formatting
+
+commit ff4c708bce82ee1c9e5955e194081fb2801ab61f
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sun Apr 3 12:29:59 2016 -0400
+
+    Minor formatting
+    
+    Done
+
+commit 8f194540689ab763002724fbe84a1cb7333e1ee4
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sun Apr 3 12:17:36 2016 -0400
+
+    Changed formatting of figures
+    
+    Lab equipment setup <- original label for the caption, in the event I screwed something up.
+
+commit f11ab07f88f1400c7b1f52ed6ec0f37c6613592d
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sun Apr 3 12:13:21 2016 -0400
+
+    Minor edits
+
+commit 003acb000e6b25267a49a7315dd52005488ca733
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sun Apr 3 12:10:13 2016 -0400
+
+    Updated abstract to include all research topics
+    
+    We were originally just talking about spatial/moving.
+
+commit 3734ad7f28df773b809032962aa32f3a88884690
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Sun Apr 3 12:00:33 2016 -0400
+
+    modified equation environment to always be single-spaced
+
+commit aa9b84d81fcb7a27ff437dce2a62d0b84c91cb02
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sun Apr 3 11:53:13 2016 -0400
+
+    minor edits and lots of comments
+    
+    added some todos
+    cleaned up a few inaccuracies
+    fixed typos
+    hatched a plan against Iron Barkus
+
+commit 3fa02ceb74ae658bc33ebe7132c1344c29cb25d0
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sun Apr 3 11:26:06 2016 -0400
+
+    more minor word choices
+    
+    Iron Barkus bars the way
+
+commit 2085a2a9e80f9f3812cbcde94b809ec937595d90
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sun Apr 3 11:24:38 2016 -0400
+
+    word choices and see notes
+    
+    split paragraphs along where I think they were intended to be split in the first place, but weren't because of the copy/paste
+    
+    additionally we should redo the claims paragraph, it's not very well suited to what we actually did
+
+commit e6a24b98fd7e072f865c87abb88990c84efbc3d3
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sun Apr 3 11:14:30 2016 -0400
+
+    fixed typo in acknoledgments
+    
+    didn't seem like a good place for them
+
+commit 739784e5f6c7c67e7f2ce9b4b80bf6746a36e709
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Sun Apr 3 00:27:11 2016 -0400
+
+    fixed bibliography ordering and fixed a couple seperated cites
+
+commit 4f91e833603d2d02f1107609792ae38ed0f165a0
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Sat Apr 2 23:43:05 2016 -0400
+
+    spelling...
+
+commit a91dd0e8dc290fe8fd56e0698fbde29a9ad72e6c
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Sat Apr 2 23:41:58 2016 -0400
+
+    new options for datetime package not working on server, removed w/o problems
+
+commit 4b3df50cdf0febf9fbdb203803775d5c14beba51
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Sat Apr 2 23:39:58 2016 -0400
+
+    added compile time header to draft version
+
+commit 92f9543e1df4f9517db99d08456330c1d16736ed
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Sat Apr 2 23:21:07 2016 -0400
+
+    fixed some stray errors
+
+commit b4795663a1e04baa7def09313a1b7b0bdfe9b7c5
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Sat Apr 2 22:44:49 2016 -0400
+
+    turned off pdflatex interactive mode in makefile for server building
+
+commit 773ec089d05c0b83c16ff17055d8a9e2f6270563
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Sat Apr 2 22:44:14 2016 -0400
+
+    took compiled pdf out of repo (should not be version controlled)
+
+commit d2a2fca4c16b02c609992495fb867e3f4d9f1e40
+Author: Lctao <LCTAO13@gmail.com>
+Date:   Sat Apr 2 21:03:49 2016 -0400
+
+    0 dbm to 10 dbm correction
+
+commit d1d0afbd849414ad9afbd5392c261f7aeb7eec02
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sat Apr 2 20:06:19 2016 -0400
+
+    Adding thing that needs to be cited later
+
+commit 8a8510b7c736accbba9d72a359f8d7b728a6b7eb
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Sat Apr 2 20:03:02 2016 -0400
+
+    Update ch-linear-moving.tex
+    
+    finished for the night
+
+commit 7b607ea53a29aa5b2a86f28d640a7cc6de73f9df
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 19:52:14 2016 -0400
+
+    update year 207 -> 2007
+    
+    We need to standardize months, too, by the way
+
+commit 9697d83cba974724f3d70450b6bdbe83b3b8d82d
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Sat Apr 2 19:48:51 2016 -0400
+
+    Update ch-linear-moving.tex
+
+commit ea245dd94c4c3e285fbc880e14eba8659e341eee
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Sat Apr 2 19:46:41 2016 -0400
+
+    Update ch-nanorods.tex
+
+commit 1c75632251d8743746cdda430d222134489dae55
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sat Apr 2 19:38:53 2016 -0400
+
+    This should be finished now.
+
+commit 68161c71428d228b912262eb07aec552e4c947d8
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Sat Apr 2 19:23:56 2016 -0400
+
+    Update ch-linear-moving.tex
+    
+    Save so I don't lose everything like my mortgage
+
+commit 2f963449627f1f80713e95417ff59a817d1af74e
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sat Apr 2 19:22:42 2016 -0400
+
+    REMOVED FROM CURRENT VERSION
+
+commit e1060f9a06ec585eacab9b5b4bdd5247abb5f3e0
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sat Apr 2 19:21:39 2016 -0400
+
+    (Hopefully) fixed referencing error
+
+commit 56ddc0b7a8c9102cb00b37ed2ad89cfa219417f9
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sat Apr 2 19:15:21 2016 -0400
+
+    This should be finished now.
+
+commit 717a9290be990ef79de02f122d316866b26a6944
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sat Apr 2 18:56:58 2016 -0400
+
+    Phrasing and structural edits
+    
+    Note the to-do's that I've added.  These were things that I was concerned about; I'm happy to revert them if you want.
+
+commit 496e0ba3eb00dcd0f120bda4f4198b73fbc4aeca
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Sat Apr 2 18:48:37 2016 -0400
+
+    Update ch-nanorods.tex
+
+commit 99f93499579c228b86eccce4e77fe4008a9bebbc
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Sat Apr 2 18:47:30 2016 -0400
+
+    Update ch-nanorods.tex
+
+commit dec50f85043ccddee679c2456fdc191c9ab24e1b
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Sat Apr 2 18:44:40 2016 -0400
+
+    Update ch-linear-moving.tex
+    
+    intermediate save since its been a while
+
+commit 2c41e9a6d1b950a21677c7a9e94d5d265340f923
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 18:41:40 2016 -0400
+
+    load before making glossary
+    
+    fukken heisenbugs
+
+commit 9f121d7217c753c94343af80b8c1cdf06c482c79
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Sat Apr 2 18:41:27 2016 -0400
+
+    Update ch-linear-spatial.tex
+    
+    Removed all content, transferred it to ch-linear-moving.tex
+
+commit f791837b941d3ffe7bf973f94b33a2543919dae3
+Author: K1ngf1sherKenob1 <bphilip@terpmail.umd.edu>
+Date:   Sat Apr 2 18:41:09 2016 -0400
+
+    Fixed hyphenation of TR
+
+commit 083764c2fcc231bc17abe9d69e2f65d589e723bb
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Sat Apr 2 18:08:34 2016 -0400
+
+    Tex inline math updates
+    
+    initial commit
+
+commit 36f159eb01dee7570135c6d23deb9d66df377592
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Sat Apr 2 17:56:52 2016 -0400
+
+    Update ch-nltr-purpose.tex
+
+commit 51f19602b3855144eb568b521674205b038bdc37
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 17:51:05 2016 -0400
+
+    reverted for now
+
+commit c0bc9b664b9c6f0b9f321c8d9121d612560be2c2
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Sat Apr 2 17:50:25 2016 -0400
+
+    Update ch-linear-overlapping.tex
+    
+    Did a lot of shit
+
+commit 47f99c31740a3de34effe3324ccc1b24fc5b02b3
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 17:47:36 2016 -0400
+
+    drop mit's in favor of umd's cls
+    
+    worth a try
+
+commit 05ca7d3dd1a03339a537a5e762e96fb9290e8294
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 17:46:41 2016 -0400
+
+    hail mary on formatting
+    
+    I smell lovely cause I don't eat meat
+
+commit dd881246edf4f3fbc135bba0a8356bd4bc059fd6
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 17:38:07 2016 -0400
+
+    uneclipsed todo
+    
+    things are case sensitive, you poor sweet Patrick
+
+commit 3ce33e9f966f2ed6f834a99f01a6e7e1dc89a7c4
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 17:37:08 2016 -0400
+
+    moved abstract page lower
+    
+    previous abstract was high as a fukken kite
+
+commit e3f282c02f193ab8dd2077582dab441b6ed6a4e3
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Sat Apr 2 17:27:38 2016 -0400
+
+    Added files via upload
+    
+    added two MORE figs
+
+commit 96e2574b023cc4db186f9802c4f0f10b50f42ab4
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Sat Apr 2 17:25:25 2016 -0400
+
+    Added files via upload
+    
+    uploaded 2 figs
+
+commit 2b85ff8a8e0671654e8b1e1c179ac4acebaf78ed
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 16:58:21 2016 -0400
+
+    made things boring and sad
+
+commit 8ae4d4641963a6b0e3c083e9b51447386441d830
+Author: Lctao <LCTAO13@gmail.com>
+Date:   Sat Apr 2 16:56:47 2016 -0400
+
+    Updated image labels
+
+commit 7f2ba0efb4170568a95ad8a4e6928cc845429344
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sat Apr 2 16:56:36 2016 -0400
+
+    Fixed typo, removed extraneous citation
+
+commit cd3ba92e9c5c5ef5f145629fe988a73b0040a49d
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sat Apr 2 16:50:28 2016 -0400
+
+    Fixed citations, updated
+
+commit d9daa1a9dba9136d82d50fa394625c3dc06c95b1
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 16:41:46 2016 -0400
+
+    fix ben's name again
+    
+    sorry I messed it up the first time
+
+commit 0e6fd6750c99f3b881fd46d00be31e09e3d464f8
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 16:40:29 2016 -0400
+
+    fixed ben's name
+    
+    added Tabatabai
+
+commit 1129166a37f725bd71bcdf6dd6bc576fdcd78d46
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 16:27:21 2016 -0400
+
+    moved abstract first
+
+commit eb4c3a509570551853f4fe64bedf854ba63e9933
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Sat Apr 2 16:27:13 2016 -0400
+
+    Updated Tex expressions
+    
+    added dongle arm
+
+commit 480bd36da256e30be8c1b0ecce7cda1eb8c71ad5
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Sat Apr 2 15:37:53 2016 -0400
+
+    Undoing test changes
+    
+    version .8 - added Ghasts
+
+commit 194e312c83dec094b26f45619aae6450af996036
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Sat Apr 2 15:31:31 2016 -0400
+
+    Testing piecewise formatting
+    
+    introducing load buffers
+
+commit 672a0ed519ef04c3adac68869cc772a76f358d85
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Sat Apr 2 15:25:22 2016 -0400
+
+    Piecewise function size reduction
+    
+    combobulating combobulator
+
+commit ea329bd2107f4183517c0d0750650da6c9336e1f
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Sat Apr 2 15:19:37 2016 -0400
+
+    Update ch-linear-meth.tex
+    
+    git er done
+
+commit 33f760620a82c58cc0e3123f202d1cbcd759ccfb
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Sat Apr 2 15:17:47 2016 -0400
+
+    micro seconds
+    
+    Testing Springs
+
+commit 8580c7cc3904a0a0cc0c1295e0de76520cb8fd18
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Sat Apr 2 14:40:44 2016 -0400
+
+    Update ch-conclusion.tex
+
+commit 2436ea118f548c514da04b24cf4c2707656b6a80
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Sat Apr 2 14:39:38 2016 -0400
+
+    Update ch-linear-meth.tex
+    
+    Tentative finish of the introduction and methodology for LTR
+
+commit c62645560473c803c03d9b7568035367feec5e0f
+Author: Lctao <LCTAO13@gmail.com>
+Date:   Sat Apr 2 14:24:53 2016 -0400
+
+    Changed test setup image based on comments
+
+commit 4c1896b2caa3f11ebe26d77008342b313433d34a
+Author: Lctao <LCTAO13@gmail.com>
+Date:   Sat Apr 2 14:24:22 2016 -0400
+
+    Delete Rectenna-Harmonics-Updated.png
+
+commit 286093ed8427d9af1173ee3a5c6245e55bba3e82
+Author: Lctao <LCTAO13@gmail.com>
+Date:   Sat Apr 2 14:24:05 2016 -0400
+
+    Delete test-3-setup.png
+
+commit 2bf69c3a88694f8fde0021dca94cdf22526a7d57
+Author: Lctao <LCTAO13@gmail.com>
+Date:   Sat Apr 2 14:19:28 2016 -0400
+
+    New harmonic gen image
+
+commit 8c587ba0e43daac0fe717750058e32b5711305fb
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Sat Apr 2 13:59:28 2016 -0400
+
+    Update ch-linear-meth.tex
+    
+    Saving progress - updating to new format
+
+commit 72ab9c41ac564cd1d1221235ecb0139cff722e6f
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 13:48:27 2016 -0400
+
+    subordinated spatial profiling
+
+commit 4a001e12698e1a516243e5f23d44181f641b2bb6
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 13:46:17 2016 -0400
+
+    subordinated under moving
+
+commit d506eac10ca86ebe5aa403d1cd88e5798f4a1272
+Author: Lctao <LCTAO13@gmail.com>
+Date:   Sat Apr 2 13:35:33 2016 -0400
+
+    More anlage changes
+
+commit 5e79ebee101ac3396d0eb76d854adda978b262a8
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Sat Apr 2 13:34:56 2016 -0400
+
+    Update main.bib
+    
+    Added witricity2013subsea
+
+commit 30010c4b531c191ec0631dec7928d990b402ea11
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 13:32:22 2016 -0400
+
+    create README.md
+    
+    the Easter bunny is in town
+
+commit 05641b982db449e1182398296ebad538a39f4216
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sat Apr 2 13:27:57 2016 -0400
+
+    Rezzed NikkiT
+    
+    Using the blood of several horny pigeons and a summoning circle within a tesla coil, I was able to return Nikola Tesla to this world.  He immediately looked up the location of Edison's grave, and took a dump on it.
+
+commit 384f71558442c6d4180213a3c62bbd4bc38c6224
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 13:23:18 2016 -0400
+
+    forgot to actually rename, my b
+    
+    removed Herobrine
+
+commit fcb9f262cbbc2bd20d67ea0a9b33f3d13f4f2e47
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sat Apr 2 13:22:11 2016 -0400
+
+    Updated citations
+    
+    NikkiT is back in the thesis
+
+commit feb0bf7192b0bbdd04242316ebe7326d01ed9f6c
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 13:20:44 2016 -0400
+
+    renamestructure
+    
+    added Herobrine
+
+commit a5843f8c2b368d59d06f3a1379e093021e7b884d
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 13:18:47 2016 -0400
+
+    rename and restructure
+
+commit d3f72a386764bddfd294a0ee7183ca31a9549c73
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 13:17:06 2016 -0400
+
+    restructure and rename
+
+commit f37536ab57626a07da017f129a90ad895d6e3b4e
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 13:14:58 2016 -0400
+
+    support consistency renames
+
+commit e770dd384f5e0052f2e0575c1a83736cf3a5bd9d
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sat Apr 2 13:12:04 2016 -0400
+
+    Added citations
+
+commit 0e25785713269270bd52bca1e9a94691243dd3fa
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 13:04:54 2016 -0400
+
+    reorder as part of massive reordering
+
+commit 0fa526601f01c36e7e7d96a8c772460e8e5c8899
+Author: Andrew Simon <a.andrew.simon@gmail.com>
+Date:   Sat Apr 2 13:01:31 2016 -0400
+
+    Update ch-linear-meth.tex
+    
+    Updating to new outline format
+
+commit 680795558a0b13ade214cf1dc4b74f73bd00646f
+Author: Lctao <LCTAO13@gmail.com>
+Date:   Sat Apr 2 12:56:20 2016 -0400
+
+    Minor changes based on Anlage comments
+
+commit 78adb61b705d8c69bd26e0849d78adb74b75a6df
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 12:52:27 2016 -0400
+
+    restructure as part of massive restructuring
+
+commit c9f069f5bf410ad012e2c5ba044817bd53587786
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Sat Apr 2 12:48:47 2016 -0400
+
+    Updated with Intro Proposal
+    
+    Committing just to get the version in.  Going to add the citations to the citation list. (Though most wont' be used)
+
+commit 2af25a8595d80a223b11121e845f458c62cc9b12
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 12:45:54 2016 -0400
+
+    removed extra nanorods
+
+commit a1c12927668b092b3aef94f6765c19fe527101b3
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 12:41:46 2016 -0400
+
+    Update main.tex
+
+commit d33429eac5ad7e8e9d2398e61a927b7b3fe14a87
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 12:37:57 2016 -0400
+
+    reheaded as part of massive restructure
+
+commit 77db1e8b5871417b18e327d8df69d4dbb5c851a4
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 12:34:48 2016 -0400
+
+    rename to promote consistency
+
+commit a4d8b5d2a9f7622dcb723eab472d473359a9fd46
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 12:33:23 2016 -0400
+
+    new file as part of massive reordering
+
+commit 5e0abb9f3eb18b2d4834622c15d28f89aae319b6
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 12:27:36 2016 -0400
+
+    edits as part of major reorder
+
+commit bd0172c7083ca24b0380d30cafc70546544ed124
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Sat Apr 2 12:24:07 2016 -0400
+
+    rename nltr-purpose
+
+commit f6d830a4ca85099ef942ae24bc8b23e54c68d482
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Fri Apr 1 19:42:15 2016 -0400
+
+    Update mitthesis.cls
+
+commit 8c1907fd818a618fba094a2365eda368fbeb481f
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Fri Apr 1 11:40:56 2016 -0400
+
+    final pdf for submitting to skendall
+
+commit ca5d2405f3a90c030687c5a99dd956a4905e0726
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Fri Apr 1 11:36:24 2016 -0400
+
+    changed to vpp
+
+commit 91b0b3be9f91ab38431d0e734e00cb8783d32f54
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Fri Apr 1 11:33:07 2016 -0400
+
+    recaptioned
+
+commit 0542832a15b3c2d413a902f9f8720aea2516ee35
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Fri Apr 1 11:31:02 2016 -0400
+
+    removed a few more stray pages
+
+commit 151e79de9242dbbc91656eefaea8712c43b57774
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Fri Apr 1 11:20:15 2016 -0400
+
+    changed style to umd formatting requirements
+
+commit dc04d0107ca1088951d9de69e2603afafbd716dd
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Fri Apr 1 10:43:43 2016 -0400
+
+    removed page numbers from glossary
+
+commit c48bc32ce3ab3cc1ac89f6bcd97056ce61532660
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Fri Apr 1 10:41:11 2016 -0400
+
+    some package changes for compilation on older server
+
+commit ecba0b256bc7e93605a615692acc3ab99ad72c05
+Author: AlexGems <alext496@terpmail.umd.edu>
+Date:   Fri Apr 1 09:11:37 2016 -0400
+
+    {Got rid of the double periods}
+
+commit e7c102b2f324c11a36727ee8c36a2f7dd658271e
+Author: AlexGems <alext496@terpmail.umd.edu>
+Date:   Fri Apr 1 09:04:40 2016 -0400
+
+    {Caption Numbering}
+
+commit 2f06dd544af0f978e4b5944e09a4b08107cfa1c1
+Author: AlexGems <alext496@terpmail.umd.edu>
+Date:   Fri Apr 1 09:02:39 2016 -0400
+
+    {Caption Numbering}
+
+commit 83343f449c0803d6a4023b4f6a1373a69a2d2cff
+Author: AlexGems <alext496@terpmail.umd.edu>
+Date:   Fri Apr 1 08:58:54 2016 -0400
+
+    {Caption update}
+
+commit e2d0e68b40e4f60195a6bc4e350cd41ed2fe46fd
+Author: AlexGems <alext496@terpmail.umd.edu>
+Date:   Fri Apr 1 08:55:50 2016 -0400
+
+    {Anlage | Caption}
+
+commit 51a55582bcd1a135295bf9e3a9f5024bf4f305e0
+Author: AlexGems <alext496@terpmail.umd.edu>
+Date:   Fri Apr 1 08:47:11 2016 -0400
+
+    Overall{Anlage Comments | Caption?}
+
+commit 655b502b88a07b3ff2c5c42bf8fc4669b8f4b357
+Author: AlexGems <alext496@terpmail.umd.edu>
+Date:   Fri Apr 1 08:38:39 2016 -0400
+
+    {Minor3}
+
+commit 91487b79724de760a4cc35d488fbdfe6db166406
+Author: AlexGems <alext496@terpmail.umd.edu>
+Date:   Fri Apr 1 05:29:43 2016 -0400
+
+    Conclusion{Minor2}
+
+commit a0b96b07d43c5213b82953b19cafc35111dbd359
+Author: AlexGems <alext496@terpmail.umd.edu>
+Date:   Fri Apr 1 05:19:10 2016 -0400
+
+    Conclusion{Moderate2}
+
+commit 9173ee66fe1911a95c4060066c5824de3ce19e3b
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Fri Apr 1 04:39:42 2016 -0400
+
+    anlage suggested changes, part 2
+    
+    no comprende -> bonjarmis
+    removed more tech racism, dramatically shortening the section
+    for next draft, we'll want to look back at revisions before this and add a new pro/con section, including our pros and cons
+
+commit 18729b18bdf5b8daf7a43c212a737907d427c389
+Author: AlexGems <alext496@terpmail.umd.edu>
+Date:   Fri Apr 1 03:34:34 2016 -0400
+
+    Conclusion{Moderate}
+
+commit b89af62fdda1983d3bfe7ed6e2215a492f048f33
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Fri Apr 1 03:30:52 2016 -0400
+
+    anlage suggested changes, see desc
+    
+    cited ubeam again, why the hell was that taken out
+    answered line of sight between what
+    really tried to stamp out the sense of technological racism that permeates this section
+    paper -> thesis
+
+commit 8488b00a2a2999a4f6f951bc97a76579f60bd274
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Fri Apr 1 02:54:54 2016 -0400
+
+    Update ch-overlapping.tex
+
+commit 32a2312385eb25022a35526f9e51d9d0a5e0d9c6
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Fri Apr 1 02:35:24 2016 -0400
+
+    added ubeam source
+
+commit e16b72825933016b25ba37ef9fa9ea80eb86c125
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Fri Apr 1 02:19:44 2016 -0400
+
+    Update ch-linear-meth.tex
+    
+    Edited and updated some information that wasn't quite correct. Rewrote time reversal description.
+
+commit 0bcc89326f9594dd334125271773d8d7e2afaa87
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Fri Apr 1 02:04:35 2016 -0400
+
+    retitled as per old Stevie A
+
+commit fed7ed30a77a42bd88904ae68a5a1bcf894bd95f
+Author: Lctao <LCTAO13@gmail.com>
+Date:   Fri Apr 1 01:16:49 2016 -0400
+
+    Added entry for rectenna
+
+commit 45988c29717855d9403b688ae86cae1db041cf1d
+Author: Lctao <LCTAO13@gmail.com>
+Date:   Fri Apr 1 01:05:59 2016 -0400
+
+    Wording and rectenna section changes
+
+commit 4d1928a9f4f43dede07c2ec940d3f40cb2e57872
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Thu Mar 31 21:49:11 2016 -0400
+
+    retitling as per SMA
+
+commit a4525b2db1a4c743218a744fc6daae3aa2366f57
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Thu Mar 31 21:41:23 2016 -0400
+
+    measurements
+    
+    Anlage wanted measurements, so measurements
+
+commit 8e4a910cc4457c0689135cb5c37f939af3643dba
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Thu Mar 31 21:39:49 2016 -0400
+
+    measurements
+    
+    hey Jefferey, wanna measurements?
+
+commit 992575d0217534f1c1e74ececda73cc6c60f65d7
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Thu Mar 31 21:38:13 2016 -0400
+
+    added super rectenna
+    
+    good DPS, high ammo consumption
+    
+    also nerfed auto rectenna
+
+commit e9a2cf4b63c6f57f2da85dce383b167ae7b4b112
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Thu Mar 31 21:32:16 2016 -0400
+
+    Update ch-nanorods.tex
+
+commit b00340861d57bef549cac36f0a68a45a0cb07fd5
+Author: AlexGems <alext496@terpmail.umd.edu>
+Date:   Thu Mar 31 10:49:18 2016 -0400
+
+    Abstract{Minor}
+
+commit 9c1c7ec461170cc7d09304dd3539d8b22acaef6c
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 10:43:17 2016 -0400
+
+    minor remaining change to the cover page
+
+commit 7fa2ce36c843923642d124c628bb2179e7fe7c8a
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 10:41:11 2016 -0400
+
+    fixed cover page
+
+commit d79e85fd03d4a622f4f964e3212b22269fd1c42f
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Thu Mar 31 10:36:32 2016 -0400
+
+    Finished factoids.  Removed Reverse-capacitance.
+
+commit 4b36764cd877d3826da88b31e3f7aee7160b960b
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Thu Mar 31 10:28:15 2016 -0400
+
+    Updating Glossary
+
+commit 78dff9d49e1f721b0cb1c0751b1230190acac0cf
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 10:05:45 2016 -0400
+
+    fixed figures in nanorods and spatial
+
+commit f5c66b07e860d2ed194250ba5b50fb47996ad5b7
+Author: AlexGems <alext496@terpmail.umd.edu>
+Date:   Thu Mar 31 10:01:19 2016 -0400
+
+    Apostrophe fix {Minor}
+
+commit a97be3de1acc7c778ea07835abaa91bddefa4a20
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Thu Mar 31 09:59:20 2016 -0400
+
+    Removed To Do
+
+commit 019125e62106fa1788b1a02f253f662bc7ea4e8c
+Author: AlexGems <alext496@terpmail.umd.edu>
+Date:   Thu Mar 31 09:59:15 2016 -0400
+
+    Update ch-rectenna.tex
+
+commit 6e525d06d7a4b05a0931c4b976f995eafe64b1a3
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Thu Mar 31 09:53:58 2016 -0400
+
+    '
+
+commit 970a366d961a5162620d635c34148a579613023c
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Thu Mar 31 09:50:13 2016 -0400
+
+    figure captions
+
+commit 503d541a585c6aaa8d1f09d45d21edef6c38e2a8
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Thu Mar 31 09:48:25 2016 -0400
+
+    Updated conclusion
+
+commit fd9337c76cc7e7c6c476743be9311d01a8463571
+Author: K1ngf1sherKenob1 <bphilip@terpmail.umd.edu>
+Date:   Thu Mar 31 09:43:21 2016 -0400
+
+    Update ch-nltr-selective.tex
+
+commit 7c9e9687ea115108bd1b23c0b67fd9ef538283f2
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Thu Mar 31 09:41:16 2016 -0400
+
+    fix todo
+
+commit 5b81e9b6b8d6a048f4af27252c413efbdca1fa5b
+Author: AlexGems <alext496@terpmail.umd.edu>
+Date:   Thu Mar 31 09:41:01 2016 -0400
+
+    ?? Reminder
+
+commit 3b9b54accc73f11888a84e1a705333e9c217a7d9
+Author: K1ngf1sherKenob1 <bphilip@terpmail.umd.edu>
+Date:   Thu Mar 31 09:30:44 2016 -0400
+
+    Update ch-moving.tex
+
+commit 1871fb11fd98157870895b3e2f1197dc1391758a
+Merge: 9af63aa 11da5a7
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 09:30:12 2016 -0400
+
+    merge nanorods
+
+commit 9af63aa7183486f47a5fa7546ac515b58d6eb278
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 09:30:00 2016 -0400
+
+    fixed nanorod pfigures
+
+commit 11da5a7526cdcc8fd163e2d7b1095f5c782f5535
+Author: K1ngf1sherKenob1 <bphilip@terpmail.umd.edu>
+Date:   Thu Mar 31 09:28:03 2016 -0400
+
+    Update ch-moving.tex
+
+commit 7ea97ad20faad1acccdb8cbddf111f3b7d099b2b
+Author: K1ngf1sherKenob1 <bphilip@terpmail.umd.edu>
+Date:   Thu Mar 31 09:25:42 2016 -0400
+
+    Update ch-spatial.tex
+
+commit 3b02cf4a6bf72967cbc6955b87ad7e5cf05b07e8
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 09:19:08 2016 -0400
+
+    nanorods todo
+
+commit f10fd8b3afe56625fa46ef0ba642a6d89aede23b
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Thu Mar 31 09:15:29 2016 -0400
+
+    Fixed references to Figures 8 and 9
+
+commit 8f60cd381c8a9e3211c2b84fb0533688ee25d1c5
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Thu Mar 31 09:08:55 2016 -0400
+
+    Update ch-spatial.tex
+
+commit 0ea52c8875f5fcfbe6ca91cbc6c6a53918988786
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 09:00:13 2016 -0400
+
+    beginning of nanorods figures
+
+commit 07dfeb0b57dd58cf077b945657d1d04de06295fa
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Thu Mar 31 08:55:00 2016 -0400
+
+    SUMMMARIES
+
+commit c2aac361c34bc012e6bf3ab6708d0f976079c533
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Thu Mar 31 08:48:02 2016 -0400
+
+    Updated acknowledgements
+
+commit 80cbdff957ec6e9a6c20222b8868cc0a667980e1
+Author: K1ngf1sherKenob1 <bphilip@terpmail.umd.edu>
+Date:   Thu Mar 31 08:47:49 2016 -0400
+
+    Update ch-lit-review.tex
+
+commit 42e9454fa8e4cec1db4366695ba5f6efeb8a26fc
+Author: K1ngf1sherKenob1 <bphilip@terpmail.umd.edu>
+Date:   Thu Mar 31 08:43:03 2016 -0400
+
+    Update ch-lit-review.tex
+
+commit ce19f1b1e349324d4fd88a983b9b43609c33748e
+Author: K1ngf1sherKenob1 <bphilip@terpmail.umd.edu>
+Date:   Thu Mar 31 08:34:25 2016 -0400
+
+    Fixed Nokia's screwy quote.
+
+commit 2d5ec7c4c0884a0cc50a715d416349433538cdb8
+Merge: 3410de5 f29448d
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 08:28:45 2016 -0400
+
+    more merging yay
+
+commit 3410de5a596af98b530d5cea5b96faa66a907d21
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 08:28:35 2016 -0400
+
+    idk
+
+commit f29448d0fbc4b78def4e01abc9319acc37168c52
+Author: AlexGems <alext496@terpmail.umd.edu>
+Date:   Thu Mar 31 08:19:43 2016 -0400
+
+    Conclusion{Minor}
+
+commit 1b513ce6603c2862323270a68534a3a193fd828a
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Thu Mar 31 08:08:02 2016 -0400
+
+    Update ch-lit-review.tex
+
+commit 397c6a82de757a112accc45d1bf05e9beac17195
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 08:05:16 2016 -0400
+
+    removed appendix
+
+commit 59d900d6d19b40526f5ce127f9836972e1e33fe0
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Thu Mar 31 08:01:30 2016 -0400
+
+    Added figures for nanorods
+
+commit 737b273593bb19356c9b59083f2d6d8fefc4a734
+Author: AlexGems <alext496@terpmail.umd.edu>
+Date:   Thu Mar 31 07:56:40 2016 -0400
+
+    Conclusion {Minor}
+
+commit 5283aa2cb36610636db49456873769ec0e632afc
+Merge: 6ecef61 408c3c9
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 07:56:28 2016 -0400
+
+    merge AGAIN ㅠㅠ
+
+commit 6ecef612f77ea4c85abe39f577821995bd6fc615
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 07:56:14 2016 -0400
+
+    updated pdf
+
+commit 04d25d7271501aaf8bc9c29de7d1636b8a1a7dd7
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 07:56:08 2016 -0400
+
+    finally fixed glossary nonsense
+
+commit 408c3c94bfd56bed2ceec45749a2dfb26b847486
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Thu Mar 31 07:54:03 2016 -0400
+
+    Gave this piece of shit purpose
+
+commit e12ced5918c8d69d2076b3f9947194131aaff357
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Thu Mar 31 07:48:19 2016 -0400
+
+    Update main.bib
+
+commit b57cc4c0043faa123b50a5f3f6f9745c7c3f7211
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 07:40:03 2016 -0400
+
+    fixed glossary nonsense
+
+commit a5a4c966b3420c5cbbf75add6413958ae2b31d29
+Merge: 05ad84c d8586d4
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 07:35:31 2016 -0400
+
+    merge
+
+commit 05ad84cf6260849b807cd3f0c436e79e397abdc0
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 07:35:22 2016 -0400
+
+    some minor build fixes
+
+commit d8586d49bc91e9d50c1df261ab8ddb6d0152e91c
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Thu Mar 31 07:29:05 2016 -0400
+
+    Fixed formatting for sections
+
+commit 897d54699e4e1b8bfd3e41e2c7cb3c004d991a28
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Thu Mar 31 07:26:05 2016 -0400
+
+    got some figure shit pulled together
+
+commit 1d8b05a548d9178bae829d6f8b8c58da37d53e75
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Thu Mar 31 07:25:18 2016 -0400
+
+    Update main.bib
+
+commit 0275e3b52c7426bcb2f435ea274112b2a79d149b
+Author: AlexGems <alext496@terpmail.umd.edu>
+Date:   Thu Mar 31 07:22:20 2016 -0400
+
+    Intro{Moderate}
+
+commit c760afacfda4bb92fbc4933e153c2fe6706af2f6
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Thu Mar 31 07:19:13 2016 -0400
+
+    Update ch-moving.tex
+    
+    $t_c$ and $t_d$ added
+
+commit f7fea94a619609c98a7faed8a854e2d3c02f8ba7
+Merge: a067891 8a41b99
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 07:14:12 2016 -0400
+
+    merge
+
+commit a0678916f2e1f61229b3be1b16e9c54c1c23cfa1
+Merge: 2b755cb 621f8df
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 07:13:37 2016 -0400
+
+    mege
+
+commit 8a41b99dd74e111fc5037c8a99175cb3b58a7379
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Thu Mar 31 07:13:01 2016 -0400
+
+    Update glossary.tex
+
+commit 2b755cb196798048d3a89d23ed92740d13f3cfcd
+Merge: a2f67be 4badbd9
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 07:12:44 2016 -0400
+
+    merge
+
+commit 621f8df738bdfabd845d4b09bd5d69376702d827
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Thu Mar 31 07:12:42 2016 -0400
+
+    added summaries of LTR sections
+
+commit a2f67be04d854a5234c8bcfa939850ff8abf5599
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 07:12:35 2016 -0400
+
+    fixed equations and figs in moving
+
+commit 4badbd96d2247d07fedf0985710661a73a16496a
+Author: AlexGems <alext496@terpmail.umd.edu>
+Date:   Thu Mar 31 07:10:52 2016 -0400
+
+    Introduction {Minor?}
+
+commit 793900da4add0d626b45d5d7d1d4e7b9c68bfdc8
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Thu Mar 31 07:06:02 2016 -0400
+
+    Update ch-spatial.tex
+
+commit aaea6039ce929293a0ff867ebddc43041a2ac7f2
+Author: AlexGems <alext496@terpmail.umd.edu>
+Date:   Thu Mar 31 07:01:31 2016 -0400
+
+    {Introduction concision}
+
+commit 9cccad5aeac7da453d645c6d6c061d40eaacf39e
+Author: AlexGems <alext496@terpmail.umd.edu>
+Date:   Thu Mar 31 06:42:28 2016 -0400
+
+    Fixed some fonts
+
+commit 350ebdd531df4f1b91496e9b46f5ea1b9a75bb6c
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Thu Mar 31 06:30:24 2016 -0400
+
+    v1 nanorods
+    
+    again figures
+
+commit e4c167786b0891311fd5e919b70b24937e834d61
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Thu Mar 31 06:26:13 2016 -0400
+
+    Update ch-lit-review.tex
+
+commit a8afe5d97d8efc5ae3272289f6ef73c571ca1875
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Thu Mar 31 06:22:17 2016 -0400
+
+    Updated "experience" section.
+
+commit 83e81ff61d283323564e8593d690a882616d45b1
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Thu Mar 31 06:16:52 2016 -0400
+
+    v1 moving
+    
+    images to be implemented
+
+commit ff64fb892297f776649e8db072c943156d684554
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Thu Mar 31 06:13:54 2016 -0400
+
+    v1 spatial
+    
+    Images importing still needs to be implemented
+
+commit cf19bb2e0750b8d668e5ece23d51571d2b7ac712
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Thu Mar 31 06:10:14 2016 -0400
+
+    Update main.bib
+
+commit 14ee5d431a8f80623ba990c82e8ad29117516182
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Thu Mar 31 06:07:35 2016 -0400
+
+    Update main.bib
+
+commit fd4faf2715e2c309450d37d182e1fdce21445055
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Thu Mar 31 06:07:25 2016 -0400
+
+    Update main.bib
+
+commit 40aa3f9b9bdecf6bc77327d80aef9fdb79a47626
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Thu Mar 31 05:57:48 2016 -0400
+
+    v1
+
+commit a5cfa3cb464129eb055faf41dc0b74ed045aa4a4
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Thu Mar 31 05:52:47 2016 -0400
+
+    Reworded Equipment Limitations for Flow
+
+commit 91d62e581195e0a1ff294b3cb1375bca46dbfba3
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 05:26:56 2016 -0400
+
+    added selective recon section
+
+commit 4ca19bab792afa9922705f02e9f6a5c8128fb701
+Author: AlexGems <alext496@terpmail.umd.edu>
+Date:   Thu Mar 31 05:26:32 2016 -0400
+
+    Cleaned up {Future Work} intro paragraph
+
+commit 6360e9dc08ed357d73a33625ac2b7405d1bd6538
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Thu Mar 31 05:10:07 2016 -0400
+
+    Update main.bib
+
+commit 0f3b9640bab7bdabbd1defa5e547f3e46071f8b5
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Thu Mar 31 05:05:46 2016 -0400
+
+    Reformatting layout of future work section.
+
+commit 49960f6c56ccdd7e0728e566892c84a42d2548b4
+Merge: a9b969e 41d3071
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 05:02:20 2016 -0400
+
+    merged
+
+commit a9b969e44c11a886239934e163e91dbc0ab1e0a2
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 05:02:03 2016 -0400
+
+    added example sona and recon figures in lit review
+
+commit 41d307143c75783ec11d54824f82effe16451fcf
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Thu Mar 31 04:49:35 2016 -0400
+
+    Minor modifications to future work.
+
+commit a04e5b9f822c84af716f5bfa0e662f74b47c0f6e
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Thu Mar 31 04:48:20 2016 -0400
+
+    Update ch-nltr-simulation.tex
+
+commit d2e23197088554ccaed4a0fd64bb270e5b2cc68f
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Thu Mar 31 04:44:41 2016 -0400
+
+    fixed butler's apostrapheeeees
+
+commit 3c7dcaee2fd9483da27a31e87f2c9a067229580c
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 04:43:47 2016 -0400
+
+    updated pdf
+
+commit 9ea2de7bf5837b6cac96b6e6783eaca483e78743
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 04:41:39 2016 -0400
+
+    added a citation and added some spacing in lit review
+
+commit b643280afd930c8cbd5c1ba9a062f79ae9101211
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 04:33:11 2016 -0400
+
+    added bulleted list in lit review
+
+commit bb07843772e78afc7040cb32a18bf2dfee0f719b
+Merge: 9e56c04 68f96c5
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 04:31:19 2016 -0400
+
+    merge
+
+commit 9e56c04ed2ec4eb0ab009908e912c3dba521b35a
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 04:30:49 2016 -0400
+
+    more figure work in nltr
+
+commit 68f96c5a40b8e0785abc3889dec2ecf92e584d0c
+Author: AlexGems <alext496@terpmail.umd.edu>
+Date:   Thu Mar 31 04:28:27 2016 -0400
+
+    Changes made to Future Work {Moderate}
+
+commit 124105e3d0d6e6a733d544baa0a8a4d3c6cc5b6f
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 04:22:17 2016 -0400
+
+    fixed figure in nltr sim
+
+commit 6d22f7483374d419b920611b9bad61821dfba54c
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Thu Mar 31 04:21:12 2016 -0400
+
+    added a REALLY weak outro
+
+commit e6dc4921b508cc81d9bffb624036a7c66fa7e106
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Thu Mar 31 04:21:01 2016 -0400
+
+    Delete selective-recon-low.png
+
+commit f6e22c486807857d3dc4b959f461791581d4c0bc
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Thu Mar 31 04:20:54 2016 -0400
+
+    Delete selective-recon-high.png
+
+commit 7b990b3ca1f9ffa2dabd3e832e702651b3ada0bb
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Thu Mar 31 04:20:30 2016 -0400
+
+    Added files via upload
+
+commit 8b274784592bfb81dae03241159514cf358d4bf5
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 04:19:12 2016 -0400
+
+    some glossary fixes
+
+commit 0d6a637db01c9d986b5104f6beba2811e98e2056
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Thu Mar 31 04:16:55 2016 -0400
+
+    Update ch-nltr-simulation.tex
+
+commit b9ba0b107f5a18e5dde214cd0d48460424d8ba7b
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Thu Mar 31 04:14:34 2016 -0400
+
+    I'm bringing the glossary back
+
+commit 935f13dab6ba5fccbbfee25d4f4fd73fa55a51b2
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 04:11:34 2016 -0400
+
+    updated glossary
+
+commit ca5f17aae9d8a61ba041c245e86f47bda95e5703
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 04:09:00 2016 -0400
+
+    lit review finally added
+
+commit 53b339b47c9e6b0101db1165e31cf9f4d74fd618
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Thu Mar 31 04:07:44 2016 -0400
+
+    Delete sonas.png
+
+commit c5b6b81aaf337b631f2d959d3100989429bc9ff8
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Thu Mar 31 04:07:28 2016 -0400
+
+    Delete room-model-b.png
+
+commit df178048b1a42587ff2956b929769670dde8b550
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Thu Mar 31 04:07:23 2016 -0400
+
+    Delete room-model-a.png
+
+commit 619f02b3e149b4e459a481ea4bdb490b88ee0d6f
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Thu Mar 31 04:07:13 2016 -0400
+
+    Delete cst-box.png
+
+commit 7d0284a943f7bea9cb6778653ee9e18629c0a30b
+Author: sroman215 <scott.andrew.roman@gmail.com>
+Date:   Thu Mar 31 04:07:02 2016 -0400
+
+    Added files via upload
+
+commit 530909bb865dfe310b80dad33e9b24cd37f18507
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Thu Mar 31 03:59:05 2016 -0400
+
+    banished the bug people
+
+commit 431c182cbecda3f855e3f0f2d119e669d62ce7eb
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Thu Mar 31 03:47:49 2016 -0400
+
+    added a weak outro
+
+commit 1a89ed0b3b0fd3cabb2b18384f72ab52139c8c6c
+Author: tgrover1 <tgrover@terpmail.umd.edu>
+Date:   Thu Mar 31 03:40:14 2016 -0400
+
+    Update ch-conclusion.tex
+
+commit 8179c2444c8a26850346e317e11b5c6f29edc159
+Author: K1ngf1sherKenob1 <bphilip@terpmail.umd.edu>
+Date:   Thu Mar 31 03:16:14 2016 -0400
+
+    Update ch-lit-review.tex
+    
+    Proofed.
+
+commit dda79d27c6d2adea509e90b84bcbe08b309e5383
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Thu Mar 31 03:15:21 2016 -0400
+
+    fixed screwy quotes and apostrophes
+
+commit 5798eb44d9766320430c8faed250e5884b5d6858
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 03:13:01 2016 -0400
+
+    updated intro
+
+commit cc071155e96b2421fbf90a6267fb11051581a47e
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 03:11:17 2016 -0400
+
+    bye bye armadillos :(
+
+commit 4ca5e80f3c6d932525ee96bfaa304384902d6017
+Author: Lctao <LCTAO13@gmail.com>
+Date:   Thu Mar 31 03:05:34 2016 -0400
+
+    Added equations
+
+commit f2ec4f2bd5256174bf6697c51022e8e6d30936ec
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Thu Mar 31 03:05:22 2016 -0400
+
+    changed figure name
+
+commit fe87cc8da50bdd2b08264973e3083535ebd3ba88
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Thu Mar 31 03:03:57 2016 -0400
+
+    changed figure name
+
+commit b8bcf9bc4de673953cbf3c17d3c8becd6356febc
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Thu Mar 31 02:55:05 2016 -0400
+
+    fixed screwy quotes
+    
+    additionally ray chaotic is two words
+
+commit 4c92abf13a18927e22546e622b34ff6f127041b0
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Thu Mar 31 02:52:44 2016 -0400
+
+    fixed screwy quotes and apostrophes
+
+commit 9c4d47f62fa41048316f6b8068235b3da648e0aa
+Author: Lctao <LCTAO13@gmail.com>
+Date:   Thu Mar 31 02:27:52 2016 -0400
+
+    Deleted sentence referencing deleted plot
+
+commit c48fd9d6d42590bbfd943f4df02280ab2fd2edfe
+Author: Lctao <LCTAO13@gmail.com>
+Date:   Thu Mar 31 02:19:02 2016 -0400
+
+    Minor text rewrites to test commits
+
+commit 77c099c1c5aa1f9c0feb40a146576cc3c1841033
+Author: K1ngf1sherKenob1 <bphilip@terpmail.umd.edu>
+Date:   Thu Mar 31 02:07:14 2016 -0400
+
+    Update ch-conclusion.tex
+
+commit e207e853120cad5ba979b2697dcdcbacd799ce64
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Thu Mar 31 02:00:05 2016 -0400
+
+    added, y'know, text
+
+commit 8ae2dbb0983329dbe590414b296a7748e97ffbe3
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Thu Mar 31 01:43:32 2016 -0400
+
+    deleted a newline
+    
+    changed a (I think unintentional) extra newline between paragraphs
+
+commit bd9e1559759afcbafe271484e9341a642a7fb481
+Author: FTurman <tim.r.n.furman@gmail.com>
+Date:   Thu Mar 31 01:28:26 2016 -0400
+
+    Added the one with the numbers
+
+commit 3885d3ce3b03ea38543110cd98a3ef9881101679
+Author: P47Healey <phealey@terpmail.umd.edu>
+Date:   Thu Mar 31 00:59:33 2016 -0400
+
+    no this is patrick
+
+commit 2d196d4c44d5826cde0b4ac8ebbfae93af7b1357
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 00:55:43 2016 -0400
+
+    added the intro nltr section
+
+commit b945895bb839e6efe0d74c23c190519568be7ae1
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 00:33:45 2016 -0400
+
+    added patricks little intro to experiments, maybe should be a seperate chapter? i dunno
+
+commit 2e2e1be961965020dd62df2557416c2bca634d8d
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Thu Mar 31 00:29:41 2016 -0400
+
+    fixed the nltr organization bs and added the linear time reversal methodology section
+
+commit 4afe1aa2b6c7cdfc7c8e8939c3412c15416977a0
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Wed Mar 30 23:54:20 2016 -0400
+
+    added the overlapping section
+
+commit bf0ef2d80d3941669ab6b70b0a26077ca4cf2cbb
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Wed Mar 30 23:08:04 2016 -0400
+
+    added empty chapter sections, added full rectenna section and figures
+
+commit 566862b201abe30b00bdbaa5e547fd2c3e78585c
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Wed Mar 30 13:27:52 2016 -0400
+
+    added figs for spatial profile chapter
+
+commit fbbaf46a975906c970a11c7626508125303010c3
+Author: Frank Cangialosi <fcangialosi94@gmail.com>
+Date:   Wed Mar 30 13:14:24 2016 -0400
+
+    initial commit
