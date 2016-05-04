@@ -1,0 +1,2942 @@
+ fix calls to base in MvxExpandableListAdapter so that they can be overridden
+ added constructor with bindingContext to MvxExpandableListAdapter
+ Merge pull request #1312 from azchohfi/fixAnalyzersTestsProj Replaced relative path with build variable for Program Files folder.
+ Merge pull request #1313 from azchohfi/applyMustBeCalledAnalyzer Apply must be called analyzer and codefix.
+ Replaced relative path with build variable for Program Files folder. This makes it works other than my machine.
+ Fixed the last test.
+ Replaced relative path with build variable for Program Files folder. This makes it works other than my machine.
+ Added CodeFix for Apply on Fluent Binding. Still with wrong whitespace.
+ Added analyzer to detect missing call to fluent binding set's Apply method.
+ Merge pull request #1306 from azchohfi/servicesWorkingAnalyzer New analyzer/codefix for MvxMessengerSubscription return value.
+ Removed unecessary old nunit reference.
+ Fixed analyzer test without using.
+ "Store Token" codefix now adds using directives (#2)
+ Merge branch '4.0' of https://github.com/azchohfi/MvvmCross into servicesWorkingAnalyzer
+ Merge branch '4.0' of https://github.com/MvvmCross/MvvmCross into 4.0
+ why x86?
+ Update nuspecs
+ Merge pull request #1290 from SeeD-Seifer/plugin_registry_ex Refactor plugin registry
+ Analyser now considering the immutable tree.
+ Merge branch '4.0' of https://github.com/azchohfi/MvvmCross into servicesWorkingAnalyzer
+ Merge branch '4.0' of https://github.com/MvvmCross/MvvmCross into 4.0
+ Merge pull request #1300 from kjeremy/missing-jni-constructors Add missing JNI constructors
+ Add missing JNI constructors Fixes #1299
+ Fixed tests and a minor bug in the codefix and analyzer.
+ [WIP] MvxMessenger Subscribe not storing token (#1)
+ Merge pull request #1298 from willsb/4.0 Introduces the IMvxAsyncCommand interface
+ Introduces the IMvxAsyncCommand interface
+ Merge pull request #1294 from sescandell/mvxFrameControlEnhancement Add a way to interact on Content with MvxFrameControl
+ Merge pull request #1295 from spockfish/4.0 add .mailmap file so 'git shortlog' shows sane output
+ add .mailmap file so 'git shortlog' shows sane output
+ Add capacity for a user to interact on Content with MvxFrameControl
+ Merge remote-tracking branch 'refs/remotes/MvvmCross/4.0' into servicesWorkingAnalyzer
+ Merge remote-tracking branch 'refs/remotes/MvvmCross/4.0' into 4.0
+ Merge pull request #1292 from martijn00/json-streams Json streams
+ Move deserializing json streams into existing interface
+ Merge commit '98bd70e1b785154365233f5a4ed8bd0e544bdc7e' into json-streams
+ Merge pull request #1284 from martijn00/ViewModelNavigation Add possibility to pass custom objects with Viewmodel navigation
+ Refactor plugin registry Plugin registry embedded into base MvxPluginManager implementation, so that MvxFilePluginManager tries to find custom (unconventional) plugin loaders first. MvxLoaderPluginManager with it's interface deleted. MvxMacSetup and MvxIosSetup use MvxPluginManager now. MvxSetup class provide virtual method to access plugin registry.
+ Added description to make usage clear
+ Merge commit 'c6b3976e3025464005adb97df258c959a106d74a' into ViewModelNavigation
+ Merge pull request #1287 from thefex/FragmentPresenterMultiParent Fragment presenter multi parent
+ Merge pull request #1288 from martijn00/output-path Fix droid shared output path and remove designer files
+ Fix droid output path and remove designer files
+ At Fragment host registrator: MvxFragmentAttributes are stored in List<> now - there is no need for a SortedSet as MvxFragmentAttributes are stored in list in same order they have been applied to Fragment class.
+ Fixed bugs with MultiParent - Multi Parent Activity fragment feature works as expected now.
+ Removed MvxListFragment - it is not implemented. DO we really have to support old ListFragment in RecyclerView era?
+ Merge remote-tracking branch 'upstream/4.0' into 4.0
+ Implemented Multi Fragment Activity Parent for Full Fragging and Shared Fragment code. MvxFragment is MultiCast Attribute now. The first MvxFragment attribute is the default MvxFragment attribute considered during presenter phase. So if actual activity host is invalid - the top one (first one) MvxFragment attribute is used by MvxFragmentPresenter.
+ Merge pull request #1286 from kjeremy/acw-ctors Don't put any special logic in the ACW constructors
+ Remove redundant constructor logic
+ Don't put any special logic in the ACW constructors The appropriate constructor gets called after the ACW constructor. Avoids duplicating work and calling virtual functions until after the Java side is fully initiated. Fixes #1285
+ Add view to proj file
+ Add possibility to pass custom objects with Viewmodel navigation
+ Merge pull request #1283 from robertbaker/patch-1 Fixes: System.InvalidOperationExceptionSequence
+ Fixes: System.InvalidOperationExceptionSequence
+ Bump nuspec versions
+ Use this instead of base to avoid code duplication
+ Merge pull request #1277 from slown1/4.0 Added missing constructor
+ Added missing constructor
+ Merge pull request #1272 from martijn00/shared-droid Fix caching and some bugs for full-fragging
+ Fix caching and some bugs for full-fragging
+ Fix nuspec derpage.
+ Bumped version and added to pack script
+ Merge pull request #1268 from martijn00/shared-droid Move shared fragment logic to shared lib
+ Remember to commit csproj
+ Added expanded JsonConverter interface for https://github.com/MvvmCross/MvvmCross-Plugins/issues/71
+ Bump version to 4.1.0
+ Merge pull request #1269 from MvvmCross/UIStepperTargetBinding UIStepper Value target binding and UIControl ValueChanged command binding
+ Fix full fragging
+ Nothing to see here
+ Added UIControl ValueChanged command binding
+ Added Value binding target for UIStepper
+ Cleanup files
+ Adjust namespaces
+ Move shared fragment logic to shared lib
+ Merge pull request #1267 from SeeD-Seifer/android_bitmap_existance_check Add bitmap existance check in Droid's MvxImageView
+ Add bitmap existance check in Droid's MvxImageView
+ Someone forgot adding the Binding dll to the Windows Common nuget lib
+ Merge pull request #1266 from SimonSimCity/AddedSwipeGestureRecognizerBehavior Added swipe-gesture-recognizer
+ Added swipe-gesture-recognizer
+ Merge pull request #1262 from SeeD-Seifer/android_fix_mvximageview Fix Android crash when Bitmap updated after MvxImageView destroyed
+ Fix Android crash when Bitmap updated after an MvxImageView object destroyed ImageHelperOnImageChanged method propogates bitmap update on the UI thread, which leads to crash in cases, when MvxImageView has been disposed by Android runtime. This simple fix avoids the crash.
+ Merge pull request #1241 from PelleRavn/4.0 Added MvxCollectionReusableView
+ Merge pull request #1261 from thefex/4.0 Added missing JNI interop constructors in MvxLayoutInflaterCompat
+ Added missing JNI interop constructors in MvxLayoutInflaterCompat. When Fragment/Activity is destroyed, it looks like managed peer instance of MvxLayoutInflaterCompat is sometimes disposed. JNI could not recreate instance of inflater because of missing IntPtr, JniHandleOwnership constructor - therefore application crash with UnsupportedOperationException.
+ Highlighted where to put repro samples
+ Added MvxTestFileSource to help add multiple files for each specific project (Core, Droid) for any test case.
+ First refactor to allow adding files to Core or Droid project, to allow better test scenarios. All tests passing.
+ Merge pull request #1252 from azchohfi/canExecuteChangedNotUsedAnalyzer [Analyzer/CodeFix] RaiseCanExecuteChanged never called when needed
+ Added Codefix.
+ Allows use of Elvis Operator to invoke RaiseCanExecuteChanged.
+ Considering lazy loading.
+ Added support for C#6's Arrow creation. Some refactorings.
+ Added Analyzer to check if a Command with CanExecute never has it's RaiseCanExecuteChanged method called.
+ Merge pull request #1249 from ErezG/4.0 MvxWindowsMultiRegionViewPresenter - support searching for a frame which exists inside a frame
+ fix lines
+ The current code does not support searching for a frame which exists inside a frame. I encountered that problem in a project I am working on. The fix above works in my project.
+ Merge pull request #1247 from lothrop/4.0 Added helpers for localization with fluent binding
+ Fixed class name typo.
+ Added two helpers to more easily use localization with fluent binding.
+ Merge pull request #1246 from azchohfi/fixCodeAnalysisNuspec Fixed CodeAnalysis.nuspec.
+ Merge pull request #1238 from azchohfi/analysersTests Added Analysers test project.
+ Fixed CodeAnalysis.nuspec. Now using default 1.1.0 and not 1.1.1(Update 1). Also adding the missing Analysers dll.
+ Merge branch 'analysersTests' of https://github.com/azchohfi/MvvmCross into analysersTests
+ Added Test Project for Analysers. Fixed a small Formatting error in ConsiderUsingGenericBaseViewCodeFix.
+ Added Issue template
+ Merge pull request #1244 from willsb/4.0 Removes mandatory parameters from MvxWrappingCommand
+ Removes mandatory parameters from MvxWrappingCommand
+ Merge pull request #1243 from infoMantisGmbH/bspinner/forced_fade_animation_fix Fix for forced fade animation on replaced rows
+ Spaced those tabs out
+ Fixed forced fade animation+ see https://github.com/MvvmCross/MvvmCross/commit/b541cf43c936b3caff358fe8f01334bbd70f3a58#commitcomment-16098449
+ Removed occurences of `this.`
+ Added MvxCollectionReusableView
+ Merge pull request #1239 from lothrop/4.0 Removed HotTuna nuspecs (not needed anymore).
+ Removed HotTuna nuspecs (not needed anymore).
+ Merge remote-tracking branch 'refs/remotes/MvvmCross/4.0' into analysersTests
+ Added Test Project for Analysers. Fixed a small Formatting error in ConsiderUsingGenericBaseViewCodeFix.
+ Merge pull request #1236 from martijn00/icon Use mipmap as icon for splash screen
+ Merge pull request #1237 from mvanbeusekom/4.0 Renamed icon location
+ Renamed icon location Retrieve icon from 'mipmap' folder (instead of 'drawable').
+ Use mipmap as icon for splash screen
+ Small casing fix
+ Merge pull request #1231 from roubachof/patch-1 Help the coder for NotifyDataSetChanged exceptions
+ Help the coder for NotifyDataSetChanged exceptions I tried to enhance the exception test to give more input for the coder.
+ Added missing version increments.
+ Updated version to 4.0.0.
+ Merge pull request #1229 from Stephanvs/4.0 Also pack CodeAnalysis nuget
+ Also pack CodeAnalysis nuget
+ Merge pull request #1225 from roubachof/4.0 Missing changes for adapter long-life subscription sub-issue on #1217
+ Missing changes for adapter long-life subscription sub-issue on #1217
+ Merge pull request #1220 from MvvmCross/adapter-tidyup-patch-1 Adapter long-life subscription sub-issue on #1217
+ Adapter long-life subscription sub-issue on #1217 may need additional fixes in other adapter like classes
+ Merge pull request #1216 from martijn00/nuget-title Update titles for nuget to new names
+ Bindings depend on Localization not Platform.
+ Add MvvmCross.Console.Platform to pack script
+ Update titles
+ Update README.md
+ Merge pull request #1214 from martijn00/merge-fragments Copy support fragments to full fragging
+ Copy support fragments to full fragging
+ Merge pull request #1213 from lothrop/4.0 Made MvvmCross.StarterPack pull in MvvmCross, not the other way around.
+ Made MvvmCross.StarterPack pull in MvvmCross, not the other way around.
+ Merge remote-tracking branch 'upstream/4.0' into 4.0
+ Moved legacy nuspecs to deprecated folder.
+ Merge pull request #1211 from lothrop/4.0 Added dummy packages to ease migration from HotTuna.
+ Added dummy packages to ease migration from HotTuna.
+ Merge pull request #1200 from MvvmCross/restructure Restructure and cleanup of projects and files
+ Merge pull request #1210 from lothrop/restructure Got nuspecs working for all platforms.
+ Merge remote-tracking branch 'upstream/restructure' into restructure Conflicts: nuspec/MvvmCross.Binding.nuspec
+ Got nuspecs working for all platforms. No more separate nuget packages for Xamarin.Mac, it just works!
+ Fixed missing rename
+ Merge pull request #1209 from lothrop/restructure Nugets for Mac
+ Include Mac nugets. Re-added Mac solution.
+ Nuspec fixes for targetFramework.
+ Update README.md
+ Merge remote-tracking branch 'upstream/restructure' into restructure
+ Merge branch '4.0' into restructure
+ Merge pull request #1207 from lothrop/restructure Fixes to get pack.ps1 to run again.
+ Made pack.ps1 run again. Updated nuspecs to beta8. Remove outdated MvvmCross.Droid.Maps.
+ Merge pull request #1206 from lothrop/restructure More cleanup of Touch and Cirrious.
+ More cleanup.
+ Merge pull request #1205 from lothrop/restructure Fixed templates to match new naming structure.
+ Fixed templates to match new naming structure.
+ Added blog to README.md.
+ Merge pull request #1204 from lothrop/restructure Renamed all occurrences of "Touch" to "iOS"
+ Removed stray using statements.
+ Merge remote-tracking branch 'upstream/restructure' into restructure
+ Replaced two occurrences of "Touch" in strings.
+ Renamed all files and methods containing "Touch" to "Ios".
+ Renamed PortableSupport assemblies from .Touch to .iOS.
+ Renamed MvvmCross.Platform.Touch to MvvmCross.Platform.iOS.
+ Renamed MvvmCross.Binding.Touch to MvvmCross.Binding.iOS.
+ Renamed MvvmCross.Dialog.Touch to MvvmCross.Dialog.iOS.
+ Renamed MvvmCross.AutoView.Touch to MvvmCross.AutoView.iOS.
+ Fixed AssemblyInfo for all projects.
+ Renamed MvvmCross.Touch to MvvmCross.iOS.
+ Renamed CrossUI.Touch to CrossUI.iOS.
+ More renaming of Touch to iOS in nuspecs (template contents still to do).
+ Renaming Touch to iOS in nuspecs.
+ Merge pull request #1203 from lothrop/restructure Adapt nuspecs to new structure
+ Dropped MonoTouch targetFramework. Renamed nuget packages to match new assembly names and directory structure. Removed HotTuna and Cirrious.
+ Fixed OutputPath for most projects.
+ Work in progress on reworking the nuspecs.
+ Merge pull request #1202 from lothrop/restructure Fixed usings in BindingEx.
+ Fixed usings in BindingEx.
+ Merge pull request #1201 from lothrop/restructure Remove unused/outdated scripts and updated packaging script.
+ Changed package names.
+ Removed unused and outdated scripts.
+ Fixed misaligned code.
+ Merge pull request #1199 from djrocksmith/restructure Windows Store and Windows Phone
+ Fix of location of files for new project structure
+ Fix of link positions in new solution structure
+ Merge pull request #1198 from lothrop/restructure Rework of Mac implementation.
+ Fixed Mac projects. Removed .XamMac and .XamMac.Unified project. Switch .Mac projects to Xamarin.Mac Unified API.
+ Rename nuspec files
+ Merge commit 'ee84b3e68776b0801f52c63f0f95ed5ed0cc5ac2' into restructure
+ Merge pull request #1196 from lothrop/4.0 Use XIB and auto layouts for iOS Starter Pack example
+ Removed Duplicate [Register] attribute.
+ Added missing files to nuspecs.
+ Added generated designer file since it doesn't automatically get generated upon build.
+ Changed StarterPack example to use XIB and auto-layouts instead of coded UI with absolute coordinates.
+ Merge remote-tracking branch 'Slodge/restructure' into restructure Conflicts: MvvmCross/Console/Console/MvvmCross.Console.csproj
+ Merge remote-tracking branch 'Slodge/4.0' into restructure Conflicts: CodeAnalysis/MvvmCross.CodeAnalysis/MvvmCrossCodeAnalysis.csproj MvvmCross/Binding/Test/MvvmCross.Binding.Test.csproj MvvmCross/Platform/Test/MvvmCross.Platform.Test.csproj MvvmCross/Platform/Test/MvxIoCTest.cs MvvmCross/Test/Test/ViewModels/MvxDefaultViewModelLocatorTest.cs
+ Merge pull request #1195 from djrocksmith/restructure Restructure
+ Removal of Cirrious from assembly.info files and Registrations for Android custom Views Updated typeof to also not search for assemblies with Cirrious in them
+ Major Refactor of namespaces and using statements. All iOS, Android and Windows Phone done. No Windows Store files in solution No WPF files in solution
+ Code analysis updated package
+ Update Moq and NUnit to latest. Also fixed test to not use the deprecated ExpectedException attribute.
+ Fix namespaces
+ Move project files
+ More moving
+ Move folder structure
+ Rename Core to Platform
+ Rename packages
+ Merge pull request #1188 from dbeattie71/4.0 Fix merge of PR 1186
+ Merge pull request #1189 from mgj/4.0 Introduce non-support-dependent version of MvxPreferenceFragment
+ Introduce non-support-dependent version of MvxPreferenceFragment
+ Fix merge of PR 1186
+ Merge pull request #1186 from thefex/4.0 Moved caching logic from support library.
+ Moved caching logic from support library. This fixes a lot of issues and crashes discovered during implementation of SupportFragging Cache.
+ Fix build configurations for when using MSBuild
+ Merge pull request #1182 from martijn00/refactorings Cleanup of code using C#6
+ Fix compile issue
+ Some null checks
+ Even more c#6
+ More c#6
+ More cleanup
+ Cleanup codebase
+ Cleanup some stuff
+ More cleanup
+ More fixes
+ Fix override order
+ Fix some build problems
+ Fix some more issue's
+ Use nameof expression
+ Use expression body and null propagation
+ Use expression body
+ Use of null propagation
+ Revert "Resharper all" This reverts commit 485d3d23cc18e8860ffc17e847f1173fe04b46f9.
+ Resharper all
+ Merge commit 'b2e814b3a87888f1e888a2cfaa84b8ec5d38d7fd' into refactorings
+ Merge pull request #1179 from mgj/4.0_Android_SearchViewCustomBinding 4.0 android search view custom binding
+ Merge pull request #1180 from martijn00/nuget-improvements Add better description, update version, add tags
+ Merge pull request #1178 from thefex/4.0 MultipleViewModel cache was not prepared for multiple instances of ViewModel
+ Remove droid resource files
+ Fix tabbing
+ Add better description, update version, add tags
+ add to project
+ Searchview binding
+ Merge branch '4.0' of github.com:MvvmCross/MvvmCross into 4.0
+ It is now possible to cache different instances of ViewModel with IMvxMultipleViewModelCache by passing "viewmodel tag". Main reason why it was implemented: caching fragments was not possible if activity had multiple instances of same fragment type - cause ViewModel cache worked only for one of those instances.
+ MvxMultipleViewModelCache is supposed to be thread-safe - but "CurrentViewModels" creation wasn't thread safe.
+ Merge pull request #1176 from lothrop/MvxUIActivityIndicatorViewHiddenTargetBinding Integrated new MvxUIActivityIndicatorViewHiddenTargetBinding from munkii.
+ Integrated new MvxUIActivityIndicatorViewHiddenTargetBinding from munkii.
+ Merge pull request #1175 from martijn00/nuget-files Fix some nuspecs and files
+ Remove todo, because nuget does that already
+ Use SetProperty in nuspec content
+ Revert "IsInstanceOfType standard available" This reverts commit 416d6937e0847c64aa06f9c23f54a3e09a6dd159.
+ Constructor 'MvxBaseActivityAdapter' can be made protected
+ Constructor 'MvxJavaContainer' can be made protected
+ Constructor 'MvxWeakEventSubscription' can be made protected
+ IsInstanceOfType standard available
+ Method 'Run' can be made protected
+ The type parameter T could be declared as contravariant
+ Merge if
+ Use method IsInstanceOfType(..)
+ The type parameter T could be declared as contravariant
+ Merge pull request #1170 from Stephanvs/cleanup Removed broken solution file
+ Bump version numbers
+ Removed broken solution file :boom:
+ Merge pull request #1169 from martijn00/mac-presenter Fix Mac presenter
+ Fix Mac presenter
+ Merge pull request #1168 from martijn00/android-compile Bump Android target version to Android lvl 21
+ Bump Android target version to Android lvl 21
+ Update README.md
+ Marshal both OnImage and After Image actions to UI Thread.
+ Merge pull request #1165 from vvolkgang/4.0 Improved ViewModelLoader and ViewModelLocator with viewmodel reloading
+ Set build action of txt file to None as it breaks build
+ Re-used ViewModel lifecycle code
+ Improved ViewModelLoader and ViewModelLocator to support fragment reloading, enabling cached fragments to go through the lifecycle again if they are being showed afterwards with different parameters.
+ Use better way of marshalling back to UI thread.
+ Remove old stuff from pack script
+ Add Binding to StarterPack
+ Make Binding depend on CrossCore
+ Remove binding dependency from CrossCore
+ Merge pull request #1157 from Stephanvs/uwp-regionpresenter Add MvxWindowsMultiRegionPresenter
+ Merge pull request #1158 from martijn00/UpdateLogo Update logo and version numbers
+ Update logo and version numbers
+ Added MvxWindowsMutliRegionPresenter Allows multiple Views to be rendered within the same parent view, through use of named Frame based container views.
+ Merge pull request #1150 from dbeattie71/patch-1 Discover CanExecuteXyz properties in ancestors.
+ Discover CanExecuteXyz properties in ancestors. Currently command builder discovers commands in ancestors but not CanExecuteXyz properties.
+ Merge pull request #1145 from mystudylife/android-propertychangedlistener Added Android specific MvxPropertyChangedListener
+ Merge pull request #1131 from ggirard-distech/4.0 Fixed unified value types conversion when binding to a nfloat, nint or uint from a managed equivalent value type.
+ Merge pull request #1146 from azchohfi/uwpPluginFix Change so WindowsCommon are valid plugins for UWP
+ Change so WindowsCommon are valid plugins for UWP Fixes #1142
+ Corrected formatting
+ Added android property changed listener
+ Merge branch '4.0' of github.com:MvvmCross/MvvmCross into 4.0
+ Don't track nuget.exe
+ Go back to latest stable NUnit, no proper runners for 3.0 yet.
+ Holy shit batman! Why are we missing AssemblyInfo files?
+ Merge pull request #1143 from mattwhetton/added-GetFragmentInfoByTag Added GetFragmentInfoByTag to MvxCachingFragmentActivity
+ Added GetFragmentInfoByTag to MvxCachingFragmentActivity
+ Update NUnit package
+ Fixed unified value types conversion when binding to a nfloat, nint or uint from a managed equivalent value type.
+ Fix nuspec
+ Removed plugins from all solution
+ Update README.md
+ Merge pull request #1129 from martijn00/PluginsRemove Moved plugins to plugins repo
+ Removed content
+ Remove nuspecs
+ Moved plugins to plugins repo
+ Merge pull request #1128 from tekkies/issue-1104b Convert full paths to relative in EnsureFolderExists(...) (Issue 1104)
+ Convert full paths to relative in EnsureFolderExists(...) (Issue 1104) Issue: https://github.com/MvvmCross/MvvmCross/issues/1104 Tests to demonstrate the issue: https://github.com/tekkies/MvvmCross/tree/plugin-platform-tests #risk3 #plugin #plugin-file #windows-store
+ Merge pull request #1126 from charri/4.0 Fix SelectionChangedCommand CanExecute not being called
+ Merge pull request #1125 from tekkies/fix-plugin-nunit-references Fix nunit path in plugins
+ SelectionChangedCommand for MvxBaseTableViewSource and MvxBaseCollectionViewSource checks if command can be executed (CanExecute). This enforces the same behavior as in android.
+ Fix nunit path in plugins
+ Update README.md
+ Merge pull request #1122 from martijn00/Cleanup Cleanup of repo
+ Fix output path
+ Remove signin
+ More plugin project fixes
+ Update plugin references
+ Fix all other solution files
+ Fix solution file
+ Move plugins to upper folder
+ Remove old samples
+ Remove community SQLite version and dll
+ Merge pull request #1121 from scastria/4.0 Add initial support for a MvxPageViewController that dynamically crea…
+ Add initial support for a MvxPageViewController that dynamically creates UIViewController pages via additional child ViewModels.
+ Merge pull request #1119 from Stephanvs/4.0 It's recommended to have at least the `analyzers` tag in your nuget
+ It's recommended to have at least the `analyzers` tag in your nuget
+ Merge remote-tracking branch 'MvvmCross/4.0' into 4.0
+ Merge pull request #1116 from martijn00/Permissions Removed unnecessary permissions
+ Merge pull request #1118 from martijn00/RoslynFixes Nuspec fixes for Code Analysis
+ Fix AssemblyInfo
+ Update to beta3
+ Fix cross core nuspec
+ Fix nuspec for Code Analysis
+ Merge pull request #1117 from Stephanvs/4.0 Add CodeAnalysis Project with Roslyn Code Analyzer
+ Fixed issue when class is already derived from generic base If `IMvxView` derived class is already using the generic base, but still exposes a `ViewModel` property it will no longer show the diagnostic/fix.
+ Add Vsix project to ease debugging the analyzers
+ Had to move to subdirectory :unamused:
+ Add initial roslyn analyzer First analyzer which looks for classes that ultimately derive from `IMvxView` and declare a property with a name of `ViewModel` whose return type is either derived from `INotifyPropertyChanged` or `IMvxViewModel` and informs users to use the generic variant of that class.
+ Merge remote-tracking branch 'MvvmCross/4.0' into 4.0
+ Removed unnecessary permissions
+ Merge pull request #1102 from tekkies/issue-1086 Return full paths from MvxWindowsCommonBlockingFileStore.GetFilesIn(...)
+ Merge pull request #1110 from krishna-nadiminti/UWP-rd-xml-fix Fixed it (properly) for 'Release' mode. Should work if Release\Any CPU
+ Fixed it (properly) for 'Release' mode. Should work if Release\Any CPU build configuration is used. The nuspec seems to reference the file ..\bin\Release\Mvx\WindowsUWP\Cirrious.MvvmCross.WindowsUWP\Properties\Cirrious.MvvmCross.WindowsUWP.rd.xml
+ Merge pull request #1109 from krishna-nadiminti/UWP-rd-xml-fix Generate lib layout to fix broken rd.xml reference in nupkg for UWP
+ Added WindowsUWP to MVVMCross Windows sln, and set option to 'Generate library layout' which copies the Cirrious.MvvmCross.WindowsUWP.rd.xml to the output folder correctly - so it can be packaged to nupkg
+ Merge pull request #1103 from michaeldaw/4.0 Adding Cirrious.MvvmCross.WindowsUWP.rd.xml in nuspec.
+ Adding Cirrious.MvvmCross.WindowsUWP.rd.xml in nuspec. The UWP package requires the file "Cirrious.MvvmCross.WindowsUWP.rd.xml" be distributed with it in order for projects using it to build properly. When the project is open in Visual Studio, this file is found under the Properties node of Cirrious.MvvmCross.WIndowsUWP. It's copied to the output folder during Release builds.
+ Retargeted Windows projects to 8.1
+ Return full paths from MvxWindowsCommonBlockingFileStore.GetFilesIn(path) (Issue 1086) Issue: https://github.com/MvvmCross/MvvmCross/issues/1086 Tests to demonstrate the issue: https://github.com/tekkies/MvvmCross/tree/plugin-platform-tests #risk3 #plugin #plugin-file #windows-store #breaking-change
+ Merge pull request #1101 from MvvmCross/4.0-uwp Added UWP project
+ Fix presenter for UWP
+ Merge remote-tracking branch 'Slodge/4.0' into 4.0-uwp
+ Merge pull request #1100 from mystudylife/presenter-enhancements Added new presentation hint handling to console
+ Added new presentation hint handling to console
+ Merge branch '4.0' into 4.0-uwp
+ Fix Focus bindings
+ Added UWP to nuspecs
+ Add dependency on Android Support V4
+ Merge pull request #1087 from IlSocio/getsizecachefix Fixed GetSizeInBytes() to proper handle memory cache limits for the Images
+ Merge pull request #1097 from mystudylife/presenter-enhancements A nicer way to handle handling multiple presentation hints
+ Initial UWP shiz niz
+ Compile Target set to API 15 Added Support v4 NuGet package
+ Should be handled before close hint handling This allows the developer to inherit from the close hint and still have the hint handled first.
+ Added a nicer way to handle lots of presentation hints
+ Update MvxAndroidImage.cs
+ Update MvxAndroidImage.cs
+ Merge pull request #1094 from martijn00/TextFocus Added Text focus code for Android and iOS
+ Merge pull request #1095 from martijn00/VersionDLLs Version dlls and set copyright to 2015
+ Merge pull request #1091 from martijn00/MvxStorePage Remove abstract from MvxStorePage
+ Remove generics from storepage
+ Merge pull request #1092 from martijn00/MvxAdapterText Improve trace message for MvxAdapter
+ Merge pull request #1093 from martijn00/IUIApplicationDelegate Rename UIApplicationDelegate to IUIApplicationDelegate
+ Update README.md
+ Version dlls and set copyright to 2015
+ Added Text focus code for Android and iOS
+ Rename UIApplicationDelegate to IUIApplicationDelegate
+ Improve trace message
+ Remove abstract from MvxStorePage
+ Update README.md
+ Update README.md
+ Rename license.txt to LICENSE
+ Rename readme.md to README.md
+ Merge pull request #1089 from martijn00/DotNetNuspecs Added dotnet files, updated version
+ Merge pull request #1090 from martijn00/Cleanup Cleanup and better gitignore
+ Update readme.md Made readme more clear
+ Cleanup and better gitignore
+ Added dotnet files, updated version
+ Fixed GetSizeInBytes() for MvxImage Computation for the allocated bytes was wrong.
+ Fix some obsolete warnings
+ Merge pull request #1084 from martijn00/Nuspecs Update nuspecs to work with VS2015
+ Merge pull request #1085 from martijn00/ForceReplaceFragment Force replace a fragment with the same viewmodel at the same contentid
+ Force replace a fragment with the same viewmodel at the same contentid
+ Remove unnecessary dependencies
+ Update nuspecs to work with VS2015
+ Merge pull request #1079 from martijn00/BackStackFix Back stack fix
+ Merge changes
+ Merge remote-tracking branch 'origin/CachingFragmentFixes' into BackStackFix
+ Fix backstack for Caching fragment
+ Fix back stack for full fragging
+ Merge pull request #1074 from kjeremy/call-base-ctors Pass the java handle down to the base constructor to avoid a potentia…
+ Merge pull request #1073 from kjeremy/remove-view-type-not-found MvxAndroidViewFactory: Remove error message
+ Pass the java handle down to the base constructor to avoid a potentially nasty leak I haven't seen this in the wild but it should prevent a disconnect between the java and c# if instantiating the activity from java. I don't *think* we'd hit this unless starting an activity from an intent on the java side of things and we happened to override a virtual method called from one of the constructors. See http://developer.xamarin.com/guides/android/under_the_hood/architecture/#Java_Activation
+ More nuspec fixes
+ ᕦ(ò_óˇ)ᕤ fixed all nuspecs
+ MvxAndroidViewFactory: Remove error message Now that MvxLayoutInflater is in charge of inflating all views MvxAndroidViewFactory.CreateView gets called for android internal views including bits and pieces of the action bar etc. Comment out the error message for now.
+ Fix missing "
+ Remove sqlite from pack
+ Update version on fullfragging
+ Merge branch '4.0' of github.com:MvvmCross/MvvmCross into 4.0
+ Merge pull request #1065 from SButterfly/4.0 Network Plugin: fixed disposing response stream after finishing successAction
+ Merge pull request #1071 from martijn00/4.0 Added back FullFragging
+ Merge branch '4.0' of github.com:MvvmCross/MvvmCross into 4.0
+ Bump nuspec version
+ Added pcl stuff to binding nuspec
+ Add full fragging nuspecs
+ Add to backstack for FullFragging
+ Add FullFragging back again
+ Merge pull request #1068 from PelleRavn/4.0 Fixed crash if same picture is added twice
+ Fixed crash if same picture is added twice
+ More nuspeccing
+ Add dialog sources
+ Add test sources
+ Add missing source
+ Update nuspec versions
+ Update pack script
+ Clean up
+ Depend on new binding nuget
+ Created new nuspec for binding libs only
+ Remove version name from nuspec file names
+ Merge branch '4.0' of github.com:MvvmCross/MvvmCross into 4.0
+ Update nuspec versions
+ Made pack script download nuget.exe automagically
+ Merge pull request #1064 from kjeremy/fix-customnamespace-inflation Fix custom namespace inflation if a factory is not installed
+ fixed disposing response stream after finishing successAction
+ MvxLayoutInflater: Use AndroidViewFactory.CreateView in CreateCustomViewInternal We hit this path when inflating views with namespace aliases like: "Mvx.MvxListView"
+ No need to CloneInContext every time we inflate a view
+ MvxLayoutInflater: Add debugging
+ Add missing reference and minor cleanup.
+ Merge pull request #1059 from kolesnick/patch-1 Made signature of RaiseAndSetIfChanged method more friendly
+ Merge pull request #1062 from mystudylife/4.0 Improved MvxExpandableListAdapter implementation
+ Merge pull request #1063 from ololabs/virtual-inflation Android: make methods virtual in MvxBindingLayoutInflaterFactory
+ Android: make methods virtual in MvxBindingLayoutInflaterFactory
+ Should have been GetRawGroup not Item...
+ Missing changes to GetPositions from previous commit
+ Improved MvxExpandableListAdapter implementation - Removed redundant SetItemsSource override which had a strong event subscription (and subscribed twice as the base method was also called). - Removed `as` casts causing confusing error (#1061). - Used existing methods from MvxAdapter where possible, thereby removing the need for a local reference to items source. - Reused GetRaw___ methods instead of duplicating code. - Prevented multiple enumerations (eg. `(this.GetRawGroup(groupPosition) as IEnumerable).Cast<object>().ToList()`).
+ Merge pull request #1060 from MvvmCross/cb-downloadcachefix Fix download cache
+ (•̀o•́)ง Droid and iOS seems to be working again!
+ Marshal back to main thread
+ Back to sync
+ Added ability of not providing caller property information when using RaiseAndSetIfChanged method
+ Fixed footer length logic.
+ Bye Portable Support + Fragging
+ Updated nuspecs
+ Added update nuget script
+ Merge pull request #1051 from JanZeman/3.5 Fix for https://github.com/MvvmCross/MvvmCross/issues/1050.
+ Merge pull request #1049 from martijn00/RemoveFragging Removed Fragging and FullFragging
+ Merge pull request #1054 from PeterBurke/3.5 Nuke dependency HotTuna.CrossCore -> PortableSupport
+ Remove the dependency MvvmCross.HotTuna.CrossCore -> MvvmCross.PortableSupport : Legacy, not needed, has issues
+ Fix for https://github.com/MvvmCross/MvvmCross/issues/1050. It solved my particular problem but am not sure about all possible consequences of FileShare.ReadWrite so please review carefully. Notice that typical System.IO.File implementation uses the combination of FileMode.Open, FileAccess.Read, FileShare.Read and this modification uses the combination of FileMode.Open, FileAccess.Read, FileShare.ReadWrite - file access is still Read-only but the sharing changes...
+ Removed Fragging and FullFragging
+ Merge pull request #1048 from kjeremy/radiogroup-button-ids Prevent view id collision when generating RadioButton ids
+ Prevent view id collision when generating RadioButton ids Port of View.generateViewId (API >= 17). I've never seen a collision in practice but you never know.
+ Merge pull request #1047 from kjeremy/1045-radio-group-fixes Save the original IMvxLayoutInflaterHolderFactory when inflating views and restore at the end
+ Save the original IMvxLayoutInflaterHolderFactory when inflating views and restore at the end Fixes #1045
+ Updated nuspecs
+ Fix for #1041. UIKit methods cannot be invoked off main thread. We need to wrap those when called in an async context.
+ Update readme.md
+ Merge pull request #1043 from andyci/3.5 Add javaReference/transfer constructors to fragments
+ Fix up other fragments
+ Remove unneeded code
+ Add javaReference/transfer constructors to fragments
+ Merge pull request #1031 from ljeancler/3.5 Renaming "GroupItemTemplate" android attribute to "MvxGroupItemTemplate"
+ Revert "Update MvxTabsFragmentActivity.cs" This reverts commit 4bcd03cb5051b022c98f630fb2b23f5d75bd8ccc.
+ Merge pull request #1035 from kjeremy/inflate-missing-classes Properly inflate android.widget classes
+ Properly inflate android.widget classes PhoneLayoutInflater isn't exposed so MvxLayoutInflater has to inherit from LayoutInflater. In this case we need to mimic PhoneLayoutInflater.OnCreateView. Every other layout inflater out there seems to do this as well. Fixes inflation of ViewStubs and ScrollViews in dialogs in release as they could get linked out.
+ Don't commit nuget.exe
+ Updated nuspecs
+ Add pause in end of pack script so it is easier to see errors
+ New push script, instead of having to maintain versions
+ Update to latest JSON.Net
+ Update MvxTabsFragmentActivity.cs Exception for missing resource Id : Android.Resource.Id.TabHost
+ Merge pull request #1 from ljeancler/ljeancler-patch-mvxgroupitemtemplate MvxBindingAttributes.xml : Renaming "GroupItemTemplate" android attri…
+ MvxBindingAttributes.xml : Renaming "GroupItemTemplate" android attribute to "MvxGroupItemTemplate" "GroupItemTemplate" android attribute has been renamed to "MvxGroupItemTemplate" to match the current naming convention that uses "Mvx" prefix for android attribute.
+ Merge pull request #1028 from martijn00/Merge996 Merge pull request #996 into 3.5
+ Merge remote-tracking branch 'Andyci/patch-1' into Merge996 Conflicts: Cirrious/Cirrious.MvvmCross.Droid.Fragging/MvxCachingFragmentActivity.cs Cirrious/Cirrious.MvvmCross.Droid.FullFragging/MvxCachingFragmentActivity.cs
+ Merge pull request #1005 from gentledepp/3.5_downloadcache_all_async 3.5 downloadcache all async
+ Merge pull request #898 from SeeD-Seifer/3.5 Location plugin provides event to track permission now
+ Merge pull request #941 from alexsorokoletov/ImproveUITableViewSource DeselectRow support in base UITableViewSource
+ Merge pull request #978 from guillaume-fr/3.5-wpf-filestore-cfg Configurable root folder for WPF file store
+ Merge pull request #1007 from martijn00/CachingFragmentActivity Generic MvxCachingFragmentActivity
+ Merge pull request #1012 from PaulLeman/Mvx.Console Adding Close Hint support for MvxConsole
+ Merge pull request #1019 from MvvmCross/cb-3.5-email Added dialogTitle for Android Chooser. Short XML doc and attachment logic cleanup
+ Merge pull request #1022 from kjeremy/inflation-fixes-final Inflation fixes final
+ Plugins.Location.Droid: ensure Permission changed as soon as service started
+ Merge pull request #1027 from aspnetde/3.5 Fixes Casting for SelectedElement on UISegmentedControl
+ Fixes a problem with the Xamarin Unified API, which occurs when trying to execute a binding for SelectedElement on an UISegmentedControl ("Unable to cast object of type 'System.nint' to type 'System.Int32'").
+ Location Plugin: corrected android error code when location temprarily unavailable
+ Merge pull request #993 from jonstoneman/3.5-wpasyncfilestore FileStore is async with CancellationToken support on all platforms
+ Introduce new layout inflation scheme Previously we would set a custom factory on the context's LayoutInflater that would catch all inflation requests. This prevented other Factories from getting a chance to run. For example AppCompat wouldn't get a chance to inflate custom views. This change introduces our own MvxLayoutInflater that wraps all the possible entry-points (via custom Factory implementations) delegating to any set factories and allowing us to bind after any custom factories have finished.
+ IMvxLayoutInflater really holds onto a LayoutInflater. Rename to make the intention clear. This distinction will be important in the next commit.
+ Fix some naming and spelling mistakes
+ Added dialogTitle for Android Chooser. Short XML doc and attachment logic cleanup.
+ Merge pull request #1017 from mierzynskim/fix-download-cache
+ Fixed queuing unindexed files
+ Fixed typo in MvxLinearLayout adapter warning
+ Merge pull request #1013 from MvvmCross/cb-3.5 Build in MvxBindingAttributes.xml + TextFormatted binding
+ Added TextFormatted binding for TextView
+ Build in MvxBindingAttributes.xml, no need to copy it anymore...
+ Added registration of IMvxFileStoreAsync plugins for WindowsCommon and WindowsStore
+ Added missing 'using's and 'await's to fix some nasty race condition bugs
+ Adding Close Hint support for MvxConsole
+ Merge pull request #997 from guillaume-fr/3.5-asynccommand Handling async work with MvxCommand
+ Generic MvxCachingFragmentActivity
+ Downloadcache - all callback interfaces changed to use async Task<T>
+ Async image loading
+ re-added cache-support of 3.5
+ Set maxWidth and maxHeight on MvxImageView
+ Load local images asynchronously and scale them down for android given MvxImageView.MaxWidth or MaxHeight is set
+ Correct namming of abstract methods (-Impl)
+ File renamed to match class name change. WindowsStore project file missed from previous commit.
+ Windows Common/Store FileStore Cancellation Token support, copied file delete improvements from Store to Common.
+ Merge branch '3.5-wpasyncfilestore' of https://github.com/jonstoneman/MvvmCross into 3.5-wpasyncfilestore Conflicts: Plugins/Cirrious/File/Cirrious.MvvmCross.Plugins.File/HackFileShare/MvxBaseFileStore.cs
+ IMvxFileStoreAsync with CancellationToken and iOS/Android/WPF/WP implementations
+ Merge pull request #3 from guillaume-fr/3.5-winasyncfiles windowscommon async filestore
+ Merge pull request #2 from MvvmCross/3.5 mvx 3.5 updates
+ Merge pull request #998 from jfoshee/patch-1 Added a ctor to Setup that takes a presenter.
+ Use default exception handling with trace Better cancellation handling
+ Added a ctor to Setup that takes a presenter. This helps with the use of storyboards. Also normalized whitespace in this file.
+ Report async errors with an event
+ Merge remote-tracking branch 'MvvmCross/3.5' into 3.5-asynccommand
+ Merge remote-tracking branch 'refs/remotes/MvvmCross/3.5'
+ Merge pull request #976 from guillaume-fr/3.5-canexecutethread CanExecuteChanged thread safe an raisable on UI thread
+ Normalize line endings to unix (LF)
+ Add more useful parameters to ShouldReplaceFragment The user doesn't have access to _currentFragments so it makes more sense to give an override with the contentId, currentTag, and replacementTag so they can decide what to do. The fragment is now replaced even if cached
+ Update MvxCachingFragmentActivity.cs
+ Update FullFragging as well
+ Add override to determine if the requested fragment is currently showing so that you can force the fragment to be reloaded in situations where the same fragment is requested again but with different parameters
+ Merge remote-tracking branch 'refs/remotes/MvvmCross/3.5'
+ remove useless memorystream allocations rename to MvxWindowsCommonFileStore (not Blocking)
+ IMvxFileStoreAsync for WindowsPhone
+ Lock on a dedicated object rather than the _eventHandlers list to follow lock pattern as suggested by @slodge and @lothrop
+ Explicit default value for _rootFolder as suggested by @slodge
+ nuspec changes only
+ Merge remote-tracking branch 'origin/3.5' into 3.5 Conflicts: Cirrious/Cirrious.MvvmCross.Binding.Droid/Cirrious.MvvmCross.Binding.Droid.csproj Cirrious/Cirrious.MvvmCross.Droid.FullFragging/Resources/Resource.Designer.cs Plugins/Cirrious/Network/Cirrious.MvvmCross.Plugins.Network.Droid/Resources/Resource.Designer.cs Plugins/Cirrious/ReflectionEx/Cirrious.MvvmCross.Plugins.ReflectionEx.Droid/Resources/Resource.Designer.cs
+ Build fixes (Xamarin "stable" changes)
+ Just resource autogen files
+ Merge pull request #974 from guillaume-fr/3.5-winnestedfolders EnsureFolderExists support nested folders on Windows
+ Merge pull request #988 from kjeremy/layout-inflater-fixes2 Reimplement LayoutInflaterCompat in MvvmCross.
+ Reimplement LayoutInflaterCompat in MvvmCross. Works around a platform bug with API 11 - 21 setting the layout factory. Allows us to use material design with appcompat v7 22.1+.
+ Merge pull request #940 from MvvmCross/Cheesebaron-patch-1 Fix for #932
+ Merge pull request #965 from martijn00/AndroidACWNaming Android ACW naming
+ Merge pull request #971 from danielcweber/FixMvxImageViewDrawableTargetBinding Avoid loading resource when resourceId == 0 in MvxImageViewDrawableTargetBinding.
+ Merge pull request #980 from guillaume-fr/3.5-cleardownloadcache ability to clear the Download cache
+ Merge pull request #982 from mohibsheth/3.5 Avoid ArgumentOutOfRangeException when ItemSource is empty
+ Merge pull request #985 from kjeremy/nuget-package-restore Migrate to Automatic Package Restore
+ Migrate to Automatic Package Restore It's the wave of the future. https://docs.nuget.org/consume/package-restore/migrating-to-automatic-package-restore
+ * Avoid ArgumentOutOfRangeException when ItemSource is empty (Background: UIPickerView has a bug where if its bound to an empty list and user tries to scroll up or down, the selected method is invoked even though the list is empty)
+ ability to clear the Download cache
+ Cancellation of MvxAsyncCommand
+ Add MvxAsyncCommand
+ Revert "Add MvxAsyncCommand" This reverts commit 4e936aef6f0cc006b8f651d996d1915374b0e30a.
+ Add MvxAsyncCommand
+ Configurable root folder for WPF file store
+ Make CanExecuteChanged event handler thread safe Raise CanExecuteChanged on UI thread according to Ipnc settings
+ Await stream action in windows async file plugin
+ Implement async file for windows and optimize WriteFile
+ EnsureFolderExists support nested folders on Windows
+ MvxImageViewDrawableTargetBinding.GetBitmap: Do not attempt to load bitmap resource if resourceId == 0. Instead, set the returned bitmap to null and signal success.
+ Removed ACW naming for adapters
+ Update MvxAdapter.cs
+ Merge pull request #947 from SeeD-Seifer/android_image_cache MvxAndroidLocalFileImageLoader: implemented mem-cache
+ Merge pull request #963 from nextmunich/eventsourcefragment-fix Add missing OnSaveInstanceState override in MvxEventSource[Dialog|List]Fragment
+ Merge pull request #964 from martijn00/MvxLicenses Added licenses for fragment files
+ Reverse runtime version change
+ Update ACW naming for Views
+ Update ACW naming for Dialogs
+ Update ACW naming for AutoView
+ Added licenses
+ Fix indentation to match project defaults
+ Add missing OnSaveInstanceState override in MvxEventSourceDialogFragment and MvxEventSourceListFragment
+ Merge pull request #960 from evnik/LamdaReplacement Lambda is replaced by action call
+ Lambda is replaced by action call
+ Merge pull request #956 from monesprit54/3.5-Change_Target_API Changed Cirrious.MvvmCross.Droid.FullFragging to use API 15
+ Merge branch '3.5' into 3.5-Change_Target_API Conflicts: Cirrious/Cirrious.MvvmCross.Droid.FullFragging/Cirrious.MvvmCross.Droid.FullFragging.csproj
+ Changed Cirrious.MvvmCross.Droid.FullFragging to use API 15
+ Fixed identation (tabs changed to spaces)
+ MvxAndroidLocalFileImageLoader: implemented mem-cache
+ Merge remote-tracking branch 'origin/3.5' into 3.5
+ Repair of HtmlElement after #918 changes (see discussion)
+ Merge branch 'unifiedconfig' of https://github.com/loqu8/MvvmCross into mac-merging
+ pull request feedback
+ feedback on pull request #941
+ DeselectRow support in base UITableViewSource
+ Fix for #932
+ Replaced manual Stream.Close() with using.
+ Merge pull request #939 from Dragon160/patch-1 Update Droid MvxComposeEmailTask (GMail-App 5, Multiple File Attachments)
+ Restricted attached file access. Improved foreach-loop. Removed WorldWriteable from file stream. Only WorldReadable. Placed foreach loop insinde the "DoOnActivity" action to avoid unnecessary main thread calls
+ Merge pull request #934 from PaulLeman/MvxDynamicImageHelperIssue MvxDynamicImageHelper not reset when recycling view/cell during scroll
+ Merge pull request #935 from evnik/TestFixes Fixed passing of some tests on systems with non-english culture
+ Merge pull request #938 from Bognar/patch-1 Support open generic types in MvxBindingNameRegistry
+ Support GMail-App 5 and multiple file attachments Modified MvxComposeEmailTask to support: a) GMail 5.x App: Using "StartActivityForResult(0, Intent.CreateChooser(emailIntent, string.Empty));" fixes the "Permission denied" bug when trying to attach a file under Android Lollipop and GMail-App 5.x b) Support for multiple file attachments: Generating E-Mail Intent from "Intent.ActionSendMultiple" to allow to upload a List of URIs. Pushing the URI-List to the Intent "emailIntent.PutParcelableArrayListExtra(Intent.ExtraStream, uris);"
+ Support open generic types in MvxBindingNameRegistry
+ Fixed passing of some tests on systems with non-english culture
+ MvxDynamicImageHelper not reset when recycling view/cell during scroll #933
+ Merge pull request #929 from JanZeman/bugfix/missing_jni_constructors Missing mono-related jni constructors
+ Missing mono-related constructors (see http://stackoverflow.com/questions/26573627/no-constructor-found-for-system-intptr-android-runtime-jnihandleownership)
+ Merge remote-tracking branch 'origin/unifiedsample' into unifiedconfig
+ Add the expandable list view across to nuspec content files - fixes https://github.com/MvvmCross/MvvmCross/issues/921
+ tabs vs whitespace
+ alpha1 to beta1 changes in nuspec
+ Merge pull request #916 from geirsagberg/3.5 Added support for storyboard views
+ Improved NSDatePicker to Timespan binding, no longer wiping out date picker date
+ Modified NSDatePicker target to handle date as well as time, fix UTC issue when mapping back and forth
+ Add test for NSSelectedcontrol
+ Clean up Unified config mess, rename to Mac config
+ Add NSSegment to XM and XMU, add project types to XamMac project files (will no longer be able to compile on PC)
+ Continue to add NSSegmentedControl handling for Mac
+ Add handling for NSSegmentedControl
+ Additional experiments with Soba sample for XamMac.Unified
+ Add Hidden check
+ Added TextField sampler for XamMac.Unified
+ Merge pull request #920 from Bowman74/3.5 I made changes to MvxTouchSetup and MvxTouchDialogSetup to take a new in...
+ Experimenting with XamMac.Unified sample
+ I made changes to MvxTouchSetup and MvxTouchDialogSetup to take a new interface, IMvxApplicationDelegate instead of the concrete MvxApplicationDelegate class. This allows Mvx to be used with other frameworks that have their own ApplicationDelegate that must be used such as Xamarin Forms 1.3.X+. Users of Mvx and Xamarin Forms can now create their own application delegate that inherits from FormsApplicationDelegate and pass it to MvxTouchSetup as long as their custom application delegate also implements the IMvxApplicationDelegate interface.
+ Fix up Touch specs in Unified nuspecs
+ Add Gemfile
+ Forgot the "XamMac"
+ Additional changes to nuspec for Unified
+ Added Unified nuspecs
+ Delete accidental duplicate sln
+ Remove errant sln in sln (maybe I added that); update XamMac.Unified output paths to bin folder
+ Add Rakefile
+ Add Unified configuration for XamMac.Unified; remove Unified from other configurations
+ Merge branch '3.5' into consolenuspec
+ Random runtime upgrades
+ Wrapping storyboard lookup in try/catch. Won't help if a custom exception handler is registered though.
+ Merge branch 'Opt-In-For-Fragments' of https://github.com/davidschwegler/MvvmCross into 3.5 Conflicts: Cirrious/Cirrious.MvvmCross.Droid.Fragging/Fragments/MvxBindingFragmentAdapter.cs Cirrious/Cirrious.MvvmCross.Droid.FullFragging/Fragments/MvxBindingFragmentAdapter.cs
+ Merge pull request #909 from davidschwegler/EnsureSetupInitialized-From-Fragments Fix crash caused by the MvvmCross environment not being initialized yet ...
+ Added support for storyboard views
+ Fix EOLs.
+ Adding MvxOwnedViewModelFragment attribute, which is required to enable 3.5 fragments create/save/restore behavior.
+ Merge pull request #911 from kjeremy/groupid Set GroupTemplateId on MvxExpandableListView
+ Merge pull request #913 from TheAlmightyBob/UnifiedSegmentedControl Unified enum-compatible segmented control with default binding
+ update Console nuspec
+ Notes on grep sed swap
+ Added nuspec for Console
+ Made SelectedSegment the default binding for UISegmentedControl
+ Fixed support for binding enumerations to UISegmentedControl with Unified API.
+ Set GroupTemplateId on MvxExpandableListView
+ Fix crash caused by the MvvmCross environment not being initialized yet when tombstoned MvxFragments are restored after application termination (they restore before their host Activity).
+ 3.5.1-alpha1 nuspec changes
+ Merge remote-tracking branch 'origin/3.5-nuspec-symbols' into 3.5
+ Merge remote-tracking branch 'origin/3.5' into 3.5
+ Merge pull request #867 from tal33/Mvx550-Windows-Suspension Mvx550 windows suspension
+ Merge of #730 code
+ Initial merge (finally!) of GetFoldersIn changes from #724
+ Merge branch 'badbadboy-xamarin-linker-fix' into 3.5
+ Initial attempt to workaround #902
+ Merge pull request #903 from kjeremy/ExpandableListView MvxExpandableListView, adapter and selected item binding
+ Changes to reallow setter only properties for #907
+ Merge pull request #897 from geirsagberg/patch-1 Added virtual IocOptions property
+ Merge pull request #905 from Sylapse/3.5 SeekBar binding to use event subscription instead of on change listener
+ SeekBar binding to use event handler - Fixed indentations
+ SeekBar binding to use event subscription instead of on change listener Issue #884 Allows user to apply additional event handlers without breaking the mvx binding.
+ MvxExpandableListView, adapter and selected item binding This is based on code from kjeremy's internal project code which in turn is based on https://stackoverflow.com/questions/15010246/mvvmcross-expandablelistview
+ Mvx.Plugin.Locaiton: OnPermissionChanged is EventHandler<T> now instead of Action<T>
+ push symbols only batch file
+ fix for picturechooser symbols
+ Merge pull request #893 from brsolucoes/3.5 Added protected constructor to MvxFrameControl...
+ Location plugin provides event to track permission now
+ virtual, not override
+ CreateIocOptions as method rather than property
+ Added virtual IocOptions property For easily configuring e.g. Property Injection
+ nuspec changes from kjeremy + fixes
+ Merge pull request #895 from martijn00/3.5 Make presenter serializer protected so it can be used when inheriting MvxFragmentsPresenter
+ Make presenter serializer protected so it can be used when inheriting MvxFragmentsPresenter
+ Added protected constructor to MvxFrameControl... to use it inside a AXML file.
+ Fixed an issue when INotifyPropertyChanged.PropertyChanged event stripped by Xamarin linker. #453
+ Add source files to nuget symbol packages
+ Merge pull request #885 from martijn00/3.5 Fixed typo in MvxSeekBarProgressTargetBinding
+ Fixed typo in MvxSeekBarProgressTargetBinding
+ Merge pull request #881 from vzsg/3.5_iOS_picturechooser PictureChooser iOS: Avoid view controller leaking.
+ Merge pull request #882 from mystudylife/3.5 Added missing generic MvxDialogViewController
+ Generic MvxDialogViewController
+ Avoid native picker view controller leaking. Fixes MvvmCross/MvvmCross#876
+ nuspec changes for 3.5 (from beta)
+ Fix for #873 (System.Windows.Interactivity version)
+ Merge pull request #879 from lothrop/3.5 Fixed ViewModel property in MvxStorePage<T>.
+ Fixed ViewModel property in MvxStorePage<T>.
+ Added ARM64 platform for Unified API.
+ Fixed a compilation relying on the implicit conversion from DateTime to NSDate that was removed in Xamarin.iOS 8.6.
+ Automatically call suspensionManager.RegisterFrame Added for WindowsCommon and (untested) for WindowsStore Optinal, based on parameter of constructor to keep backwards compatibility and suppress registering of suspensionmanager if it isn't used
+ Fix for serialisation bug Fix from https://gist.github.com/tempywritescode/8391807 ported to WindowsCommon, too Note that WindowsStore changes aren't tested
+ Windows-Only solution created a Windows-only solution from MvvmCross_All so that project can be opend with Xamarin Starter Edition installed
+ Updated minimum iOS version to 5.1.1 as described in https://developer.apple.com/library/ios/documentation/General/Conceptual/CocoaTouch64BitGuide/Introduction/Introduction.html
+ Added port for Xamarin.Mac Unified API.
+ Removed methods already implemented by Xamarin in NMath.
+ Small problem with iOS LinkerPleaseInclude
+ Just a rev on the starter pack because of the Activity namespace fix...
+ Fix for Namespace on Activity.Title LinkerPleaseInclude
+ Fix for Namespace on Activity.Title LinkerPleaseInclude
+ Removing the last of portable support - is this needed any more?
+ Merge branch '3.5' of github.com:MvvmCross/MvvmCross into 3.5
+ 3.5.0-beta2 nuspec file changes
+ Merge remote-tracking branch 'upstream/3.5' into 3.5 Conflicts: CrossUI/CrossUI.Touch/Dialog/Elements/DateTimeElement.cs CrossUI/CrossUI.Touch/Dialog/Elements/MessageSummaryView.cs
+ Fixes for StringSize and DrawString changes in Xamarin iOS
+ Merge remote-tracking branch 'upstream/3.5' into 3.5
+ More updates for Unified API following the breaking changes in Xamarin.iOS 8.6.
+ PCL changes according to http://blog.xamarin.com/how-to-update-nuget-packages-for-64-bit/
+ Merge pull request #859 from tomgilder/3.5 Added missing constructors to generic ViewControllers
+ Added missing constructors to generic ViewControllers
+ Merge pull request #857 from maxgrig/3.5_uinified_api_fixes Updates for Unified API now that Xamarin.iOS 8.6 has hit the Beta channel.
+ Updates for UnifiedAPI
+ just droid resource files
+ alpha2 -> beta1
+ Dispose cache image to assist with #851
+ Update MvxEventSourceListFragment.cs fixes #854
+ Merge branch '3.5' of github.com:MvvmCross/MvvmCross into 3.5
+ Fixed Bug where MvxCommand Parameter could not be parsed / casted, when the CommandParameter was defined in XAML on WP8 and WinRT.
+ Merge pull request #853 from loqu8/3.5tc 3.5tc
+ Fixed app freeze when animating state change of a UISwitch used as accessory view in a BooleanElement as the same time as the table view is reloaded. Possible fix for migueldeicaza/MonoTouch.Dialog#227
+ Updated ShouldSkipSetValueAsHaveNearlyIdenticalNumericText so that the types the code is applied to includes Int32
+ Merge pull request #855 from munkii/3.2 Updated ShouldSkipSetValueAsHaveNearlyIdenticalNumericText so that the t...
+ Couple missed XamMac dependency version #s
+ Add PhoneCalls.WindowsPhoneStore
+ Missed Network.WindowsCommon
+ Adding missing Wpf Location plugin to All_Incl_Mac
+ Added WindowsCommon Plugins to All_Incl_Mac
+ Fix Cirrious.CrossCore.WindowsCommon output directory for Release
+ Adding missing WindowsCommon projects to All_Incl_Mac.sln
+ Update nuspec dependency versions for Mac/XamMac
+ Update version number to 3.5.0-alpha2 for Mac stuff
+ Updated ShouldSkipSetValueAsHaveNearlyIdenticalNumericText so that the types the code is applied to includes Int32
+ Remove packages from repository
+ Add symbols of Mac and Touch, add back into nuspec
+ Strip out pdb reference in Touch for nuspec
+ Added .nuget to All and All_Incl_Mac
+ Add .nuget package restore to All_Incl_Mac
+ Updated to Unified API, removed tabs, reformatted.
+ Added missing UISegmentedControl bindings for SelectedSegment
+ Merge pull request #844 from ggirard-distech/3.2 Fixed app freeze when animating state change of a UISwitch used as acces...
+ Fixed app freeze when animating state change of a UISwitch used as accessory view in a BooleanElement as the same time as the table view is reloaded. Possible fix for migueldeicaza/MonoTouch.Dialog#227
+ Merge pull request #833 from lothrop/3.5 Fix import targets for Unified API
+ Merge pull request #838 from jesperll/Mvx837-ThrowExceptionsInViewModelLoader Allow IMvxViewModelLocator to throw exceptions
+ Changed signature of IMvxViewModelLocator to throw an exception in case a viewmodel fails during creation or initialisation.
+ Merge branch 'RaiseAndSetIfChanged-Extensions' of github.com:patsissons/MvvmCross into 3.5
+ Merge branch '3.2' of github.com:PelleRavn/MvvmCross into 3.5 Conflicts: nuspec/TouchContent/LinkerPleaseInclude.cs.pp
+ Merge branch '3.2' of github.com:rossdargan/MvvmCross into 3.5
+ Refactor to enable #835 to occur outside of Mvx
+ nuspec changes - 3.5.0 alpha2
+ nuspec files - 3.2.2
+ Remove old import targets
+ First alpha nuget changes
+ Remove old import targets
+ Added in the ability to raise property changed based on the calling property.
+ Merge branch '64bitshizzle' of github.com:lothrop/MvvmCross into 3.5 Conflicts: Cirrious/Cirrious.MvvmCross.Droid.FullFragging/Resources/Resource.Designer.cs Cirrious/Cirrious.MvvmCross.Touch/Views/MvxTableViewController.cs
+ Merge remote-tracking branch 'origin/3.2' into 3.5 Conflicts: Cirrious/Cirrious.MvvmCross.Droid.Fragging/Fragments/EventSource/MvxEventSourceListFragment.cs
+ Merge pull request #818 from luke-barnett/3.2 Initialize the media capture.
+ Merge pull request #819 from trik/3.2 Added Heading (Course) to location plugin for Windows Phone
+ Merge pull request #825 from mgjhl/3.2 Add UILabel.AttributedText and MvxViewController.Title to LinkerPleaseInclude.cs.pp
+ Merge pull request #824 from kjeremy/fix_support_version_3.2 Fully qualify the namespace of the Fragment class we are using
+ Merge pull request #822 from kjeremy/fix_support_version Fully qualify the namespace of the Fragment class we are using
+ Merge branch '3.2' into 3.5
+ Fix null refs.
+ Updated JetBrains link as thanks for their support
+ Add MvxViewController's Title property to LinkerPleaseInclude
+ Add UILabel's AttributedText property to LinkerPleaseInclude.cs.pp , to enable binding to it
+ Update using statement
+ Update using statement
+ Fully qualify the namespace of the Fragment class we are using If we just inherit from 'Fragment' or one of it's children and the file has a using statement of 'Android.App' and 'Android.Support.V4.App' the App version will win if targeting an Android version that supports native fragments.
+ Fully qualify the namespace of the Fragment class we are using If we just inherit from 'Fragment' or one of it's children and the file has a using statement of 'Android.App' and 'Android.Support.V4.App' the App version will win if targetting an Android version that supports native fragments.
+ Bye API 8. Hello API 10
+ Full fragging also. Needs more work!
+ More fragging.
+ Manually merged in fragging stuff.
+ Remember to add the csproj :) Also retarget to remove obsolete messages, as Xamarin no only supports API 10+ (bye API 8)
+ Bye bye to the Component, hello to the Nuget
+ clean this jibber jabber...
+ Merge branch '3.2' into 3.5
+ Added UIPageControl to LinkerPleaseInclude-file UIPageControl would sometimes be stripped from the assemblies so bindings would fail on the Pages property and the ValueChanged event.
+ Added Heading (Course) to location plugin for Windows Phone
+ Initialize the media capture.
+ Merge pull request #808 from Stephanvs/generic-views Implementation of Generic views
+ Some refactoring of the readme.
+ Someone left a boo boo in here. Cleaning it up!
+ Added UIStepper to LinkerPleaseInclude-file UIStepper would sometimes be stripped from the assemblies so bindings would fail on the Value property.
+ Merge pull request #812 from mgjhl/3.2 Email Plugin: Only show real email clients on android
+ Changed project types of iOS projects. Migrated more iOS code to 64 bit.
+ Do not use a title for the intent chooser, as to avoid breaking localization
+ Email Plugin: When trying to send email on android, only show apps actually capable of sending emails (instead of all apps able to simply send "data")
+ Changed .Touch plugin projects to use Xamarin.iOS.dll instead of monotouch.dll.
+ nuspec options added
+ LinkerPleaseInclude: Add CheckedTextView Switch Add CheckedTextView and Switch to linker inclusions otherwise these bindings will fail in release builds.
+ Changed .Touch projects to use Xamarin.iOS.dll instead of monotouch.dll.
+ Merge pull request #809 from ololabs/read-baseclass When deserializing dictionary -> object, include base class properties
+ When deserializing dictionary -> object, include base class properties
+ Generic views for almost all platform specific base views
+ Merge pull request #804 from mgjhl/3.2 Issue #803 - Linker stripping android property
+ reformat
+ Resolve issue #803 caused by linker stripping the "Title" property from MvxActivity
+ Generic view interfaces
+ Merge pull request #798 from digitalcreations/3.2 Performance fix for checking if file exists
+ Avoid enumeration of entire folder contents when checking if a file exists (Windows Store and Universal apps).
+ Merge pull request #789 from SeeD-Seifer/3.2 Supported iOS 8 LocationService setup
+ Supported iOS 8 LocationService setup
+ Merge branch 'universalapping' of github.com:sequence/MvvmCross into universalapping
+ Tested and fixed WP8.1 PictureChooser plugin
+ WP8.1 fix for PictureChooser plugin, needs testing
+ Updated WindowsCommon PhoneCall Plugin to use tel: protocol on win81 and PhoneCallManager on wpa81
+ 3.2.1-beta3 to 3.2.1
+ Merge branch 'universalapping' of github.com:slodge/MvvmCross into universalapping
+ Missing nuspec shared assemblies for portable universal apps
+ capital changes - for #768
+ plugin manager change for #776
+ Merge pull request #781 from sequence/universalapping Added Universal Windows Apps to TipCalc
+ Changed order of projects in TipCalc walkthrough
+ Included TipCalc Universal Windows App in readme.md
+ Downscaled the larger TipCalc Universal Windows App images
+ Added images for TipCalc Universal Windows App page
+ nuspec changes - new beta and also reinstated all those portable-win81+wpa81 assembly references for wincommon (not code files - just assemblies)
+ fixes for title binding - for #763
+ Merge remote-tracking branch 'mvvmorigin/v3.1' into universalapping Conflicts: Plugins/Cirrious/PictureChooser/Cirrious.MvvmCross.Plugins.PictureChooser.Touch/MvxImagePickerTask.cs
+ Merge remote-tracking branch 'mvvmorigin/universalapping' into universalapping
+ Merge pull request #770 from vzsg/v3.1 Infinite loop in DebugTrace.cs after a FormatException
+ Merge pull request #772 from SeeD-Seifer/v3.1 PictureChooser.Touch does not upscale image to maxPixelDimension anymore
+ PictureChooser.Touch does not upscale image to maxPixelDimension anymore
+ Fixed infinite loop of FormatExceptions
+ Merge pull request #766 from lothrop/v3.1 Default parameter for ValueConverter in iOS fluent binding
+ Merge pull request #765 from PedroLamas/universalapping Fix NullReferenceException in ReflectionExtensions.GetProperties()
+ Merge pull request #753 from pcmichaels/v3.1 Add serialize to JSON Serializer loop handling to prevent crashing for self referencing objects
+ Merge pull request #757 from brsolucoes/v3.1 Fix for not compiling due to ImeAction.Previous being only avaiable for SDK 11+.
+ nuget fixes - including for #762
+ Added default parameter null for value converters which don't need a parameter.
+ Fix NullReferenceException in ReflectionExtensions.GetProperties() In iOS, due to the way the Linker works, some PropertyInfo.GetMethod() calls might return null, so check before use value
+ Fix for Init and ReloadState methods not being found/called when declared at a base class.
+ Fix for not compiling due to ImeAction.Previous being only avaiable for SDK 11+.
+ Merge branch 'v3.1' of https://github.com/MvvmCross/MvvmCross into v3.1
+ Add serialize loop handling to prevent crashing for circular loops
+ push.bat update (version)
+ Improved try/catch implementation
+ Fixup after merge of #728
+ Merge branch 'v3.1' of github.com:dedalebeda/MvvmCross into universalapping
+ Merge branch 'v3.1' of github.com:softlion/MvvmCross into universalapping
+ Merge branch 'v3.1' of github.com:ggirard-distech/MvvmCross into universalapping
+ Update MvxPhoneViewsContainer.cs
+ Add XPlatformCloudKit to MVVMCross projects list
+ * Changed indentation from tabs to spaces (did it manually, as I couldn't figure a way to make Xamarin Studio on OSX do it automatically?)
+ * Fixed bug in Email.Touch, where the EmailCompose dialog wasn't shown due to an " is not an valid email" error in the debug window. It seems (iOS7 at least?) doesn't allow an array with an empty string in it as params to the SetCcRecipients, as it then tries to valid the empty string as an email.
+ Load image from bundle
+ Merge remote-tracking branch 'upstream/v3.1' into v3.1
+ Fixed not centered UIDatePicker if entering in edition mode while device is in landscape format.
+ Merge branch 'weakref-command-668' into universalapping
+ Merge remote-tracking branch 'mvvmorigin/v3.1' into universalapping
+ updates for WinCommon - remove portable - double win81 and wpa81
+ Merge pull request #741 from adamcogx/v3.1 Update MvxPhoneViewsContainer.cs
+ Update MvxPhoneViewsContainer.cs
+ Merge pull request #726 from usami-k/TouchLocalFileImageLoader iOS : Load image from bundle
+ Merge pull request #731 from Laumania/v3.1 Fixed Email.Touch plugin bug for CC emails
+ Merge pull request #734 from toolboc/universalapping Fix WriteFile flushing stream more than once
+ Weak ref change for #668 and #729
+ Merge pull request #733 from toolboc/v3.1 Add XPlatformCloudKit to MVVMCross projects list
+ Add XPlatformCloudKit to MVVMCross projects list
+ Fix WriteFile flushing stream more than once WriteFile creates an Action which disposes of the stream, this is then sent to WriteFileCommon which invokes this action and attempts to flush the stream a second time. This can raise an ObjectDisposed Exception as Flush will be called on a closed stream.
+ Sorry! Fix WinCommon #656 for @toolboc
+ Merge branch 'universalapping' of github.com:slodge/MvvmCross into universalapping
+ Fixes to missing CrossCore assemblies - for #656 (@toolboc)
+ Fixes to WindowsCommon namespaces and objects for #656 (@dhindrik and @dhilgarth)
+ * Changed indentation from tabs to spaces (did it manually, as I couldn't figure a way to make Xamarin Studio on OSX do it automatically?)
+ * Fixed bug in Email.Touch, where the EmailCompose dialog wasn't shown due to an " is not an valid email" error in the debug window. It seems (iOS7 at least?) doesn't allow an array with an empty string in it as params to the SetCcRecipients, as it then tries to valid the empty string as an email.
+ Fixing .pp files
+ Update for missing WindowsCommon assembly reported by Daniel in #656
+ 3.2.1-beta1 updates for nuspec
+ fix init
+ Optimized the memory used by picture chooser in iOS Add a new option to disable image resizing: use 0 as maxPixelDimension
+ Load image from bundle
+ Merge branch 'universalapping' of https://github.com/MvvmCross/MvvmCross into universalapping
+ Missing folder
+ Fix for Android build issue
+ Merge branch 'v3.1' into universalapping Conflicts: CrossCore/Cirrious.CrossCore/Core/MvxEventInfoExtensions.cs Plugins/Cirrious/Color/Cirrious.MvvmCross.Plugins.Color/PluginLoader.cs nuspec/MvvmCross.HotTuna.Plugin.All.3.0.1.nuspec nuspec/nuget.exe
+ Merge remote-tracking branch 'mvvmorigin/universalapping' into universalapping
+ Fix build error & add Windows Common to nuspec files
+ Output paths for new plugins
+ WindowsCommon SQLite plugin
+ Adding WindowsCommon plugins
+ Adding WindowsCommon core projects, plus File and ResourceLoader plugins
+ MvxWpfReachability Simple check of any network interface available
+ Additions for #677
+ Merge branch 'v3.1' of github.com:molinch/MvvmCross into v3.1
+ Extra trace - fixes #649
+ More color converters - Fixes #682
+ Button states - fixes #688
+ Additional methods added - addresses #689
+ Follow ups to #691
+ Merge branch 'v3.1' of github.com:slodge/MvvmCross into v3.1
+ Merge pull request #691 from ddunkin/v3.1 Performance improvements for DownloadCache plugin.
+ Merge branch 'v3.1' of github.com:slodge/MvvmCross into v3.1
+ Changes to allow CommandParameter to operate in Tibet style
+ Merge pull request #705 from Costo/uidatepickertimetargetbinding-bug Fixed binding bug in MvxUIDatePickerTimeTargetBinding
+ Remove incorrect event reflection - fixes #707
+ PictureChooser added - fixes #710
+ Merge pull request #712 from kjeremy/nuget #314 Source package
+ Pack PDBs along with DLLs. Packs PDBS and generates .symbols.nupkg files suitable for symbolsource.org. See: http://docs.nuget.org/docs/creating-packages/creating-and-publishing-a-symbol-package
+ Update to latest nuget.
+ WP versions
+ new Task based overloads, compatible with await
+ Fixed binding bug: Object type System.DateTime cannot be converted to target type: MonoTouch.Foundation.NSDate
+ Merge pull request #696 from ddunkin/dialog-autocorrect-fix Set AutocorrectionType on the UITextField if it has been created.
+ Set AutocorrectionType on the UITextField if it has been created.
+ Merge pull request #692 from guillaume-fr/patch-5 WindowsStore MvxPhoneCallTask doesn't compile
+ Merge pull request #690 from guillaume-fr/patch-4 SafeDeleteFile should return true if file doesn't exists
+ WindowsStore MvxPhoneCallTask doesn't compile My bad, I messed up with the argument name in my last pull request
+ SafeDeleteFile should return true if file doesn't exists TryMove fails when deleteExistingTo is true and there is no existing file. SafeDeleteFile should return true if the file doesn't exists.
+ Use UIImage.FromFile instead of reading from the file store into memory because it's faster.
+ Make max concurrent downloads configurable.
+ adding IMvxNotifyPropertyChanged extension methods to simplify notification property setters e.g., this.RaiseAndSetIfChanged(ref _hello, value, () => Hello); Based on the work of paulcbetts in the reactiveui project See https://github.com/reactiveui/ReactiveUI/blob/rxui6-master/ReactiveUI/ReactiveObject.cs
+ Merge pull request #680 from iseebi/MvxImageViewLoading Stil display older image in MvxImageView (iOS) when loading and DefaultImagePath not present
+ Allow null image binding for reset to empty image
+ Merge pull request #671 from guillaume-fr/patch-1 DeleteFile should not throw FileNotFoundException
+ reinstate the phone plugin for winrt
+ Merge pull request #678 from guillaume-fr/patch-2 Use the tel uri in windows store for phone calls
+ Use the tel uri in windows store for phone calls This is handled by Skype but not Skype specific (RFC3966).
+ minor factorization
+ file plugin async additions
+ DeleteFile should not throw FileNotFoundException It doesn't throw on Android or iOS (File.Delete default behavior).
+ Merge branch 'v3.1' of github.com:PedroLamas/MvvmCross into universalapping
+ Merge pull request #662 from benhysell/v3.1 fixes 661 iOS UIDatePicker Date Off By One Day - Timezone Issue
+ fix for timezoes on uidatepicker
+ Merge pull request #659 from Bognar/variable-index Added support for variables in indexing operators
+ Changed Profile158 to Profile259 (removed sl5 support and added wpa81, fixes #656)
+ Added tests for variable index binding
+ Added support for variables in indexing operators
+ Merge pull request #653 from Blewzman/FixLockInMvxSimpleIoCContainer Fix lock that should be on the lock object rather than on 'this'.
+ Fix lock that should be on the lock object rather than on 'this'.
+ Merge branch 'v3.1' of github.com:slodge/MvvmCross into v3.1
+ nuspec updates
+ Merge pull request #642 from pnewhook/v3.1 typo in warning
+ typo in warning
+ CommandCollection and tests - fixes #531
+ Fix for users without IMvxCommandHelper (e.g. tests)
+ Virtual changes for #531 - still need to find out if a PR is coming or whether to integrate directly
+ Minor nuspec and packages updates
+ Nuspec Todo changes - addressing #562
+ Goodbyte NewtonSoft.Json ... Hello NewtonSoft.Json from Nuget
+ Build and nuspec fixes for #632
+ Removed non-IDisposable Dispose from #632 - shouldn't really use Dispose outside of IDisposable and this public method would have been hard to locate/use from client code (especially shared PCL code)
+ stop fixes for #632
+ Merge pull request #632 from AlanYost/v3.1 Add location watcher plugin for WPF.
+ Better Apache 2.0 credit
+ Follow up to #634
+ Merge pull request #634 from wedkarz/v3.1 Add AsyncRequestHandle class, to support request cancel in future.
+ Merge branch 'v3.1' of github.com:slodge/MvvmCross into v3.1
+ stream usings in windows store - fixes #638
+ Merge pull request #641 from kohlerb/v3.1 Fix null exception after Windows Phone location watcher stop
+ Fix null exception after Windows Phone location watcher stop
+ Merge pull request #633 from rb1234/v3.1 Fix incorrect unsubscribe on Dispose
+ Merge pull request #639 from ashokgelal/fix_#638 Fix Mac Binding build is failing
+ Change fields case to _lowerCamelCase to make them (more) consistent with the rest.
+ Fix #638 - Mac Binding build is failing.
+ Added AsyncRequestHandle class, to support request cancel in future.
+ Fix incorrect unsubscribe on Dispose was subscribed to Click but unsubscribing from LongClick
+ Add location watcher plugin for WPF.
+ Follow up to #627 - added a pokemon handler for now - it will drop back to the resampled/scaled picture if the exif code fails on some Android variant.
+ Merge branch 'v3.1' of github.com:jsmarcus/MvvmCross into v3.1
+ Minor fixes to unify file experience - minimize risk of change (sorry!)
+ Minor fixes to unify file experience - minimize risk of change (sorry!)
+ Minor fixes to unify file experience - minimize risk of change (sorry!)
+ Minor fixes to unify file experience - minimize risk of change (sorry!)
+ Modifications to unify delete behaviour for FileStream read/write - a bit scared of these changes...
+ Merge branch 'ExtendFilePlugin' of github.com:Blewzman/MvvmCross into v3.1
+ Missing IoC Overloads - found as a result of #591 :)
+ Fix of very dodgy looking lock() code - actually I think this lock isn't needed at all (as outer IoCContainer lock on a syncobject - but good to add this anyway).
+ Merge branch 'AddIocRegisterTypeOverload' of github.com:Blewzman/MvvmCross into v3.1
+ Spread #619 across other interested classes
+ Remove unused using
+ Merge branch 'v3.1' of github.com:Bognar/MvvmCross into v3.1
+ Merge branch 'v3.1' of github.com:virblue/MvvmCross into v3.1
+ Remove unwanted and confusing warning - see #624
+ Just an unused using
+ Consistency of IMvxBundle and MvxBundle - fixes #618
+ Command Helper - fixes weak issues on WinPhone - #623
+ Added exif rotation to the Android PictureChooser plugin Added methods to properly rotate an image according to the exif rotation data contained in the file when loading or taking a new picture.
+ Added missing extension method for issue #507
+ Virtual override for CreateView
+ Make Show Virtual so it can be overridden
+ Added option to MvxTableViewSource to refresh on every NPC event
+ Merge pull request #611 from rb1234/Issue607 Issue607: check that environment actually supports API Level 11
+ Issue607: check that environment actually supports API Level 11
+ Add RegisterType(Type t, Func<object> constructor) overload to IMvxIoCProvider. Add implementation to MvxSimpleIoCContainer. Add tests to MvxIocTest.
+ Unseal Resolver classes, ConstructingSingletonResolver does not depend on FuncConstructingResolver anymore.
+ Fixed calls to "this" in static methods. Changed 2 private static methods to instance methods.
+ Merge pull request #605 from RobGibbens/v3.1 Update _ Windows Store UI.txt for Win 8.1
+ Update _ Windows Store UI.txt for Win 8.1 Win 8.1 doesn't have LayoutAwarePage anymore
+ Merge pull request #598 from Cheesebaron/v3.1 Fixes for MvxImageView on Android not using ErrorImagePath. Thanks :)
+ Minor code cleanup.
+ Fix ErrorImage not showing.
+ Add null check in MvxBaseFileStore.WriteFileCommon.
+ Needs further review: Implementations of IMvxFileStore for WindowsPhone and WindowsStore - WindowsPhone implementation actually commented out.
+ Added OpenRead and OpenWrite methods to IMvxFileStore. Implemented in MvxBaseFileStore, but there are more implmentations to be done.
+ For some reason, Mvx.cs got the wrong line endings.
+ Reuse now existing functionality in MvxSimpleIoCContainer.
+ Expose new RegisterType overload as static method in Mvx.
+ Added a unit test for new RegisterType overload.
+ New: IMvxIoCProvider.RegisterType overload that takes a constructor.
+ tidy up catch blocks after #580
+ Merge pull request #580 from imason/v3.1 Fixed FolderExists in FileStore for WindowsStore
+ nuspec changes - 3.1.1 - non-beta
+ small refactor - just put the layout constraints in their own method
+ null check - fixes #584
+ Merge pull request #583 from loqu8/mac-cherry Mac cherry
+ null check - fixes #584
+ Merge branch 'v3.1' of github.com:slodge/MvvmCross into v3.1
+ Changes to allow Null literals to be more cleanly parsed #589
+ Merge pull request #576 from iankerr/patch-1 Update MvxColor.cs
+ AutoLayout goodness for Mac/XamMac
+ swap IMvxMacViewsContainer for MvxMacViewsContainer as param for RegisterMacViewCreator
+ Merge pull request #579 from Blewzman/EnableCreateMvxViewModelLoader Allow creation of MvxViewModelLoader to be overridden.
+ Removed comment.
+ Fixed FolderExists in FileStore for WindowsStore The previous implementation tried to get parent folder and see if the folder asked for exists within that... If the folder passed in as FolderPath was the LocalStorage folder, then parent will become the root which the application does not have access to and throw errors. Another workaround would be to give the app access to the root folder, but that seems to be not the best way to go about it.
+ Allow creation of MvxViewModelLoader to be overridden.
+ Update MvxColor.cs Fixing the output of MvxColor.ToString() to match the description (argb) - Issue #575
+ Merge branch 'v3.1' of github.com:slodge/MvvmCross into v3.1
+ Merge pull request #572 from damirarh/VirtualMvxNativeValueConverter Virtual Convert and ConvertBack methods in MvxNativeValueConverter
+ Virtual Convert and ConvertBack methods in MvxNativeValueConverter
+ Duplicate default entries removed
+ UIProgressView default property added - fixes #571
+ 3.1.1-beta5 nuspec changes
+ Minor - just an unused using
+ Stop the weaksubscriptions from being garbage collected (was occurring on Touch)
+ Missed from last commit for #563
+ Fixes for #563 https://github.com/MvvmCross/MvvmCross/issues/563
+ Refactor property injector into its own class
+ Minor rename on ResolverType
+ Changes to make Options readonly
+ Refactor of names Ioc not IoC
+ Refactor Ioc options into an interface (just in case...)
+ Provide optional property injection in simple ioc container
+ Attempt at circular singleton resolution - fixing #553 - although note that this fix is ONLY for singletons, not for dynamic registrations (in theory they can contain loops?)
+ Fix for #561 - make a separate "new" method `protected virtual`
+ Fix for last commit (missed compile save to staging)
+ IMvxViewsContainer used in base setup; consistent sealed and virtual pattern used in all platform overrides
+ Error message corrected - "Lang" removed - linked to #566
+ Image picker fixes for corrupt returns from Android
+ Proposed fix for #566
+ 3.1.1-beta4
+ Merge of LayerBorderWidth code from @Stephanvs - fixes #559
+ Add Assembly Company name - fixes #558
+ First attempt at integrating command can changed binding
+ remove multiple enumeration of attachments enumerable
+ fix for some build problems with #545
+ 3.1.1-beta3 changes - but hope not to release a beta3....
+ Missed save on NativeValueConverter
+ Missed save on tabs fragment activity
+ Additional command suffixes - fixes #556
+ Merge remote-tracking branch 'mvvmorigin/v3.1' into v3.1
+ Droid Honeycomb Activated support.... hope this helps with list item checking
+ NativeValueConverter additions - assists with #549
+ TabsFragmentActivity - fixes part of #541
+ Merge pull request #545 from hlogmans/v3.1 Email Attachment support for Android
+ Merge pull request #549 from damirarh/MvxNativeValueConverter Access to IMvxValueConverter from native wrapper
+ Leak tested for winstore
+ Changes to allow explicit ClearBinding (even on platforms with no ClearBinding) - needs checking on WinPhone and WinRT
+ Switch to using Newtonsoft.Json nuget package
+ Access to IMvxValueConverter from native wrapper
+ Delete local file that was created as attachment
+ Email Attachment support for Android
+ 3.1.1-beta2 nuget version changes
+ Attempt to work on (non-breaking) change for kitkat spinner issue - with #507 and #530 (but I can't repro the original issue)
+ Allow command methods to return non-void - addresses #532 but not #531
+ More efficient Exists and FolderExists - addressing #521 - could do with a test somehow
+ Remove unused Content get;set; property in MvxBaseListView - fixes #538
+ sealed Accessory removed - fixes #524 - still don't understand this fully, but fix should be harmless for most client code
+ Do *not* checkin Components
+ Switch fragging to use the google Xamarin component instead of the Mono Android one
+ Provide separate Incl_Mac assembly in too
+ Merge branch 'loqu8-tc3.1' into v3.1
+ Merge branch 'FixHtmlEmailOnAndroid' of github.com:kobynet/MvvmCross into v3.1 -
+ Temporary copy out of the MonoMac assemblies - so that I can build without using the MonoMac file copy and registry hacks
+ MonoAndroid,MonoTouch and WP8 names
+ Merge branch 'tc3.1' of github.com:loqu8/MvvmCross into loqu8-tc3.1
+ Try to reduce some of the `public angst` by changing the `Obsolete` into a `\\\` comment - but still want to encourage people to move to the newer code if we can...
+ Updated System.Windows.Interactivity to 3.9.5.0
+ File delete before write work for #500
+ Improved handler for interaction subscription
+ Trying to tidy up old configs - especially <Prefer32Bit>true</Prefer32Bit> again
+ Another typo in XamMac nuspec
+ Fixed nuspec for XamMac
+ Add XamMac
+ Some pending directory permission changes
+ Switch back to 3.1.1-beta1 dependency
+ Try switching nuspec dependency to 3.1.1 instead of 3.1.1-beta to clear nuget versioning issues
+ Cleanup framework coding in nuspec
+ Fix mac AppDelegate template, remove extra s (typo!) in nuspec
+ Added missing using in mac Setup.cs.pp
+ Removed extra usings in mac Setup.cs.pp, rename text field in sample controller
+ Missed pp extension
+ Added sample FirstView/FirstViewController to Mac nuspec starter
+ Improved Mac UI nuspec instructions, fix wrong routine in AppDelegate.cs.txt.pp
+ Add additional MacContent for StarterPack
+ Fix naming convention change in Mac nuspec
+ Fix typo in Mac.CrossCore nuspec identifier
+ Created separate Mac-based nuspecs for Mvx core
+ Fix missed Touch to Mac
+ Typo for System.Windows.Mac which goes to System.Windows.dll
+ Update nuspec to Profile 158, sl4-wp71 to wp8, added lib/MonoMac
+ Add Mac to VS sln (see http://tofutim.blogspot.com/2013/11/adding-monomac-and-xammac-to-visual.html on adding MonoMac to VS), updated Mac projects to 4.5, updated compile location
+ Clean up ARM and x64 build configurations for TC (needed to build Windows Store sqlite)
+ nuspec 3.1.1
+ Switch portable to 158 -> switch WP7 to WP8
+ Refactoring... not sure I like this refactoring... (forgotten how hard cross-platform apis are!)
+ switched from Mimetype to string, seems to be missing from PCL
+ refactor attachment interface to take in a stream instead of byte[]. Added a CanSendMail method (useful for osx, not sure for other platform). Ensure all platform now comply the interfaces (they all throw notimplexception for the ComposeEmail with attachments).
+ Added a method that takes in attachments
+ ConvertToBoolean unified and string case fixed - fixes #494
+ When child windows with their own binding contexts get detached/reattached, let's cache their datacontext for that operation - fixes issue with custom MvxSpinner
+ Possibly dangerous MonoAndroid16 -> MonoAndroid and MonoTouch40->MonoTouch changes
+ Optimisation - no need to calculate the source binding values during event propagation
+ 3.0.14-beta3 nuget changes
+ Move the root UnsetValue behaviour out of the steps and into the base full binding
+ nuspec 3.0.14
+ Removed pointless region pragma
+ Folder implementations from http://stackoverflow.com/questions/19890756/mvvmcross-notimplementedexception-calling-ensurefolderexists-method-of-imvxfile
+ Allow override of GetIoCParameterValues in SimpleIocContainer
+ Default behaviour of ValueConverter base class changed to return `UnsetValue`
+ Allow the ValueCombiners to support (chain) UnsetValue more fully
+ Allow the ValueCombiners to support (chain) UnsetValue more fully
+ Allow virtual override of CreateBinding
+ SeekBar - provide direct access to Progress value (no reflection)
+ Refactoring of Android Layout inflation to allow additions more easily
+ FullFragging added to nuget
+ Fix in .pp file for missing namespace
+ Try to roll the Binding.Droid project back to its previous state - no SDK specified
+ roll back change on the Binding code for #481 - this code will go live eventually but not today
+ Merge branch 'v3' of github.com:slodge/MvvmCross into v3
+ not sure why - but v3 not enough for mac build - it needed v4 sdk
+ nuspec changes
+ Fix for #483
+ Activated seems to need more protection for code compiled against older sdks - Android sdk version reported oddly
+ Rolled back too far - need to keep RealNotifyDataSetChanged and need to use it where previously base.NotifyDataSetChanged was called
+ Activated change for non-checkable list items (> honeycomb)
+ Fix for CreateBindableView override
+ Roll back the RealNotifyDataSetChanged changes
+ Change to IMvxListItemView return type in MvxAdapter - mentioned in #481
+ Update LayoutInflater inside the Android Fragging and FullFragging projects
+ Allow layout inflater to be updated
+ Trivial port of Fragging to FullFragging - more to do?
+ Additional try...catch blocks to prevent fatal errors in the case where a collection view is no longer valid
+ Additional try.. catch block to prevent unhandled exceptions during the updateTargetOnBind data-binding.
+ CollectionViewSource pure abstract base method - do not call base (Xamarin datasource)
+ Optimisation - don't call trace when using null source binding
+ Base `CellDisplayingEnded` should not be called in override
+ Allow properties that start with underscores
+ Just 1 line -> 2 line text formatting
+ Include View.Click and ContentDescription - fixes #479
+ Just refactor on Element.cs - for readability (although not sure I helped that much - sorry!)
+ Change to using `Type.Missing` in the #467 code for calling ViewModel `Init` methods
+ Warnings when using most of the IntPtr constructors introduced in #467
+ Merge branch 'v3' of github.com:csteeg/MvvmCross into v3
+ stackoverflow link change - fixes #476
+ 3.0.14-beta1 nuspec changes
+ Proposed changes to collection bindings to prevent nested long-living viewmodel bindings persisting longer than they need to (#468)
+ Important fix for Or combiner
+ Merge branch 'v3' of github.com:slodge/MvvmCross into v3
+ ShouldReturn binding for Touch
+ ShouldReturn binding for Touch
+ Fixes #466
+ Merge pull request #470 from ShawInnes/v3 Android RatingBar Target Binding Thanks - done!
+ Renamed Lambda Expression
+ Add Target Binding for Android RatingBar
+ Merge pull request #469 from benpage/v3 Update SimplePickerElement.cs
+ Update SimplePickerElement.cs background should not be black on iOS7 as the picker is not visible
+ Allow for optional parameters in the Init by providing default values
+ Having IntPtr handle constructors seem to give 1) better memory manamagement between .net objects and objective-c counterparts, 2) gives better native errors/stacktrace when memory problems occur
+ For verbose error message for messages
+ ThreadUtils Wpf added to nuget - completes #459
+ Merge pull request #459 from ShawInnes/v3 Added ThreadUtils WPF project
+ Fix for native extension method name (not Android!)
+ Additional Underscore tests
+ Fix for _ parsing - with unit test - fixes #461
+ Added Solution Reference to Wpf ThreadUtils library
+ Fix AssemblyInfo.cs
+ Added ThreadUtils.Wpf Project
+ Merge branch 'v3' of https://github.com/slodge/MvvmCross into v3
+ Mark old SQLite plugin as obsolete - try to push people to the newer one.
+ One more broken link in readme - wish there was a way to test this locally
+ Readme - still trying to fix problems in readme.md link interpretation on GitHub
+ Readme - fixes for urls
+ More readme update (from Wiki for now)
+ Merge branch 'v3' of https://github.com/slodge/MvvmCross into v3
+ Readme update
+ nuspec ios7 content change
+ Fixes #458 - Dialog DateTime background color on ios7
+ 3.0.13 nuspec changes
+ Merge branch 'mac-play' of https://github.com/MvvmCross/MvvmCross into BindingChanges
+ Fixes https://github.com/MvvmCross/MvvmCross/pull/453 and
+ Merge branch 'v3' of https://github.com/SeeD-Seifer/MvvmCross into BindingChanges
+ Fixes for https://github.com/MvvmCross/MvvmCross/pull/363 - could these be the last for 3.0.13 :)
+ Improved comment on why ping is not used - see https://github.com/MvvmCross/MvvmCross/pull/408
+ Android Bitmap loader supports 'res:' just as iOS does
+ More verbose ToString on source binding failures
+ bring ImageView inline Droid-Touch
+ Merge branch 'v3' of https://github.com/slodge/MvvmCross into v3
+ Mac List (NSTableView) View kind of working too…
+ Date and time pickers working in the mac demo now
+ list item id - correction to previous id checkin
+ Add ICheckable support to the MvxBaseListItemView
+ Allow simple id's for both dropdown and for spinner too
+ Mac additions - including some ApiExamples
+ Newtonsoft includes nuget.exe
+ Designer files only - just noise
+ Console setup includes View name postfix
+ Debug text in color should say argb, not rgba
+ Minor improvement in error masking for type conversion
+ Emergency workaround for non-clickable datetime and radio section in https://github.com/MvvmCross/MvvmCross/pull/363
+ Dependency change in nuspec files
+ Copyright license acknowledgements updated
+ 3.0.13-beta4 updates
+ Merge branch 'BindingChanges' of https://github.com/slodge/MvvmCross into mac-play
+ Commented out GeneralEventSubscription - for #400
+ sln file - without any odd x86/ARM entries - hopefully fixes #439
+ SimplePickerElement continued - Fixes #392
+ SimplePickerElement added
+ Minor changes - slowly reducing #warning count
+ Minor mac changes to bring it inline with v3/bindingchanges
+ Remove dead file
+ Tidy up dead code in NSSwitchOn
+ Merge branch 'BindingChanges' of https://github.com/slodge/MvvmCross into mac-play Conflicts: Cirrious/Cirrious.MvvmCross.Dialog.Droid/Resources/Resource.Designer.cs Cirrious/Cirrious.MvvmCross/Platform/MvxSetup.cs Cirrious/Cirrious.MvvmCross/ViewModels/MvxViewModelViewTypeFinder.cs Plugins/Cirrious/Network/Cirrious.MvvmCross.Plugins.Network.Droid/Resources/Resource.Designer.cs Plugins/Cirrious/ReflectionEx/Cirrious.MvvmCross.Plugins.ReflectionEx.Droid/Resources/Resource.Designer.cs
+ Just experiments
+ Solution file - new test project added for color plugin
+ Just minor changes to protect private variables (Sorry - just trying to keep some encapsulation!)
+ Merge branch 'v3' of https://github.com/csteeg/MvvmCross into BindingChanges Conflicts: Cirrious/Cirrious.MvvmCross.Dialog.Droid/Resources/Resource.Designer.cs
+ InitialiZZZZZe fix
+ After 3 months as obsolete, time to delete this file - fixes #359
+ Add named colors - fixes #412 - uses Mono class library code under Apache license - their copyright included
+ Add a uint based constructor
+ Fixes to ValueConverters - especially for 3 digit color codes
+ Tests for Colors - fixes #455
+ Possible fixes for #455 - needs unit test before signoff
+ Merge branch 'v3' of https://github.com/BenGladman/MvvmCross into BindingChanges Conflicts: Cirrious/Cirrious.MvvmCross.Binding.Droid/Cirrious.MvvmCross.Binding.Droid.csproj nuspec/MvvmCross.HotTuna.Droid.Fragging.3.0.1.nuspec
+ Merge branch 'v3' of https://github.com/BenGladman/MvvmCross into BindingChanges Conflicts: Cirrious/Cirrious.MvvmCross.Binding.Droid/Cirrious.MvvmCross.Binding.Droid.csproj nuspec/MvvmCross.HotTuna.Droid.Fragging.3.0.1.nuspec
+ Remove the host ping for now - just use network state - fixes #408 (although the host http ideas are interesting too!)
+ Make Reachability report a better error if there's a permissions issue
+ Simplify/Unify FragmentView by using IMvxView as base
+ Android MvxRadioGroup control
+ Resources.Designer tools version comment
+ Fixed an issue when INotifyCollectionChanged.CollectionChanged event stripped by Xamarin linker, so that MvxNotifyCollectionChangedEventSubscription creation thrown an exception.
+ Fixes for misaligned Appear/Disappear in Touch
+ Merge branch 'LocationChanges' into BindingChanges
+ Merge branch 'DroidReachability' into BindingChanges
+ Pull of #349 fixing #290 - images and scaling
+ Moved (long)clickability to the element
+ FluentBinding - add FullyDescribed and SourceDescribed instead of Described - Breaking change for anyone using set.Bind with a string - this will now use FullyDescribed rather than SourceDescribed.
+ Allow Windows platforms to use UnsetValue and DoNothing in converters (converts them back to native values where available)
+ Allow Windows platforms to use UnsetValue and DoNothing in converters (converts them back to native values where available)
+ Small variable name improvement
+ Add Helper class for raising Interactions
+ Add hidden binding to Windows (Tibet) binding
+ Explicit Hidden binding for Touch
+ Add Hidden binding to Droid
+ DrawableName binding - fixes #435
+ DrawableName binding - fixes #435
+ Nuspec changes for beta
+ just a typo comment
+ MvxInteraction helpers added
+ Test updates - FallbackValue
+ Binding context implements DataContextChanged event
+ Less verbose error message for fragment inflation
+ Move the Raise() extension methods into CrossCore
+ Serializable comment removed from MvxException
+ CreateWillBeCalled - missing event notification
+ Just code tidy up
+ Ambiguous WPf view interface cleared up
+ Missing Dispose event firing added
+ Unneeded break statements removed
+ Old parsers removed
+ Dead variables removed
+ Use base DataContext
+ formatting only
+ Add test for oddly named Views
+ Attempt to fix autosave issues
+ Fix - file recovery missed this :/
+ Fix - file recovery missed this :/
+ Fix - file recovery missed this :/
+ Attempt to fix #433 - possible break caused by #385
+ Small efficency improvement in i18n provider - don't call string.Format if no arguments are provided
+ Remove unused configs - fixes #439
+ More initialise to initialize changes (plugins)
+ Removing commented out code (old plugin stuff)
+ Add ability to use ViewController, Page, etc suffixes - for #437 - but needs test harness
+ Improve inherited access to MasterNavigationController - as suggested on DeapSquatter's blog
+ Improve ability to inherit and override the Android Lifetime monitor
+ Remove dead intentresultsink - duplicate file
+ Small console fixes
+ whitespace only
+ Tidy up constructors of MvxImageView in Droid
+ Dead using removed
+ Initialise to Initialize everywhere - BREAKING CHANGES
+ Quite extreme changes to binding SourceSteps and Source - especially to allow UnsetValue and DoNothing for #424
+ Loooooooooooooong (hopefully) helpful error message when viewmodel can't be found
+ UILabel non-reflection based set of text
+ SubscribeToEvents added to Droid TargetBindings
+ SubscribeToEvents added to Touch TargetBindings
+ SubscribeToEvents added to IMvxTargetBinding
+ Remove IElementSizing on top level, for better performance according to @Slodge and @migueldeicaza: https://github.com/slodge/MvvmCross/pull/363#commitcomment-3933413
+ Remove unnecessary MainWindow files from FirstDemo.Mac
+ Remove old FirstDemo2.Mac project, added missing MvvmCross_Mac.sln
+ Add MvvmCross_Mac solution for Xamarin Studio, Mac-implementation, sample project (N=0)
+ Mod to additionally match *ViewController to *ViewModel for iOS and Mac
+ Merge pull request #434 from sschoeb/v3 Do change dependency to libraries instead of Starter Package
+ Do change dependency to libraries instead of Starter Package
+ If the view fails to inflate, don't throw
+ Fixes GetPropertyText for value-properties (int,float,bool, etc)
+ Forgot to switch propertyinfo -> custom registration on droid
+ 3.0.13-beta1 nuspec file changes
+ Android changes to color binding to use converting base methods too
+ iOS changes to views to allow converting base methods to be used
+ Android changes to binding to allow converting base methods to be used
+ Core binding changes - especially to allow for non-property info text fields to have some type conversion applied for numeric input (still doesn't allow commas for thousand separators though)
+ Core binding changes - especially to allow for non-property info text fields to have some type conversion applied for numeric input (still doesn't allow commas for thousand separators though)
+ Addition of ConvertingTargetBinding - refactoring code out of PropertyInfo binding
+ fixup! Convert to Boolean as a shared method - also removed unused if (null) paths and changed boolean logic path
+ region removal
+ Addition of MvxSetToNullAfterBinding to help clear child bindings
+ Weak referencing in FieldBinding
+ Droid reachability - linked to #408 and comments inside #362
+ Added CurrentLocation and LastSeenLocation to MvxLocationWatcher
+ Added new Location interface for options
+ Useful nuget delisting batch file
+ Merge branch 'v3' of https://github.com/slodge/MvvmCross into v3
+ Prevent null exception
+ 3.0.12 nuspec changes
+ nuget test packages update
+ Remove Touch PCL Crutches on PC
+ Change to Android Location Manager - some devices reporting issues with 5000, 2 default - so using 0,0 Expect this code to be replaced by new interface soon - see #413 and #398
+ Build changes for 3.0.11 - System.Windows on PC (Dialog)
+ Merge branch 'v3' of github.com:slodge/MvvmCross into TibetBinding
+ Merge pull request #419 from jmgomez/patch-2 Mark ImageHelperOnImageChanged as virtual to make it override
+ Merge pull request #420 from MihaMarkic/cleaning removed a couple of duplicate usings
+ Merge branch 'v3' of github.com:slodge/MvvmCross into TibetBinding
+ Merge branch 'v3' of https://github.com/slodge/MvvmCross into v3
+ Missing Dispose hooks (won't have made any practical difference to current activities - but should be there regardless)
+ removed a couple of duplicate usings
+ Mark ImageHelperOnImageChanged as virtual to make it override I was waiting for you to change it, but I guess that you don't have the time to do it. So if you accept it I can work with the source again. Thank you
+ Sometimes we seem to have lost the cell already, check for null to be sure
+ Improved overriding and base property access for presenters
+ Merge branch 'v3' of https://github.com/slodge/MvvmCross into v3
+ 3.0.11-beta1 nuspec files
+ Trying to get rid of the profile1/profile104 switching - at last!
+ workaround for xamarin bug on alpha - no idea why this cast throws a null ref exception
+ Mac odd things - should not effect main build
+ Designer resouce changes only
+ cell.Hidden = Visible changes - address #403 - not sure if this is a fix or a temporary bandaid!
+ no change checks in Element
+ Possible breaking change - Styles cleared up in StyledStringElement - fixes #402 and linked to #328
+ Addition of IMvxViewModelByNameRegistry to allow Plugins to automate their VM registration. Fixes #405
+ Make ExtraCC and ExtraEmail optional - fixes #385
+ Unified Adapter API for all Android 'list'views - completes #331 and fixes #390
+ nuget 3.0.10 -> 3.0.11
+ _currentlyActive sentinel (trace only) added to the iOS image picker plugin
+ Removed Console plugins - they now use Wpf - fixes #395
+ Merge branch 'v3' of https://github.com/aboo/MvvmCross into TibetBinding
+ Unused using only
+ CanExecute change in wrapping command - fixes #378 Also includes fix to hold onto additional event subscription token
+ Unity compiler help - fixes #383
+ LinkerPleaseInclude - fixes #391
+ LinkerPleaseinclude - Fixes #379
+ Improved trace messages for PropertyToken
+ Remove unneeded System.ServiceModel references Xamarin is requiring a business license to use System.ServiceModel.
+ Forgot one FromRowSection
+ fixed the issue with multiple subscription to the handler in the same view for each call causing the HandleImagePick method to be called multiple times
+ Fix: when animations are turned on it should use FromRowSection instead of FromItemSection to create an indexpath
+ Allow override
+ Make element dissear visibly when changing visible property
+ Allow better override for BooleanElement
+ Merge branch 'v3' of https://github.com/slodge/MvvmCross into v3
+ Better support for overriding EntryElement
+ Fix for xamarin 1.3
+ remove dead comment
+ fixes #376
+ Merge branch 'v3' of https://github.com/slodge/MvvmCross into v3
+ AssetImagePath - my nemesis - fixes #372
+ Processed slodge's comments
+ Warning for Value[key] seen in a binding - can be switched off using static field if required
+ Improvements to naming for https://github.com/slodge/MvvmCross/issues/353 - I think this might be a winner - fixes #353
+ Possible fix for issue #353 - but really this syntax is so horrid that I'm not sure... could maybe consider adding some simple NDict and NColl interfaces and classes?
+ fixes #369
+ wpf resource loader plugin - fixes #355
+ Remove v1.6 - addresses second half of #356
+ 3.0.9 -> 3.0.10
+ Removed the virtual from DataContext - fixes #368- sad to see them go, but binding should be ok...
+ Allow the lineardialogactivity to be used without a custom layout
+ Working time binding for UIDatePicker (it helps if you test the right assembly :/)
+ Non-working Time binding - argh!
+ More code to help work towards better decimal support for #350
+ Prevent source being updated with a value equal to the current one - part of #350
+ null protection for safeValue - related to #350
+ Obsolete file - linked to #359
+ just resharper autoformatting
+ Fix for empty whole-object binding
+ Time for UITimePicker (Still needs some timezone testing)
+ Provide protected access to move to next focus field
+ Cache the design time helper results (especially important for Wpf which uses reflection)
+ Design time helpers improved using addition In design time checks
+ Clear key added and used in fluent bindings - means that bindings can be removed - fixes #358
+ Get picker view model to reload component when item list is reset - fixes #354
+ better cleanup
+ Clean up references after dispose
+ Merge remote-tracking branch 'remotes/csteeg/TibetBinding' into v3
+ Bugfix (cell cannot be updated from constructor) + overrideable method feature
+ revert this
+ Merge branch 'TibetBinding' of https://github.com/slodge/MvvmCross into TibetBinding
+ 3.0.9 nuspec changes
+ 3.0.9 nuspec changes
+ MethodBinding - fix on iOS build (old dam 2)
+ Wpf nuspec fix... but still not sure sqlite will work in Wpf :/
+ Catch next/previous softbuttons
+ Nuget - just versions
+ Wpf seems to need a help loading static resources
+ More trace for Windows binding creation
+ Different error message (it is better? who knows?)
+ Fix for binding trace - less meaningless MvxBind messages!
+ BindingEx - uses Import to allow importing from assemblies
+ MvxSingletonCache.Instance changes - although really anyone using MvxNotifyPropertyChanged without first bootstrapping Mvx deserves what they get
+ Test for null valueconverters - can happen in real bindings, perhas should get dealt with earlier
+ Merge branch 'TibetBinding' of https://github.com/slodge/MvvmCross into TibetBinding
+ Reuse improvements
+ Restore focus, which could possibly be lost
+ Fixes the convertview, finally get it :) LinearDialogScrollView now also tries to use a convertview, which should improve performance. Element.GetViewImpl should not do anything with a convertview, so I removed that attribute
+ Added option to style the dividers in a LinearDialogScrollView
+ Tests for Observable lists - fixes #345
+ Empty files xml section in mvvmcross nuspec - stops all content files from being included!
+ Additional exception handling for property get - needed when a bound list or dictionary doesn't always have values for all fetched elements (keys)
+ Key change for #345 - think that we were testing for the wrong name - the one without the `[]` on the end
+ MinValue/MaxValue changes - following up from https://github.com/slodge/MvvmCross/pull/344 to prevent unhandled exceptions during initial setup
+ Fix issues with unintended side effect for Droid Dialog FloatElement (cherry picked from commit 5964d2f763f6e607730a54bd7105bc4f3f40ccb1)
+ Add 'NoAutoCorrect' input mode to Droid Dialog EntryElement (cherry picked from commit e2374bee0833c35b19a79469167db619694ae8d9)
+ nuspec changes
+ Fix for Radio selection in Droid Dialog
+ Fix for binding tests
+ Merge branch 'v3' of https://github.com/csteeg/MvvmCross into TibetBinding Conflicts: CrossUI/CrossUI.Touch/Dialog/Elements/Element.cs
+ Merge branch 'TibetBinding' of github.com:slodge/MvvmCross into TibetBinding Conflicts: Plugins/Cirrious/JsonLocalisation/Cirrious.MvvmCross.Plugins.JsonLocalisation/Cirrious.MvvmCross.Plugins.JsonLocalisation.csproj
+ More s to z path changes - I may regret this change in directory name
+ Guid parsing - fixes #215
+ More s to z path changes - I may regret this change in directory name
+ Small readme changes - more needed - would love to have someone write something slick :)
+ Localization name fix - somehow the project didn't get updated :/
+ Localisation to Localization in one module.... but JsonLocalisation lives on... so we don't yet get to fully fix the problem #270 :/
+ Named subscriptions for weak subscription helpers - see 20 comments down in #245 - fixes #245
+ IEnumerable == and Equals changes - #fixes 309 - https://github.com/slodge/MvvmCross/issues/309
+ namespace/file move change only
+ Explicit inclusion of value converters and combiners - optimisation - fixes #327
+ Boolean value combiners added
+ Provide nullable adapter option in constructor - advanced users only - fixes #331
+ Disposable (but *not* finalized) subscription tokens - #fixes 343
+ IRadioElement added as marker - should make bindable Radio lists easier for Droid?
+ Remove extra line between empty sectionheaders and next view
+ issues with element Parent - linked to #294
+ Fixes #336
+ _minValue issue - fixes #338
+ Console->Wpf tidy up on the Sqlite plugin
+ DetailTextLabel fix for radiogroups
+ Nullable time
+ Merge pull request #341 from robfe/TibetBinding the ITableQuery abstraction in SQLite plugin prevents you from running anything but `select *`
+ Allowing SQLite tables to be queried as well as "select-all"ed
+ Two null checks needed for Xaml binding (source is null to start with)
+ batch fix
+ Incorrect path fixed
+ 3.0.9-beta
+ nuspec updates
+ BindingEx for Wpf
+ Trace moved up to warning
+ Field binding plugin
+ Missing wpf network files in plugin
+ DebugTrace files for nuget
+ nuspec updates - including AutoViews and MethodBinding
+ Method Binding plugin - first attempt
+ Method Binding plugin - first attempt
+ Source Binding returns to non-Path - and provides an extension point
+ Change back of SourceBinding name again - not sure why I ever changed it in the first place!
+ Accessory Tapped command - fixes #312
+ comments improved on the CurrentAttachedCell issues - still more to do?
+ Some if (null) checks for the menu 'hack' - thsi still needs implementing properly
+ I finally give up on this IList test... here's my final attempt...
+ Missing checkins for datetime fixes
+ Fix to time binding for MvxTimePicker
+ Simpler datetime implementation for Droid? Need to validate this
+ Merge branch 'DateTimeFixes' of https://github.com/zanethorn/MvvmCross into TibetBinding
+ Project file for the Dialog code
+ Change Fluent bindings to allow Tibet binding
+ remove dead comment
+ Commits to the Dialog code
+ Merge branch 'v3' of https://github.com/csteeg/MvvmCross into TibetBinding Conflicts: CrossUI/CrossUI.Core/Builder/KeyedUserInterfaceBuilder.cs
+ Fix IList<> check
+ other: the missing files... sorry 'bout that
+ fixed potential issues in Date/Time pickers so they get initialized even when "set" data is equal to the default data
+ Design Time helpers added for color and visibility (store and winphone) - fixes #323
+ Attempt to resolve the "how to test `(ICollection<int>).GetGenericTypeDefinition()`" debate
+ Merge branch 'v3' of https://github.com/csteeg/MvvmCross into TibetBinding Conflicts: CrossUI/CrossUI.Droid/Dialog/DialogActivity.cs CrossUI/CrossUI.Droid/Dialog/DialogListView.cs CrossUI/CrossUI.Droid/Dialog/Elements/DateTimeElement.cs CrossUI/CrossUI.Touch/Dialog/Elements/Element.cs
+ Simple tests for GetPropertyNameFromExpression
+ Processed some of slodge's comments
+ Comment out the KeyedUserInterfaceBuilder question line for now. Need to discss
+ Fix for duplicate optional-params constructor
+ CustomDataSetObserver and LinearDialogListView missing. So just temporary comment out code as a result
+ Refactoring of the convertView logic - would like to discuss/understand more
+ Changes to ObservableCollection handling
+ rename of 'sticky' variable
+ Check for IList as well as ICollection<T>
+ refactoring of unary expression if statement
+ Minor comments and warnings only
+ just a typo
+ refactor of type extensions to use CreateDefault() for ValueTypes (including Nullable ones)
+ Merge branch 'v3' of https://github.com/csteeg/MvvmCross into TibetBinding
+ Numeric pairwise Value Combiners modified to use Long instead of int
+ Numeric pairwise Value Combiners modified to use Long instead of int
+ combiners only ask for object by default
+ Improvements to trace for combiner/converter not found
+ More (very) experimental combiners
+ Less exceptions thrown for broken combiners
+ Simple visible bindings
+ virtual methods exposed for monotouch.dialog
+ Change of registration to use types and strings - very small optimisation. Very slightly quicker code
+ Changes to binding parsing - removal of combinerparameter and merging of parsed Function (from separate Converter, ConverterParameter parts)
+ Search Bar binding - fixes #324
+ Search Bar binding - fixes #324
+ Linear layout for dialog instead of listview now works good! Much better then listactivity, due to edittext problems inside of listviews
+ Wpf Networking added
+ Windows Phone Design Time Visibility Helper - part of #323
+ RGBA Converter
+ Main thrust of Tibet setup - dominated by a namespace rename for sourcesteps
+ Fix for WindowsStore resources - #332
+ Made MvxDate/Time controls more "Android like" and fixed stack overflow issue
+ Patch for earlier missing file in csproj from commit
+ Make sure all droid messages go through Log
+ Interface for Droid views container
+ Interface for Droid views container
+ Code cleanup - still more to do here (e.g. need to find a folder/namespace for the combiners)
+ Initial large commit for Tibet Binding
+ dialoglistview focus problems also solved
+ More problems with viewtypecount (when adding elements dynamically) -> finally found that returning Adapter.IgnoreItemViewType does the trick
+ W000000t finally solved the focus problems with multiple edittexts in a listview!! thanks to http://stackoverflow.com/a/15621096/336130 with some modifications
+ Added linear layouts (can be used instead of listviews)
+ ItemViewTypes were necessary using a listview after all
+ fail protect
+ Fix for the splashscreen initialization issues - #316 - suspect this was caused during repairs to #274
+ Additional numeric tests - and a fix for double/int conversion
+ tests for type conversion
+ tests for type conversion
+ Changes and tests to address #297 fallbackvalue issues
+ Check if properties are really new values, prevents losing focus for a few ms while typing (and thus keyboard does not do auto-complete for example)
+ Fixed event bubbling + added new event when the elements are modified runtime. Also, modifying the elements at runtime caused this :http://stackoverflow.com/questions/2596547/arrayindexoutofboundsexception-with-custom-android-adapter-for-multiple-views-in Removing ViewTypeCount and GetItemViewType from DialogAdapter.cs fixed it, but don't exactly know the consequences
+ Made precision configurable and the event methods overrideable
+ Made it a little safer. Some strange stuff is happening if you create your own layout for a dialogactivity, but this does fix that
+ Revert "Inherit DialogAdapter from MvxAdapterWithChangedEvent/MvxAdapter so events are attached and views are bindable" This reverts commit be5b461d646cc11a5d73b887444928949b45f377. Did not really need it anyway in the end :-)
+ reuse created views: If you have a ListActivity with a custom layout (SetContentView in oncreate), the views are requested again. The first created view should then be returned, otherwise there are 2 views somewhere (and you only see the first one). The events for binding etc. are connected to the last one, so changes do not appear in the list. This simple line fixes that headache
+ Inherit DialogAdapter from MvxAdapterWithChangedEvent/MvxAdapter so events are attached and views are bindable
+ Get propertyname correct for value-types (int, datetime, etc)
+ Cleanup
+ Merge branch 'v3' of https://github.com/slodge/MvvmCross into v3
+ Merge pull request #308 from slodge/targetframeworkfixes Merge Targetframeworkfixes
+ just unused namespaces fixed
+ Removed v1.6 - fixes #305
+ Allow a textbox to maintain focus after softkeyboard popping up
+ Fixes incorrect code
+ Merge branch 'v3' of https://github.com/csteeg/MvvmCross into v3
+ if value is null and type is value type (eg int? nullable), return default value
+ Allow properties not to be there (eg LayoutName on touch)
+ Merge branch 'v3' of https://github.com/slodge/MvvmCross into v3
+ timeEditing=false for error-situation
+ Don't throw an exception, otherwise LaunchMode = LaunchMode.SingleTask cannot be used on an activity
+ Title incorrect in nuget package
+ nuspec files updated after fix
+ Initialise order fixing - possible (1 in many) multi-threaded problems with settings when using splashscreen init in droid
+ nuspec changes to 3.0.8
+ Some tap gestures and bindings - followed up from a stackoverflow question. Not sure I call this a behaviour right now
+ class based ctor for simple table view
+ removed unused usings
+ change to make the main thread dispatcher really consistent across all threads - linked to #260
+ Code tidy up (unused using)
+ Tests for IMvxNotifyPropertyChanged changes - threading and interception
+ Just R# doing some adjustments
+ IMvxInpcInterception, IMvxNotifyPropertyChanged, IMvxSettings and a change to the MvxSetup and the fixed Singleton classes as a result
+ File name change missed
+ More static methods surfaced for ioc
+ Added ExcludeInterfaces call for reflection
+ Add binding expression support for the default binding names
+ Fix for winrt dependencyproperty finding
+ BindingEx shared code between phone and winrt - oh yuk!
+ DateTime.Now to DateTime.UtcNow
+ really could do with getting type converters more formally implemented and tested
+ Ongoing WindowsPhone BindingEx experiments - slowly getting there
+ Exception safe changes for reflection
+ WindowsPhone bindingex experiments
+ Binding changes ahead of Windows work. This includes: making methods public (invoke issues), and adding extension methods to make target binding registration easier
+ Add 'Visible' property to Elements to be able to hide them
+ Duplicate dataset subscriptions added - fixes #296
+ Fixes issue that time-input pops up twice on android
+ Allow DateTimeElements to contain null values
+ Merge branch 'v3' of https://github.com/slodge/MvvmCross into v3
+ Removed the trace-line
+ Move registration of localization value converter
+ refactoring of target binding registry
+ Refactoring of binding builder
+ dead code removed
+ CommandParameter added to SwissBinding
+ Removing tags damage that somehow leaked in there - sorry
+ ICommand added to LinkerPleaseInclude for Touch
+ ICommand added to LinkerPleaseInclude for Droid
+ Binding - fluent command with parameter
+ Named Notify Property changed added - not convinced of the value of this - but fixes #245
+ Update to enable auto-elements for properties not inheriting from object. Eg, if a property was : public int MyInt {get; set} Expression<Func<object>> will result in an expression with body set to UnaryExpression because of boxing the int to an object. This caused new EntryAuto(bindingExpression: () => MyInt, caption: "MyInt") to fail
+ FilePath Image converter for WindowsPhone - fixes #255
+ Minor EntryElement tweak (null check)
+ DateTime Elements in Droid changed to match iOS Elements
+ Change time formatting in MonoTouch dialog - fixes issues seen during the recording of the N=23 video cast
+ Aviod oververbose change broadcasting
+ Default binding names for ValueElement
+ Dead fille removed
+ More binding changes - especially for Dialog - but also useful for other areas too
+ First attempt at moving Dialog Bindings down to the dialog project
+ Removal of CrossUI -> CrossCore dependency
+ nohistory on splashscreen - fixes #291
+ Merge branch 'v3' of https://github.com/csteeg/MvvmCross into vNextDialog
+ remove SupportsCookieContainer - exception when this is called on MonoDroid
+ Make DataContext virtual in frame control
+ All elements should have an empty constructor (all parameters optional), otherwise UserInterfaceBuilder will fail
+ better parameter name for request
+ protected access to members in Touch Setup
+ Unwanted files in source control
+ dialog touch - add new UIWindow based constructor
+ Minor fixes for nuget Content (namespaces)
+ Trace added for unserializable types
+ Wpf uses trace for debug output - fixes #275 for WPF (not for the other platforms!)
+ push and pack for Droid Dialog
+ 3.0.7 nuspec changes
+ AutoView changes to get dialog working too
+ Minor cahnges to binding to allow dialog to load more smoothly
+ Android dialog resources added and some view classes fixed
+ BindingEx nuget pack added (wp and winrt only)
+ BindingEx nuget pack added (wp and winrt only)
+ Additional virtuals added to android container - plus init changed slightly - additional trace also added
+ Bringing spinner into line with latest IMvxAdapter changes
+ Lots of changes to MvxAdapter - switched usage to IMvxAdapter in the list, grid, linearlayout, relativelayout, etc - provided more inheritance permutations for linearlayout, relativelayout, etc - provided more virtual methods inside the MvxAdapter (not sure these should be used but...) - created IMvxAdapterWithChangedEvent to mirror IMvxAdapter changes
+ workaround for ImageSource binding on WP7 (it doesn't seem to like TwoWay!)
+ remove unused autoconverter for now
+ Some initial design time data support for our binding/language code - could do with more, plus with more converter support
+ A couple of expression based methods for getting the language binder from the source
+ design time fix for language binding
+ Misc changes to allow null/empty raisepropertychanged - I hope I don't live to regret this :) - fixes #280
+ Missing files from last commit - re: better language bindings in wp and winrt
+ Adding BindingEx projects - first steps towards #283
+ IMvxCanCreateTouchView interface - refactoring to enable #284
+ Simpler NativeValueConverters for Phone and Store
+ NibName constructors for Table and Collection - I never use these but they should work...
+ Move CreateView down a level in TouchViewPresenter hierarchy - plus make it virtual and protected
+ Mvx.CallbackWhenRegistered - additional helper method
+ Binding construction changed - pushing all those BindingBuilder parameters out into Mvx.CallbackWhenRegistered instead.
+ LinkerPleaseInclude - first attempt at #236
+ Remove unneeded using reference
+ Default button event is Click on Android
+ support for optional parameters in IoC constructors -#239 (but don't expect these to work on all platforms immediately)
+ Initial implementation for SelectedItem on #278
+ Change fluent language bindings to OneTime - fixes #264
+ nuspec changes for wpf - 267
+ TFrom and TTo type names - as requested in #276
+ formatting only
+ Dead namespaces removed
+ unit test for parser updated
+ Addition to parser
+ Initial changes for droid dialog - more needed
+ Better (more expression based) language bindings
+ Initial work on #281 - but I really can't understand why my head is telling me to go this route - see comment on #281
+ Optimisation of ViewType resolver - including ability to use `MvxListView` rather than `Mvx.MvxListView`
+ fixes for initialization - addresses #274 but requires much more than that - problems with recoverign with tombstoning to consider too...
+ fixes for initialization - addresses #274 but requires much more than that - problems with recoverign with tombstoning to consider too...
+ touch picker view model - see #277
+ theme added to droid template (nicer startup)
+ Fixes #262 (.pp file tidy)
+ Fix for #271
+ Fix for #260
+ whitespace removed
+ Attempt to fix #261 - language converters automatically registered
+ Touch Dialog nuspec file
+ Single Selection Changed EventToCommand - for simple list clicking...
+ Attempt to fix #261 - language converters automatically registered
+ abstract constructor should be protected
+ Merge branch 'v3' of github.com:slodge/MvvmCross into vNextDialog
+ Fix for nuspec content file (Presenter -> Window in Touch)
+ PCL build issue on Mac - fixed
+ nuspec fix for network file
+ nuspec changes - 3.0.6
+ small changes to MvxCollectionViewCell constructor - PC build issues
+ Merge branch 'v3' of github.com:slodge/MvvmCross into vNextDialog
+ Just resharper reformatting files
+ Big Network plugin checkin
+ Collection Cell - constructor improvements
+ warnings and removed regions only
+ Merge branch 'v3' of https://github.com/slodge/MvvmCross into v3
+ Get rid of old Profile104 conditional - hopefully xam studio won't break again (hopefully)
+ Make MvxLanguageBinder methods overrideable
+ Fix for #258 - not sure on whether I lost changes during a merge or a crash or what - but I've definitely written this code twice
+ Network plugin - for Rest - needs more love yet
+ weird _._ file suggested by @dsplaisted to solve the latest PCL installer... not sure - may revert this change
+ Fix for local merge issue with mvxPluginManager.cs
+ Merge branch 'v3' of github.com:slodge/MvvmCross into vNextDialog Conflicts: Cirrious/Cirrious.MvvmCross.Binding.Touch/Views/MvxSimpleTableViewSource.cs
+ Inherited (protected) access to LockObject in SimpleIoCContainer
+ Method to allow plugins to optionally load platform adaptions (when not all platforms need an adaption)
+ Draft portable support package
+ comment typo only
+ Alternative API for presenter in Touch - fixes #247 without breaking existing code (phew)
+ Conventions used for property injection too (test harness needed for this)
+ added a NativePath method to file store - fixes #234
+ Assembly title's updated - Rose disappeared a long time ago
+ refactoring on attempt at helping out on #243 and #244
+ provide property injection mechanism
+ provide property injection mechanism
+ Attempt at helping out on #243 and #244
+ Start of migrating Touch properties down to crosscore.Touch
+ Attempt at reinstating MvxPropertyChangedListener - mainly for Unity clients, but now with added weakreference code too... linked to #245
+ Adjustment for #246 - unity only
+ Attempt to fix problem from opendix on https://github.com/sschoeb/MvvmCrossGridViewProblem and http://stackoverflow.com/questions/16364197/using-mvxgridview-in-mvvmcross
+ Merge pull request #241 from RobGibbens/patch-2 Added link to N+1 Days of MvvmCross
+ Remove dead file - still not sure how the reporter in #245 started using this file?!
+ small debug trace refactoring - make it easier to just override the debug trace creation
+ Added link to N+1 Days of MvvmCross
+ Add default constructor for standard table cell
+ change default cell id to match nib name - that is what most people use!
+ Merge branch 'v3' of github.com:slodge/MvvmCross into vNextDialog
+ Fix for Newtonsoft in JSON plugin for Store apps
+ Important fix for storyboards
+ Inching closer...
+ More attempts at getting Touch to build on osx again
+ More attempts at getting Touch to build on osx again
+ More attempts at getting Touch to build on osx again
+ More attempts at getting Touch to build on osx again
+ Merge remote-tracking branch 'mvvmorigin/v3' into vNextDialog
+ Try again on iOS Mac build
+ Try again on iOS Mac build
+ Attempt to hack csproj so it will build on mac again... system.windows stuff
+ Missed a couple of IntPtr constructors...
+ Merge branch 'v3' of github.com:slodge/MvvmCross into vNextDialog
+ IntPtr handles added :)
+ Typo fixed
+ hide of unused configurations (i hope)
+ RaisePropertyChanged protected access - fixes #231
+ Merge pull request #233 from jonstelly/v3 Enable Strong Naming for Cirrious.MvvmCross and Cirrious.CrossCore Thanks again - this is a tentative Pull - will take me 'some time' (depends on Xamarin fixes) to get this fully integrated :)
+ nuget increments
+ typo
+ nuspec file changes - lots of .pp - see #235 - blame Daniel
+ dead files removed
+ - Add Key.snk file and set Cirrious.MvvmCross and Cirrious.CrossCore projects to be strong named
+ Push file update too
+ Is this all really building on the PC now? Yikes that took a long time!
+ 3.0.4 -> 3.0.5
+ nuget fixups
+ Goodbye to NoSamples (thanks for it though CheeseBaron)
+ Goodbye samples - moved to MvxTutorials for now
+ Goodbye samples - moved to MvxTutorials for now
+ Attempt to delay sign the System.Windows - this could be epic (or could be epic fail)
+ Added optional tags to subscriptions
+ Request purges in messenger
+ Singleton fixes - for lazy creation
+ check that no-one abuses the lazy singleton binding
+ **Important** fix for IoC registration - singletons weren't being properly recorded
+ Update - Namespace fix on IMvxViewPresenter - apologies for this one.
+ Debug trace updates - small optimisation - allow Func<string> to be passed
+ Namespace fix on IMvxViewPresenter - apologies for this one.
+ nuspec version bump
+ nuspec version bump
+ StringToTypeParser changed to interface - and made more easily replaceable
+ Not sure why this AllowUnsafe was added by resharper and/or vs - but should work ok
+ mailto url moved to shared code - hopefully this is OK...
+ Merge pull request #221 from SeanCatalyst/v3 Thanks! // Added Email plug-in for WPF
+ Escape items in Wpf Email plugin
+ Had to rollback - CheckReentrancy issues in true PCLs
+ Merge pull request #219 from SeeD-Seifer/v3 Back in timezone - merging MvxObservableCollection with unit-tests
+ Merge branch 'v3' of github.com:slodge/MvvmCross into vNextDialog
+ Messenger has HasSubscriptionsFor<T> plus it sends MvxSubscriberChangeMessage messages
+ Small change to namespace for IMvxValueConverterRegistry in order to remove the Binding dependency in some plugins
+ Small change to improve state loading performance in WinRT - identified as a small optimisation following #226
+ Merge pull request #222 from Cheesebaron/v3 Added back the MvvmCross_NoSamples solution.
+ Merge pull request #223 from RobGibbens/patch-1 Update readme.md - merged at 46000ft
+ Update readme.md Added WP8 to supported platforms
+ Added back the MvvmCross_NoSamples solution.
+ Added Email plug-in for WPF Added project Cirrious.MvvmCross.Plugins.Email.Wpf Sln file not committed, project will need to be manually added to solution
+ Improve FirstView in Droid nuspec
+ Fragment helper methods - just to make view writing easier
+ MvxObservableCollection with unit-tests
+ Build path issue for wpf
+ nuspec binding resources updated
+ Merge branch 'v3' of github.com:slodge/MvvmCross into vNextDialog
+ push batch file
+ attempt to improve build on the mac
+ nuspec updates
+ PictureChooser image value converters
+ Missed files - Close presentation hint - make it vaguely easy... but won't work for tabs, flyouts, etc...
+ Close presentation hint - make it vaguely easy... but won't work for tabs, flyouts, etc...
+ Value converters for image byte arrays
+ Minor nuspec fixes
+ Less trace when there's no text serializer available
+ Fixes for saved state serialization on Droid
+ Fixes and tests for #216
+ Localization moved permanently to 104
+ More nuspec fixes
+ I used to write code... but now I just write nuspec files
+ MvxView - for #201
+ reorganise the template files
+ Localization dll added to all platforms
+ Exceptions added to Mvx.cs
+ Attribute Helpers refactored - plus FrameControl added (for #201)
+ Add a started method to the GeoLocation watcher
+ Protect loading (only really needed in the case of bad builds!)
+ Register the ViewModelByNameLookup singleton
+ small fix for sdk only linking
+ Try to thin down the solution a bit - remove adhoc, distribution, appstore
+ More sln changes - yuk
+ solution build fixes for touch
+ Bootstrap-tastic in the conference sample
+ Make trace a bit more useful when loading plugins
+ Important fix for modal host!
+ Trivial IoC namespace patchups
+ missed file from IoC namespace changes
+ OMG - sorry - Mvx moves to a different namespace - sorry
+ Fluent binding sets for easier binding syntax
+ Android singleton is a proper clearable singleton now
+ Build path fixes
+ Droid Fragging nuspec file
+ Include image quality - although I'm not sure it's used...
+ Image picker changes winrt
+ ViewModel - navigation serialization by fullname
+ ViewModel lookup by name instead of by qualified assembly name
+ some new nuspec files - lots more plugins - almost there... I hope
+ ignore nuget package files
+ Tutorial fixup - for the abstract base classes
+ Touch Bootstrap files for plugins (nuspec)
+ Bootstrap files for plugins (nuspec)
+ Initial picture chooser implementations for WindowsStore
+ Conf sample using bootstrap plugin startup
+ nuspec Template tidyups. More to come - after nuspec tidy up
+ Fix for conference wp7 sample
+ Bootstrap actions
+ Tests for bootstrap actions
+ Bootstrap actions
+ Fix for inherits - nothing to do with attribute
+ Adding trace to Mvx - will need to move this class soon
+ File name fix
+ Changes to parser structure - and moving of navigation parser to a StringDictionary model
+ New Plugin added
+ Just #region tidyup
+ Test fixups - post Setup change
+ The all plugin (Pokemon?)
+ Remove dependencies from test core
+ just nuspec file fixes
+ Add the word beta
+ Fix for picture plugin file path
+ Just moving projects around
+ Solution update - after the new WindowsStore projects
+ nuspec'ing
+ Plugin tidy up - mainly on the WindowsStore
+ Value Converter names
+ Comments only
+ nuget stuff - anything for a quiet life from @dsplaisted ;)
+ Tabspec names and Tag names now are the same thing - prevents errors...
+ Color on that diet - all int based with shifting now - phew!
+ Default binding for UIIMageView
+ presenter changes
+ Messenger API cleaned up - much clearer 'async' naming
+ Just some trace
+ Spinner fix - #fixes 207
+ Spinner fix - #fixes 207
+ Converter changes - consistency
+ Protect saving state from NullRefException
+ Color with ToString
+ allow app to start without savedstate (Android splashscreen)
+ Initialize Json later in the flow
+ PluginManager Trace issues
+ protected virtual make more sense for MvxValueConverter
+ unconventional miss?
+ Someone forgot the language converter!
+ Die #region die
+ Minor binding change for TwitterCell and HomeView
+ where constraint fail
+ resharper at work
+ Resharper at work
+ Applicable changes
+ Code building on iOS :)
+ Make Iapplicable more applicable to enumerables
+ Minor fixes after the IoC and convention changes
+ CoreCross changes for Type Extension (iOC registration)
+ Merge branch 'v3' of github.com:slodge/MvvmCross into vNextDialog Conflicts: MvvmCross_All.sln
+ More sample Fixes for conventional and plugin changes
+ Sample fixups after changes
+ Plugins working with new IoC registration - including value converters
+ Fixups after the conventional and value converter changes
+ One conventional attribute change. The rest Resharper
+ Value converters done conventionally
+ Some IoC improvements (CallbackWhenRegistered) The Unconventional attributes moved to CoreCross Some automated resharper work
+ Changes to bring the sample code up to speed
+ Fluent binding changes
+ Plugin changes to match configuration changes
+ More plugin loading changes
+ Make plugins configurable
+ Merge branch 'v3' of https://github.com/slodge/MvvmCross into v3
+ Command Collection changes just for @gshackles
+ Enable CustomerAutoview in debug Any Cpu build
+ Back on the Mac - some fixes…. can't wait for this to build from one machine
+ AppStart tidy up in the samples
+ TwitterSearch using new Commands[] style
+ Core changes for IMvxNavigating - adding back in the ability to do ClearTop etc in the future again
+ Presentation Request changes - including hints
+ Adding a shared presenter, plus a shared presentationHint object
+ make suffix and prefix easily configurable
+ Namespace change
+ The new CommandCollection
+ Just comments, trace and #region changes
+ Changed some namespaces - ViewModel objects belong in ViewModels
+ The core of the MvxRelayCommand rename
+ Helpre methods added for registering AppStart
+ AttributeUsage added
+ AttributeUsage added
+ Test updates - including for MvxCommandCollection
+ Samples - MvxRelayCommand -> MvxCommand
+ More removal of PSS
+ Removal of PSS - it's so out of date now...
+ Rename of the unused PSS folder
+ BestSellers using Json for image cache
+ Touch images - support 'res:' prefix
+ Merge branch 'v3' of https://github.com/slodge/MvvmCross into v3
+ Just comments for the ViewDidLoad issue
+ Sqlite for console - fixes #198
+ name changes
+ name changes
+ default locator
+ test for SaveState methods
+ DelayBind fix in sample code
+ ViewDidLoad not needed in constructor now
+ Touch change of class name (trivial)
+ Tests added for Mvx core + some tweaks as a result
+ Dead code removed
+ DelayBind added
+ The new ViewModel-View lookup code
+ Tests up for new code
+ Resharper adjustments
+ Changes for MvxViewFor attribute name
+ First cut of simple view-viewModel linking
+ Naming improvements in binding views in touch
+ Messenger api tweaked - MvxReference enumeration is more descriptive than true/false
+ sample changes for binding context
+ Binding context changes
+ More pictures
+ Images for docs
+ Tidying up Wpf
+ one line tidy up - plus some pictures for docs
+ v3 is breaking changes... sorry
+ Ongoiig WinRT -> WindowsStore/Store naming - blame Oren ;)
+ WinRT -> WindowsStore/Store naming - blame Oren ;)
+ WP images
+ just 4 more warnings… thought about decoupling the plugins - but proved not practical at this time (it would have created yet more assemblies)
+ Merge branch 'v3' of https://github.com/slodge/MvvmCross into v3
+ Acknowledgement (Ms-PL) - but polite anyway!
+ image resize - I am a PC
+ Images for documents
+ son - hopefully just build config changes
+ dispatcher changes (some obsolete's to check)
+ More images
+ Sketch - docs only
+ An automated code tidy up - and a change of RequestNavigate to ShowViewModel - last of the renames?
+ ShowViewModelRequest to ViewModelRequest - plus a fix for first show Android activities
+ fix for checking feedback loops in data-binding
+ Just removing an obscene R#er region
+ Warning and Error in BindingTrace too
+ Improved simpler Image loading for Touch - fixes #117
+ More bindable layouts
+ Minor tweaks to the Databinding BindingContext pattern on Android
+ Merge branch 'v3' of https://github.com/slodge/MvvmCross into vnext
+ MvxActivityView -> MvxActivity
+ a warning added - issue #194
+ one day this plugin path will stay fixed
+ Color changes (Simple -> Native)
+ Mainly changes Moving from MvxApplication to IMvxApplication. But also some MvxNativeValudConverter changes in WinRT
+ Automated refactoring (single file)
+ Merge branch 'v3' of https://github.com/slodge/MvvmCross into vnext Conflicts: MvvmCross_All.sln
+ Get Templates out of the main project
+ More namespace flattening - StephaneD should like this
+ Just some debug Trace added
+ Console build path issue
+ AppStart instead of StartNavigation
+ Console plugins use LoadFrom - so it needs .dll
+ Dispatcher changes - thanks hugely to @JonP at Xamarin
+ Templates removed
+ Build pathing issues sorted
+ Just a warning
+ just a comment about heading info
+ Typo Fix - w and W
+ Location changes - heading and accuracy and nullables
+ trace improvements - warning and error
+ Auto-Deselect in tutorial
+ Compile fix for templates
+ 2 new helper methods in trace
+ GeoLocation up to ios6 standard now - fixes #92
+ disposing geolocation again - fixes #93
+ Default bindings used throughout twitter sample
+ Accelerometer build path issues fixed
+ Code tidy up - mainly removed old warnings
+ Additional binding methods (mixins)
+ Default bindings for Image helpers
+ Merge branch 'v3' of https://github.com/slodge/MvvmCross into vnext
+ Default property used for binding in Twitter
+ Build tree changed - better bin building
+ Binding changes - more default types and a couple of new bindings
+ Sample fixes after the interface changes
+ Flattening out the Interfaces directories (just AutoViews left
+ Base name changes and some static speed optimisations
+ Resharper changes
+ Test fix
+ Merge branch 'v3' of github.com:slodge/MvvmCross into vNextDialog
+ Some binding test updates
+ Fix for twitter view in the conf sample
+ Reorganisation of the binding extensions - needs some resharper work
+ More binding changes… especially as a request for feedback
+ Expression bindings working
+ A different kind of binding...
+ Merge branch 'v3' of https://github.com/slodge/MvvmCross into vnext
+ Binding by expression tested and working!
+ First checkin of expression parsing
+ linker include for sdk linker settings
+ Continue the push for naming consistency
+ Android naming sorted through
+ Make Sqlite name follow the convetion
+ Simplifications - still more to come :)
+ CrossCore support for Modal UI Plugins
+ Some additional helper methods for IoC
+ Important fix for IoC - lazy registration/construction
+ Tidy up of Plugin code - no reliance on Mvvm
+ Clean up of tutorial sample
+ Template tidy up
+ obsoletion of old style MvxPhonePage
+ fixes #172
+ Fixes after Resharper damage
+ Fixes after Resharper damage
+ WinRT fixes for state saving
+ Just resharper reformatting and cleaning
+ Back to PC for the Droid and Windows build - renaming fo the Binging
+ iOS building and running
+ Working on IPhone Simulator
+ Merge branch 'v3' of https://github.com/slodge/MvvmCross into vnext
+ Problems with vsmonotouch?
+ Just Droid autgen'd resource files
+ Mainly removing #region nonsense entries from Resharper (my fault I guess...)
+ Changes to setup.cs following the plugin loaders :)
+ Switch WinRT and WindowsPhone back to File based plugins :) :) :)
+ Move Ioc and simple trace into CrossCore
+ Sln changes - addresses #184
+ Dialog fragment action (Needs work...)
+ TabHost Fragment
+ Typo fix
+ Touch visibility changed to use MvxVisibility - see #173
+ Binding targets from SteveD@Sequence integrated
+ Threading changes for the Http image download - try to thread context switch less often. Still didn't seem any quicker :/
+ More load/save CIRS changes
+ CIRS modified slightly - sealed implementations
+ Just simple renaming
+ Explicit Typing on TryResolve
+ Patch for earlier textProvider typo
+ Fix for no bundle
+ Temporary cache to allow activities orientation changes
+ only use savedState when it exists
+ Just resourceIds
+ Fragging fantastic :) Fragments working (at least to first level)
+ File rename in fragments
+ More language changes - trying to make way for embedded resources - still some way to go though
+ UI and async message deliver for messenger - #176
+ First draft Language binding added
+ Resharper comments - but won't work until resharper 8 - pah!
+ RelayCommand no longer needs IDisposable (WeakReferences instead)
+ Tidy up after the changes - get the samples building (WP,Droid,WPF,WinRT)
+ File share for BaseFileStore
+ Decision made - long term we will support Lifetime monitor in core mvvmcross
+ Reachable changes (enum values)
+ Reachability changes -> plugin
+ New ViewModel closing pattern implemented
+ New ViewModel closing pattern implemented
+ Update to WP Inheritance
+ Converter Wrapping project updated
+ Dead ViewsDetached method removed
+ Back for console preserved
+ Remove the old style generic view interface
+ Mystery sln changes
+ Dead attribute removd
+ Lots of changes to bring WinRT and WP up to spec )and to remove old code like IsVisible too)
+ Accelerometer added - fixes #97
+ TallPhone added - fixes #79
+ Add CanExecute to the _command
+ Just resource file changes
+ Reenable the Android location code - looks like the monoDroid code is fixed
+ LongClick test code
+ View LongClick support - fixes #165
+ New binding sentinels to fix #147
+ Tip bound between 0 and 100
+ IoC additions - for #149
+ Templates building from libraries
+ working droid template
+ Small code reformatting for WinRT
+ WinRT State loaded/saved
+ Half resharper - half me tweaking the State conversion code
+ Resharper at work
+ Resharper at work
+ IoC changes
+ Simple Java container to allow DroidAutoComplete to work - addresses https://github.com/slodge/MvvmCross/issues/145 #145
+ Better trace/error messages from MvxImageView
+ TwitterSearch Tests running
+ merge hell - sln file
+ Merge branch 'v3' of github.com:slodge/MvvmCross into vNextDialog
+ Console building
+ Better class name
+ Better class name
+ WinRT Fix
+ Samples working Droid and WP
+ Big changes to IoC - and the start of savedState
+ More Touch work - setup tweaks
+ some work on getting Mac moving - much much more to do
+ Simple Mac Binding library
+ Some Touch flattening
+ Removing dead files (mainly Mac)
+ Small csproj changes only (template only)
+ Updated comment only
+ Empty Touch template
+ Big leak fix copied across from vnext
+ Remove dead file
+ Fix up of Touch samples
+ Core library patches - very annoying as I think I've done these before - doh!
+ Fix for the fix
+ Prevent double unsubscriptions
+ Include of Guid code - #169
+ Readme for v3
+ Revert the Obsolete method to the old names
+ More R#'er automated changes
+ Resharper reformatting
+ Mvx patches after the IMvxConsumer changes...
+ Just a few changes to switch to Mvx.Resolve instead of IMvxServiceConsumer/IMvxConsumer
+ Patches applied after looking at Touch projects (PC vs Mac fight!)
+ Missed save - Touch still not building
+ Touch - half finished changes - need to switch to Mac for the rest
+ Simple renames
+ AutoViews fixup
+ whitespace only
+ Automated changes from Resharper
+ More huge changes to binding - touch and droid
+ File rename
+ Folder rename
+ I will possibly burn in hell for these ioc renames - long term its for the best but right now - argh!
+ Automated rename of IoC namespace (R#er didn't save these)
+ Automated rename of IoC namespace
+ ServiceProvider gone - ioc now!
+ IMvxProducer name change
+ One name changed - now called IMvxConsumer
+ Slowly..... autoviews come to life
+ More AutoView fixes
+ Arg - fix a file - but it's not actually used - lol
+ Binding typos
+ More weak subscription code
+ Samples fixed (a bit)
+ Reformatting Magic by resharper
+ Scary changes - weak subscription references and a few name changes too.
+ AutoView binding paths... ongoing!
+ Fix for WinRT build path - oops!
+ Merge branch 'vNextDialog' of github.com:slodge/MvvmCross into vNextDialog
+ Merge branch 'vNextDialog' of https://github.com/slodge/MvvmCross into vnext
+ AutoViews - patch some bits
+ Post file move... lots to repair
+ AutoView patches stage 1
+ Renaming folders
+ Sample Clearups after checkin
+ More renaming and restructuring - still not quite there - but getting close
+ Fragging
+ Sample fixes
+ Dispose Bindings added. TouchImageView removed
+ Droid and Touch sharing code! Whatever next :)
+ Namespace cleansing - good for the soul
+ Project file fixups
+ Follow through on refactoring
+ Merge of Typed and ValueEventArgs
+ Remove the dead namespaces
+ Build fixes (samples)
+ Moved RelayCommand out of CrossCore
+ use weak references in binding of image success and error notifications
+ Class File and Namespace renaming begins....
+ Vacuous changes between VS and MonoDevelop
+ Tests updated a bit
+ sln update
+ Resource updates
+ OpenNetCF fixes from Awesome Badge
+ Console build
+ More small fixes for getting the setup running - almost there!
+ Fixing Droid color binding code
+ Sorting out some dependencies for navigation parsing
+ More axml changes - JSON -> Swiss
+ Simple droid patched for simple (non-existent) intent parsing
+ More Droid Samples working
+ Get the conf sample working - plugin magic needed
+ Sample changes... but wondering if I haven't lost some (left them on the Mac?)
+ Fixing up some of the file locations post Resource/PLugin reorganisation
+ Sorting out Droid after the Plugin dependency cull + resource name changes
+ Minor but important fixes for demos (Touch only)
+ Just MonoDevelop making changes :/
+ Digging out the JSON deependency - the code gets cleaner - but this really won't build or run on Droid or WP yet (and conference on Touch needs some love)
+ Changes for samples - Swiss Binding and images via Interfaces
+ DataContext Binding changes for cells. removal of Json files. Change of images to interface basis
+ Message publishing can now ne performed using the non-Generic code - avoids Publish<BaseMessage> issues
+ Subscription based conference stuff - seems to be working
+ Fixes for WeakReferences in the MessageHub
+ Starting to migrate Conference to Messenger
+ Attempt at weak reference for bindings - Touch only
+ Message for Conference
+ Changes to make the Simple code work on Touch
+ Template changes
+ More csproj includes
+ Fix for Dispatcher <-> ViewDispatcher
+ Sample code fix
+ More csproj includes
+ Console patches
+ Small fixes to project files
+ Small fixes to project files
+ ConsoleView up and building....
+ Slwoly getting more AutoView Touch stuff building
+ Yet more serious refactoring to get the files in the right places. Not looking forwards to the rename namespaces either!
+ Yikes - scary changes to all the samples - knock on effects from name changes
+ Shared objects pulled out into Rose/Chimp/CrossCore
+ Mainly crosscore changes - will need some patching
+ File name changes
+ File name changes
+ Binding dependencies added to color
+ Reorganisation of code across to the CrossCore - more to do still
+ Mainly name changes and reorganisation of the Dispatcherproviders
+ Name changes
+ Name changes
+ Dispatcher/Presenter split
+ Dispatcher/Presenter split
+ Name changes
+ Name changes
+ Name changes
+ Name changes
+ Name changes
+ Support for #Value and ValueChanged pairs - #151
+ Mainly name changes - simpler
+ Name changes + date and time pickers added
+ Name changes
+ CrossCore name changes
+ CrossCore name changes
+ More view name changes - plus a class moved to Rose (renamed CrossCore)
+ Changes to samples for the class name changes...
+ Empty ctor removed
+ Clean up the Binding/Bindable class names
+ Simple SQL sample up and running too - move DataContext to after setup completion...
+ Simple SQL sample up and running too
+ Simple SQL sample up and running too
+ AutoComplete moved forwards
+ More Simple Binding changes
+ Simple Binding working in Droid
+ More samples running
+ Dialog and AutoView working... Just Simple to go
+ First stage of Droid Chimp work
+ More minot fixes to structure - moving forwards
+ More changes to get Vee3 ideas working on Touch
+ Switching order between Binding and Mvvm - the world turns inside out!
+ Improve return from TextBinder - prevents crash in case of binding text problems
+ Better samples
+ Touch samples
+ Better trace for exceptions
+ Touch Bindings change - DataContext
+ Just some warnings to the readers
+ Simple Image loading - wrap the dynamic image loader…
+ Binding trims the start of text before looking for { for JSON
+ Samples improved a bit
+ Call SetNeedsLayout when image available
+ simple sln change #heizenbugs
+ Conference sample up to speed with #heizenbugs - but looks like some crash issues in cell binding to sort out
+ BestSellers sample seems vaguely working after #heizenbugs changes
+ Changes to the Main Touch projects - will break WinXX and Droid #heizenbugs
+ Big changes for Touch View construction - no generics #heizenbugs
+ Big changes for Touch View construction - no generics #heizenbugs
+ Mac changes - ignore for now
+ Get Dialog up to speed with #heizenbugs changes
+ Get Dialog up to speed with #heizenbugs changes
+ Simplify name on TouchImageView
+ New Binding classes #heizenbugs
+ Mainly moving DefaultBindObject -> ViewMOdel
+ Merge branch 'vNextDialog' of https://github.com/slodge/MvvmCross into vnext
+ Prototype fix for #136
+ Allow overriding of modal navigation controller
+ Worrying typo :/
+ Changes to Bindable Constructor APIs - trying to address #119 (slowly)
+ Fix for too many viewmodels being shown inside tabs
+ OMG - hate merging the sln file
+ XIB changes (Xcode only)
+ Provide virtual overrides for Window RootViewController
+ Nothing to use here - just checking in for completeness of build
+ Nothing to see here - fragments - not in main build at present
+ Some initial preparations for Fragments
+ TwitterSearch binding tweaks
+ Improved error message for IoC resolution (no more blank KeyNotFoundException messages)
+ Renaming of HttpImageView to ImageView
+ Turn animations off by default (I may regret this)
+ Really important fix to selection code - stop double firing
+ Merge branch 'vnext' of https://github.com/slodge/MvvmCross into vnext
+ Animations plus better constructor for UITableView
+ CollectionView - default names
+ Tweaks to make the default parser a composite parser
+ Tweaks to SwissBinding (now XAML-like binding)
+ NewSwissBinder...
+ Problem with JSON being shown in trace and causing {{{}}} formating exceptions
+ Important fix to parsing of integer bindings - uints won't cast in later binding
+ TouchUpInside changes - fixes #128
+ Fix up post the IMvxServiceConsumer<T> changes
+ Fix up post the IMvxServiceConsumer<T> changes
+ Fix for abstract bindable SimpleTableViewSourceAttempt at addressing #123 - sorting out IMvxServiceConsumer<T> confusion...
+ Attempt at addressing #123 - sorting out IMvxServiceConsumer<T> confusion...
+ Merge branch 'vnext' of github.com:slodge/MvvmCross into vNextDialog
+ Annoyingly VS2010 and VS2012 are fighting over the PCLs
+ Merge branch 'vnext' of https://github.com/slodge/MvvmCross into vnext
+ Fix for abstract bindable SimpleTableViewSource
+ Merge pull request #129 from asednev/vnext Added SQLite mappings
+ Sqlite Updates - for WP7
+ Sqlite WP7 Community Working?
+ BestSellers building - table changes
+ Optional parameters allowed again!
+ Added SQLite mappings ISQLiteConnection and ITableMapping
+ Switch TwitterSearch to Swiss binding prototype
+ Part 2 of build issues on Touch - after AlphaPage fix?
+ Build issues on Touch - after AlphaPage fix?
+ Merge pull request #127 from Alphapage/Issue#114-Unable-to-sync-commit-due-to-case-sensitivity Duplicate folders VIews and Views renamed due to case sentivity problem ...
+ Oops - forgot to register the default JSON binding parser
+ Switch to Swiss Binding
+ Binding updated to use simpler IoC
+ Merge branch 'vNextDialog' of https://github.com/slodge/MvvmCross into vnext
+ Breaking changes to Table source on Touch - part of https://github.com/slodge/MvvmCross/issues/119
+ TwitterSearch UI updated to use nicer cells (ready for UITableViewSource changes)
+ Fix for new delayed cell binding code
+ Just formatting on IMvxServiceConsumer<T>
+ Fixes #124
+ Merge commit '03d197f44cd70d5bcd7c161c310b2c366d735637' into vnext
+ Small update to ImvxServiceConsumer<T> format
+ Important fix to the binding - forgot to update the chain binding on startup - took hours to find - doh!
+ Merge branch 'vnext' of github.com:slodge/MvvmCross into vNextDialog
+ More SQLite attempts for WP - but this is not easy right now
+ Whitespace (I think)
+ Fragging - not a proper project yet - but soon
+ Huge overhaul of Bindings - including some unit tests - hurrah
+ Duplicate folders VIews and Views renamed due to case sentivity problem in OS like Windows
+ Merge pull request #121 from danzel/vnext Allow Email/Image tasks to work on Touch.
+ Allow Email/Image tasks to work on Touch. Register the presenter so they can GetService it rather than trying to construct them with it.
+ Binding - test harness added (need to update solution) - plus small refactoring.
+ Allow collections to benefit from Count property (not just lists)
+ Tokenising refactoring - get a common base class so the 'parser' code can be reused
+ Tokenising refactoring - get a common base class so the 'parser' code can be reused
+ Deferred first binding - might actually fix (I hope) #7 - should make table loading more efficient, should reduce unwanted trace and should make cell code easier to write (no need to check for null on members) - WIN!
+ Merge pull request #115 from jacobtoye/vnext Fix Sqlite ExecuteScalar regression.
+ Fix Sqlite ExecuteScalar regression.
+ Binding changes - to allow [] properties
+ Important flexi visibility fix for strings
+ Add some extension method to enable Dialog binding from code - http://stackoverflow.com/questions/14384229/mvvmcross-android-dialog-bind-programmatically
+ Merge branch 'vnext' of github.com:slodge/MvvmCross into vNextDialog
+ DropTable added to SQLite interface
+ Improved Touch collection objects (Cells)
+ Merge branch 'vnext' of https://github.com/slodge/MvvmCross into vnext Conflicts: Cirrious/Plugins/Sqlite/Cirrious.MvvmCross.Plugins.Sqlite/BaseClasses.cs
+ Add Find<T>
+ Add tableview grouped/plain constructor
+ Find<T> added to SQLite
+ Merge remote-tracking branch 'mvvmorigin/vnext' into vNextDialog
+ Allow easier inheritance for custom Android presenters
+ Merge pull request #107 from danzel/vnext Add ExecuteScalar to Sqlite plugin - Thanks - assuming this builds... pulling :)
+ Add ExecuteScalar to Sqlite plugin
+ Merge pull request #104 from danzel/vnext Add FolderExists and DeleteFolder to IMvxSimpleFileStoreService.
+ Simple changes
+ Merge remote-tracking branch 'mvvmorigin/vnext' into vNextDialog
+ Add Sqlite plugin for Windows Phone - relies on binaries from sqlite
+ Fix for cached image file issue - needs further dev testing - e.g. can we load resource files
+ Rename DeleteDirectory implementation to DeleteFolder like they should be.
+ Add FolderExists and DeleteFolder to IMvxSimpleFileStoreService. - Not implemented on WinRT - WinPhone doesn't support recursive delete
+ Merge pull request #103 from jacobtoye/RadioGroupFix Fix for RootElement Sections list
+ Initialising the Section list for RootElements created for the RadioGroup and Summary constructors.
+ Initial UICollectionView code
+ Merge pull request #102 from danzel/vnext Add a Console implementation of Sqlite
+ Add ncrunch project files to gitignore.
+ Add an implementation of the Sqlite plugin for Console/Nunit usage.
+ Important fix for Messenger - register as a singleton!
+ Missed bool from the allowedvalue type list
+ Update on imported libraries in readme
+ Text serialization - add Type based method
+ Where do these Resharper changes keep coming from?!
+ Fix for CheckboxElement - now correctly calls the OnUserValueChanged - so ValueChanged should be fired
+ Merge pull request #99 from h2oman/vnext CheckboxElement: check if UITableViewCell is null before setting cell Accessory
+ CheckboxElement: check if UITableViewCell is null before setting cell Accessory There can be cases, depending on the order that Elements are added to Sections, where SetCellCheckmark is called before the UITableViewCell has been created.
+ More resharper code cleanup - smaller file header - still MS-Pl
+ Resharper code cleanup changes
+ Simple Start ApplicationObject - fixes #83
+ messenger added to noSamples project
+ First messenger checkin - minor fixes
+ checkin of the messenger sln level changes...
+ First messenger checkin
+ example navigate by int
+ Allow some value types in parameters - fixes #45
+ Fixes #26
+ Solution for just the libraries (and plugins)
+ droid version update
+ autogen resource file updates
+ reference files - fixes #81
+ Simple fixes for twittersearch
+ Remove the java libs now that MonoDroid auto-imports bound jar libraries
+ Simple fixes for CrossUI (dialog) code
+ comment only - acceptance of non-awaiting code
+ Correction on flexi override (removed)
+ Copyright tidy up
+ Simple #warning tidy
+ ios6 change
+ Simple #warning tidy
+ GeoLocation tidy up - #warning fixes (several moved to github issues)
+ Simple #warning tidy
+ Simple #warning tidy
+ A few more important fixes to downloadcache
+ Simple #warning tidy
+ Simple #warning tidy
+ Wpf #warning removed
+ WinRT tidied up
+ #warning fixed
+ Touch code tidied up - still big ios6 changes to consider (viewDidUnload)
+ #warning fixed
+ Dead File removed
+ Out of date comment
+ Droid - dead file removed
+ Dialog tidy up
+ Binding shared tidy up
+ Binding Touch tidy up - #warning fixes (some moved to github issues)
+ Binding Droid tidy up - #warning fixes (some moved to github issues)
+ File Rename
+ Merge branch 'vnext' of github.com:slodge/MvvmCross into vNextDialog
+ Merge pull request #89 from gshackles/vnext Add more specific type constraints on IoC registration
+ Add more specific type constraints on IoC registration
+ Changes to help sqlite Touch build in VS2012...
+ Changes around JonPryor's comments on stackoverflow.com/questions/13842864/why-does-the-gref-go-too-high-when-i-put-a-mvxbindablespinner-in-a-mvxbindableli/13995199#comment19319057_13995199
+ Can never have enough trampolines
+ Fix for #60 - xml serialisation building on Droid
+ A non-working MonoMac port (need to understand more what I'm doing!) and an untested SQLite plugin for Touch
+ Merge pull request #88 from slodge/vNextDialog V next dialog
+ More changes to BindingBuilders to allow overriden behaviour
+ Binding Builder changes - allow overrides
+ Merge pull request #78 from slodge/vNextDialog Merge Changes back into vnext
+ Lots more WPF plugins
+ Twittersearch est updated - but not fully integrated (yet) - fixes #75
+ Attempt to assist with #76 - not properly tested. Hate the SQLite native dependencies :/
+ TwitterSearch on WPF
+ Any CPU for twittersearch winrt
+ Wpf checkin
+ formatting
+ Changes to build for PCL support
+ Fixes to build - especially winrt build paths
+ Color extensions for #67
+ Working on #55
+ WinRT changes - including important file fix (await/async)
+ binding listview - longitemclick
+ Adapter set correctly...
+ Extra trace for missing abbreviation
+ Dialog fixes - including Headers back in (kind of)
+ Makes the splashscreen behaviour easier to override. Fixes #71 (https://github.com/slodge/MvvmCross/issues/71)
+ Merge branch 'vnext' of github.com:slodge/MvvmCross into vNextDialog
+ Flexi Visibility added
+ How long is this file bug been in there? Does this method work... beware wp7 vs wp8 conflicts
+ Handy color extension for Android
+ Merge pull request #65 from dsplaisted/vnext Basic NuSpec file for MvvmCross
+ Basic NuSpec file for MvvmCross. Installing this package in a project targeting MonoAndroid will not work until NuGet 2.3. This also applies to a PCL when you have added the MonoAndroid XML file to its SupportedFrameworks directory. A workaround for either of these issues is to install the package in a project type that is supported (Windows Phone or Windows 8 for example), and then to reference the DLLs in the solution's package folder from the MonoAndroid or PCL project.
+ Merge branch 'vnext' of github.com:slodge/MvvmCross into vNextDialog
+ Rather an important fix for tab Cache!
+ Simple Color Converter added
+ Fix for testability issues in IoC (vNext)
+ More readme
+ attempt at video link...
+ read me updates
+ Changes to Section building on Touch
+ New Provisioning IDs - for on-device testing!
+ Fix for menu cancel events
+ Adding AppPackages to .gitignore
+ Building on Touch too - minor changes to dependencies
+ OMG - a solution for the strong naming issue :) :)
+ Just testing some simple missing view code...
+ Merge branch 'vNextDialog' of https://github.com/slodge/MvvmCross into vnext
+ hack - mask out new dialog fir auto view test
+ Testing bug https://bugzilla.xamarin.com/show_bug.cgi?id=4919 - NoStdLib True issues ?
+ Get the build directory structure right...
+ Nasty WinRT Projects just don't want to build to the right place...
+ More csproj adjustments - this time for the /touch /portable etc build locations.
+ Fix at first stab
+ First stab at code for completely missing AutoView...
+ Minor fixes after the merge - autoviews sample
+ Fix post the Merge (simple conflict)
+ Merge branch 'vNextDialog' into vnext Conflicts: Cirrious/Cirrious.MvvmCross/Platform/MvxBaseSetup.cs
+ Building on Mac - with less configurations new in the code
+ Fix to the SimpleIoC change (allowing functor singletons)
+ More project file fixing
+ Merge branch 'vNextDialog' of github.com:slodge/MvvmCross into vNextDialog
+ Auto gen file fixed
+ Fixes to Project files after configurations removed (build in Windows...)
+ Allow CellIdentifier to be overridden
+ Remove all the nasty AdHoc, iPhone, etc project configurations from Touch projects
+ Lazy constructor - added for IoC in #44
+ Fixes #34 - problem with rotation in ios6
+ PickerElement added - it requires Mvx so not in the external library! Partly addresses #25
+ Demotion of warning to an info - still about the best I can do for #7
+ Changes after Dialog refactoring
+ More portable and dialog changes - there will be errors in this checkin - fix in a moment on the mac...
+ CrossUI.Touch - get MonoTouch.Dialog back out of MvvmCross
+ Comment out a bit of verbose debugging info
+ Demo files - merge issue only
+ Simple Build Fix - auto views sample working on Droid and Touch :)
+ Merge branch 'vNextDialog' of github.com:slodge/MvvmCross into vNextDialog
+ Automated renaming in AutoViews sample
+ Almost working back on Touch (after refactor)
+ Separation of AutoViews sample - out on its own
+ A tweak to string conversion in binding
+ More refactoring
+ Big source tree refactoring - only half way right now...
+ Touch - some working menus!
+ Build path corrected
+ Working Touch samples for List and for Dialog - just Menu to go (and then maybe Tab too?)
+ Tweaking of autoviews on Touch - now ready for some Mac-time :)
+ Add a warning, remove some test code
+ Merge branch 'vNextDialog' of github.com:slodge/MvvmCross into vNextDialog
+ Some code temporarily hacked into Touch for the Dialog AutoViews - will play on monoTouch next
+ Droid AutoViews working - List, Dialog, Menu - JSON files and code shortcuts
+ Changes that build and run on the Mac :)
+ Still trying to sort out build issues...
+ Bizarre build rule needed...
+ Issues with MonoDevelop and VS fighting over csproj files - this is not fun :/ Especially <NoStdLib>true</NoStdLib> See
+ All projects seem to be building and running on Touch
+ Slightly dodgy changes to Touch project files - need to clear these up really...
+ Fix for the ICommand strong named assembly problem (problem on VS2010 builds only)
+ A little more refactoring... but mainly a huge change to make all mvx code build to common directories...
+ First cut of autoView - just for droid so far...
+ Prefix/Postfix and Base keyword made configurable
+ Merge pull request #48 from gshackles/vnext Exclude abstract classes from view lookup
+ exclude abstract classes from view lookup
+ Fix for #46 - splashscreen no longer needed (but advised)
+ Merge branch 'vNextDialog' of github.com:slodge/MvvmCross into vNextDialog
+ Part formed thoughts!
+ Misplaced file!
+ Profile 104 solved while waiting on Xamarin bug fix?
+ Simple resource menu fixups
+ More serviceconsumer/producer simplifications
+ Menu added to customer management sample
+ First menus added
+ Adding menus
+ Customer Management - more dialog changes :)
+ yuk - IMvxServiceProducer changes
+ yuk - IMvxServiceProducer changes
+ NotOnly and OnlyFor
+ Add inefficient ResourceExists to ResourceLoader
+ Changes to ViewContainer - allow additional view location mechanisms
+ ServiceConsumer/Producer changes
+ orking
+ Add Value to base ValueElement (from ValueElement<T>)
+ One way binding working for new/edit
+ Dialog Binding Customer Management - Droid - first drop
+ Support for Dialog style single binding
+ Android Dialog first stab added
+ Improved Error Message
+ Fixed the error check - ! was needed :)
+ Fix - use Nullable for Nullable Value types only
+ Fix for Grouping in the SQLBits sample
+ Remove dead file
+ Risky changes to Binding SafeValue code - tested... it seems to work... but... deep breath!
+ Binding TouchTabBarViewController
+ sqlite - changes for the tip of sqlite-net, plus a WinRT portable sqlite plugin too
+ Added the bindable grid view - fixes #37 (for vnext at least!)
+ sqlite-net licensing info added
+ Linq extension methods for non-generic collections (IEnumerable, IList)
+ More readme updates
+ Conference sample fix following the IEnumerable binding changes (#38)
+ sln project change - down to 11 so MonoDevelop can open it
+ Wp77 typo fixed - and a bit more explanation about the project
+ Updated readme...
+ removed dead merge file
+ remove psvita - as not currently a production platform
+ readme updated
+ Readme for vnext updated
+ IList to IEnumerable changes - attempts to fix #38 - includes a small performance warning!
+ WP7 Template added too
+ Start of some template action
+ Support for simpler ServiceConsumption and publishing
+ Minor tweaks
+ A sqlite example for droid
+ A droid SQLite plugin - thanks especially to FrankKrueger and ConceptDev
+ Fixes post merge - and some trace improvements
+ Small fixes to winrt projects
+ Merge remote-tracking branch 'mvvmorigin/master' Conflicts: Cirrious/Cirrious.MvvmCross.Binding.Droid/Views/MvxBindableListAdapter.cs Cirrious/Cirrious.MvvmCross.Binding.Droid/Views/MvxBindableListView.cs Cirrious/Cirrious.MvvmCross.Binding.Droid/Views/MvxBindableSpinner.cs Cirrious/Cirrious.MvvmCross.Binding/Cirrious.MvvmCross.Binding.Android.csproj Cirrious/Cirrious.MvvmCross.Binding/Cirrious.MvvmCross.Binding.csproj
+ Fixes and optimisations to the SetToNull binding attribute code
+ Problems with WinRT - see http://slodge.blogspot.co.uk/2012/10/error-13-platformanycpu32bitpreferred.html
+ Merge issue
+ New list Binding - see http://stackoverflow.com/questions/12738516/does-mvvmcross-have-a-way-to-change-the-selector-when-clicking-imagebutton-on-li
+ Odd include - merge issue?
+ WindowsMetro project for Tutorial
+ Odd app.config removal
+ Building?
+ Merge remote-tracking branch 'mvvmorigin/master' Conflicts: Cirrious/Cirrious.MvvmCross.Binding.Droid/MvxAndroidBindingBuilder.cs Cirrious/Cirrious.MvvmCross.Binding/Cirrious.MvvmCross.Binding.Android.csproj Cirrious/Cirrious.MvvmCross.Binding/Cirrious.MvvmCross.Binding.csproj Cirrious/Cirrious.MvvmCross.Dialog.Touch/Dialog/Elements/Element.cs Cirrious/Cirrious.MvvmCross.Droid.Maps/MvxMapActivityView.cs Cirrious/Cirrious.MvvmCross.Droid/Platform/MvxBaseAndroidSetup.cs Cirrious/Cirrious.MvvmCross.Droid/Views/MvxActivityView.cs Cirrious/Cirrious.MvvmCross.Droid/Views/MvxAndroidViewPresenter.cs Cirrious/Cirrious.MvvmCross.Droid/Views/MvxBaseSplashScreenActivity.cs Cirrious/Cirrious.MvvmCross.WinRT/Platform/MvxBaseWinRTSetup.cs Cirrious/Cirrious.MvvmCross.WinRT/Views/MvxMainThreadDispatcher.cs Cirrious/Cirrious.MvvmCross/Cirrious.MvvmCross.Android.csproj Cirrious/Cirrious.MvvmCross/Cirrious.MvvmCross.Console.csproj Cirrious/Cirrious.MvvmCross/Cirrious.MvvmCross.Touch.csproj Cirrious/Cirrious.MvvmCross/Cirrious.MvvmCross.WinRT.csproj Cirrious/Cirrious.MvvmCross/Commands/MvxRelayCommand.cs Cirrious/Cirrious.MvvmCross/Interfaces/ViewModels/MvxRequestedBy.cs Cirrious/Cirrious.MvvmCross/Platform/MvxBaseSetup.cs Cirrious/Cirrious.MvvmCross/WinRT/Platform/MvxStorageFileStoreService.cs Cirrious/Cirrious.MvvmCross/WinRT/Platform/MvxWinRTServiceProvider.cs Cirrious/Plugins/File/Cirrious.MvvmCross.Plugins.File.WinRT/Cirrious.MvvmCross.Plugins.File.WinRT.csproj Cirrious/Plugins/Json/Cirrious.MvvmCross.Plugins.Json/MvxEnumJsonConverter.cs Sample - CirriousConference/Cirrious.Conference.Core/ViewModels/Helpers/WithCommand.cs Sample - CirriousConference/Libs/Droid/Cirrious.MvvmCross.Android.dll Sample - CirriousConference/Libs/Droid/Cirrious.MvvmCross.Binding.Android.dll Sample - CirriousConference/Libs/Droid/Newtonsoft.Json.MonoDroid.dll Sample - CirriousConference/Libs/Touch/Cirrious.MvvmCross.Binding.Touch.dll Sample - CirriousConference/Libs/Touch/Cirrious.MvvmCross.Dialog.Touch.dll Sample - CirriousConference/Libs/Touch/CirriousMvvmCrossTouch.dll Sample - CirriousConference/Libs/Touch/Newtonsoft_Json_MonoTouch.dll Sample - SimpleDialogBinding/DroidAutoComplete/DroidAutoComplete.csproj Sample - SimpleDialogBinding/SimpleBinding/DroidAutoComplete/Setup.cs Sample - SimpleDialogBinding/SimpleBinding/SimpleDroid/Setup.cs Sample - Tutorial/Tutorial/Tutorial.UI.Droid/Resources/Resource.Designer.cs Sample - Tutorial/Tutorial/Tutorial.UI.Droid/Tutorial.UI.Droid.csproj Sample - TwitterSearch/Libs/Droid/Cirrious.MvvmCross.Android.dll Sample - TwitterSearch/Libs/Droid/Cirrious.MvvmCross.Binding.Android.dll Sample - TwitterSearch/Libs/Droid/Newtonsoft.Json.MonoDroid.dll Sample - TwitterSearch/Libs/Touch/Cirrious.MvvmCross.Binding.Touch.dll Sample - TwitterSearch/Libs/Touch/Cirrious.MvvmCross.Dialog.Touch.dll Sample - TwitterSearch/Libs/Touch/CirriousMvvmCrossTouch.dll Sample - TwitterSearch/Libs/Touch/Newtonsoft_Json_MonoTouch.dll Sample - TwitterSearch/TwitterSearch.UI.Droid/TwitterSearch.UI.Droid.csproj
+ Attempt to plug the latest leak inside #17 - all about nulling bound listviews - this version is mostly tested... but there's potentially more still to do!
+ Tidied up dead code (post refactoring leftovers)
+ Working console (e.g. TwitterSearch example)
+ working twitter vnext winrt
+ Tutorial working under winrt - including GeoLocation Plugin
+ Fixes after changing Json project name
+ Fix for JSON dates in the Conference example
+ Refactoring shared Plugin Loader
+ Merge branch 'vnext' of github.com:slodge/MvvmCross Conflicts: MvvmCross_All.sln
+ VS11 issues - 11 instead of 12 in sln file
+ Improved error reporting during setup exception
+ Merge pull request #32 from slodge/localvnwxt Localvnwxt
+ Project files - MonoDevelop versus VisualStudio fight….
+ Code changes for Touch portable libraries
+ Slightly better image
+ Fix for leaking child view bindings - a part added today to #17
+ Fix for spinner databinding (Android)
+ Partial fix for #27 - also effects #15 - need to test further
+ Modal+UINavigationController (from Kevin) #28
+ Pah - lots of reformatting hiding the change - but actually just a few lines added to expose the searchbar
+ Memory leak plugged for chained sources #28
+ Missed the Newtonsoft JSON Binary files (gitignore to fix it)
+ Updated static libraries for samples (these are gone in vNext…)
+ Changes to TouchImageView to support all the image helper properties
+ Attempt at getting more 2 way bindings working in MonoTouch.Dialog - checking this on the Mac in the next few minutes...
+ Merge pull request #24 from SeeD-Seifer/imageview MvxTouchImageView
+ Merge pull request #23 from SeeD-Seifer/master Fixed Element.Bind method with custom source
+ MvxTouchImageView is UIImageView with Http image support.
+ MvxTouchImageView is extenstion to UIImageView with remote image loading support.
+ Fixed bug when Element.Bind(viewModel, source, binding) doesn't work. source and target parameters were switched.
+ fixes #22 - code updated according to latest mt.dialog source
+ Change to allow custom default view model locator implementations
+ Fix for memory leak - #19
+ Merge branch 'master' of https://github.com/slodge/MvvmCross
+ image picker change events to delegate
+ Changes to code flow for StartActivityForResult (e.g. photo capture) - there's no guarantee that the result activity will be the same as the requesting activity!
+ ShowDefaultImage when null passed in
+ Spinner adapter support for GetDropDownView as well as GetView
+ Copyright only change (plenty more to do - must run R#er again)
+ Binding for UISwitch included
+ Spinner binding fix - dispose is important here
+ Just update the tutorial monodroid project file - referencing issues with different monodroid versions...
+ Spinner binding added
+ BindableSpinner added
+ Updated binaries for twittersearch and conference examples (really don't like these in there - prefre vnext tree)
+ build fix - OnNewIntent is public for maps (MonoDroid bug?)
+ OnNewIntent methods added - but not fully tested due to Android Intent Topmost oddness
+ Touch - simple binding now returns empty viewmodel-view lookup too
+ Fix for Android PictureChooser - multiple consecutive picture choose actions weren't working
+ Android can now close views (finish activities) which are not at the top of the visible hierarchy
+ Addition of ImageUrl to HttpImageView - allows local storage images to be shown
+ Fixes for leak in bindable linear layout
+ Simple binding setup uses an empty list of viewmodel-view lookups
+ Changes to conversion to address #15
+ Improved error messaging for when multiple views are registered for the same viewmodel
+ update for #13 - we need to pass this update call on even in the null case
+ vNext work for #13
+ Hopeful fix for issue 13
+ Win8 code... solution not yet checked in
+ Fix for #11 from https://github.com/Zoldeper
+ Fix from https://github.com/Zoldeper
+ TaggedTrace from @deapsquatter/@kevinknoop
+ TaggedTrace from @deapsquatter/@kevinknoop
+ use OnRemovedFromJournal instead of OnNavigatedFrom with Back - means Shutdown is always called!
+ Merge branch 'vnext' of github.com:slodge/MvvmCross
+ Fix for JavaTasks problem
+ 4.2.2 changes - ICommand inside MonoDroid!
+ Errors should be thrown on during file write
+ resourceloader plugin added for winrt :) although... the await async code is very naughty!
+ Missing method added... still 1 more to add
+ Rename to Await - as that matches the pattern?
+ File Plugin added for WinRT
+ Fix for file write
+ WinRT changed to non-dynamic loading (WinRT doesn't support Assembly.Load)
+ Some WinRT changes... slowly forwards...
+ Merge branch 'vnext' of github.com:slodge/MvvmCross into vnext Conflicts: MvvmCross_All.sln
+ winrt working :)
+ Workaround for implicit linking problems in 4.2
+ Smaller solution for xamarin bug finding
+ Fix for Mvx in .axml
+ Add explicit references because MonoDroid 4.2 has broken explicit referencing :(
+ Tidy up after 4.2 release - still a few problems caused by the release :(
+ Small tidy up on dependencies
+ Attempt to get simple binding working under new setup code
+ Fixes #8
+ Fix to json assembly name
+ Tweaks to setup
+ Tweaks to setup
+ Additional trace when IoC resolution goes wrong (actually this message shows IoC configuration error!)
+ Really serious bug!
+ Fix up of merge issues (first round)
+ Merge remote-tracking branch 'mvvmorigin/master' Conflicts: Cirrious/Cirrious.MvvmCross.Android.Maps/MvxBindingMapActivityView.cs Cirrious/Cirrious.MvvmCross.Android.Maps/MvxMapActivityView.cs Cirrious/Cirrious.MvvmCross.Binding/Android/Views/MvxBindingMapActivityView.cs Cirrious/Cirrious.MvvmCross.Binding/Cirrious.MvvmCross.Binding.Touch.csproj Cirrious/Cirrious.MvvmCross.Binding/Cirrious.MvvmCross.Binding.csproj Cirrious/Cirrious.MvvmCross.Droid.Maps/MvxBindingMapActivityView.cs Cirrious/Cirrious.MvvmCross.Droid.Maps/MvxMapActivityView.cs Cirrious/Cirrious.MvvmCross.Droid/ExtensionMethods/MvxAndroidActivityExtensionMethods.cs Cirrious/Cirrious.MvvmCross/Android/Views/MvxMapActivityView.cs Cirrious/Cirrious.MvvmCross/Cirrious.MvvmCross.Android.csproj Cirrious/Cirrious.MvvmCross/Platform/MvxBaseSetup.cs Library/Newtonsoft.Json/Source/Src/Newtonsoft.Json/Newtonsoft.Json.WindowsPhone.csproj MvvmCrossLibs/MvvmCrossLibs.sln Sample - CirriousConference/Cirrious.Conference.UI.Droid/Cirrious.Conference.UI.Droid.csproj Sample - Tutorial/Tutorial/Tutorial.UI.Droid/Setup.cs Sample - Tutorial/Tutorial/Tutorial.UI.Droid/SplashScreenActivity.cs Sample - Tutorial/Tutorial/Tutorial.sln Sample - TwitterSearch/TwitterSearch.UI.Touch/TwitterSearch.UI.Touch.csproj
+ Samples all now use the new Setup creation scheme - improved lifecycle.
+ 4.2 API changes
+ Key changes to Android application lifecycle
+ Change to work on latest Beta of MonoDroid - this will break compilation for people working on earlier versions!
+ Refactor the books service into one file for ease of demo understanding!
+ force a refresh of the UI by invalidating the list
+ cleanup by r#
+ AutoComplete example
+ AutoCompleteTextView - first cut
+ Error message improved
+ One way binding fix
+ More RadioElement binding experimentation - but really I think that MT.Dialog could do with some overhaul in this area!
+ Initial hack at radio selection binding
+ FirePropertyChanged becomes RaisePropertyChanged to fit in with the "de facto" name...
+ Move Json.net out into a separate dependency - still more refactoring to do here
+ Everything Droid, Touch and WP7 builds in the big solution...
+ All Droid and WP7 projects Build :) Still work to do on Touch for conference!
+ minor tweaks
+ More Touch building in VS2010
+ Lots of Touch now building in VS10 - but obviously we still need to move this across to MonoDevelop - fingers crossed!
+ More small fixes - one heck of a big solution now!
+ resources moved for android - now all linked in from origin
+ SimpleDroid ported and some more dead code dropped - looking good.
+ Resource fixes
+ Conference wp7 and droid ported to vNext
+ Force build to work with another forwarding dll - this time System.Xml.Serialization
+ try to get customermanagement building
+ random pss changes - no luck yet
+ Customer Management Droid - first bit of port done - have hit a snag with ICommand :/
+ More code ported to vNext - it's growing :)
+ More vNext building :)
+ PSS Experiment - may have to delete this :(
+ another filename correction
+ filename correction
+ Small Android->Droid fixes
+ Fixing droid build - more to come
+ Removing dependency on writeablebitmapex
+ datetime text debugging (Json - bestsellers - droid)
+ Console, Droid, Json and simplebinding changes
+ Merge branch 'master' of github.com:slodge/MvvmCross
+ Split of maps into separate assembly - to help people without maps in their emulators
+ Added a generic simple binding activity
+ More progress forwards on Portable Libraries and on cutting code out of Mvx core - this set of changes requires the latest profiles (use VS11 installer)
+ Solution reorg
+ Dead wood removed
+ Touch refactored - but will it run?
+ Tidying up and moving forwards
+ SLN change
+ JsonConverter switched to Portable - superb work from JKN - thanks :)
+ More refactoring - ThreadUtils as a plugin
+ Lots more chainsaw action - Portable Class Libraries and Plugins
+ Touch building in portable - required yet another vs hack...
+ Merge branch 'master' of github.com:slodge/MvvmCross Conflicts: Cirrious/Cirrious.MvvmCross/Cirrious.MvvmCross.Android.csproj Cirrious/Cirrious.MvvmCross/Cirrious.MvvmCross.Touch.csproj Cirrious/Cirrious.MvvmCross/Cirrious.MvvmCross.WindowsPhone.csproj
+ Moving to Portable Class Libraries Part 1 - Droid and WP7
+ Simple text binding error - missing }
+ Fix for MT5.3.3 compile error in DismissModelView NSAction
+ Unnecessary xml include
+ Shortcut abbreviations added to ViewType resolver - names like Mvx.MvxBindableListView can now be used (instead of cirrious.mvvmcross.binding.android.views.MvxBindableListView)
+ Merge branch 'master' of github.com:slodge/MvvmCross
+ Removed IDisposable from the GeoLocationWatcher - also need to consider making it's na,e more "singleton" in nature
+ json typo!
+ Location sample added to the tutorial
+ Add Touch platform properties - and a conditional attribute (tablet or phone)
+ ConditionalConventional and Unconventional attributes added
+ Video added to readme!
+ cosmetics
+ Color converters added
+ New Solution - just for the libs that need to be built - not including winrt yet (need to build that on separate Win8 PC)
+ Newtonsoft update to 4.5.2 (mainly for WinRT) - really need to move the NuGet packages at some point (there in customer management?!)
+ Addition of MvxPropertyChangedListener - pull request 3 from gerich
+ Namespace fix
+ WinRT working on latest Property code too
+ Merge branch 'master' of github.com:slodge/MvvmCross
+ Extra check on who's declared the Property expression
+ Update to use the property based Refresh methods
+ Merge pull request #1 from gerich-home/master FirePropertyChanged(() => PropertyName) syntax support for change notifications in ViewModel
+ FirePropertyChanged(() => PropertyName) syntax support for change notifications in ViewModel This gives you compilation-time check + ability to refactor code easy
+ WinRT Samples up and running :) although it may take some building to get them to run - sorry gitignore issues on include paths :/
+ Some nib changes following StackOverflow Q&A
+ another dst change
+ trampolines!
+ fix for truncated times
+ Fix for Daylight Saving Time!
+ readme checkin
+ Merge branch 'master' of github.com:slodge/MvvmCross
+ Yeah Baby - get the code updated with presenter framework on all platforms (maybe not on winrt)
+ problem loading sln file in monodevelop?
+ Libs keep disappearing (must sort out build tree!)
+ TwitterSearch added as sample
+ Conference example added
+ Split the bindable table source - allows it to be used in section tables :)
+ Make Set method virtual - better for subclassing
+ Fixes for android sharing
+ Fix for nulls which sneak through after binding typos
+ Reachability changes
+ Lots of changes needed for real phone use - JIT, reachability and beyond!
+ Small changes - Touch binding added for button titles
+ Interesting compiler difference for extension method resolution - I think monotouch compiler is probably right!
+ Console example
+ Core changes
+ Minor fixes after getting winrt to work :)
+ WinRT tutorial just about working too...
+ Console building - just needed for winrt experiments
+ Best Seller app with error checking?
+ Touch BestSellers app mostly working :)
+ missed project file changes
+ A whole lot of file cache code - for images - needs more QA at present
+ Best Sellers up and running (almost) on iPhone
+ automated updates - visual studio fighting monodevelop on touch!
+ readme updated
+ Small changes to binding tables for touch
+ BestSellers back to life (almost?)
+ Merge branch 'master' of github.com:slodge/MvvmCross
+ formatting
+ No longer needed - using monotouchvs2010 not monoflave now
+ composite on touch too
+ Some MonoTouch composite action
+ Some composite changes and tutorial action
+ Simple Binding example for Droid!
+ Just some simple refactoring
+ More simplification of the Touch code... provide a default constructor
+ More simplification - make coders life as easy as possible
+ Simplified sample code
+ Cleaning up sample solutions
+ Merge branch 'master' of github.com:slodge/MvvmCross Conflicts: Cirrious/Cirrious.MvvmCross.Dialog/MvxTouchDialogViewControllerBinderExtensions.cs
+ Trying out the new vs2010 integration solution
+ Merge branch 'master' of github.com:slodge/MvvmCross
+ simple binding extension for mt.dialog
+ Minor tidy ups - especially around View auto-registration (using convention)
+ Merge branch 'master' of github.com:slodge/MvvmCross
+ TipCalc tidy
+ Merge branch 'master' of github.com:slodge/MvvmCross
+ Simple Touch fixes for customer sample
+ Simple tidy ups and sync of project files
+ Updates to file names
+ iOS changes for TipView
+ Touch TipCalc working
+ A few changes to core code - especially for auto view registration. Plus get the TipCalc working in Droid and WP7
+ More small namespace fixes
+ Some simple namespace fixes
+ More small changes for Touch.Dialog
+ big refactor on monotouch.dialog
+ More automated refactoring
+ sample builds again
+ Move loaders and locators to Application
+ More dead wood gone?
+ More dead wood trimmed
+ Sort out dispose and GC.Suppress across all code properly
+ More automated work from Resharper :)
+ Resharper tells me what to do part 1
+ warnings
+ Hash warnings and samples updated
+ More platform-services changes
+ Lots and lots of refactoring changes - mainly allowing the container the freedom to work out what to do on navigation, but also some unifying of the platform and services namespaces
+ Flattening the hierarchy a little - IMvxTrackedView is gone
+ LoadViewModel rename
+ Interesting code for starting to do more in presenters in Touch
+ oops - missed project file!
+ TouchTab with added view creation!
+ Framework updates - mainly Android
+ Merge branch 'master' of github.com:slodge/MvvmCross
+ pic updated
+ customer demo updated to use a table source instead of a delegate and datasource pair
+ custom cell table view for tutorial
+ private protection
+ Minor tweaks to Android Tutorial
+ monodevelop and vs2010 fighting over sln files
+ fix to touch dialog extension methods
+ TouchDialog Binding updated to shared code (extension methods)
+ CustomerManagement sample up to date also
+ Sample up to date...
+ More refactoring - better code for a better planet
+ Some refactoring to make the binding a bit easier to read
+ oops - file missed
+ Touch pull to refresh working
+ PullToRefresh added to the tutorial
+ Default bindinginflate method - uses ViewModel
+ Project files for visibilityconverters
+ VisibilityConverters in Mvvm
+ MvxBindableTableViewDataSource no longer abstract - it can be used directly if required
+ Refresh to nuget paths
+ formatting only
+ Readme update
+ Some Touch help images
+ Something weird going on with the csproj files for Touch :/
+ Tutorial working!
+ Embarrassing fix!
+ Nested classes for cells
+ Really dodgy csproj hacking going on!
+ Tutorial working? (well it builds on PC at least!)
+ Mainly trivial changes to CustomerManagment sample (e.g. Views renaming)
+ Core touch changes - back button may be a breaking change - sorry
+ Just copying back to PC the hard way!
+ Touch project added
+ Windows Tutorial working
+ Add an instance based filler too.
+ Remove need for that nasty phonepage attribute
+ Simple fix (touch namespaces when editing the wrong file!) and tidying up of sln file
+ A new tutorial (start of)
+ Customer management code updated
+ Binding Setup (Builder) and Converter changes - cleaner code for a cleaner planet?
+ Console updates (working but not fully tested)
+ working touch :)
+ Entry element binding
+ Fix to android post getting Touch working
+ entry element binding
+ some touch binding
+ More simple fixes
+ Missing Touch deletions?
+ Attempt to get GitHub up to date again! Touch not tested through at present
+ pidb files ignored
+ touch mostly working :)
+ Readme update
+ Droid and winphone up to date
+ Touch sample working ?! (Not quite - problems with nav item buttons)
+ some small droid updates
+ readme update
+ Sample reorg
+ Moved Dialog code
+ Hello new code :)
+ Farewell old code :(
+ CustomerDemo working on console
+ Quick console port
+ ViewModel name change
+ Make the init method virtual
+ Helper method - construction
+ Change of name - ModelSet to ViewModelChanged - not sure I like Changed as the word...
+ Customer Management working on Droid and on WP7
+ Dead code removed
+ NewtonSoft Droid and Touch libraries included
+ Mvvm Android port
+ Dead code removed
+ Simpler setup code
+ Fewer Locators == easier to read!
+ Changes to MvvmPlatform - especially setup.
+ Removed actions - so viewmodels are now 1:1 with registered views
+ Trace added
+ A few more minor tweaks - android comes next!
+ A few more simple services - making phone calls and showing web pages (WP7 only) - then an auto code adjust from R# - it has a mind of its own!
+ Is anyone reading?
+ OMG! What haz I done
+ Second round of experiments - WP7 only!
+ Droid app now working too
+ Initial commit
