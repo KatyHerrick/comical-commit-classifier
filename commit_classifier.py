@@ -9,6 +9,12 @@
 # 4. Check for words in all CAPS LOCK
 # 5. Check without 's' at end of plural words. Causes a ton of false positives 
 
+# Obviously will be much longer, just a small list to start
+automatic_funny = ['shit', 'fuck', 'ass', 'sucks', 'bad', 'garbage', 'awful',
+    'terrible', 'damn', 'goddamn', 'dammit', 'goddammit', 'oops', 'lol', 'haha', 'retard',
+    'retarded', 'geez', 'jeez', 'hahah', 'hahaha', 'fml', 'yolo', 'gg', 'idiot'
+]
+
 def check_word_order_threshold(commit_word, dict_word):
     word_order_threshold = .82
     word_count = 0
@@ -40,21 +46,19 @@ if __name__ == '__main__':
     with open('english_word_list/words2.txt') as w:
         english_words = [line.rstrip().lower() for line in w]
     for commit in commits:
-        #nc = commit[1:].split('\n')[0].split(' ')
         temp = False
         count += 1
         print "Commit #: " + str(count)
         for word in commit:
-            if word in english_words:
-                temp = True
-            else:
+            if word in automatic_funny:
+                print ' '.join(commit) + " ___ is funny"
+                break
+            if not word in english_words or not word[:-1] in english_words:
                 for check_word in english_words:
                     if len(check_word) >= len(word)-1 and len(check_word) <= len(word)-1:
                         test = check_word_order_threshold(word, check_word)
                         if test == True:
-                            print "Full word: " + check_word + " Commit word: " + word
+                            #print "Full word: " + check_word + " Commit word: " + word
                             break
                         if test == "BREAK":
                             break
-        #if temp:
-         #   print ' '.join(commit)
