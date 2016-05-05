@@ -7,7 +7,7 @@
 # 2. Figure out best threshold
 # 3. Add loop through with punctuation to see if repeated punctuation
 # 4. Check for words in all CAPS LOCK
-# 5. And more still to think of
+# 5. Check without 's' at end of plural words. Causes a ton of false positives 
 
 def check_word_order_threshold(commit_word, dict_word):
     word_order_threshold = .82
