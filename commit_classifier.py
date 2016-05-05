@@ -9,14 +9,6 @@
 # 4. Check for words in all CAPS LOCK
 # 5. And more still to think of
 
-def check_similarity_threshold(commit_word, dict_word):
-    
-    similarity_threshold = .75
-    length_test = float(len(commit_word)) / float(len(dict_word))
-    #if length_test > similarity_threshold:
-    #    return True
-    return length_test 
-
 def check_word_order_threshold(commit_word, dict_word):
     word_order_threshold = .82
     word_count = 0
