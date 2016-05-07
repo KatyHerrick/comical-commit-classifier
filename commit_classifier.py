@@ -55,7 +55,6 @@ if __name__ == '__main__':
     with open('english_word_list/words2.txt') as w:
         english_words = [line.rstrip().lower() for line in w]
     for commit in commits:
-        temp = False
         count += 1
         print "Commit #: " + str(count)
         for word in commit:
@@ -77,12 +76,15 @@ if __name__ == '__main__':
                 possible_typos = []
                 not_a_typo = False
                 for check_word in english_words:
+                # Checking for typos
                     if len(check_word) >= len(word)-1 and len(check_word) <= len(word)-1:
+                        # Might be a typo if word is within range 1 of length of word
                         test = check_word_order_threshold(word, check_word)
                         if test == True:
-                            possible_typos.append(check_word)
-                            print word + " is a typo of " + check_word
-                            #print "Full word: " + check_word + " Commit word: " + word
-                            break
+                            t = word + " is a possible typo of " + check_word
+                            possible_typos.append(t)
                         if test == "BREAK":
                             break
+                if possible_typos:
+                    for typo in possible_typos:
+                        print typo
