@@ -62,11 +62,25 @@ if __name__ == '__main__':
             if word in automatic_funny:
                 print ' '.join(commit) + " ___ is funny"
                 break
-            if not word in english_words or not word[:len(word)-1] in english_words:
+            if len(word) > 1 and (word[len(word)-1] == 's' or word[len(word)-1] == 'd'):
+                # If last letter is 's', may be plural and not in english_words list
+                if word[:len(word)-1] in english_words:
+                    continue
+            elif len(word) > 2 and word[len(word)-2:] == 'ed':
+                if word[:len(word)-2] in english_words:
+                    continue
+            elif len(word) > 3 and word[len(word)-3:] == 'ing':
+                if word[:len(word)-3] in english_words:
+                    continue
+            if not word in english_words: 
+            #and not word[:len(word)-1] in english_words:
+                possible_typos = []
+                not_a_typo = False
                 for check_word in english_words:
                     if len(check_word) >= len(word)-1 and len(check_word) <= len(word)-1:
                         test = check_word_order_threshold(word, check_word)
                         if test == True:
+                            possible_typos.append(check_word)
                             print word + " is a typo of " + check_word
                             #print "Full word: " + check_word + " Commit word: " + word
                             break
