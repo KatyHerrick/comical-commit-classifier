@@ -2,6 +2,8 @@
 # than the NaiveBayesClassifier.
 # (Including this empty file only if we get to this stage.)
 
+import re, string
+
 # SOME THINGS TO DO/WHERE I LEFT OFF:
 # 1. Remove punctuation for check_word_order_threshold test
 # 2. Figure out best threshold
@@ -14,6 +16,12 @@ automatic_funny = ['shit', 'fuck', 'ass', 'sucks', 'bad', 'garbage', 'awful',
     'terrible', 'damn', 'goddamn', 'dammit', 'goddammit', 'oops', 'lol', 'haha', 'retard',
     'retarded', 'geez', 'jeez', 'hahah', 'hahaha', 'fml', 'yolo', 'gg', 'idiot'
 ]
+
+# Globals
+table = string.maketrans("", "")
+
+def remove_punctuation(s):
+    return s.translate(table, string.punctuation)
 
 def check_word_order_threshold(commit_word, dict_word):
     word_order_threshold = .82
@@ -42,7 +50,8 @@ if __name__ == '__main__':
     count = 0
     with open('data/fateanother_commits.txt') as d:
         temp_words = d.readlines()
-        commits = [commit[1:].lower().split('\n')[0].split(' ') for commit in temp_words] 
+        commits = [remove_punctuation(commit[1:].lower()).split('\n')[0].split(' ') for commit in temp_words] 
+#    with open('english_word_list/google-10000-english-usa.txt') as w:
     with open('english_word_list/words2.txt') as w:
         english_words = [line.rstrip().lower() for line in w]
     for commit in commits:
@@ -53,11 +62,12 @@ if __name__ == '__main__':
             if word in automatic_funny:
                 print ' '.join(commit) + " ___ is funny"
                 break
-            if not word in english_words or not word[:-1] in english_words:
+            if not word in english_words or not word[:len(word)-1] in english_words:
                 for check_word in english_words:
                     if len(check_word) >= len(word)-1 and len(check_word) <= len(word)-1:
                         test = check_word_order_threshold(word, check_word)
                         if test == True:
+                            print word + " is a typo of " + check_word
                             #print "Full word: " + check_word + " Commit word: " + word
                             break
                         if test == "BREAK":
