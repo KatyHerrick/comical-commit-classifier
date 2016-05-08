@@ -7,8 +7,8 @@ import re, string
 # SOME THINGS TO DO/WHERE I LEFT OFF:
 # [x] 1. Remove punctuation for check_word_order_threshold test
 # [] 2. Figure out best threshold
-# [] 3. Add loop through with punctuation to see if repeated punctuation
-# [] 4. Check for words in all CAPS LOCK
+# [x] 3. Add loop through with punctuation to see if repeated punctuation
+# [x] 4. Check for words in all CAPS LOCK
 # [x] 5. Check without 's' at end of plural words. Causes a ton of false positives 
 
 # Obviously will be much longer, just a small list to start
@@ -70,8 +70,9 @@ if __name__ == '__main__':
     for commit in original_commits:
         # Start commits_for_write dictionary
         count += 1
-        cmt = "Commit #" + str(count) + ": " + commit + '\n'
-        commits_for_write[count] = [cmt]
+        cmt = ["Commit #" + str(count)]
+        cmt.append(commit)
+        commits_for_write[count] = cmt
 
     count = 0
     for commit in commits_no_punc:
@@ -135,9 +136,18 @@ if __name__ == '__main__':
                 cmt.append('Is Funny\n')
                 commits_for_write[count] = cmt
 
+    a = open('classifier_answers.txt', 'w')
     f = open('classifier_output.txt', 'w')
     for key in commits_for_write:
         info = commits_for_write[key]
+        is_funny = "Is Funny\n"
+        if is_funny in info: 
+            a.write(info[1][1:])
+            a.write('funny\n')
+        else:
+            a.write(info[1][1:])
+            a.write('serious\n')
         for data in info:
             f.write(data)
     f.close()
+    a.close()
