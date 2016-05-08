@@ -5,11 +5,11 @@
 import re, string
 
 # SOME THINGS TO DO/WHERE I LEFT OFF:
-# 1. Remove punctuation for check_word_order_threshold test
-# 2. Figure out best threshold
-# 3. Add loop through with punctuation to see if repeated punctuation
-# 4. Check for words in all CAPS LOCK
-# 5. Check without 's' at end of plural words. Causes a ton of false positives 
+# [x] 1. Remove punctuation for check_word_order_threshold test
+# [] 2. Figure out best threshold
+# [] 3. Add loop through with punctuation to see if repeated punctuation
+# [] 4. Check for words in all CAPS LOCK
+# [x] 5. Check without 's' at end of plural words. Causes a ton of false positives 
 
 # Obviously will be much longer, just a small list to start
 automatic_funny = ['shit', 'fuck', 'ass', 'sucks', 'bad', 'garbage', 'awful',
@@ -22,6 +22,12 @@ table = string.maketrans("", "")
 
 def remove_punctuation(s):
     return s.translate(table, string.punctuation)
+
+def remove_letters(s):
+    return s.translate(table, string.letters)
+
+def remove_digits(s):
+    return s.translate(table, string.digits)
 
 def check_word_order_threshold(commit_word, dict_word):
     word_order_threshold = .82
@@ -45,23 +51,37 @@ def check_word_order_threshold(commit_word, dict_word):
     return False
 
 if __name__ == '__main__':
-    commits = []
+    original_commits = []
+    commits_for_write = {} 
+    commits_no_punc = []
+    commits_with_caps = []
+    commits_no_words = [] # Checking for multiple punctuation
     english_words = []
-    count = 0
     with open('data/fateanother_commits.txt') as d:
-        temp_words = d.readlines()
-        commits = [remove_punctuation(commit[1:].lower()).split('\n')[0].split(' ') for commit in temp_words] 
+        original_commits = d.readlines()
+        commits_no_punc = [remove_punctuation(commit[1:].lower()).split('\n')[0].split(' ') for commit in original_commits] 
+        commits_with_caps = [remove_punctuation(commit[1:]).split('\n')[0].split(' ') for commit in original_commits]
+        commits_no_words = [remove_digits(remove_letters(commit[1:])).split('\n')[0].split(' ') for commit in original_commits]
 #    with open('english_word_list/google-10000-english-usa.txt') as w:
     with open('english_word_list/words2.txt') as w:
         english_words = [line.rstrip().lower() for line in w]
-    f = open('classifier_output.txt', 'w')
-    for commit in commits:
+
+    count = 0
+    for commit in original_commits:
+        # Start commits_for_write dictionary
         count += 1
-        f.write("Commit #" + str(count) + ": " + ' '.join(commit) + '\n')
+        cmt = "Commit #" + str(count) + ": " + commit + '\n'
+        commits_for_write[count] = [cmt]
+
+    count = 0
+    for commit in commits_no_punc:
+        count += 1
         print "Commit #: " + str(count)
         for word in commit:
             if word in automatic_funny:
-                f.write('Is Funny\n')
+                cmt = commits_for_write[count]
+                cmt.append('Is Funny\n')
+                commits_for_write[count] = cmt
                 print ' '.join(commit) + " ___ is funny"
                 break
             if len(word) > 1 and (word[len(word)-1] == 's' or word[len(word)-1] == 'd'):
@@ -89,7 +109,35 @@ if __name__ == '__main__':
                         if test == "BREAK":
                             break
                 if possible_typos:
+                    cmt = commits_for_write[count]
                     for typo in possible_typos:
-                        f.write(typo + '\n')
+                        cmt.append(typo + '\n')
                         print typo
+                    commits_for_write[count] = cmt
+                    
+    count = 0
+    for commit in commits_with_caps:
+        # Checking if there are commits with capital words
+        count += 1
+        for word in commit:
+            if word.isupper():
+                cmt = commits_for_write[count]
+                cmt.append('Is Funny\n')
+                commits_for_write[count] = cmt
+
+    count = 0
+    for commit in commits_no_words:
+        # Checking if there are commits with repeated punctuation
+        count += 1
+        for punc in commit:
+            if len(punc) > 1:
+                cmt = commits_for_write[count]
+                cmt.append('Is Funny\n')
+                commits_for_write[count] = cmt
+
+    f = open('classifier_output.txt', 'w')
+    for key in commits_for_write:
+        info = commits_for_write[key]
+        for data in info:
+            f.write(data)
     f.close()
