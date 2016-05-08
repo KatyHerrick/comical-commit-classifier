@@ -9,7 +9,7 @@ if __name__ == "__main__":
     answers = []
     classified = []
     incorrect_answers = []  # a list of line numbers to figure out room for improvement
-    if sys.argv[1] and sys.argv[2]:
+    if len(sys.argv) > 2:
         answer_key = sys.argv[1]
         classifier = sys.argv[2]
         with open(answer_key, 'r') as a, open(classifier, 'r') as c:
