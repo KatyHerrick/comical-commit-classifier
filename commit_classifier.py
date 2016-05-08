@@ -54,11 +54,14 @@ if __name__ == '__main__':
 #    with open('english_word_list/google-10000-english-usa.txt') as w:
     with open('english_word_list/words2.txt') as w:
         english_words = [line.rstrip().lower() for line in w]
+    f = open('classifier_output.txt', 'w')
     for commit in commits:
         count += 1
+        f.write("Commit #" + str(count) + ": " + ' '.join(commit) + '\n')
         print "Commit #: " + str(count)
         for word in commit:
             if word in automatic_funny:
+                f.write('Is Funny\n')
                 print ' '.join(commit) + " ___ is funny"
                 break
             if len(word) > 1 and (word[len(word)-1] == 's' or word[len(word)-1] == 'd'):
@@ -87,4 +90,6 @@ if __name__ == '__main__':
                             break
                 if possible_typos:
                     for typo in possible_typos:
+                        f.write(typo + '\n')
                         print typo
+    f.close()
