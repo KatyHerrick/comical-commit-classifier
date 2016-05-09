@@ -1,0 +1,7 @@
+('1. one-line commit\n', 'a')
+('2. another one-line commit\n', 's')
+('3. first line of multi-line3. second line of multi-line\n', 'd')
+('4. first line of multi-line with extra newline4. second line of multi-line with extra newline\n', 'f')
+('Merge pull request #1 (5)Master (5)\n', 'g')
+('commit before sync because whatever\n', '')
+('last. anything and everythingstarting with a space (last)\'quotes too\' (last)"double quotes" (last):circus-tent:\n', 'h')
