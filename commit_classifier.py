@@ -29,6 +29,7 @@ def remove_letters(s):
 def remove_digits(s):
     return s.translate(table, string.digits)
 
+# Checks how closely spelled two words are
 def check_word_order_threshold(commit_word, dict_word):
     word_order_threshold = .82
     word_count = 0
@@ -57,6 +58,7 @@ if __name__ == '__main__':
     commits_with_caps = []
     commits_no_words = [] # Checking for multiple punctuation
     english_words = []
+    typo_list = {} 
     with open('data/fateanother_commits.txt') as d:
         original_commits = d.readlines()
         commits_no_punc = [remove_punctuation(commit[1:].lower()).split('\n')[0].split(' ') for commit in original_commits] 
@@ -74,6 +76,7 @@ if __name__ == '__main__':
         cmt.append(commit)
         commits_for_write[count] = cmt
 
+    # Checking for typos
     count = 0
     for commit in commits_no_punc:
         count += 1
@@ -83,7 +86,7 @@ if __name__ == '__main__':
                 cmt = commits_for_write[count]
                 cmt.append('Is Funny\n')
                 commits_for_write[count] = cmt
-                print ' '.join(commit) + " ___ is funny"
+                #print ' '.join(commit) + " ___ is funny"
                 break
             if len(word) > 1 and (word[len(word)-1] == 's' or word[len(word)-1] == 'd'):
                 # If last letter is 's', may be plural and not in english_words list
@@ -96,8 +99,6 @@ if __name__ == '__main__':
                 if word[:len(word)-3] in english_words:
                     continue
             if not word in english_words: 
-            #and not word[:len(word)-1] in english_words:
-                possible_typos = []
                 not_a_typo = False
                 for check_word in english_words:
                 # Checking for typos
@@ -105,16 +106,30 @@ if __name__ == '__main__':
                         # Might be a typo if word is within range 1 of length of word
                         test = check_word_order_threshold(word, check_word)
                         if test == True:
-                            t = word + " is a possible typo of " + check_word
-                            possible_typos.append(t)
+                            if word in typo_list:
+                                temp = typo_list[word]
+                                temp.append(check_word)
+                                typo_list[word] = temp
+                            else:
+                                typo_list[word] = [check_word]
                         if test == "BREAK":
                             break
-                if possible_typos:
-                    cmt = commits_for_write[count]
-                    for typo in possible_typos:
-                        cmt.append(typo + '\n')
-                        print typo
-                    commits_for_write[count] = cmt
+    if typo_list:
+        # If there are typos, figure out if it's actually a typo.
+        # Does it exist multiple times in repo?
+        cmt = commits_for_write[count]
+        for key in typo_list:
+            word_list = {}
+            possible_typos = typo_list[key]
+            for typo in possible_typos:
+                if typo in word_list:
+                    word_list[typo] += 1
+                else:
+                    word_list[typo] = 1
+            print "Word: " + key + " Possible Typos: " + str(word_list)
+            #cmt.append(typo + '\n')
+            #print typo
+        commits_for_write[count] = cmt
                     
     count = 0
     for commit in commits_with_caps:
