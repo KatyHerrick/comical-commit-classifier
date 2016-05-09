@@ -1023,7 +1023,7 @@ serious
 More attributes and bugfixes to some abilities
 serious
 attribute implementations halfway through
-funny
+serious
 Update Excalibur VFX Content includes - Excalibur VFX in KV and swap projectile particle in script - Custom particles for excalibur
 serious
 Updated Caliburn's slow VFX
@@ -1039,4 +1039,280 @@ serious
 Revert ":circus_tent: Added .gitattributes" This reverts commit 8498d4e0691be12f07788e38a89d80df115be42c.
 serious
 :circus_tent: Added .gitattributes
+serious
+Smilescreen death icon update. Smile will look like :^( when dead.
+funny
+Fixed a bug where silicons did not speak robot.
+funny
+It's always the fukken changelog.
+funny
+Can now correctly not enthrall braindead Apparently that was a bug.
+funny
+MERGE NOW BEFORE MAP MESSES UP
+funny
+I hope I'm doing this right.
+funny
+I fucked up
+funny
+Revert "did I fuck it up again" - Why are you committing directly - Why are you committing directly? This reverts commit fa9bd49e144290de74b1ef99685779efaf8945ef.
+funny
+did I fuck it up again fucking please also it makes slime processor thing work blah
+funny
+fuck shit fuck
+funny
+okay shadow you win
+funny
+Fixed some annoying things.
+funny
+Adds a mediborg icon state with a :^) face on it.
+funny
+HAHAHA, I suck at this, don't I?
+funny
+Right, double quotes inside the comments are bad.
+funny
+IT'S ALWAYS THE CHANGELOG
+funny
+Fixes my autism just kidding i still have it
+funny
+im tired shut up let me go to bed travis
+funny
+Oh
+funny
+goof changelog because I cannot be arsed to set changelog thingies up
+funny
+I guess I broke things
+funny
+Shamelessly stolen content just kidding i totally wrote this on my own
+funny
+whoops
+funny
+Fix "Chicken shit" lighting. This one fucking line was the cause of lighting being cancer. fixed, finally...
+funny
+Yea, Dont mind me. Im really really dumb.
+funny
+Eyy, Something went wrong..
+funny
+Stuff.
+funny
+It fucking works. Don't fucking ask.
+funny
+Oops. Forgot to add the icon to first commit.
+funny
+Balanced easter egg. tis fun.
+funny
+I did it backwards help
+funny
+2nd pass OOP everything's broken right now, but hey, whatever
+funny
+i want to believe
+funny
+ugh sure
+funny
+what the fuck was I thinking with this one Negative layers
+funny
+Code uses harden
+funny
+are you serious? please kill me
+funny
+Shuttle Burning No Ugly
+funny
+Remember kids: Smoking makes you RUGGED
+funny
+whoops
+funny
+Derp, I hate fixing merge conflicts...
+funny
+nvm it works
+funny
+less retardation
+funny
+ayy lmao merge conflicts
+funny
+also makes the code compile i'm so nice
+funny
+nobody saw anything
+funny
+IT KEEPS HAPPENING
+funny
+Merge pull request #10178 from tgstation/revert-10175-revert-10174-patch-93 Revert "Revert "MERGE THIS RIGHT FUCKING NOW I DON'T CARE ABOUT TRAVIS""
+funny
+Revert "Revert "MERGE THIS RIGHT FUCKING NOW I DON'T CARE ABOUT TRAVIS""
+funny
+derp
+funny
+now less retarded
+funny
+WHOOPS
+funny
+FUCK
+funny
+fixed the changelog FOR REAL THIS TIME, also fixed bad coding
+funny
+hurr fucking durr changelog fix
+funny
+ermahgerd chenglerg
+funny
+This was way too much work, so this had better work now.
+funny
+Hu....Woops.
+funny
+Oops
+funny
+Pray pray pray
+funny
+whoops
+funny
+I hate whoever touched the detectives computer
+funny
+PSHOOM PSHOOOOOOOOOOM
+funny
+whoops
+funny
+Oh my god I'm so tired and also I don't squash commits
+funny
+whoops
+funny
+whoops
+funny
+Ok lets try this again
+funny
+whoops
+funny
+double whoops
+funny
+Oh I see what I did wrong.
+funny
+One day while Andy was masturbating, Woody got wood. He could no longer help himself! He watched as Andy stroked his juicy kawaii cock. He approached Andy which startled him and make him pee everywhere on the floor and on Woody too. Being drenched in his urine made him harder than ever! Woody: "Andy Senpai! I'm alive and I want to be INSIDE OF YOU." Andy: "Oh Woody Chan! I always knew you were alive! I want to stuff you up my kawaii ass!" Woody grabbed a bunch of flavored lube and rubbed it all over his head Woody: "Oh my! It's cherry flavored lube! Cherry is my favorite! Woody then stuffed his head up into Andy's tight ass! The other toys around the room watched intently as Woody shoved his head back and forth into Andy's nice ass, continuously making a squishy wet noise. The other toys also became aroused and they all gathered around Woody and Andy and started to urinate all over them, and then they started to masturbate. Andy: "Oh my goodness, Woody Chan! You are churning my insides up so well! Your nose is stimulating my prostate! OH YES! All the other toys became so aroused by this, that they could not help themselves anymore! They pushed Woody completely inside, and they all went inside. All of them wanted to be inside Andy's nice round ass. Andy: "No wait guys! My ass cannot hold this much! I'm getting so full! All the toys went inside of poor squirming Andy and pretty much, he was beyond full, and died from having his insides completely damaged. The mother came inside and found Andy, dead with a huge ass hemorrhage on his anus, with a HUGE belly full of toys. One day while Andy was masturbating, Woody got wood. He could no longer help himself! He watched as Andy stroked his juicy kawaii cock. He approached Andy which startled him and make him pee everywhere on the floor and on Woody too. Being drenched in his urine made him harder than ever! Woody: "Andy Senpai! I'm alive and I want to be INSIDE OF YOU." Andy: "Oh Woody Chan! I always knew you were alive! I want to stuff you up my kawaii ass!" Woody grabbed a bunch of flavored lube and rubbed it all over his head Woody: "Oh my! It's cherry flavored lube! Cherry is my favorite! Woody then stuffed his head up into Andy's tight ass! The other toys around the room watched intently as Woody shoved his head back and forth into Andy's nice ass, continuously making a squishy wet noise. The other toys also became aroused and they all gathered around Woody and Andy and started to urinate all over them, and then they started to masturbate. Andy: "Oh my goodness, Woody Chan! You are churning my insides up so well! Your nose is stimulating my prostate! OH YES! All the other toys became so aroused by this, that they could not help themselves anymore! They pushed Woody completely inside, and they all went inside. All of them wanted to be inside Andy's nice round ass. Andy: "No wait guys! My ass cannot hold this much! I'm getting so full! All the toys went inside of poor squirming Andy and pretty much, he was beyond full, and died from having his insides completely damaged. The mother came inside and found Andy, dead with a huge ass hemorrhage on his anus, with a HUGE belly full of toys.
+funny
+How did I miss this one?
+funny
+Whoopsie daisy
+funny
+okay i got it now
+funny
+Fuck this shit
+funny
+STOP TRYING TO MAKE STEALTH CHANGES, FAYRIK
+funny
+Almost like magic, it works. CODE MAGIC.
+funny
+KEEP YOUR HOES IN LINE
+funny
+Small ..() fix.
+funny
+Oops.
+funny
+Fixes world hunger.
+funny
+fixed changelog because i'm noob at github.
+funny
+Some more stuff
+funny
+Woopsie, drugs aren't getting metabolized...
+funny
+Omelette du fromage.
+funny
+conflicting with myself
+funny
+here we gop
+funny
+whoops
+funny
+it broke
+funny
+derp
+funny
+okay
+funny
+Fine whatever I don't care -Tommy Wiseau
+funny
+Merge pull request #8712 from tgstation/revert-8684-chem_farts I WAS WRONG. YOU PEOPLE DON'T **DESERVE** MY FARTS
+funny
+a buhhhhhh buhhhhhhhhhh
+funny
+sad trombone for clown pda
+funny
+whoops
+funny
+Look at all these bugs that no longer exist!
+funny
+bitch says she wanna keep her throat warm
+funny
+adds some sanity checks
+funny
+weeoo noise loop
+funny
+an epic redo
+funny
+WEEOO NOISE
+funny
+WEEEOOOO WEEEEOOO WEEEOOO
+funny
+Also fixes bunches of areas and makes it a bit cleaner. SPEED MERGE FOR THE LOVE OF GOD I DON'T WANT TO HAVE TO RESTART THIS SHIT 5 TIMES.
+funny
+Derp, only need one loop.
+funny
+lovin you is complicated
+funny
+goofball compile
+funny
+Fixes #8375 UNTESTED I DONT KNOW WHAT IS GOING ON AAAAAAA
+funny
+ugh
+funny
+changes and shit, adds prespawn colorful smoke grenade for fun times and adminning
+funny
+whoops, missed a debug message
+funny
+Nuclear self destruct option with added centcomm fun
+funny
+ERT now spawn with random names because cheri hates fun
+funny
+fun removed hitler wins
+funny
+*Heavily RNG based to be the "fun" alternative.
+funny
+*Removes the earmuffs from the cursed items loadout for being neither fun nor useful to anyone
+funny
+Thermiting stuff funny
+funny
+MWAHAHAHHAHAHAHAH
+funny
+Moar empty liiiiiiines
+funny
+2oop4u
+funny
+Removes additional fun
+funny
+instead of just windows after the simple mob overhaul and too much fun was occurring.
+funny
+-Fixed a funny bug where weed nodes wouldn't stop growing. Which lead to this: http://i.imgur.com/8BFce.jpg
+funny
+Hotfix of hotfix... of hotfix of the hud change. This is starting to get funny.
+funny
+"lol-it's faster to get cloned".
+funny
+Fixed some typos in traitorchan (lol).
+funny
+Tool boxes give weapons research bonus, of 1 (lol, tool boxers).
+funny
+:d ("diggers" lol) as shortcut
+funny
+not gonna work
+funny
+lol forgot to save
+funny
+lol forgot to save all
+funny
+lol
+funny
+lol indentations
+funny
+Replaced all existing biosuits and hoods with the new sprites. changelog updated
+serious
+Redesigned changelog git-svn-id: http://tgstation13.googlecode.com/svn/trunk@1045 316c924e-a436-60f5-8080-3fe189b3f50e
+serious
+Now changelog is shown only if it was changed since last login. git-svn-id: http://tgstation13.googlecode.com/svn/trunk@766 316c924e-a436-60f5-8080-3fe189b3f50e
+serious
+Minor changelog fix
 serious
