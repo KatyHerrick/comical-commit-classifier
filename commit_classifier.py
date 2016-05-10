@@ -51,6 +51,60 @@ def check_word_order_threshold(commit_word, dict_word):
         return True
     return False
 
+def check_s_d(word, english_words):
+    # If last letter is 's' or 'd', may be plural and not in english_words list
+    if len(word) > 1 and (word[len(word)-1] == 's' or word[len(word)-1] == 'd'):
+        if word[:len(word)-1] in english_words:
+            return True
+    return False
+
+def check_ed(word, english_words):
+    if len(word) > 2 and word[len(word)-2:] == 'ed':
+        if word[:len(word)-2] in english_words:
+            return True
+    return False
+
+def check_ing(word, english_words):
+    if len(word) > 3 and word[len(word)-3:] == 'ing':
+        if word[:len(word)-3] in english_words:
+            return True
+    return False
+
+def is_typo(typo_list):
+    typo_count = {}
+    word_is_typo = []
+    if typo_list:
+        # If there are typos, figure out if it's actually a typo.
+        # Does it exist multiple times in repo?
+        for key in typo_list:
+            word_list = {}
+            possible_typos = typo_list[key]
+            for typo in possible_typos:
+                if typo in word_list:
+                    word_list[typo] += 1
+                else:
+                    word_list[typo] = 1
+            typo_count[key] = word_list
+    if typo_count:
+        for key in typo_count:
+            word_list = typo_count[key]
+            for word in word_list:
+                if not word_list[word] > 1:
+                    # Is a typo
+                    if not key in word_is_typo:
+                        word_is_typo.append(key)
+    return word_is_typo
+
+def commit_is_funny(word_is_typo, commits_for_write):
+    for key in commits_for_write:
+        for word in word_is_typo:
+            array = commits_for_write[key]
+            for line in array:
+                if word in line:
+                    commits_for_write[key].append("Is Funny\n")
+    return commits_for_write
+                
+
 if __name__ == '__main__':
     original_commits = []
     commits_for_write = {} 
@@ -64,7 +118,6 @@ if __name__ == '__main__':
         commits_no_punc = [remove_punctuation(commit[1:].lower()).split('\n')[0].split(' ') for commit in original_commits] 
         commits_with_caps = [remove_punctuation(commit[1:]).split('\n')[0].split(' ') for commit in original_commits]
         commits_no_words = [remove_digits(remove_letters(commit[1:])).split('\n')[0].split(' ') for commit in original_commits]
-#    with open('english_word_list/google-10000-english-usa.txt') as w:
     with open('english_word_list/words2.txt') as w:
         english_words = [line.rstrip().lower() for line in w]
 
@@ -88,16 +141,12 @@ if __name__ == '__main__':
                 commits_for_write[count] = cmt
                 #print ' '.join(commit) + " ___ is funny"
                 break
-            if len(word) > 1 and (word[len(word)-1] == 's' or word[len(word)-1] == 'd'):
-                # If last letter is 's', may be plural and not in english_words list
-                if word[:len(word)-1] in english_words:
-                    continue
-            elif len(word) > 2 and word[len(word)-2:] == 'ed':
-                if word[:len(word)-2] in english_words:
-                    continue
-            elif len(word) > 3 and word[len(word)-3:] == 'ing':
-                if word[:len(word)-3] in english_words:
-                    continue
+            if check_s_d(word, english_words):
+                continue
+            elif check_ed(word, english_words):
+                continue
+            elif check_ing(word, english_words):
+                continue
             if not word in english_words: 
                 not_a_typo = False
                 for check_word in english_words:
@@ -114,22 +163,17 @@ if __name__ == '__main__':
                                 typo_list[word] = [check_word]
                         if test == "BREAK":
                             break
-    if typo_list:
-        # If there are typos, figure out if it's actually a typo.
-        # Does it exist multiple times in repo?
-        cmt = commits_for_write[count]
-        for key in typo_list:
-            word_list = {}
-            possible_typos = typo_list[key]
-            for typo in possible_typos:
-                if typo in word_list:
-                    word_list[typo] += 1
-                else:
-                    word_list[typo] = 1
-            print "Word: " + key + " Possible Typos: " + str(word_list)
-            #cmt.append(typo + '\n')
-            #print typo
-        commits_for_write[count] = cmt
+    word_is_typo = is_typo(typo_list)
+    commits_for_write = commit_is_funny(word_is_typo, commits_for_write) 
+
+    # Are these actually typos? They'll be considered a typo
+    # if there aren't duplicates of the word in the repository
+    #if typo_list:
+    #    for key in typo_list:
+    #        typos = typo_list[key]
+    #        for typo in typos:
+    #            if word_list[typo] > 1:
+                    
                     
     count = 0
     for commit in commits_with_caps:
