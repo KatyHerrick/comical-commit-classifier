@@ -1,0 +1,1500 @@
+ Update .travis.yml to the latest BYOND version.
+ Merge pull request #1067 from Cruix/telesci_fix Fixes Telescience Cooldown Exploit
+ Merge pull request #1071 from ToGWtF/SecEVA Changes access on security EVA Airlock
+ Changes access on security EVA Airlock
+ Fixes pathing error on metastation.
+ You can no longer reset the telescience telepad cooldown by deconstructing and reconstructing the console.
+ Automatic changelog generation for PR #974
+ Merge pull request #1057 from Cruix/critical_honk_fix Fixes Critical Oversight
+ Holy changelog batman
+ Merge pull request #1015 from MacHac/cybermen-balance-1 Various balance changes for cybermen
+ Automatic changelog generation for PR #1008
+ Merge pull request #1008 from Super3222/nerfcrates Nerfs crates health to 300.
+ Merge pull request #1023 from Cruix/dual_rcd_rpd Rapid Engineering Devices explode like RCDs with the malf AI module
+ Merge pull request #1026 from Cruix/species_refactor Refactored Species Code
+ Automatic changelog generation for PR #1029
+ Merge pull request #1029 from X-TheDark/new_cops_need_shoes Nuke Ops can now buy Tactical No-Slip Brown Shoes
+ Automatic changelog generation for PR #1030
+ Merge pull request #1030 from X-TheDark/super_obvious_wetness Makes wet/lubed floors SUPER obvious
+ Automatic changelog generation for PR #1032
+ Merge pull request #1032 from X-TheDark/borer_infect_fix Borers do not autofail infection during paralysis
+ Automatic changelog generation for PR #1034
+ Merge pull request #1034 from ToGWtF/SurgeryCrate Surgery crate
+ Automatic changelog generation for PR #1036
+ Merge pull request #1036 from TehFlaminTaco/dev Thrown Spells
+ Automatic changelog generation for PR #1050
+ Merge pull request #1050 from Cruix/nerf_dual_esword_noslip_earmuff_sunglasses_meta Fixed bugs with block chance
+ Probably fixed it.
+ Revert "Fixes HONK" This reverts commit 9c9a54603fd75726186f90408a344115fa2f4fce.
+ Revert "another fix" This reverts commit d4efc95275e914fd4e871d21ab68d63b6ab69478.
+ another fix
+ Fixes HONK
+ Makes bikehorns into assembly parts.
+ Merge pull request #1051 from MrStonedOne/patch-3 Fixes floors turned to walls causing runtimes in atmos.
+ Fixes floors turned to walls causing runtimes in atmos.
+ Fixed bugs with block chance.
+ Automatic changelog generation for PR #984
+ Merge pull request #984 from Cruix/tactical_corgi Adds Tactical Corgi
+ Burning fireballs Fireballs now do burn damage when papped in the face of someone.
+ Thrown Spells Changes the Fireball spell to be thrown, instead of dumbfired. Code placed here and there to make it possible to hook into throwing things better. :cl: tweak: Fireball changed from Dumbfire to Thrown. /:cl:
+ adds delay to anchoring surgery tables
+ adds operating computer circuit board
+ makes orderable surgery tables
+ Adds surgery supply crate
+ Borers do not autofail infection during paralysis.
+ Makes wet floors SUPER obvious (about 3.5 times more obvious, to be exact - changed Alpha channel on the overlays)
+ Nuke Ops can now buy Tactical No-Slip Brown Shoes.
+ Refactored species code with more hooks for possible future species changes.
+ Fixed an accidental backspace.
+ Merged and resolved conflicts.
+ Rapid Engineering Devices now explode with the "destroy RCD" malf AI module.
+ Merge pull request #931 from MacHac/antagweightfuckery Adds client verb to view antag weight
+ Merge pull request #974 from X-TheDark/sticky_fingers Pickpocket gloves (and a whole baggage of reworks)
+ Merge pull request #980 from AdamElTablawy/patch-3 ports /tg/'s Buff of Floroacid and also I made sure cyanide didn't suck balls
+ Automatic changelog generation for PR #981
+ Merge pull request #981 from AdamElTablawy/patch-4 Ports KazeEspada's igniter ignition
+ Automatic changelog generation for PR #982
+ Merge pull request #982 from AdamElTablawy/patch-5 ports changelingrain's removal of EMP cap size
+ Automatic changelog generation for PR #983
+ Merge pull request #983 from X-TheDark/detomax_unexplode Detomatix cartridges no longer blow you up ever
+ Automatic changelog generation for PR #985
+ Merge pull request #985 from ToGWtF/SeekritLoot Phat Loot
+ Automatic changelog generation for PR #986
+ Merge pull request #986 from X-TheDark/the_day_the_powernet_cried Massively buffs powersink
+ Automatic changelog generation for PR #987
+ Merge pull request #987 from fizzle7/camera-icon-fix-boogaloo Fixes the fix of camera icons.
+ Automatic changelog generation for PR #989
+ Merge pull request #989 from Cruix/lich_nerf_fixed Ports /tg/'s lich beam.
+ Merge pull request #990 from Cruix/languages_rework Splits Languages var into Languages Understood and Languages Spoken
+ Automatic changelog generation for PR #998
+ Merge pull request #998 from Cruix/biogenerator_refactor Refactored biogenerator code.
+ Automatic changelog generation for PR #999
+ Merge pull request #999 from Cruix/pda_alert_fix Fixed PDAs picking up cleared alerts from other z-levels.
+ Automatic changelog generation for PR #1000
+ Merge pull request #1000 from Cruix/grinder_accept_stuff_fix Grinders will now accept any item they can blend from any type of bag.
+ Automatic changelog generation for PR #1002
+ Merge pull request #1002 from Super3222/OperatingComputerRework Operating Computer Changes
+ Automatic changelog generation for PR #1003
+ Merge pull request #1003 from Super3222/roaches Port's Cockroaches from /tg/
+ Merge pull request #1005 from oisin100/TicketFixes Fixes my fuck up with the tickets.
+ Automatic changelog generation for PR #1006
+ Merge pull request #1006 from Super3222/smilescreen-fix Gives the "smilescreen" option an animation.
+ Automatic changelog generation for PR #1007
+ Merge pull request #1007 from Super3222/security-gasmask Warden gets a sechailer in his box.
+ Automatic changelog generation for PR #1012
+ Merge pull request #1012 from Cruix/sec_record_delete_fix Deleting a security record now takes the person off arrest.
+ Merge pull request #1016 from Groxic/malf_rcd_detonation_module Malf RCD Module Detonates RCDs
+ Merge pull request #1020 from X-TheDark/whitelist_reset_fix Fixed whitelist resetting
+ Automatic changelog generation for PR #1021
+ Merge pull request #1021 from X-TheDark/spacewine_fix Fixes spacevines not being spawned
+ Spacevine now spawns. Ported from /tg/. Credit to Razharas for the idea of how to check for spacevine properly.
+ Fixed whitelist resetting.
+ Malf RCD Module Detonates RCDs
+ Various balance changes for cybermen
+ Deleting a security record now takes the person off arrest.
+ Smilescreen death icon update. Smile will look like :^( when dead.
+ Nerfs crates health to 300.
+ Allows the warden to start with the security box.
+ Gives the "smilescreen" option an animation.
+ Fixes my fuck up with the tickets.
+ Port's KazeEspada's cockroaches from /tg/. Adds a variation called clown bugs as well.
+ Grinders will now accept any item they can blend from any type of bag.
+ Fixed PDAs picking up cleared alerts from other z-levels.
+ Removes procs used for testing, such as message_admin()
+ Refactored biogenerator code.
+ Implements new functions to the operating computer and coolers you can carry around in your hand. The operating computer now has a database which can be updated with new information with a implant case holding an implant or organ cooler holding an organ. Map edits consist of adding 3 organ coolers to the surgery room and a book that contains /tg/'s wiki page of surgery. Organ Cooler has a device inside of it which can be manipulated to activate the cooling system, though it runs on battery.
+ Update mob_helpers.dm Fixed a line accidentally removed in the merge
+ Fixed a bug where silicons did not speak robot.
+ Rebuffed the sink a bit. It can no longer be outproduced. Now you must either get rid of it, or wait or have a very high-output (Stage 4 singularity) energy production (this will actually reduce the time it takes for powersink to explode).
+ Split languages var into languages_understood and languages_spoken.
+ Ports /tg/'s lich beam.
+ Halves the max-charge for balance reasons.
+ Removed Detomax from DA.
+ Fixes the fix of camera icons.
+ Massively increases powersink capability.
+ Adds random loot to secret maint areas
+ Death to RNG
+ Merged and resolved conflicts
+ Refactored tactical harnesses to work for non-hostile mobs Added tactical corgi harness and tactical corgi
+ Detomatix cartridges no longer blow you up ever.
+ ports changelingrain's removal of EMP cap size well uh the title explains it pretty well ports /tg/'s removal of EMP cap size 300u iron 300u uranium bluespace grenades will probably send the station back to the stone age with this
+ Ports KazeEspada's igniter ignition Credit to KazeEspada for the code. Igniters ignite now. And by that I mean fire.
+ Buffs Floroacid and cyanide to not suck balls Floroacid got nerfed from being ridiculously OP to basically the equivilent of having a lemon thrown at you. Floroacid is now potent, but not extremely lethal like it once was, so that it's still a credible threat, but not as obnoxious as acid spraybottles once were station killers. Cyanide is now not complete horseshit for all the difficulty it takes to make, and will probably kill people in less than four fucking hours.
+ So 'bout them greytides.
+ Pickpocket gloves
+ Weights are now cached, and updated at roundstart.
+ Merge pull request #901 from Groudonmaster/Cursed_Katana_Removal Changes Cursed Katana to Chicken Suit
+ Changelog fuck
+ Updating changelog
+ Automatic changelog generation for PR #944
+ Merge pull request #944 from ToGWtF/Branch_XenoUpdates xeno updates
+ Updated changelog
+ Merge pull request #948 from FluffySurvivor/mining-voucher Adds 2 mining vouchers to QM's locker
+ Changelog, again.
+ Merge pull request #963 from Cruix/ai_speed_hotkey Adds the AI's shift-alt door speed override hotkey to cyborgs.
+ Merge pull request #961 from Cruix/cleanbot_no_overlap Buffs Cleanbot AI
+ Merge pull request #955 from X-TheDark/slime_processor_thing Ports /tg/ slime processor picking up nearby dead slimes
+ Merge pull request #906 from Groxic/ai_lawsetssssss Ai lawsetssssss
+ Merge pull request #890 from TehFlaminTaco/dev Shadowling Changes
+ Adds the AI's shift-alt door speed override hotkey to cyborgs.
+ Added Changelog
+ Makes cleanbots avoid targeting the same mess as other cleanbots.
+ Merge pull request #959 from yogstation13/revert-958-oisin100-patch-3 Revert "Oisin100 patch 3"
+ Revert "Oisin100 patch 3"
+ Merge pull request #958 from oisin100/oisin100-patch-3 Oisin100 patch 3
+ Update README.md
+ Merge pull request #5 from oisin100/oisin100-patch-2 Update README.md
+ Update README.md
+ Merge pull request #957 from fizzle7/camera-emp-fix Fix cameras resetting icon when EMPed after being cut
+ Merge pull request #838 from oisin100/BotTickets Support for Discord bot. Tickets and Rebooting.
+ Merge pull request #4 from oisin100/oisin100-patch-1 Update README.md
+ Merge pull request #863 from AsV9/apc-malf-be-gone Adds random event for frying APCs.
+ Update README.md
+ Fix cameras resetting icon when EMPed after being cut.
+ Merge pull request #3 from oisin100/MaybeItWillWorkThisTime Update README.md
+ Merge pull request #915 from Cruix/ed_fix Lasertag ED209s no longer stun adjacent targets.
+ Merge pull request #946 from AsV9/malf-tweak Shunting no longer adds 30 seconds to nuke timer.
+ Merge pull request #947 from FluffySurvivor/rainbow-fix The rainbow jumpsuit now has an alt-click sprite
+ Merge pull request #950 from MacHac/floodlight-nerf Floodlight nerf
+ Merge remote-tracking branch 'refs/remotes/yogstation13/dev' into dev
+ Ports /tg/ slime processor picking up nearby dead slimes
+ Merge pull request #949 from yogstation13/fix-admin-whitelist Admin R_PERMISSIONS job whitelist toggle
+ Update README.md
+ Added Changelog
+ Changelog
+ Actually included the file this time
+ Changes floodlamps so that they can only be turned on while anchored.
+ Merge remote-tracking branch 'refs/remotes/yogstation13/dev' into dev
+ Update FluffySurvivor-MiningVouchersQM.yml
+ I am trying.
+ fixes changelog
+ Allow upper admins to determine eligibility for players to be whitelisted for jobs.
+ Changelog
+ mining vouchers for QM
+ Changelog
+ fixes pr
+ Merge remote-tracking branch 'refs/remotes/yogstation13/dev' into dev
+ Stop being so fucking picky damn it.
+ Merge pull request #943 from Cruix/cuffs_logging Fixes not logging failed handcuffing
+ Merge pull request #933 from fizzle7/drying-agent Semi-port drying agent from tg and wet turf reworks.
+ Merge pull request #928 from Cruix/changeling_eyesight_fix Fixes changeling eyesight bug
+ Merge pull request #919 from MacHac/rev-rebalance Make Rev Tolerable Again
+ Merge pull request #912 from FluffySurvivor/patch-2 Gives eswords a bit of armor pen
+ Merge pull request #875 from ToGWtF/NukeTurrets Nuke Ops turrets
+ Merge pull request #840 from Cruix/partlathe Added partlathe to code. Adminspawn only.
+ Merge pull request #776 from Cruix/dual_rcd_rpd Adds the Rapid Engineering Device
+ It's always the fukken changelog.
+ Removes shunting adding 30 seconds to nuke timer.
+ Xenos can now pry airlocks open. Unpowered doors take roughly 3 seconds, while powered airlocks take 6.
+ Xeno devour now logged
+ Attempting to handcuff someone appears in combat logs,
+ Merge remote-tracking branch 'refs/remotes/yogstation13/dev' into dev
+ Merge pull request #926 from Cruix/rev_head_latejoin_fix Revhead Latejoin Icon Fix
+ Merge pull request #924 from X-TheDark/smartfridge_fix Ports smartfridge fix from /tg/ by MSO
+ Semi-port drying agent from tg and reworks. -Adds semi-port of drying agent from tg + some constants and turf drying proc. -Makes turf slippery when emptying extiguisher
+ Adds client verb to view antag weight
+ Fixes respecing with augment eyesight evolved but off breaking vision flags.
+ Revolutionaries automatically made revheads midway through the round now have their rev icons properly updated.
+ Ports smartfridge by MSO.
+ THIS CHANGELOG WOULD BETTER WORK
+ Merge branch 'dev' into patch-2
+ fixes typo
+ Changelog
+ Can now correctly not enthrall braindead Apparently that was a bug.
+ Dethralling now requires Organ Manipulation Also, Changelog added.
+ Changes flash mechanics with regards to how revs use them.
+ Added changelog.
+ lasertag ED209s no longer stun adjacent targets.
+ Changelog update.
+ Merge remote-tracking branch 'origin/dev' What the fuck even.
+ Changelog update.
+ Merges malf-AI with traitor AI. Removes the malf AI mode. (#884) Merges malf-AI with traitor AI. Removes the malf AI mode.
+ Merge pull request #902 from X-TheDark/revenant_death_fix Small fixes to revenant from /tg/
+ Merge pull request #913 from Cruix/traitor_panel_fix Traitor Panel Bugfix
+ Updated esword's desc
+ Fixes the code no more permanent armor pen
+ Fixes the traitor panel not showing a loc for mob targets.
+ esword armor pen
+ MERGE NOW BEFORE MAP MESSES UP
+ I hope I'm doing this right.
+ Fixes type paths.
+ MERGE BEFORE CONFLICTS
+ Fixes revenants dieing randomly as well as allows revenants to Transmit more easily. Revenants heal correctly when not revealed. Revenants are not shot by turrets while not revealed. Sprucens up turret target code.
+ Merge branch 'master' of https://github.com/yogstation13/yogstation
+ Haphazard and lazy port of some /tg/ stuff. 1. ..() call moved to end of Life() 2. Ported over checks for revenant being revealed or dead for death().
+ I fucked up
+ Changelog
+ Changes Cursed Katana to Chicken Suit
+ Sling Slowdown They no-longer move at meth speed in darkness. Sadly.
+ Merge pull request #844 from Cruix/ai_speed_hotkey AI Door Speed Override Hotkey and QoL
+ Merge pull request #893 from AsV9/missing-cameras Fixes a few missing cameras from the map.
+ Revert "did I fuck it up again" - Why are you committing directly - Why are you committing directly? This reverts commit fa9bd49e144290de74b1ef99685779efaf8945ef.
+ did I fuck it up again fucking please also it makes slime processor thing work blah
+ It's always the changelog.
+ Fixes a few missing cameras from the map.
+ Shadowlings no longer can enthrall implanted. Make enthralling at least slightly hard.
+ Shadowling Changes As usual... Veil range decreased by two tiles. Icy Veins now has a 30% chance to fail at extinguishing a torch/flare Shadowlings now move at about half speed in light. Shadowlings move at meth speed in darkness, but movement delay kicks in if they try to step into light. So they wont accidently sprint into space or anything.
+ Merge pull request #860 from ToGWtF/ibrokethings Fixes broken things in arrivals maint
+ Merge pull request #859 from TehFlaminTaco/dev Ascendant Spell fix
+ Merge pull request #881 from timkoster1/Timato.exe Adds supply crates for tesla
+ Merge pull request #878 from Super3222/logadminaghosting Aghosting is now logged
+ Aghost'ing will only report to the admin log.
+ Revert "Adds changelog" This reverts commit edb714215da48046480f786ddd277bd4afe9a4ec.
+ Revert "Adds new preferences" This reverts commit 047eb9b1b6a48bab65e54683ba535419f03cf881.
+ Adds changelog
+ Adds tesla crates Adds some necessary supply crates for tesla: Adds: Tesla Generator Crate (10 points) Adds: Tesla Collector Crate (20 points, contains coils and grounding rods)
+ Merge pull request #820 from Super3222/shieldoverhaul Porting /tg/ major shield overhaul
+ fuck shit fuck
+ okay shadow you win
+ Merge pull request #873 from Super3222/barrierpatch1 Security Barriers will report how much health they have left
+ Merge pull request #872 from AsV9/nook-disk Fixes nuke disk pinpointer bug.
+ Merge pull request #811 from FluffySurvivor/patch-2 Traitor/Nuke ops items cost rebalancing
+ Merge pull request #836 from ShadowDeath6/radbow Radiation Crossbow (Radbow)
+ Merge pull request #822 from Super3222/mediborgsmile RE: :^) face on mediborg
+ Decreases chances for the event.
+ Aghosting is now logged, clearly stating how you use it.
+ Nuke Ops turrets
+ Inside of their damage report, barriers will now state how much health the have left.
+ Chang log.
+ Fixes bug with nukedisk.
+ Merge pull request #869 from AsV9/orion-trail-fix Attempts to fix orion trail bug.
+ Adds changelog REEEEEEEEE
+ Adds new preferences Adds +Borer +Xenomorph +Slaughter Demon +Other
+ Attempts to fix orion trail bug.
+ Fixed some annoying things.
+ Stun lowered and causes confusion now.
+ Adds random event for frying APCs.
+ Fixes broken things in arrivals maint I may or may not have been the one to break them in the first place
+ Buggy Github
+ Fixes Ascendant Spells ...These were really simple mistakes. Thus, they took me far too long to find...
+ Increases stun time a very small amount and increased radiation damage so it starts collapsing at 3 shots rather than 4. Hopefully makes this a more viable item to actually kill someone alone with.
+ Merge pull request #825 from ShadowDeath6/newblobtype Adds new blob type, Disorienting Fluid.
+ Merge pull request #841 from Cruix/annoying_runtime_fix Ruins Roundstart Radio Runtime
+ Merge pull request #842 from Cruix/abductor_baton_fix Abductor Baton Sprite Fixes
+ Merge pull request #845 from MacHac/abductorbugfixes Abductor mode bugfixes and improvements
+ Added changelog
+ Ports more changes from /tg/. Involving blocking thrown/moving atoms. Roman shield nerfed to only blocking unarmed attacks.
+ Abductor mode bugfixes and improvements
+ AIs using a mod-click on a door are now given a message if the mod-click was successful. AIs can now shift-alt click on doors to toggle their speed override.
+ Fixes abductor baton spawning with the wrong inhands sprite, and the inhands sprite not changing when toggled with the action button.
+ Fixes a runtime at roundstart caused by radio wires not being initialized yet.
+ Added partlathe to code. Adminspawn only.
+ Sanitize log entries for discord tickets.
+ Git skipped some lines? Fix for #838
+ Support for Discord bot. Tickets and Rebooting.
+ Merge pull request #799 from ShadowDeath6/borerstuff Minor borer changes
+ Changelog.
+ Comments out showing a message to the host and fixes a bug where borers would teleport into the person regardless if they moved or not.
+ Changelog
+ Initial commit for radbow.
+ Small buffs to make the blob more viable. Adds clumsiness. Honk.
+ Changelog update
+ Merge pull request #821 from X-TheDark/WindoorFix Drone passing through door fixes (+drone toolbox tweaks)
+ Merge pull request #815 from george99g/dev Fennecs.
+ Merge pull request #818 from yogstation13/feature-alertlocker Alert Lockers
+ Merge pull request #826 from ToGWtF/FuzzySlippers Adds FuzzyBunnySlippers to donator item
+ Adds FuzzyBunnySlippers to donator item Because fuck yes
+ appeasing travis part 3. Thanks X!
+ Changelog part 2 don't hurt me travis edition
+ Changelog
+ Adds new blob type, Disorienting Fluid, which causes sensory disruption, such as blindness for a very short amount of time and blurry vision similar to pepper spray or spore toxin's effect, and deafness. It also does very low toxin and radiation damage. It /technically/ does brute because every blob attack works that way.
+ Fixes drones being picked up remotely.
+ Merge branch 'dev' of https://github.com/yogstation13/yogstation into shieldoverhaul
+ Ported tg's deathmessage system for the illusion animal.
+ Reactive Illusion Armor port!
+ Fixes conflicts with the changelog.
+ Adds a mediborg icon state with a :^) face on it.
+ +1 changelog!
+ Adds a smile face choice to mediborgs.
+ Makes drone toolbox have 10 slots, adjusted total max weight accordingly. Gives drones emergency fire extinguisher. Fixes various door inconsistencies.
+ Porting tg's massive Shield Overhaul. Involves changing IsShield() to hitreaction, makes creations involving blocks with specific items a lot easier on coders, and a research modification.
+ Update changelog
+ Forgot to add the lockers. Honk.
+ Merge branch 'dev' into feature-alertlocker
+ Merge branch 'master' into dev
+ A musing for #802. The only thing this adds is the ability to bind a locker to an alert level. It is still emaggable and empable. This is a very basic system.
+ Merge pull request #796 from ToGWtF/ArrivalsMaint Removes Statue Room
+ Merge pull request #806 from ShadowDeath6/BlobBalances Blob Balances, Plus Bugfixes!
+ Merge branch 'dev' into dev
+ Merge pull request #730 from ToGWtF/GangImplant Lowers the price of Gang Implants
+ Merge pull request #690 from Super3222/soulstoneupdatee Shades can return to their soulstones
+ Merge pull request #721 from MacHac/abductor-mode Abductor mode
+ Furthering storage implant nerf
+ Corrected changelog
+ Changelog
+ Follow-up changes to the uplink rebalancing (based solely on feedback)
+ Fennecs.
+ nerfs blob attacking EMP to 3 tiles instead of 4
+ EMP blob now only EMPs on death 75% of the time.
+ GROXIC for coder 2016, rip commas
+ Uplink items cost rebalancing
+ Changelog!
+ Fixes pressurized slime desc.
+ Blob Balances, Plus Bugfixes!
+ Merge pull request #649 from yogstation13/AdamElTablawy-patch-1 Ports /tg/'s CLF3 buff to increase potency. Additionally makes phlogistion slightly more potent, fixes a typo in the pyrosium chem's description, and makes pyrosium and cyroxadone not completely useless.
+ Changelog part 2
+ Added changelog.
+ Small borer formatting changes. Fixes bug where liches would go catatonic by removing borers' ability to enter a skeleton.
+ Removes Statue Room Replaced with firestafety area, making it a great hiding spot for various antag types
+ Fix the follow system so the title is correct and the user can click to change not double click.
+ Changelog update.
+ Merge remote-tracking branch 'origin/dev' Server update.
+ Merge pull request #795 from oisin100/TempCableFix Hacky temporary cable fix.
+ Hacky temporary cable fix.
+ Merge pull request #782 from ToGWtF/HushOnlyDreamsNow Fixes nukies not having access to sleepers
+ oops
+ Update README.md
+ Merge pull request #785 from ShadowDeath6/thiccblob Fixes inconsistent description changes with shield blob
+ changelog
+ cherngelerg
+ Fixes inconsistent description changes with shield blob compared to the other blobs.
+ Change the title. Honk.
+ Merge branch 'dev'
+ Updated changelog
+ Allow dynamic jump to mob search
+ Follow and Create object made dynamic.
+ Fixes nukies not having access to sleepers And also screw map merger brb deleting everything and redoing it
+ Minor bugfix.
+ Added changelog, sprite, and some small tweaks.
+ Merge branch 'dev' of https://github.com/yogstation13/yogstation into dual_rcd_rpd
+ Added Rapid Engineering Device, a fusion of the RCD, RPD, and airlock painter.
+ Merge pull request #743 from utahclock/dev Mediborg Emagged Buff Issue ##706
+ Merge branch 'dev'
+ Update changelog
+ Update and rename utahclock-newbrig to utahclock-mediemag
+ Added files via upload
+ Update syringe_gun.dm
+ Added files via upload
+ Added files via upload
+ Added files via upload
+ Added files via upload
+ Added files via upload
+ Added files via upload
+ Update and rename utahclock-Mediemag to utahclock-newbrig
+ Delete rechargestation.dm
+ Delete robot_modules.dm
+ re vamped brig ADDS new brig...
+ Merge pull request #760 from Super3222/secupdates Detective now spawns with a police baton and Sec Wardrobe gets black gloves
+ Corrects the changelog.
+ erge branch 'dev'
+ Update changelog
+ Merge pull request #684 from MacHac/shadowlingtargettingbrancheswillblotoutthesun Shadowling targeting changes
+ Merge pull request #749 from Super3222/SecurityBarrierBuffVersion2 Deployable Barrier Buff v2
+ Merge pull request #750 from Super3222/ziptiesbugfix Fixes #745 - Secborgs losing zipties
+ Merge pull request #767 from TehFlaminTaco/Floodlamps Floodlamps
+ Info made more fluff friendly At request of Kn0ss, removed "Don't fuck this up" an Snout Punching.
+ Type Patch Thanks Kn0ss
+ Added Changelog Because people yell at me when I don't do these.
+ Flood Lamps added to Processing Added flood lamps to processing for use in labour. Fixed Flashlights glowing in place if inserted whilst on.
+ Adds Flood lamps Adds flood lamps, which emit a very powerful light once set up. Good shadowling counter, although they can still just run up and turn them off.
+ changelog
+ Detective now spawns with a police baton, aside from a telescopic baton. Security's wardrobe now spawns with three pairs of black gloves.
+ Merge branch 'dev'
+ Fix to antag weight
+ Revert "TEST FOR LIVE. REVERT AFTER." This reverts commit c27629cdcb8455853e7a42626836d6ed254ca8cf.
+ TEST FOR LIVE. REVERT AFTER.
+ Fixes the code not compiling on 509
+ Revert "TEST FOR LIVE. REVERT AFTER." This reverts commit c27629cdcb8455853e7a42626836d6ed254ca8cf.
+ TEST FOR LIVE. REVERT AFTER.
+ Added files via upload
+ Added files via upload
+ Takes away a few lines I used for testing involving "message_admins".
+ A few more final patches. A little less qdel and the security barriers now scale the amount of damage when they report that they've received damage.
+ You can no longer untie zipties... this prevents borgs from losing their own.
+ Merge branch 'dev' of https://github.com/yogstation13/yogstation into SecurityBarrierBuffVersion2
+ The deployable barrier now can report damage to the security channel! Start by inserting a security encryption key into it. You can also add a signaling device to it, in case you want it to report it's location as well. It also sends a final message when connected the security channel upon detonation. The keys/signaling device can be ejected with a screwdriver, but that cannot be done while it is locked/anchored. A signaling device now spawns within the security office.
+ Update utahclock-Mediemag
+ Update syringe_gun.dm
+ Update rechargestation.dm
+ Update utahclock-Mediemag
+ Update syringe_gun.dm
+ Update rechargestation.dm
+ Update utahclock-Mediemag
+ Update syringe_gun.dm
+ Update rechargestation.dm
+ Update and rename utahclock-ghost to utahclock-Mediemag
+ Added files via upload
+ Added files via upload
+ Merge pull request #740 from oisin100/BetterBot Stops un-authorized links from being sent to discord
+ Merge pull request #701 from utahclock/dev fixes medihover eyes out of sync
+ Add changelog for #740
+ Merge branch 'dev'
+ Updating changelog
+ Stops un-authorized links from being sent to discord and adds a OOC topic for discord bots to use.
+ Merge pull request #732 from X-TheDark/BlobBruteFix Fixes blob health
+ Merge pull request #735 from X-TheDark/ImplantMessagingTweaks Failed implantings (headrev/gangboss/etc) only show resist message
+ Updated predator icons. Equipment.
+ Merge pull request #736 from X-TheDark/FixingWhatIBroke Fixes not being able to late-join as command positions
+ HAHAHA, I suck at this, don't I?
+ Minor tweaks to implanter output.
+ Fixes blob taking too much damage.
+ Increased playercount requirements
+ Lowers the price of Gang Implants Lowers the price so its more viable to buy them and actually use them. Hopefully makes murdering high-profile enemy gangsters less common and converting them to your cause more common.
+ Worst glands removed
+ Fixed abductor console buttons not properly appearing
+ Added changelog.
+ Added new modes to secret rotation.
+ Added two 'hybrid' modes with abductors
+ Merge branch 'dev'
+ Changelog update
+ Merge pull request #648 from TehFlaminTaco/SomeApperanceFixes Some Effect Patches
+ Merge branch 'dev'
+ Update changelog
+ Merge branch 'dev' of github.com:yogstation13/yogstation into dev
+ Merge pull request #699 from X-TheDark/WhitelistSystem Global Whitelist system for head positions + AI
+ Merged initial super basic predator
+ Some fiddling. Added staff. Changed click on self functions. Predator language flag. Predator race skin.
+ Updating changelog
+ Merge pull request #714 from yogstation13/feature-borer-panel Borer Chem Panel
+ Merge branch 'dev' of github.com:yogstation13/yogstation into dev
+ Merge branch 'oisin100-BorerFixes' into dev
+ Forgot to add the HTML dm.
+ Fixed dmi conflict
+ Move HTML to own DM. Update css.
+ Added files via upload
+ Merge pull request #692 from orelbon/Engineering Engineering changes
+ Merge pull request #693 from Notamaniac/derelictwindowdisaster Fixes fulltile windows at derelict
+ Merge pull request #694 from ToGWtF/GoldJetpack jetpack-gold now has inhand sprite
+ Merge pull request #703 from Cruix/reduce_high_risk_item_spam Reduces high-risk item admin notification spam
+ Make numbers automatically update.
+ Added files via upload
+ IS a chemical
+ Made chem panel in order to see exactly the usage of the chems and what they cost.
+ Merge pull request #709 from ToGWtF/BibleFix Remove chaplains one source of fun - Bible Duping
+ Remove chaplains one source of fun
+ Added files via upload
+ Made admin high-risk item notifications toggleable with the "Toggle High Risk Item Notifications" verb. It defaults to off.
+ Right, double quotes inside the comments are bad.
+ IT'S ALWAYS THE CHANGELOG
+ Added DB support for Whitelist system; Added new client var : is_whitelisted - cached from DB when client connects (once); Added new mob proc : is_whitelisted(mob/user) - retrieve the cached whitelist status from mobs client; Added a new theme for display to whitelisted people - whitelisted positions have a black background on the button;
+ jetpack-gold now has inhand sprite
+ Changelog
+ Fixes windows on derelict by setting their direction to 5
+ Fixes missing suit storage unit
+ Merge branch 'dev' of https://github.com/yogstation13/yogstation into WhitelistSystem
+ Whitelist System Commit 1 - Basic Selection (no DB check)
+ changelog Fixes changelog
+ Engineering changes Changes Engineering wardobe locker position, Adds two boxes to engineering, adds three welding goggles to engineering, adds one toner cartridge for the airlock painter, added back the portable air pump that was accidentally deleted, adds one more engineering suit storage unit.
+ Fixed changelog
+ fixed compilation failure
+ If you're a shade that's ghosted from our soul shard, you can return to it by clicking on it. If you ghost from a soulshard, you will also be automatically put back in your shade when summoned.
+ Merge branch 'dev'
+ Update the changelog again. Derp.
+ Merge pull request #672 from yogstation13/feature-antag-weight Antag Weighting System
+ Merge branch 'dev'
+ Changelog update
+ Merge pull request #680 from Notamaniac/bandagefix Fixes soaked bandages recipe so it creates the correct bandage
+ Merge pull request #686 from yogstation13/feature-bot-spam Reduce spam in #admin on Discord
+ Bot will only check if there is an issue with active admins once. Until an admin disconnects again. This will make sure that we don't spam the #admin chat every 3 minutes.
+ Fixes random ass change git why
+ fixes this things god damn it git
+ Merge remote-tracking branch 'upstream/dev'
+ Changelog
+ Tablecraft recipe for soaked bandages now produces the correct bandage
+ Merge pull request #669 from utahclock/dev Adds Icon for Yogstation Specific Ghost for Donators
+ Merge branch 'dev'
+ Updated changelog
+ Merge pull request #678 from oisin100/BetterBot Adds config option for discord bot and prepares code to allow the discord bot to interface with byond.
+ Merge pull request #679 from ToGWtF/WizNuke Wizard now spawns with Nuke_tools
+ Merge branch 'master' of github.com:yogstation13/yogstation
+ Fixes my autism just kidding i still have it
+ im tired shut up let me go to bed travis
+ Wizard now spawns with Nuke_tools Wizards with the objective to steal the radioactive nuclear bomb core now actually spawn with the tools to do it
+ Wrong if statement in https.dm
+ Merge pull request #677 from MrStonedOne/patch-2 Fixes the code not compiling on 509
+ Fixes the code not compiling on 509
+ Update bot to default to being off and added code to /world/topic to accept asay and adminwho connections.
+ Changelog
+ Add pick to gamemodes
+ Added gitignore to ignore compiled python files. They dont need to be updated in the repo constantly. Admin helper shouldnt be in subsystems! Changed admin check to check AFK after 60 seconds.
+ The Changelog In all its glory.
+ New admin helper DM file
+ Bot build should now not break Travis.
+ Changelog update
+ Merge pull request #644 from oisin100/Bots! Adds basic discord bot.
+ Merge pull request #673 from AsV9/jiggawatts Tesla now follows singularity beacon.
+ Merge pull request #647 from Groxic/tg_blobchem_port Ports /tg/ Blob Chemicals (conflicts fixed; needs more testing)
+ Merge pull request #550 from oisin100/LingFixes Fixes pink slime extracts used on headcrabs not working right.
+ Changelog.
+ Makes tesla attracted to singulo beacon.
+ Updates Tooltip
+ Create utahclock-ghost
+ Fix M'conflicts
+ Oh
+ Merge remote-tracking branch 'yogstation13/dev' into Bots! Conflicts: code/controllers/subsystem/ticker.dm
+ Merge pull request #645 from Cruix/toggle_guns_fix Fixes toggleable energy guns shooting the wrong type of shot once after toggling
+ Merge pull request #671 from Super3222/weldertankbugfix RE: Syringe meets weldertank bugfix
+ Merge pull request #666 from AsV9/lame-ass-fix Fixes missing tiles from CentComm.
+ Rename silly variables. Remove superfluous parameter. Add comments.
+ Initial test of antag weighting system
+ Delete utahclock-dev.yml
+ Reverted Game Mode. Contains naughty code.
+ Also belongs to the +TICKET addition
+ Use +TICKET to allow certain admins to automatically delay round end.
+ changelog fix
+ changelog
+ Darts (special characterized bullets that inject chemicals) now have their own flag as "darts". Weldertanks won't go off from projectiles that do damage equal to five or lower, excluding laser/burn type projectiles.
+ Update utahclock-dev.yml
+ Added files via upload
+ Added files via upload
+ Merge branch 'dev' of https://github.com/yogstation13/yogstation into tg_blobchem_port # Conflicts: # code/modules/mob/living/simple_animal/friendly/drone/extra_drone_types.dm
+ Merge branch 'dev' of https://github.com/yogstation13/yogstation # Conflicts: # code/modules/mob/living/simple_animal/friendly/drone/extra_drone_types.dm
+ Tickets will only be held by holders of +TICKET
+ Fixes missing tiles from CentComm.
+ Until a better situation is found, ensure that all admins cause a ticket check.
+ Changelog update
+ Merge pull request #661 from AsV9/cabbage-fixes Plantpeople fixes
+ Merge pull request #643 from Cruix/Cybermen_Updates_v6 Cybermen Updates
+ Reduce Redundancy; Makes Some Things Nicer
+ Changelog.
+ Fixes plantpeople dying on shuttles and stuff and makes plantpeople able to use mechs properly.
+ Update changelog
+ New job whitelist helper added
+ Fix ticket problem with html entities
+ Merge pull request #578 from Super3222/SSDronesOfficialFinal Syndicate Scout Drones
+ Merge pull request #650 from Cruix/high-risk_logging High Risk Item Logging
+ Merge pull request #657 from X-TheDark/swarmer_trap_fix Fixes swarmer traps not stunning people
+ Fixes swarmer traps not stunning people.
+ Final Fix???
+ I think not!
+ Final Changelog Fix?
+ Fixes previous changelog
+ Merge branch 'dev' of https://github.com/yogstation13/yogstation into tg_blobchem_port # Conflicts: # code/__DEFINES/misc.dm
+ Update Pyrotechnic-Reagents.dm
+ Merge pull request #577 from ToGWtF/LasersGoPewPew Temperature gun update
+ Removed a single space that was messing up the changelog script.
+ Fixed protect objective target finding.
+ Added high-value item tracking *Added a new var to items, "high_risk". If this is set to 1, admins will be notified whenever it is destroyed or changes z-levels. Most traitor objective items have high_risk set to 1 be default. *When looking at a player's objectives in the traitor panel, admins can look at and jump to the locations of their targets.
+ Update Pyrotechnic-Reagents.dm
+ Some Effect Patches Ghosts now are transparent Together, so their clothes and such don't look oddly overlayed on them. DoAfter has been smoothed out and locked in position correctly, so flipping doesn't cause it to flip aswell.
+ Changelog update
+ Merge remote-tracking branch 'origin/dev' Server update.
+ Final blub chem port changes? Uses Tg's blob chem system and makes the blob objects and mobs a little nicer.
+ Fixed inhand sprites
+ Added changelog.
+ Fixes toggleable energy guns shooting the wrong type of shot once after toggling.
+ Adds licence for python request library.
+ Adds basic discord bot.
+ goof changelog because I cannot be arsed to set changelog thingies up
+ fixing a wrong file
+ Merge pull request #633 from Super3222/DoubleAgentPreference Double Agents (mode) now has it's own preference.
+ Added changelog
+ Cybermen Updates *Added some logging to buttons in the cybermen panel. *Hacked AIs and cyborgs are now added to the cybermen antag hud. This is not revoked if the silicon is de-converted. *Fixed the "Hack AI" objective. *Admins can now queue a cybermen objective and see if it is valid before assigning it. *Fixed a grammatical error in hacking humans that are dead or braindead. *Fixed a runtime when a cyberman tried to convert a catatonic human. *Cybermen now get a data hud that appears over objects being hacked.
+ Port TG blob chems + some other minor additions to make it work.
+ Merge pull request #626 from orelbon/engi-lockers Engineering Lockers
+ Any projectile that does no damage / does less than 13 damage won't blow up the weldertanks.
+ Merge pull request #634 from Super3222/deployablebarrierbuff Deployable Barrier Buff v1
+ Changelog
+ fixes overlay
+ Merge pull request #641 from ToGWtF/DoYouFeelLucky Do you feel lucky, punk?
+ Merge pull request #640 from ToGWtF/IllCutYouMan Switchblade exploit fix
+ Merge pull request #638 from oisin100/SurvivalCapsule Survival Capsules no longer rip holes in the shuttles.
+ Merge pull request #636 from Iamgoofball/what_did_you_fucking_retards_do_to_my_code_babby Fixes ALL lag with the Tesla Engine, and makes it 1:1 with tg
+ Merge pull request #606 from utahclock/dev add medihover borg sprites
+ Changelog
+ Switchblade exploit fix
+ Delete robot.dm
+ Do you feel lucky, punk? Adds RussianRevolver to bartenders backroom, for high stakes betting
+ Survival Capsules no longer rip holes in the shuttles.
+ FUCKBALLS
+ Rscadd to Bugfix
+ Fixes ALL lag with the Tesla Engine
+ Syringes that are fired from syringe guns will no longer blow up welder tanks.
+ Merge branch 'dev'
+ Update changelogs
+ Tickets will now not hold a round back with AFK admins. FPS defaults set on round start.
+ Deployable barriers now play a loud enough sound to be heard from a distance.
+ Double Agents (mode) now has it's own preference.
+ Merge pull request #586 from Notamaniac/aasReadd Readds the arrivals announcement system to telecomns control room and remaps it
+ Merge pull request #630 from MrStonedOne/patch-1 Fixes ssair trying to proc unsimulated turfs.
+ remove_from_active now handles unsimulated turfs properly (because if they are in the active turf list, they should get removed!)
+ Fixes ssair trying to proc unsimulated turfs. An active/excited simulated turf would get deleted and converted to space, so this would change the turf in ssair's active_turfs list to a space turf, then it would runtime trying to call process_cell on it. (why byond!) Before a : and some lack of caring and a type check handled this. I removed this thinking it wasn't needed when i did my lag fix. (My exact thought was "why would an unsimulated turf get in ssair's active turf list, that seems like a bug that shouldn't get hidden" i forgot that deleting a turf just converts it to a space turf and all existing references are updated by byond to point to the new space turf) this OOP way seems better anyways.
+ I guess I broke things
+ Shamelessly stolen content just kidding i totally wrote this on my own
+ readds window to cooling room
+ Adds changelog for borer fixes #603
+ Merge pull request #628 from Super3222/incineratorfix Fixes the incinerators external airlock button
+ Bugfix, not rscadd.
+ Connects the incinerators button that's suppose to open the external airlock with the airlock.
+ Engineering Lockers Added some lockers to engineering
+ Merge pull request #624 from Super3222/camerabugupdate Adds tech levels to the camera bug
+ Merge pull request #625 from Super3222/goldjetpackfix Gold Jetpack now appears on your back
+ Added new ticket features * Tickets logged in DB for future statistics * Notify admins when tickets remain unclaimed * Parse asay to smart link directly to tickets ala github
+ Adds the gold jetpack to back.dmi, so it appears on your back.
+ Possible fix for the changelog.
+ Added an origin tech to the camera bug
+ Merge branch 'dev'
+ Need to show the speaker of the line in the DB log
+ Merge branch 'dev'
+ Updated changelog
+ Merge pull request #599 from TehFlaminTaco/TeslaChanges Tesla Ball Fixes
+ Merge branch 'dev'
+ Changelog updated. Admins file updated. Admin ticket statistics logger added.
+ Merge pull request #602 from Cruix/simple_animal_speech Fixes simple animals being unable to speak
+ Merge pull request #608 from oisin100/UpdateReadme Update README.md to reflect recent updates.
+ Merge pull request #610 from ToGWtF/FridgeFix Smart Fridge fixes
+ Merge pull request #612 from TehFlaminTaco/LaunchOrgans Organs can be Launched by admins
+ Merge pull request #616 from Super3222/shadebugfix Bugfix for Shades and Cult/Wiz Tweak
+ Merge pull request #619 from Super3222/removenfeeble Removes Enfeebling Sting
+ Commenting out enfeeble sting
+ Added files via upload
+ Cultists/Wizards can now tell whether a construct or shade is braindead or not.
+ Merge pull request #615 from oisin100/BorerBombs Makes borers impervious to bombs and other stuff
+ Add changelog for borer updates #615
+ Makes borers impervious to bombs and also broadcasts the borer hivemind to the deadchat.
+ Added files via upload
+ Creates checks for whether the target exists and/or whether the soul stone has already been imprinted. So people will no longer be booted.
+ Merge remote-tracking branch 'origin/dev' Server update.
+ Removing murderbone rule
+ Organs can be Launched by admins Just like they can generally be dropped from their body, now they can be ejected randomly up to 7 tiles away. Someone wanted this. (It was me)
+ Why isn't clamp a proc Fak u byond.
+ Ghost Bias Fixes Ghost bias is now changeable from the secrets panel Ghost bias now defaults to 5 instead of 10, means you need ~8 ghosts to have any major control over the tesla ball. Tesla Ball now can see up to 21 tiles, instead of just 7, to compensate for it's more random nature. Now is harder for the tesla ball to lose ghosts.
+ Smart Fridge fixes Smart fridges had no opened sprite
+ Added files via upload
+ Added files via upload
+ Delete robots.dmi
+ Update README.md to reflect recent updates.
+ Added files via upload
+ Added files via upload
+ Added files via upload
+ Added files via upload
+ Fixes simple animals being unable to speak if their can_speak_human var was set to 1.
+ Fixes borer hud breaking antag huds such as gang.
+ Added files via upload
+ Delete utahclock-dev.yml
+ Create utahclock-dev.yml
+ Create utahclock-dev.yml
+ Merge pull request #593 from Cruix/breathing_fix Fixes breathing non-oxygen gasses as if they were oxygen
+ Merge pull request #588 from oisin100/BorerFixes Some borer bugfixes.
+ Expands cooling room because symmetry is apparently important
+ Tesla Ball can see ghosts through walls I don't know why I didn't have this before. I was testing in space don't judge me.
+ Tesla Ball Fixes Tesla ball now varies in colour (Purples, Blues, And Whites) And changes between them. Tesla ball now actually stays in the centre, instead of drifting back to x, y 0 0. Tesla ball now has a ghost bias. Nothing overpowered, but if enough players want the tesla ball to fuck something up, they can persuade it.
+ Readded the camera.
+ Added changelog
+ *Fixes humans not taking oxy damage if they were breathing any other gas.
+ Adds Medihover borg icons Adds medihover borg icons
+ Some borer bugfixes. Rounding borer objectives + Borer punishment chems.
+ Changelog
+ Readds the arrivals alert system to telecomns control room and remaps it to accommodate it.
+ Update CONTRIBUTING.md
+ Merge pull request #581 from Cruix/banana_peel_fix Trash from food is now placed in the eater's hands.
+ Merge pull request #583 from ToGWtF/LaborFix Labor station shutters fix
+ Labor station shutters fix Removed broken button, fixed actual button
+ Trash from food is now placed in the eater's hands.
+ Merge branch 'dev'
+ Update all changelogs
+ Merge branch 'Lagoless' into dev
+ Angle commented out - it wasn't used.
+ Merge pull request #580 from Cruix/foam_dart_fix_2 Foam Dart Runtime Fix
+ Added changelog
+ Fixed a null pointer when the clown would shoot himself in the foot with foam darts.
+ Fix merge honk
+ Merge pull request #572 from AsV9/orbit-fixes Orbit fixes
+ Merge pull request #567 from MacHac/boreradjustments Borer and Swarmer Xenobiology tweak
+ Merge pull request #576 from Cruix/tactical_animal_gold_slimes Removes tactical dolphins and tactical carps from the gold slime core spawn list.
+ Port latest Mc updates.
+ Added Changelog
+ Port latest updates to the MC. Also updates SDQL_2 to /TG/ latest.
+ Re-adds #510, which was somehow not updated with my branch.
+ Duplicated code fix.
+ Removes tactical dolphins and tactical carps from the gold slime core spawn list.
+ Updates changelog including that it is only admin spawnable and removes it from the uplink item list.
+ Introducing Syndicate Scout Drones. They use to be purchasable in the syndicate uplink, these drones purpose is for spying on people and tracking down where objects may or may not be. They cannot pick up objects, they cannot speak, and are controlled by the users scout controller.
+ still not good at this but im trying okay
+ changelog forgot them changelogs
+ temperature gun update removes redundant line
+ Temperature gun update Adds Xenobiology pin to temperature guns. Gives passflags to Temperature gun
+ Merge branch 'dev' of https://github.com/yogstation13/yogstation into dev
+ Tears out all of ghost orbiting.
+ Wrong name in lagfix changelog.
+ Add changelog
+ Optimizes MC to prioritize some subsystems over others.
+ catalade
+ Merge remote-tracking branch 'refs/remotes/yogstation13/master' # Conflicts: # code/_onclick/hud/drones.dm # code/game/objects/items/weapons/storage/backpack.dm # code/modules/mob/living/simple_animal/friendly/drone/extra_drone_types.dm
+ Merge remote-tracking branch 'refs/remotes/origin/dev'
+ Changelog.
+ Fixes small oversight.
+ Merge pull request #568 from Cruix/tactical_animal_nerfs Tactical animal nerfs
+ Increased shot costs to what the changelog says. Tactical dolphin shots cost 75 and are fired in salvos of 3, tactical carp shots cost 150.
+ *Tactical dolphin heath reduced from 150 to 100. *Tactical carp health reduced from 300 to 150. *Tactical animal fire rate reverted to 1 salvo per second from 1 salvo per two seconds. *Tactical animals now have a recharging battery in their harness that is drained by shooting. The maximum charge is 1000, a shot costs 150 for a carp and a 3-round-burst costs 225 for a dolphin, and the battery charges at a rate of 10 per second. These values are subject to change. Charge can be seen by the animal in its Status panel.
+ Borer and Swarmer Xenobiology tweak Borers and Swarmers spawned through xenobiology are now required to obey their creators.
+ Improves orbits.
+ Merge branch 'dev'
+ Update changelogs with new PRs
+ Merge branch 'dev' of github.com:yogstation13/yogstation into dev
+ Merge pull request #533 from oisin100/GhettoIcons Ghetto icon updates.
+ Merge pull request #560 from oisin100/NewGangIcons Adds a gang icon to the 'Toggle Antag Icons' verb.
+ Merge pull request #554 from Cruix/More_Cybermen_Updates Cybermen Fixes - Intercept Report Updates
+ Merge pull request #559 from jotham/dev Fixed - Station's random name not displayed in window
+ Merge branch 'dev' of github.com:yogstation13/yogstation into dev
+ Merge branch 'fix-prefs' into dev
+ Fixes issue with game preferences for antags
+ Merge pull request #563 from MacHac/cataladefix Fixed catalade recipie
+ Fixed catalade recipie
+ Updated changelog
+ Merge pull request #561 from Cruix/Penlight_fix Flashlight Flashing Fixes
+ Push changelog and current admin ranks.
+ Merge branch 'fix-bit-roleprefs' into dev
+ Changelog for pref changes
+ Code to fix #544. Compare with #555.
+ Added nullpointer check that I forgot to press ctrl+S for. Also a period in a comment.
+ *Xray no longer protects from being flashed by flashlights. *Flashing someone's eyes with a flashlight (or penlight) now always displays a message to the user. *Added a new message to flashing someone's eyes with a flashlight if they have weak eyes. *Fixed a grammar issue where trying to flash someone with a flashlight said "You will have to remove that sunglasses" if they were wearing glasses. *Fixed a nullpointer runtime if you tried to flash someone with a flashlight who did not have dna.
+ Adds a gang icon to the 'Toggle Antag Icons' verb.
+ Fixed - Station's random name not displayed in window
+ *Adds the ability to shift-click on hacks in the Status panel to learn what they do.
+ *FIxes randomly generated Analyze and Hack objectives having nulls in their target lists, rendering them uncompletable. *Fixes microwaves being unhackable. *Fixes cyberman hacking being processed in process_cybermen_objectives() instead of process_cyberman_hacking(). *Adds a cybermen centcom intercept. *Adds shadowling and cybermen intercepts to the random intercept report options, so you can no longer meta shadowlings by looking at the intercept. *Re-pathed cybermen hacks from objects to datums. *You can now analyze objects that are subtypes of analysis targets.
+ Wrong name in the Ghetto Icons changelog...
+ Merge pull request #549 from Super3222/bloodbugfix Fixes #548 - Double Bleeding
+ Add changelog for ghetto icon updates.
+ Fixes pink slime extracts used on headcrabs not working right.
+ This will fix #548, by getting rid of the duplicated code (two messages provided when someone was bleeding out).
+ Merge pull request #547 from Cruix/dominator_fixes Dominator Tweaks
+ Merge pull request #545 from Cruix/lethal_darts_fix Fixes issues with lethal foam darts
+ Merge pull request #546 from MacHac/plasmaslimefix Golden Slime Extract Plasma Fix
+ Merge pull request #525 from AsV9/for-the-union Adds tesla engine
+ *Dominators will now be destroyed if they are moved off the station z-level. *Swarmers can no longer attack dominators.
+ Added changelog.
+ Fixes the plasma slime reaction. Refer to issue #539.
+ *Lethal foam darts are no longer changed back to non-lethal darts when fired. *Foam darts with a pen inside them are no longer destroyed when fired. *You can now remove a pen from a foam dart by using it in your hand. *Foam dart projectiles now have the lethal dart sprite when fired. *Reusable projectiles are no longer deleted and drop all their contents if they had any contents by default. This functionality could be restored by overriding the new handle_drop() proc. *Fired projectiles now store a reference to the ammo_casing that fired them.
+ Update changelog
+ Merge branch 'dev' of github.com:yogstation13/yogstation into dev
+ Merge pull request #542 from Super3222/commconsolefix RE: Comm Console Bugfix
+ This will fix some unwanted runtime errors. The communications.dm had an update previously which allowed people to log in without needing to hold their ID in hand. However, this ironically made daemon experience runtime errors (being unable to read the registered name / assignment) when they did hold their ID in their hand and attempted to log in. This bugfix will make sure that the computer checks to see if the user has an ID (with proper access) in their ID slot before logging in.
+ Merge pull request #541 from Super3222/Mascot_costume_update Re-adds the McDonald costume to the AutoDrobe's normal selection
+ Re-adds the McDonald costume to the AutoDrobe's normal list of costumes. Changes the McDonald's costume description to something different as well.
+ Merge pull request #537 from oisin100/Shadowlings Fixes un-hatched shadowlings being unable to Ascend
+ Merge pull request #540 from Notamaniac/ducttapeboogaloo Duct tape boogaloo - Non massive edition
+ Merge pull request #536 from oisin100/BorerBugs Critical borer updates.
+ Chaaaaangeloooog
+ new duct tape sprite
+ Merge branch 'dev'
+ Ensure that the unbanned variable is turned to an int for comparison.
+ Fix the unban panel display from showing all bans as unbanned.
+ Fix the unban panel display from showing all bans as unbanned.
+ Fix for shadowling ascendants.
+ Critical borer updates.
+ Ignore the log...
+ Revert "Ghetto icon updates." This reverts commit 443ebb1adb309b28d742a110c057b336228bc556.
+ Ghetto icon updates.
+ Merge branch 'dev'
+ Updated changelog html
+ Merge pull request #526 from MacHac/shadowfixes Fixes shadow people vision
+ Merge pull request #527 from Cruix/Morgue_Prison_Nerf Nerfs Morgue Prisons
+ added simple instructions for how activate the tesla engine
+ Makes getting around in space near engine slightly easier.
+ Merge pull request #524 from oisin100/Tomato Killer Tomato Logs
+ Added changelog.
+ Makes it so you can move out of lockers (and bodybags, which are a subclass of locker) while they are closed in a morgue.
+ Admin Messaging + Dehy carp logs.
+ Changelog.
+ Fixes shadow people vision Re-PRing because of silly conflict issues making things difficult.
+ Nerfs tesla engine and adds makes you able to hear it from 4 screens away.
+ Fixed small mapping oversight.
+ Makes tesla modular, puts both a tesla generator and a singularity generator on the map.
+ Ports tesla engine.
+ Tomato Logs
+ Merge pull request #521 from Notamaniac/miningtilesfix Fixes honk placeholder floor tiles in mining dorms
+ Changelog goshdarnit
+ Changes honk tiles to normal tiles
+ Merge pull request #509 from oisin100/MoreBorers Borer Updates.
+ Revert "Revert "Remove Leave alert for boers"" This reverts commit 26e02ec65e5c21e03ca338a5dfb800218e332950.
+ Revert "Remove Leave alert for boers" This reverts commit 4d467e6fa23b8bc714403e019023b132e0ff9f8e.
+ Remove Leave alert for boers
+ Logging + Leaving
+ Merge pull request #518 from MacHac/bloodfixes Adds blood clotting
+ Merge pull request #511 from Groxic/Catalade Adds Catalade
+ Merge pull request #510 from Groxic/Minedrones_nerf Minedrone Nerfs
+ Merge pull request #490 from MacHac/xenoborerfix Adding Cortical Borers to Xenoscience
+ Merge pull request #480 from MacHac/BorerPanelFix Borer panel fix
+ Merge pull request #479 from TehFlaminTaco/FoHFix Fanny pack of Holding Fix
+ Merge pull request #473 from Cruix/Chameleon_Card Makes agent card disguisable, fixes bugs with chameleon items.
+ Merge pull request #361 from Cruix/tactical_dolphin Adds tactical dolphin
+ Adds blood clotting
+ Forgot to save.
+ Borer updates. Objectives!
+ Added a required temperature of 500 Kelvin.
+ Catalade type path changed to reflect proper name and recipe changed to 1 oxygen, 2 potassium, 2 ephedrine, 1 epinephrine, 2 fluorine, 1 iodine, 1 methamphetamine, and 1 lipolicide for 4.
+ Rebalanced spawning mechanics Slime extracts now only require 2u of Strange Reagent to react, but the reaction now has an 85% chance to fail.
+ Borer updates.
+ Fixed message related bugs
+ Merge pull request #513 from Notamaniac/ducttapesprite Changes the duct tape sprite to look less scarf like
+ Changelog
+ Changes the duct tape scarf to something most humans would be able to use
+ Updated Changelog.
+ Adds proper on_mob_delete() behavior.
+ Fixes improper overdosing behavior.
+ Fixed changelog.
+ Added Changelog.
+ Committed for Groxic. Adds the reagent Catalade.
+ Fixed Changelog
+ Added Changelog
+ Committed for Groxic Minedrone Nerf Mining Points Card HUD Fix
+ Borer Updates.
+ *Nerfed tactical animal fire rate back to swarmer speed. *Removed tactiacl harness from nuke ops uplink. It is now unobtainable except by admin spawn.
+ Adds SEKRIT gold slime functionality Gold slimes will now produce either a borer or a swarmer when injected with 5 units of strange reagent. If/when they are rebalanced, spiderlings and facehuggers can be added to that list as well. The gold slime will try to poplulate the creature from the current pool of ghosts, and allow ghosts to enter the creature by clicking on it if there are no ghosts availible at the time of creation.
+ Merge pull request #507 from AsV9/no-restart-votes Restart votes now require +ADMIN instead of +SERVER and more.
+ Changelog.
+ Restart votes now require no admins with +ADMIN instead of +SERVER.
+ Genuinely confused as to why it was coded the old way.
+ Merge pull request #504 from oisin100/AnalyzerFixed Bandage fixes.
+ Merge pull request #499 from Super3222/CauterzingWoundsUpdated Cauterizing Wounds, Fire Resistant Glove Buff, Esword Bugfix
+ Changelog
+ Merge pull request #500 from MacHac/adamfixes Hulk nerf port
+ Buffed Hulk damage to 15 Hulk punches now do 15 damage
+ Bandage fixes.
+ Necessary Minedrone Nerf Minedrones have reduced superpowers and now come with a Mining Points Card and access to only mining, however, they can still go through all doors because of drone flaps.
+ Added changelog yml
+ Rebalance to Hulks Hulk punches will no longer stun.
+ conflict issue resolved.
+ Includes cauterizing wounds & an energy sword bug fix.
+ Merge pull request #483 from Cruix/Cyberman_Updates Fixes broken cyberman objectives
+ Update CONTRIBUTING.md
+ Adds text formatting guide.
+ Update CONTRIBUTING.md
+ Fix formatting error.
+ Adds credits to CONTRIBUTING.md
+ Adds CONTRIBUTING.md
+ Merge pull request #476 from oisin100/Borers Borer Updates
+ Tweaked spawning
+ Added changelog
+ More Borer Updates.
+ Borers added to xeno Adds cortical borers to the mobs that can be spawned in xenobiology. They can be spawned from any injection (water, blood, plasma). They do not have attack code, and will remain passive even if spawned 'hostile'.
+ Merge remote-tracking branch 'refs/remotes/origin/master' into yogstation13/dev
+ Merge remote-tracking branch 'refs/remotes/yogstation13/master'
+ Merge remote-tracking branch 'refs/remotes/yogstation13/feature-breaker'
+ Merge remote-tracking branch 'refs/remotes/yogstation13/master'
+ Merge branch 'master' of https://github.com/Groxic/yogstation
+ Merge remote-tracking branch 'refs/remotes/origin/dev'
+ Fixes broken cyberman objectives
+ Minor fixes Transfer_personality proc added at the request of oisin100
+ Add Healthanalyzer message
+ Borer Updates
+ Fix git artifacts
+ Fixing git artifacts
+ Removes artifacts from previous PR soy un idioto
+ Undoes previous PR soy un idioto
+ Allows admins to borerify players
+ git fixing yet again Am I a git rockstar yet? No, just an idiot.
+ git fixing yet again
+ git fixing
+ Fanny pack of Holding Fix Nerfed it slightly to not hold bags. Made researchable Added changelog.
+ More updates
+ Fixing git conflicts
+ gitignore update
+ Shadowpeople fix Shadow people now have permanent darksight. They can also no longer use guns, for the same reason that shadowlings cannot use guns. (Muzzle Flash) Refer to issue #475.
+ Merge remote-tracking branch 'refs/remotes/origin/Adam's-Crapple'
+ Merge remote-tracking branch 'refs/remotes/origin/Minedrones'
+ Gitignored stuff, DO NOT PULL REQUEST These changes are so shit will compile on my machine, they shouldn't be pushed
+ Borer Updates
+ Added changelog and prisoner ID.
+ Makes the agent card disguisable as a gold or silver ID, or an emag. Fixes some bugs with the chameleon items.
+ Merge branch 'dev'
+ Merge remote-tracking branch 'refs/remotes/origin/dev'
+ Merge pull request #469 from oisin100/Borers Borer Hivemind
+ Fixes secreting message.
+ Borer Hivemind
+ Updating to latest Byond version
+ Changelog updated
+ Initial predator mob
+ Merge pull request #467 from Cruix/Cyberman_Updates_v4 Cybermen Updates v4
+ Merge pull request #464 from oisin100/Borers Borers Fixes
+ *Changed the cost of Cybermen converting a human from 200+400x(current cybermen) to 400+200x(current cybermen). *Health analyzers now detect cybermen, and recommend brain surgery. *Cybermen can now hack secure crates to open them. *Cybermen can now hack all bots, not just securitrons, to emag them. *Cybermen can now hack microwaves. Does nothing. Added to objectives as a potential hack target. *All cyberman abilities now have action icons. *Admins are now able to set specific cyberman objectives, including custom ones. *Admins now have much greater ability to change the properties of active hacks and objectives through the cyberman panel. *Cybermen now leave fingerprints on anything they hack, even if they are wearing gloves. *Cybermen now automatically focus on any hack they start.
+ Im tired. Dont judge meh.
+ Another fix.
+ Borer Fixes
+ Added Changelog.
+ *Added carp language that space carp and space dolphins speak *Added the ability for simple animals to understand human but not speak it *Spawned tactical animals and animals make sentient by a universal tactical harness now understand human, but cannot speak it *Fixed tactical animals being unable to speak over the radio *Fixed tactical carp not doing stamina damage on hit *Fixed some erroneous arguments for UnarmedAttack() in simple animals
+ Merge branch 'dev' of https://github.com/yogstation13/yogstation into tactical_dolphin Resolved Conflicts
+ Merge pull request #449 from Cruix/chat_logging Adds chat logging for several methods of communication
+ Merge branch 'dev' Updating server.
+ Merge pull request #455 from PineappleWolf/ClownModule Hotfix for indent error causing glitches with other modules
+ Hotfix for indent error causing glitches with other modules
+ Changelog update.
+ Merge remote-tracking branch 'origin/dev' Server update.
+ Merge pull request #452 from Alek2ander/singulel Makes the singularity great again
+ Makes the singularity great again
+ Merge pull request #434 from oisin100/Borers Borers
+ Added diffs that I somehow lost.
+ Added changelog
+ Added speech logging for emotes, changeling chat, binary chat, drone chat, holopad talking, shadowling chat, cyberman chat, and abductor chat.
+ *Makes Cayenne an actual space carp instead of a bat. Her AIStatus is set to off, so she will never attack. *Adds Disky the space dolphin to the syndicate mothership. His AIStatus is set to off, so he will never attack.
+ Merge branch 'dev' of https://github.com/yogstation13/yogstation into tactical_dolphin Resolved Conflicts.
+ *Added spawnable tactical carp
+ *Added generic code for making simple animals able to eat specific snacks for health. *Tactical harnesses now make animals wearing them able to eat syndicakes. Persists even after the harness is taken off. *Updated tactical harness ui icons. *Added tactical carp that can be spawned already wearing a harness. *Fixed a bug where tactical harnesses would grand 100 melee damage instead of 15.
+ Adds logging and more borer spawning + Fixed a bug where borers get killed by air...
+ Merge pull request #442 from AsV9/medbay-button Puts a button in chemistry to open medbay doors.
+ Merged dev, icon mismatches
+ Updating changelog
+ Ignore muh mistake.
+ Merge remote-tracking branch 'yogstation13/dev' into Borers
+ Add Influence Message to brain bonding.
+ <3 @Asv9
+ Merge pull request #424 from Groxic/Adam's-Crapple Adam's Crapple
+ Merge pull request #439 from toneo-/dev Chef's meat locker now confers immunity to nukes (feature request #163)
+ Merge pull request #441 from AsV9/fucks-sake Renames tgstation.dme to yogstation.dme and fixes Travis.yml
+ Merge branch 'Borers' of https://github.com/oisin100/yogstation into Borers
+ Borer Balancing
+ Merge remote-tracking branch 'refs/remotes/origin/dev'
+ Puts a button in chemistry to open medbay doors. I can't believe nobody else has done this yet.
+ Renames tgstation.dme to yogstation.dme and fixes Travis.yml
+ Added changelog entry (for PR)
+ Chef's meat locker now confers immunity to nukes The meat locker is the only lead-lined freezer (he is a militant vegan). This shouldn't affect antag greentext - nukeops wins regardless of deaths, as does malfai.
+ Merge pull request #436 from TehFlaminTaco/ChangeLog TacoChangelog
+ I was a bit vague with the borer changelog.
+ HEIL ASV9
+ Add Borers
+ Revert "Changelog" This reverts commit ac693fd50b7322261785e63f8518be8a9ed9f759.
+ Boop
+ Borers Done.
+ Merge pull request #2 from yogstation13/dev Updates.
+ Add templates for issues and PRs
+ Merge remote-tracking branch 'alek/baconsci' into dev
+ Merge pull request #402 from PineappleWolf/ClownModule Clown Module feature addition.
+ Merge pull request #377 from TehFlaminTaco/master Spooky Goasts
+ Added fixed Recharge rate for Wand of Nothing for ease of use for borg and others. As it does nothing, why not have it recharge? Also fulfills https://github.com/yogstation13/yogstation/issues/350. Close this when possible. Wizard Borgs and Bots (And clowns/chickens) can now Cast "Magic" Nothing at you forever! EI NATH!
+ Added a (at the moment) non-rechargable(?) Wand of Nothing to the Borg so it can "Be a Wizard, Harry!'
+ Changelog Fixes?
+ Finished/Finalized Chicken Borg and added to sprite option list. BUAK BUAK! HONK!
+ Changelog fixes?
+ Changelog Update Changelog Update
+ Better Changes Makes rezadone mix: cryoxadone 6u, cryptobiolin 1u, and copper 6u. Results in 4u. It's this way because no more carpotoxin for it.
+ Altered side views of Wizard Bot to remove coloring and differentiate sides to show "folds"/lines of robe.
+ Borghypo fixes Prevents cyborgs from being injected with a borghypo, which happened after my last hypospray commit.
+ Wizard Borg (Standard Borg dressed up) joins Wizard Bot and Clown Bot! Hit the stage, NECORUM IMORTIUM!
+ Changelog Added March First Changelog.
+ Hypospray can now penetrate more Borghypospray and all regular hyposprays can now penetrate hardsuits and other things.
+ Ez Rezadone Rezadone is now easier to mix, requiring 3u of cryoxadone; 1u cryptobiolin; and 1u of copper. This mix yields 3u of rezadone.
+ Removes Changeling Last Resort Issue request to remove changeling's last resort. It still exists, but it's just commented out.
+ Added Wizard Borg to the Clown Borg module, EI NATH HONK!
+ Adds camera beacons. Fixes a small issue.
+ Up the price of mining drone shells to 1000
+ Taking out lines and adding changelog, probably.
+ Remove gun and voucher from mining drone.
+ Merge branch 'ClownModule' of https://github.com/PineappleWolf/yogstation into SurvivalCapsule4Adam
+ Merge pull request #414 from Groxic/Minedrones Minedrones(merge now)
+ Merge pull request #413 from Alek2ander/baconsci Telescience redesign
+ Undulplicated some code, and general cleanup. Increased EMP effect on beacons, added feedback when toggling power.
+ Merge pull request #420 from PineappleWolf/SurvivalCapsule4Adam Adding Survival Capsule that Adam likes so much from /tg/.
+ Merge pull request #419 from TehFlaminTaco/dev Lighting Patch
+ Adding Survival Capsule that Adam likes so much from /tg/. Was already in yogs code just not able to be grabbed. Added to machine for 700~-750~ points.
+ Lighting Patch Flashlights now give off light on tables and such again. "Dims" no-longer build up when turfs are changed.
+ Merge pull request #276 from oisin100/KmcGhettoWeapons Ghetto Armoury
+ Merge branch 'dev'
+ Make notes easier to export via a button in the notes manager.
+ more fixing?
+ Y mas y mas y mas Fixing conflicts.
+ More fixing
+ Merge remote-tracking branch 'refs/remotes/yogstation13/dev' into Minedrones # Conflicts: # code/_onclick/hud/drones.dm
+ MINEDRONES New minedrones whose goals are to mine and refine minerals. There are 3 minedrone shells in 3 buildings on the asteroid.
+ Merge branch 'dev'
+ Changelog update.
+ Zombie texture for Preternus
+ Telescience changes
+ Merge branch 'dev'
+ Load appearance bans
+ Merge branch 'master' into dev
+ OOC uses regex filter again. Space law is not linked to TG anymore.
+ Temperature gun update Makes Temperature guns shoot through windows. Todo: Buff temperature guns
+ Merge branch 'dev'
+ Unbanned null values
+ Merge branch 'dev'
+ Changelog updated
+ Merge pull request #404 from Cruix/preternis_reagents Fixes Preternis Nutritious Reagent Behavior
+ Merge pull request #406 from X-TheDark/TGChemPort_1 Ported several /tg/ chems and balance changes
+ Merge branch 'master' into dev
+ Credit to X-TheDark for noticing the double equals in the SQL statements.
+ Merge remote-tracking branch 'refs/remotes/origin/dev' into yogstation13/dev
+ Merge branch 'master' into dev
+ Fix bans - isnull removed.
+ Merge branch 'dev'
+ Oisins PR caused me to notice the second SQL statement. That needed fixing too.
+ Still keep forgetting the changelog.
+ Ported several /tg/ chems and improvements. 1. New toxins: teslium and heparin. 2. Chem balance changes as well as descriptions. 3. New medical chems: oxandrolone and haloperidol.
+ Fixed Preternis not metabolizing any nutritious reagents. They now metabolize them normally except that they receive 1/5th the nutrient from them. The message they receive when they eat food has been changed to appear once every two minutes if there is a nutritious reagent in their system, instead of on a 1% probability per tick there is a nutritious reagent in their system.
+ Merge branch 'master' of github.com:yogstation13/yogstation
+ Merge branch 'dev'
+ Changelog update. Again.
+ Merge pull request #352 from X-TheDark/ImproveOdy_2 Odysseus Improvements, Part 2.1 : Rearming Syringes
+ Changelog compilation
+ Jobban really fixed now. Honest.
+ Fixed jobban SQL
+ Merge pull request #390 from oisin100/FixTempBans Fixes job temp bans
+ Merge pull request #337 from X-TheDark/BlobDeathFix Blob Improvements
+ Merge pull request #381 from X-TheDark/TGSlimePersonPort Ported /tg/'s slime person split
+ Changelog per pull #399
+ Merge pull request #399 from AdamElTablawy/patch-1 Ports /tg/'s buff of the chameleon jumpsuit.
+ Forgot this, the updated sprite dmi with the new borg.
+ Clown Module feature addition. Adds Clown Module, Clown Borg Sprite, and transformation animation for Clown Borg Sprite from Standard. HONK!
+ Ports /tg/'s buff of the chameleon jumpsuit. Ports chameleon jumpsuit's armor buff on /tg/. Gains melee, bullet, and laser resistance of 10. Unless I borked it.
+ Merge pull request #392 from Cruix/PDA_cartridges Fixes PDAs receiving alerts from other z-levels.
+ Merge pull request #382 from AsV9/tell-admins-ce-blueprints-and-plasma CE's blueprints and certain atmos pumps now notify admins and logs to log files.
+ Fixes PDAs receiving alerts from other z-levels.
+ Fixes job temp bans
+ Merge pull request #385 from Cruix/bandage_fix Fixes bandage visual duplication bug.
+ Implemented unconsciousness checks. Ported bloat message (to know when you are ready to split) Decreased nutrition consumption by 50%
+ Fixes bandage visual duplication bug. Now, if you switch hands or place the bandage somewhere, you do not drop it. Added some "\improper"s to bandage names.
+ Merge pull request #383 from Cruix/poster_fix Poster Fixes
+ Fixed posters not being placeable after failing to place them once. Made poster code use do_after() instead of sleep.
+ Updating rules.html to latest council vote
+ whoops
+ Improved grammar and added more JMP/FLW buttons.
+ Added alert per Alek's suggestion.
+ Changelog.
+ Turning on pump logging by editing pipes in map editor.
+ Pump logging.
+ Blueprint logging.
+ Ported over TG Slime Person Split ability by Incoming5643.
+ Spooky Goasts Adds an extra option to ghost preferences for donators, "Corpse", which looks like whatever body the player had when they ghosted.
+ *Replaced the tactical carp harness in the nukeops uplink with the universal tactical animal harness, which can be placed on carp or dolphins. Moved the code that makes the animal sentient to the universal harness. *Added tactical carp sprite. *Tactical carps now shoot heavy lasers instead of regular ones, and have 300 health instead of 150. *Tactical dolphins now shoot 3 regular lasers instead of one per click, and now move about 50% faster than an unencumbered human. *Adding or removing a harness leaves the animal at the same percent health instead of fully healing it. *Made it so you can't walk past carps while on help intent. *Fixed some bugs.
+ Merge pull request #369 from AsV9/no-more-bikehorn-abuse Disables editing of honksound variable unless admin has +SOUND.
+ Forgot changelog from earlier merged PR.
+ Changelog.
+ Merge pull request #317 from X-TheDark/MediborgDefib Mediborg Buff 1 : Defibrillator
+ Now checks for +SOUND.
+ Merge pull request #363 from AsV9/remove-borg-hats Removes borg christmas hats.
+ Disables editing of the honksound variable. There might be more abusable variables but this ought to do.
+ Buffs tactical dolphins: *health increased to 150 from 100 *laser cooldown decreased to 1 life tick Makes tactical animal harnesses generic for all /mob/living/simple_animal/hostile animal types, and adds a new harness for space carp. The tacitcal dolphin spawner for nukeops has been replaced with the tactical carp harness. *upon putting the harness on a carp, it will attempt to give it sentience. This effect can only succeed once. If it has not succeeded yet, you can refund it. *only works on regular carp, not any subtypes.
+ Removed some debug text that I forgot about.
+ Removes borg christmas hats.
+ Merge pull request #308 from Cruix/Lube_Color Space Lube Nerf 1
+ Adds tactical dolphin *available to nukeops for 20TC, with the same spawning process as syndicate cyborg. *can fly around space with no problems like any other dolphin. *like all simple mobs, it is immune to most stuns. *100 health, 15 melee damage. *heals 5 health from each bite of a syndicake, comes with 5 syndicakes. *has an unremovable syndicate headset. *comes wearing a removable harness. While wearing the harness, the dolphin has: *toggleable emag and night vision. *inventory the size of a backpack. The dolphin cannot put items in it, but any human can through the strip menu. The only way to remove items are to have the dolphin drop them, or remove the harness, which takes a human 6 seconds. *laser that shoots swarmer speed (once every 3 life ticks) and never runs out of charge. It has support for multiple weapons it can cycle through, but there is only the one installed by default.
+ Update changelogs
+ Merge branch 'dev' of github.com:yogstation13/yogstation into dev
+ Merge branch 'fix-credits' into dev
+ Credits and antag tokens - report when changes are made. Require a reason for antag tokens.
+ Make credits verbs accessible only to admins. Only show verbs to admins with +PERMISSIONS
+ Merge pull request #4 from yogstation13/master Master
+ Merge pull request #348 from Super3222/drones-acceselectronics Drones can now use airlock electronics
+ Merge pull request #301 from Super3222/consoletweaks Communication Console Tweak
+ Merge pull request #306 from Groxic/dronepickup Drone Pickup Delay
+ Merge pull request #329 from Cruix/reduce_PDA_alert_spam Reduces PDA alert spam, especially in the case of fire alarms.
+ Merge pull request #347 from Super3222/shadowisashadowperson Shadowpeople excluded from mutation toxin blacklist
+ Merge pull request #314 from X-TheDark/SyndiborgBuff Syndiborg buff
+ Merge pull request #309 from Cruix/Lube_cleanable Space Lube Nerf 2
+ Keep forgetting the changelog.
+ Odysseus can Rearm syringes. 3 seconds per syringe, only in bulk, must stand still for entire duration, 250 energy cost.
+ Merge pull request #349 from oisin100/WardenKeys Warden secway Keys
+ Add secway keys and changelog for them
+ Mutation toxin now has a chance of turning you into a shadow person. (not ling)
+ Drones can now access airlock electronics properly.
+ Takes shadow people off the black list for unstable mutation toxin.
+ Merge pull request #327 from Cruix/changelog_updates Cruix changelog updates.
+ Merge pull request #326 from Cruix/fix_cyborg_ui Fixes Cyborg UI buttons
+ Stolen alot of code from /tg/ made by ChangelingRain: - Blobs can block atmos: Strong blobs and core do that. - Blobs made more explosion resistant, core immune to bombs. - Split Consciousness requires a node under it. - Blob can expand on lattices. Small explosion optimizations, about 8-10% faster.
+ If there is another active overmind with a core when your core is destroyed, you don't die. Go help out the other guy! You earn resources from Resource nodes normally and can build stuff. Can't Split/Relocate if you don't have a core.
+ Spelling fixes in ghetto weapons + no more hardcode in spear + imbed organs no longer randomly chosen
+ Merge branch 'KmcGhettoWeapons' of https://github.com/oisin100/yogstation into KmcGhettoWeapons
+ Ghostizes killed blob cores.
+ Merge branch 'dev'
+ Merge pull request #333 from yogstation13/revert-266-jetpackspatch Revert "Flying over tables with jetpack"
+ Revert "Flying over tables with jetpack"
+ Added changelog.
+ Reduces PDA alert spam, especially in the case of fire alarms.
+ Removed some spaces that shouldn't have been there and might have caused Travis to fail.
+ Added changelog entries for several pull requests that were already pulled.
+ added changelog.
+ Added changelog.
+ Fixes cyborg sensor augmentation, camera, and view picture buttons being invisible and unclickable.
+ Woops. Forgot to delete something.
+ Fixes my mistakes in the update_icons
+ Merge pull request #1 from yogstation13/dev Branch merge.
+ Merge branch 'dev'
+ New changelogs inserted
+ Merge pull request #304 from oisin100/MoarBotany2 Fixes invisible drying racks.
+ Changelog modified with newest changes.
+ Revert of infinite ammo LMG, along with ammo cost back to 20. Recharge rate set to 2 (instead of 5). LMG now supports 1/3/5 round firing modes.
+ Add rack changelog.
+ Merge pull request #266 from Super3222/jetpackspatch Flying over tables with jetpack
+ Merge pull request #274 from Cruix/dynamic_ui_2 Added dynamic UI
+ Merge pull request #286 from Cruix/PDA_cartridges Updated PDAs
+ Merge pull request #293 from oisin100/NTSLTracking Fixes NTSL Ai tracking.
+ Merge pull request #296 from X-TheDark/MechBatteryFix_2 Mech replacement batteries keep 10% minimum charge+HUD fixes.
+ Merge pull request #310 from Cruix/Thrall_darksight_message Adds glasses warning to Thrall Darksight ability
+ Merge pull request #315 from X-TheDark/RemoveGriefMagic Removes Summon Magic
+ Merge pull request #320 from X-TheDark/DroneHatFix Drones no longer get stuck on heads after holder dies
+ Drone Pickup Delay with animation
+ Added check if we are actually on the head.
+ Changelog updated.
+ Merge branch 'feature-adminranks' into dev
+ Admin Ranks improvements * Database changes to enable byond admin ranks from DB * Get admin ranks from DB and push them to the config text file * Get admin list from DB and push to the config text file Note: The game will still check the config text files for the actual configuration. This commit is only to ensure that the files are populated with the correct data. This is especially useful in the case of a critical database failure.
+ Forgot closing bracket on if()
+ Added typecasting.
+ Merge pull request #319 from X-TheDark/NukeOpChallengeTime Nuke Ops now actually have 5 minutes (instead of 2) to decide on War
+ Drones can now leave heads of dead people.
+ Typo fix.
+ Changelog added.
+ Small tweak to Nuke Op challenge mode timer to give Nuke Ops actually 5 minutes (instead of 2) to decide on War.
+ Mediborgs now have defibrillators that cost 2000 energy. Defibrillator will not be used below 2500 energy (2000 + safety net that I set as a define to 500).
+ Removed some copies of changeling hud elements and a new proc that did nothing.
+ Fixed compilation issues, completed merge.
+ Attempted Merge branch 'master' into dynamic_ui_2
+ Changelog fix (forgot to rename author)
+ Removes Summon Magic (for now), reverts last change (removal of spells from list, since all of it is removed now)
+ Removes "blind", "horsemask" and "mindswap" from eligible magic items for Summon Magic.
+ Finished Syndicate Cyborg additions: 1. LMG fires 3 shot bursts, 300 energy per burst; 2. Grenade Launcher replicates 1 shot every 6 seconds when used; 3. Emag added; 4. Crowbar changed to red; 5. Esword usages cost down to 150 (from 500);
+ Adds a warning to the thrall darksight ability, informing the user that glasses will block the ability.
+ Makes space cleaner remove space lube from turfs.
+ Makes space lube have the same overlay on a tile as water.
+ Drone Pickup Delay Delays drone pickup by humanoids by two seconds. For issue #280.
+ Merge branch 'master' of https://github.com/Groxic/yogstation
+ Drone Pickup Delay Commit for Issue #280. Drones now take two seconds to pickup.
+ Fix invisible drying racks.
+ Merge branch 'dev'
+ Add changelog for antag tokens
+ Credits changes * Fix comments * Set credits on client object automatically on change * Set credits on client object when connecting
+ Merge branch 'feature-antag-tokens' into dev
+ Antag tokens commit
+ +changelog
+ You can now log into communication consoles without taking off your ID.
+ Merge branch 'dev'
+ Updated changelog with new ymls
+ Merge branch 'feature-db-helpers' into dev
+ Added helper functions for Nanotrasen Credits in credits.dm
+ Merge branch 'dev' of https://github.com/oisin100/yogstation into dev
+ Merge remote-tracking branch 'refs/remotes/yogstation13/dev' into dev
+ Merge remote-tracking branch 'refs/remotes/yogstation13/dev' into dev
+ Merge pull request #292 from Super3222/superchangelogupdate Super's Changelog Update
+ Merge remote-tracking branch 'refs/remotes/origin/master' into yogstation13/dev
+ Changelog added.
+ When placed into Mechs, batteries will keep at least 10% charge (to prevent infinite 0% cell replacement). Also fixes outstanding HUD bug where now exiting the mech changed your hud.
+ Update hydroponics.dm
+ Partial commit.
+ Fixes NTSL Ai tracking.
+ Spelling fix.
+ All caught up now.
+ Changelog file to go.
+ Changed the requirements for the flag check.
+ Merge pull request #290 from Super3222/cablesrecycle You can now recycle cable restraints
+ Changelog provided.
+ Merge branch 'dev'
+ Fix ticket round delaying
+ Merge branch 'dev'
+ Compiled changelog with Cruixs changes.
+ Merge branch 'Cruix-cam_mil_belt' into dev
+ Merged cam_mil_belt with the current dev code
+ Merge pull request #287 from Cruix/changelog Cruix Changelog Update
+ Merge branch 'dev' of github.com:yogstation13/yogstation into dev
+ Changelog updated. yml to HTML.
+ You can now recycle cable restraints back into cables.
+ Adds a changelog .yml for all my contributions that have been pulled so far.
+ Got rid of my changes to admins.txt (oops).
+ Updated PDAs *fixed some cases where the botanist's PDA would not act like a plant analyzer when it should. Removed some copy-pasted code. *PDA cartridges can now receive atmos, fire, and power alerts. Atmos techs receive atmos and fire, Engineers receive power, and the CE and Captain receive all 3. Alert notifications can be toggled on, causing the PDA to beep and state alerts when they are received. *Atmos tech, CE, and Captain cartridges can view all atmos monitoring consoles through their PDA, similar to how engineers can view power monitoring consoles. *Changed scanmode magic numbers into #defines. *Added some new menu categories, moved some options out of "Utilities". *Captain's Value-PAK cartridge now has 100% more value.
+ Merge pull request #272 from Cruix/organ_decay Adds organ decay and makes heart transplants work
+ Merge pull request #249 from X-TheDark/DonorSlots Extra character slots for donors (total of 6)
+ Merge pull request #277 from X-TheDark/tg_OverlayPort_510 Port of /tg/ fixes for overlays in BYOND 510
+ Merge branch 'master' into dev
+ Airspear now releases gas
+ Merge branch 'dev'
+ Merge pull request #281 from TehFlaminTaco/master Bluespace Fanny Packs
+ Merge pull request #282 from X-TheDark/RuleUpdate Adds rules 0.9 (restart) and 1.3.1 (wizard round murderbone thing) to in-game Rules
+ Merge pull request #278 from X-TheDark/NoTKOUrinals Added cooldown to slamming people against Urinals
+ Updates in-game rules with recent Council Voted ones.
+ Bluespace Fanny Packs Someone requested this. It's beautiful.
+ Added changelog.
+ Changelog added.
+ Stops urinals from being veritable instant-kill machines. Adds cooldown on slamming someone.
+ Ported /tg/ BYOND 510 fixes by Neersighted. It's finally done, kill me.
+ Make organs that are implanted work off the body temperature of the owner instead of the ambient air temperature.
+ Updates to the pneumatic spear.
+ Ghetto Armoury First commit.
+ Added dynamic UI in a single commit
+ Merge pull request #3 from yogstation13/master Master
+ Makes organs have a decay time while out of bodies or in dead bodies, refrigerators actually cool things down, and defibs work off the new decay system. At the moment, only hearts decay by default.
+ Suit in-built jetpacks will now allow their users to fly over tables.
+ Request #82 haha... While you are thrusting through space with your jetpack on, you'll be able to pass over tables. Finally some realism.
+ Merge branch 'dev'
+ Merge pull request #263 from TehFlaminTaco/master Just ported TG Lighting
+ Just ported TG Lighting I'm sick of this engine. This works, I've tested it, As an added bonus, even has my dim shit. Fuck yeah, Let me sleep.
+ Adds the Chameleon Military belt as a traitor uplink item.
+ Header is OUR header.
+ Merge branch 'dev'
+ Merge pull request #257 from Cruix/cybermen_updates Fixes health analyzers.
+ Merge remote-tracking branch 'refs/remotes/yogstation13/master' into yogstation13/dev
+ Merge pull request #253 from X-TheDark/Changelogs Changelogs for olders pull requests
+ Merge branch 'dev'
+ Merge branch 'fix-regex' into dev
+ Remove the additional regex library. Remove unnecessary proc call from shuttles.dm. Comment out OOC Link Filter until a fix can be found. Pretty filter uses new regex.
+ Fixes health analyzers not working unless the Cyberman network was initialized.
+ Typo fixes and rewrites.
+ Changelogs for olders PRs
+ Merge pull request #252 from TehFlaminTaco/master Check Antagonists Fix
+ Fixed a faulty define at the end.
+ Check Antagonists Fix
+ Merge remote-tracking branch 'refs/remotes/origin/dev'
+ Merge branch 'dev'
+ Merge branch 'master' into dev
+ Merge pull request #2 from yogstation13/master Merge to Master
+ Donors get 6 slots for characters.
+ Merge remote-tracking branch 'refs/remotes/yogstation13/master'
+ Merge remote-tracking branch 'refs/remotes/origin/master' into yogstation13/dev
+ Merge remote-tracking branch 'refs/remotes/yogstation13/master' into yogstation13/dev
+ Merge remote-tracking branch 'refs/remotes/origin/master' into yogstation13/master
+ Merge remote-tracking branch 'refs/remotes/yogstation13/dev'
+ Merge remote-tracking branch 'origin/dev'
+ Upgrading Travis to use Byond 510
+ Merge pull request #239 from TehFlaminTaco/master Remove Coloured Lighting
+ Fix "Chicken shit" lighting. This one fucking line was the cause of lighting being cancer. fixed, finally...
+ Remove Coloured Lighting Completely removes all trace of the Coloured Lighting System, other then some things still adding void arguments to SetLuminosity. Shouldn't do anything though.
+ Merge pull request #202 from oisin100/MindslaveImplant Mindslave implant
+ Merge pull request #227 from X-TheDark/MechHUD Entering Mech no longer minimizes your HUD/Create X panel is not populated upon first open
+ Merge pull request #229 from X-TheDark/ImproveOdy_1 Odysseus Improvements, Part 1 : Scanning Medbay Sleepers for reagents
+ Merge pull request #233 from Super3222/EmaggableSleeper Sleepers can be emagged
+ Merge pull request #234 from Super3222/allowspiritstoseeinthedark Gives revenants night vision.
+ Merge pull request #235 from Cruix/cybermen_updates Cybermen updates v3
+ Merge pull request #236 from X-TheDark/DropAllOre Release All button for Ore Redemption Machine
+ Merge pull request #237 from Cruix/foam-force_event Nerf War Adminbus Event
+ Adds a new fun secret, "Nerf War" that spawns foam-force guns for the entire crew.
+ Release All button for Ore Redemption Machine that unloads all metals in the machine.
+ Fixes several cybermen bugs: *You can no longer use cyberman abilities while dead or unconcious. *Hacking an AI upload now properly hacks the AI it is connected to. *Attempting to use a cyberman ability (other than broadcast) as a ghost no longer deconverts your dead/catatonic body *You will (hopefully) no longer get a verb in the commands tab that lets you cancel a conversion of yourself while you are still human. *You can no longer convert dead people into cybermen. *Hacks no longer have crazy names. Balance and Quality of Life changes: *color of "you hear a faint sound of static" message when a cyberman starts a hack near you changed from blue to red. *Hacking the RnD server cost reduced from 500 to 300. *If the current objective is to make 60% of the station cybermen, converting a human will never cost more than 3000. *All objectives that requrie a number of something to be reached now display progress in their description.
+ Gives revenants night vision.
+ Sleepers are now emaggable. Hail Syndicate!
+ Merge pull request #209 from Groxic/master Bug Fix + Hotkey Addition
+ Merge pull request #226 from Cruix/cable_coil_fixes Cable coil fixes
+ Added 1u and 5u injection options for the sleeper (useful for things like Pentetic Acid)
+ Odysseus can scan reagents from sleeper, if it has a mounted sleeper installed.
+ Entering Mech no longer minimizes your HUD. Create Object window no longer contains any objects when first opened.
+ Fixes Cable Issues. *full cable stacks can no longer be dragged over each other to get a stack of potentially more than 30 and a stack of 0 *cables taken off of a cable stack, and cables that are split in half, now give cables of the same color Much content was taken from this /tg/ commit: https://github.com/tgstation/-tg-station/commit/70d97ad5e44727640035fac30ce7070c6e48ee54
+ Merge pull request #214 from Super3222/tool_tip_port RE: Tool tip port
+ Merge branch 'master' of https://github.com/yogstation13/yogstation into tool_tip_port
+ Merge branch 'dev'
+ Merge pull request #210 from oisin100/old_dev Change Destructive Analyzer to only prompt when item will be wasted
+ Merge pull request #213 from X-TheDark/NoSlipLube No-slip shoes and active magboots don't slip on anything
+ Merge pull request #212 from oisin100/GrafitiLogs Graffiti logs
+ Typo fix.
+ Syndicate no-slip shoes and active magboots don't slip on anything.
+ Fixes to previous commit
+ Simple graffiti logging
+ Merge remote-tracking branch 'refs/remotes/yogstation13/dev' into GrafitiLogs
+ Change DAnalyzer to only prompt when item will be wasted
+ Merge branch 'master' into dev
+ Hotkey Addition + Issue 170 Bug Fix 'z' hotkey for setting reagent container transfer amounts. Issue #170, poster transformation bug, fixed.
+ Merge remote-tracking branch 'refs/remotes/yogstation13/dev' into old_dev
+ Make un-slaving display a visible message and Loyalty implants will now remove mindslave
+ Merge remote-tracking branch 'refs/remotes/yogstation13/dev'
+ Hopefully this should work... My git has kinda fucked up a bit...
+ Added functional Mindslave-2000 Cartridge
+ Merge remote-tracking branch 'refs/remotes/yogstation13/dev' into MindslaveImplant
+ Moved Cybermen hacking and objective processing to SSobj.processing, so cybermen can hack even when the gamemode is not cybermen. "Create Cyberman" is now an option in create antagonists. Fixed some small bugs.
+ Merge branch 'dev' of https://github.com/yogstation13/yogstation
+ Yea, Dont mind me. Im really really dumb.
+ Fix merge conflicts.
+ Eyy, Something went wrong..
+ Created Mindslave implant [WIP] Created the mindslave implant. Feedback needed.
+ Merge pull request #193 from X-TheDark/ChangelingTransformFix Changeling fixes (Transformation/Monkeyize)
+ Merge pull request #191 from Super3222/BotanyPDA Botanist PDA's get an inbuilt plant analyzer.
+ Merge pull request #194 from Super3222/ronald_icon_fixes Ronald McDonald Outfit Fixes
+ Merge pull request #200 from Cruix/Cybermen Cybermen Updates
+ Merge branch 'master' of https://github.com/yogstation13/yogstation into tool_tip_port
+ Tooltip feature ported from TG which was able to transfer it from goon.
+ *Removed all the FILE_DIR defines *Added the cybermen panel for admins, usable via a new verb in the admin tab *added a new span class for admins messaging all cybermen *added an indicator to cybermen's status panel for EMP damage *cybermen now show up in check_antagonists() *removed cyborg hacking target for hacking objective *reduced required research levels from 8-14 to 8-10 for research levels objective *reduced max required number of escaping cybermen from 10 to 6 (if there are fewer than 6 cybermen it will require the number of cybermen at the time the objective was assigned, as previously) for hijack objective *description test of analyze and hack objective now shows what hacks have been completed *minor bugfixes *cyberman broadcast now correctly displays to dead mobs
+ Stuff.
+ Fixes some of the icon placing.
+ Removes debug message
+ 1. Fixes is_same DNA not checking species equality correctly. 2. Changelings no longer drop their "flesh" (imitation items) when they monkeyize. 3. Transformation now correctly applies hair/eye color/etc (still no underwear though). 4. If you DNA sting/Absorb someone whose DNA you already have, you refresh that profile (basically means you get their current clothes).
+ Oh, and here's the icon for the PDA.
+ Botanists now have a built in plant analyzer in their PDA's. *bow
+ Merge pull request #187 from Cruix/glowshroom_lag_fix Major Glowshroom nerfs, some bugfixes.
+ Merge pull request #63 from Cruix/Cybermen Added Cybermen gamemode. Still requires extensive testing. To enable …
+ Merge remote-tracking branch 'origin/master' into dev
+ Nerfs the crap out of glowshroom spread and fixes some long-standing bugs.
+ Merge pull request #177 from X-TheDark/NukeOpChallenge Port of /tg/ Nuclear Operative challenge mode
+ Merge pull request #157 from george99g/master Adds title3.ogg to the lobby music rotation and replaces it with #155's suggestion.
+ Replaces title3.ogg With "Welcome to Lunar Industries" See issue #155.
+ Merge pull request #182 from X-TheDark/VeilBuff Veil range buffed to 7
+ Veil range changed 5->7
+ Merge pull request #176 from X-TheDark/SyndiBorgCost_1 Syndicate borg cost decreased to /tg/'s 80
+ Syndicate borg cost decreased to /tg/'s 80, because screw paying just 20 TC short of a Mauler for one.
+ Added .dme
+ Port of /tg/ nuclear challenge mode with decreased minimal player requirement (25 instead of 50) and scaling TC rewards (5.6 TC per player on server, no cap).
+ Merge branch 'dev'
+ Fixed sith clothes. Issue #171.
+ Merge branch 'master' into dev - again
+ Merge pull request #162 from X-TheDark/SyndiborgGrenadeFix Fix for syndicate borgs being unable to use grenade launcher
+ Merge branch 'master' into dev - keeping dev uptodate with master
+ Merge pull request #1 from yogstation13/master Merge with Latest
+ Merge pull request #133 from Super3222/theprofessional New Traitor Bundle called "The Professional"
+ Merge pull request #138 from Cruix/changeling_zombie_antibodies Makes changelings immune to the zombie virus
+ Merge pull request #139 from Cruix/reagent_fixes Fixes reagent runtimes
+ Merge pull request #161 from krgii/master Fixed crusader helmet side facing sprite facing wrong way
+ Merge pull request #169 from X-TheDark/MechBatteryFix_Percent Mech battery fixes/changes - Looks good, thanks!
+ Merge pull request #158 from Cruix/zombie_messages Fixes Some Zombie Messages
+ 1. Mechs start with Super Capacity battery (20k charge) instead of some weird manually modified basic cell. 2. On changing battery, mech retains the removed batteries percentage charge. Works like this, it either decreases battery charge to the removed ones percentage or it keeps the percentage of the new battery.
+ Syndicate borgs can now use their grenade launchers.
+ Fixed crusader helmet side facing sprite facing wrong way
+ Added images to correct locations. Moved nightvision code around. All carbon life can now have night vision if the flag is set. Added equipment dm for predator. Equipment for suit helmet and disk exist. Helmet has nightvision mode.
+ Fixes zombies saying "This message will be turned into urrs." in deadchat and swaps the local and user messages in zombie/attack_paw()
+ Adds title3.ogg to the lobby music rotation.
+ Merge pull request #137 from Cruix/Changeling_Readapt_Fix Changeling Regenerate-Respec Bug
+ Merge pull request #148 from B1gb3ast/master New emote (shouldn't be borked)
+ Update tgstation.dme nothing changed! wooo!
+ Merge pull request #140 from Cruix/donor_pda Donor PDA
+ New emote By bothering the actual coders to bassically write this for me, you can now tip any hat. As long as you're holding it, because handsfree hat tipping is heresy.
+ Merge pull request #141 from TehFlaminTaco/master Coloured Lighting Soft Revert
+ Merge remote-tracking branch 'origin/master' into dev
+ Merge pull request #142 from AsV9/Ross-map-thing Adds trophy room. It's sexy.
+ Ross' map changes. Adds trophy room.
+ Coloured Lighting Soft Revert Reverts the coloured lighting as it is until Byond fixes their shit, all the code for coloured lights is still in place, but the main workload is restored to it's alpha-only state. Very mild proformance boost to be expected, but don't expect anything noticable. Fixes bugged clients.
+ Adds a donor-only preference for the transparent PDA.
+ removes some "src = null" from reagent code, which was causing null pointer runtimes when the reagents were put in a human's bloodstream.
+ Makes changelings immune to the zombie virus.
+ Fixes changelings losing the ability to regenerate if they respec while fake-dead.
+ And this should be the last patch. Ensures that the objects in the dufflebag spawn.
+ One last thing.
+ Simple fix. I had an extra bracket which created some errors.
+ Spelling fix. Wow.
+ New Uplink Kit known as "The Professional". See more by watching the movie "John Wick" or not you know... it's whatever *sniff* http://forums.yogstation.net/index.php?threads/new-traitor-item-ideas.5097/
+ Merge pull request #100 from Super3222/Super Ronald McDonald OUTFIT! Mask + Costume
+ Merge pull request #125 from Groudonmaster/master Traitor Jetpack obj
+ Merge pull request #128 from TehFlaminTaco/master Fixed Mesons
+ Mesons Fix Stops Mesons and such acting weird with the dim darks tiles. I can fix things before the issue is made.
+ Merge branch 'master' into dev
+ Changes stored jetpack to captain's jetpack
+ Changes the objective to the Captain's Jetpack
+ Merge pull request #3 from Groudonmaster/patch-1 Adds jetpack-gold
+ Merge pull request #2 from Groudonmaster/patch-1 Add's /obj/item/weapon/tank/jetpack/oxygen/captain/
+ Adds jetpack-gold
+ Add's /obj/item/weapon/tank/jetpack/oxygen/captain/ Add's item path for use with traitor objective. Uses "jetpack-gold"
+ Merge remote-tracking branch 'refs/remotes/yogstation13/master'
+ Merge pull request #119 from yogstation13/MM-race-blacklist-(sling&plasmaman) Removes shadowling and plasmaman from magic mirror race option
+ Merge pull request #122 from Groudonmaster/patch-3 Changes Steal Jetpack objective.
+ Merge pull request #1 from Groudonmaster/patch-2 Change Jetpack objective
+ Relative to stealing Jetpack
+ Change Jetpack objective Changes Jetpack Objective to target the one in the Captain's Suit storage.
+ Merge pull request #118 from TehFlaminTaco/master Shadowling Tweaks
+ Re-allows shadowling for Wizards as #118 passes.
+ Merge pull request #115 from X-TheDark/DroneDoorPass Drones pass through doors (+surprise)
+ Manually merged pull request 74 by X-TheDark.
+ Made Wizard Shuttle a bit more shadowling friendly. Wizard shuttle now has a bunch of lights on it, instead of being full-bright. There's also a light switch near the magic mirror. Also some tweaks to shadowlings to make sure wizards can't get those goodies intentionally put out of reach. Basically makes a shadowling wizard a viable option.
+ Removes shadowling and plasmaman from magic mirror race option Should fix #116 so dumdum wizards don't die on their shuttle Inb4 this breaks the game I'm not a coder
+ Merge pull request #114 from X-TheDark/GolemStripFix Fixes Golem ID/Belt/Pockets not being removable.
+ Merge pull request #111 from Groudonmaster/patch-1 Add Req_admin_notify to Cyborg.
+ Shadowling Tweaks Removed Toggles for Dark Vision and Shadow Walk Made Shadowlings, Ascendants, and Statues always shadow-walk. Made it so Shadowlings (And observers and such) can tell the difference between light tiles and pure black tiles. Fixed things not rotating when pulled around in darkness with shadowwalk.
+ Shortened description.
+ Drones now pass through doors with the added PASSDOOR flag as well as checks on Doors (Doors/Window Doors, but not firedoors and such). As a bonus, a certain unique corgi can now pass through doors as well. FUN.
+ Golems can now have their Belt/ID/Pocket items removed.
+ Add Req_admin_notify to Cyborg. Majority of players don't realize they need to notify about this role. Obviously will help with that.
+ Merge branch 'feature-roundcount'
+ Merge branch 'feature-roundcount' into dev
+ Addition of Round Number * Display round number in status tab * Set round number as a globally accessed variable in world. * New file data/roundcount.txt to increment the round number * All log file output contains #NUM# to indicate in logs the round number.
+ Merge pull request #103 from Cruix/Bot_Interface_Fixes Fixed some bot interface buttons being usable when they should not be.
+ Merge pull request #105 from Cruix/bots_foam_dart_fix Fixed foam darts disappearing when they hit Beepsky
+ Merge pull request #101 from TehFlaminTaco/master Mimekitty
+ Merge pull request #106 from Cruix/Wanted_Posters Adds wanted posters
+ Mimekitty Deployed Deployed a mimekitty in the bar, next to a honkbot.
+ Merge pull request #69 from Cruix/8-way_Lazer_Sprite_Test Diagonal laser sprites
+ Adds wanted posters.
+ Made it so that bullet_act() is always called when bots are hit by a projectile. This means that foam force darts and other reusable ammo fired at bots no longer disappear. Also made Mulebots process projectiles properly again, since they depended on the old code on bots/bullet_act().
+ Fixed some bot interface buttons being usable when they should not be. Made Beepsky's siren non-toggleable unless Beepsky is unlocked.
+ Mimekitty Adds a new pet cat. Mimekitty. Not implemented in the map anywhere.
+ Merge pull request #84 from Cruix/beepsky_visuals Justice Beepsky
+ Merge pull request #99 from AsV9/syringe_fix Syringe fix
+ Ronald McDonald Update. Here we go whoo!
+ Un-borks syringes. Rounding errors are weird.
+ Seriously fuck this bug.
+ Merge pull request #81 from Cruix/monkey_ghost_fix Fixes Issue #58
+ Merge pull request #95 from Super3222/BombCollarFix Fixes issue #48
+ Fixes issue #48
+ Made Beepsky also flash when summoned by the AI. Made lights change color every 5 ticks, putting them more in line with lighting updates. Added a siren noise when Beepsky is flashing. Added an option to Beepsky's interact window to turn the siren off.
+ Merge pull request #83 from Cruix/admin_logging_fixes Adds some admin logs and messages to Traitor Panel
+ Merge pull request #75 from X-TheDark/TransformStingFix Transformation Sting fix (Issue #37)
+ Merge pull request #78 from B1gb3ast/master Added custom suicide
+ Merge pull request #85 from X-TheDark/RevenantFix Fixes Revenant event not working (Issue #70)
+ Fixes revenant spawn location list being checked for length incorrectly in the revenant event.
+ Makes beepsky flash red and blue whenever he is arresting someone or summoned to a location.
+ Adds admin messages to using the traitor panel to shadowling a person and give a head revolutionary an uplink. Also removes the revolutionary reequip button that did nothing.
+ fixes people ghosting if they tried to move while turning into monkeys via the monkeyize proc.
+ Added custom suicide suiciding with a detective's fedora will now display a custom message. I'm the best coder in the world IMO tyvm merge.
+ Transformation sting now works. It's a bit hacky, because all appearance variables are set manually (even though they should be set based on DNA UI passed to hardset_dna() proc.
+ Merge pull request #73 from TehFlaminTaco/master Stop chemicals reacting with light effects.
+ Merge pull request #72 from Super3222/spellbookpatch Fixes issue #49
+ Stop chemicals reacting with light effects. This was technically a bug for longer than we had my lighting system, but it wasn't noticable until we changed the default colour state of light tiles.
+ Fixes issue #49, the issue where refunding a spell with efficient or a level higher will allow you to buy it at that same level at the cost of 1.
+ Merge pull request #68 from TehFlaminTaco/master Bug Fixes
+ Bug Fixes Fixes ghosts being able to control slimes. Fixes Changelings being forced into ghosts randomly whilst monkeyizing.
+ Adds support for 8-way directional sprites on projectiles. Also adds 8-state directional sprites for the following icon states in projectiles.dmi: laser heavylaser xray u_laser bluelaser omnilaser ice_2 declone
+ Merge pull request #1 from yogstation13/master Merge to current
+ Adding the Travis build to the readme
+ I don't know what this does. I'll just comment it out so we can put it back in once we fix it or something.
+ Changing CRLF to LF because someone messed that up.
+ Should I bother at this point?
+ Even more changes.
+ More changes.
+ Added Cybermen gamemode. Still requires extensive testing. To enable debug mode, un-comment out #define CYBERMEN_DEBUG in /code/game/gamemodes/cybermen/cybermen.dm.
+ Some more changes.
+ Changing a few things
+ Merge branch 'master' into dev
+ Merge pull request #2 from TehFlaminTaco/master More Lighting Stuff
+ More Lighting Stuff Smoothed out the transitions between light levels (slightly), made fire a pretty orange, instead of bring white. Enjoy Pyromaniacs.
+ Merge pull request #1 from george99g/dev Removing outdated downloading section from the readme.
+ Removing outdated downloading section from the readme.
+ Merge branch 'master' into dev
+ Lighting Patch Fixes problems with lights that don't default have colour in them sometimes causing random colours to appear. Also adds functionality for dimmer lights, but is not yet functionally implemented.
+ Map merge tool *SHOULD* work.
+ Merge branch 'master' into dev
+ Fixed Items. Ready to merge. Items, such as lamps and flashlights, now all have lighting colours. Flashlights and lamps have a warm yellow glow, Flares have a deep red, and lanterns and those slime extract thingy and torchers have a glaring yellow. More unique colours later.
+ Fixes ninja stealth.
+ Coloured Lighting Most of the code is in place. Just need item lights to be fixed. Other then that, works fine.
+ Merge remote-tracking branch 'origin/DarkWalk'
+ Fix permanent alpha 0 from changeling chameleon skin into transform (thanks Stealthkibbler)
+ Revert "Map edit." This reverts commit d5776a133e44669a5905630bb31cea1710cb2b1e.
+ Forgot to commit this.
+ Map edit.
+ More tweaks
+ More sprites.
+ Less spagetti code.
+ Merge branch 'dev' into BanWagonFix
+ It fucking works. Don't fucking ask.
+ Sprites for electronic breaker added.
+ Reverts Eph's AI laws fix. Actually fixes AI laws with the silicon policy implemented.
+ Makes TYRANT a default lawset. Doesn't mean anything as of right now, just some framework things.
+ Shadowling Dark-Vision Silly Shadowling night-vision is now toggle-able, and actually good.
+ Various Updates, Mostly Shadowling Shadowling Changes: Shadowling Shadow Walk changed, Nolonger a reskinned etheral jaunt. Now a toggle-able ability that allows shadowlings to move freely through darkness. Veil now breaks lights for 10 seconds, preventing them from turning off, to stop people immediently turning flashlights back on at them. Icy Veins now counters flares and torches. Energy Swords: Energy Swords now 'lightsaber' with other energy sword weilders, giving RnG block chance, to make for longer e-sword battles. Random: Added a sub-type of puppy called Yappers, due to him being spawned a fair bit.
+ Restore harmony to the ether by clarifying AI rules to favor humans, but still also protect mutant crew members
+ Changelog + rules
+ Reduce verbosity of newmed examine and fix grammar issues with Unathi/Phytosian examining
+ Christmas update by Ross.
+ Fix and adjust damage-specific examine type lines
+ Reduce spacewalking capability for phytosians by inflicting 50% greater cold-type damage
+ Partial merge Taco's light fix
+ Fix phytosian wonkiness on shuttles and centcom + added shadowling interaction
+ Commit changelog shit
+ Merge branch 'phytos-species'
+ Remove cryogenics ID locking because I can't fucking figure out why the authorization doesn't work on live rounds, but does locally
+ Appropriately fix racial message retardation
+ Merge remote-tracking branch 'origin/phytos-species'
+ Give human species an uplifting race blurb displaying their complete lack of any bonuses other than the AI is ordered to listen to them under Asimov.
+ Flesh out Unathi(lizardperson) roundstart lore, actually give them the bonuses they should have had and make hissing yelling work without looking retarded.
+ Add phytosian(plant) race to roundstart selection.
+ Ban Mobile Changes Removed Need for Key for the Ban Mobile and the Trabant Made players invisible whilst riding Ban Mobile and Trabant.
+ Tentative cryo ID fix (I have no fucking idea what I am doing)
+ Fix medkit burn bandages not actually healing burns
+ Merge branch 'medical-fixes'
+ Map update by Ross.
+ Add Member to the council rank.
+ Update changelog for console fix
+ Merge branch 'master' into dev
+ Deconstruction of terminals will now eject the ID contained within.
+ Improved ban handling
+ Merge branch 'dev'
+ Update changelog
+ Merge branch 'master' into dev
+ Check not just for unbanned but also for expiry date.
+ Merge branch 'dev'
+ Merge branch 'master' into dev
+ Swarmer files added to DME.
+ Merge branch 'master' into dev
+ Improve changelog and remove changes to css. CSS is in the MOTD directly due to problems getting it to accept the styles.
+ Merge branch 'dev' of gitlab.com:Alek2ander/yogstation into dev
+ Remove UPLOAD. SA have EVERYTHING. MOTD improvements. Aliens added low probability. Fixed issue with gravity gen turf NPE.
+ Sleeper now automatically makes comments on the person's medical records when they're placed into it.
+ Reintroduce cryogenics unconsciousness and fix ages old bug which was removing innate cryo health restoration
+ Nerf instant healing of patch type items to bring them more in line with current medical healing rates
+ Merge remote-tracking branch 'origin/medical-fixes'
+ Add updated ID checking to cryo so that it actually fucking works properly (sigh)
+ Update changelog to latest (manual merge)
+ Merge remote-tracking branch 'origin/medical-fixes'
+ Merge branch 'master' of https://gitlab.com/Alek2ander/yogstation Conflicts: code/modules/clothing/clothing.dm
+ Re added fun at CentComm in form of cars.
+ Fix cryo wonkiness at higher security levels and unauthorized people being able to drag-drop people into the machine
+ Adding medical stuff to the DME file. So it is checked.
+ Merge branch 'dev'
