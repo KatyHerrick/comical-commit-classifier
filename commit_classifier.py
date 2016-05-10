@@ -2,7 +2,7 @@
 # than the NaiveBayesClassifier.
 # (Including this empty file only if we get to this stage.)
 
-import re, string
+import re, string, sys
 
 # SOME THINGS TO DO/WHERE I LEFT OFF:
 # [x] 1. Remove punctuation for check_word_order_threshold test
@@ -115,7 +115,13 @@ if __name__ == '__main__':
     commits_no_words = [] # Checking for multiple punctuation
     english_words = []
     typo_list = {} 
-    with open('data/fateanother_commits.txt') as d:
+
+    if len(sys.argv) < 2:
+        print "ERROR: please add argument for repository (python commit_classifier.py {path_to_repository}"
+        exit()
+    path_to_commits = sys.argv[1]
+
+    with open(path_to_commits) as d:
         original_commits = d.readlines()
         commits_no_punc = [remove_punctuation(commit[1:].lower()).split('\n')[0].split(' ') for commit in original_commits] 
         commits_with_caps = [remove_punctuation(commit[1:]).split('\n')[0].split(' ') for commit in original_commits]
