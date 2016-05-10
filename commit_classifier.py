@@ -4,14 +4,7 @@
 
 import re, string, sys
 
-# SOME THINGS TO DO/WHERE I LEFT OFF:
-# [x] 1. Remove punctuation for check_word_order_threshold test
-# [] 2. Figure out best threshold
-# [x] 3. Add loop through with punctuation to see if repeated punctuation
-# [x] 4. Check for words in all CAPS LOCK
-# [x] 5. Check without 's' at end of plural words. Causes a ton of false positives 
-
-# Obviously will be much longer, just a small list to start
+# Words that will make a commit automatically funny
 automatic_funny = ['shit', 'fuck', 'ass', 'sucks', 'bad', 'garbage', 'awful',
     'terrible', 'damn', 'goddamn', 'dammit', 'goddammit', 'oops', 'lol', 'haha', 'retard',
     'retarded', 'geez', 'jeez', 'hahah', 'hahaha', 'fml', 'yolo', 'gg', 'idiot',
@@ -174,15 +167,6 @@ if __name__ == '__main__':
     word_is_typo = is_typo(typo_list)
     commits_for_write = commit_is_funny(word_is_typo, commits_for_write) 
 
-    # Are these actually typos? They'll be considered a typo
-    # if there aren't duplicates of the word in the repository
-    #if typo_list:
-    #    for key in typo_list:
-    #        typos = typo_list[key]
-    #        for typo in typos:
-    #            if word_list[typo] > 1:
-                    
-                    
     count = 0
     for commit in commits_with_caps:
         # Checking if there are commits with capital words
