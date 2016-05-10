@@ -9,7 +9,7 @@ automatic_funny = ['shit', 'fuck', 'ass', 'sucks', 'bad', 'garbage', 'awful',
     'terrible', 'damn', 'goddamn', 'dammit', 'goddammit', 'oops', 'lol', 'haha', 'retard',
     'retarded', 'geez', 'jeez', 'hahah', 'hahaha', 'fml', 'yolo', 'gg', 'idiot',
     'clusterfuck', 'dead', 'fml', 'fucker', 'fucked', 'god', 'hate', 'mess', 'piss', 
-    'shitcode', 'sorry', 'stupid', 'trash', 'ugh', 'whoops',
+    'shitcode', 'sorry', 'stupid', 'trash', 'ugh', 'whoops', 'holy',
 ]
 
 # Globals
