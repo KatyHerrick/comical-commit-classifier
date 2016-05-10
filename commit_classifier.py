@@ -14,7 +14,9 @@ import re, string
 # Obviously will be much longer, just a small list to start
 automatic_funny = ['shit', 'fuck', 'ass', 'sucks', 'bad', 'garbage', 'awful',
     'terrible', 'damn', 'goddamn', 'dammit', 'goddammit', 'oops', 'lol', 'haha', 'retard',
-    'retarded', 'geez', 'jeez', 'hahah', 'hahaha', 'fml', 'yolo', 'gg', 'idiot'
+    'retarded', 'geez', 'jeez', 'hahah', 'hahaha', 'fml', 'yolo', 'gg', 'idiot',
+    'clusterfuck', 'dead', 'fml', 'fucker', 'fucked', 'god', 'hate', 'mess', 'piss', 
+    'shitcode', 'sorry', 'stupid', 'trash', 'ugh', 'whoops',
 ]
 
 # Globals
