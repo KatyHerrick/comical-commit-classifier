@@ -164,6 +164,7 @@ if __name__ == '__main__':
                                 typo_list[word] = [check_word]
                         if test == "BREAK":
                             break
+
     word_is_typo = is_typo(typo_list)
     commits_for_write = commit_is_funny(word_is_typo, commits_for_write) 
 
@@ -172,7 +173,7 @@ if __name__ == '__main__':
         # Checking if there are commits with capital words
         count += 1
         for word in commit:
-            if word.isupper():
+            if word.isupper() and len(word) > 3:
                 cmt = commits_for_write[count]
                 cmt.append('Is Funny\n')
                 commits_for_write[count] = cmt
