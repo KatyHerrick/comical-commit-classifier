@@ -26,7 +26,7 @@ def remove_digits(s):
 
 # Checks how closely spelled two words are
 def check_word_order_threshold(commit_word, dict_word):
-    word_order_threshold = .82
+    word_order_threshold = .875
     word_count = 0
     shorter_word_length = 0
     if len(commit_word) < len(dict_word):
@@ -142,6 +142,8 @@ if __name__ == '__main__':
                 commits_for_write[count] = cmt
                 #print ' '.join(commit) + " ___ is funny"
                 break
+            if word == 'Merge':
+                break
             if check_s_d(word, english_words):
                 continue
             elif check_ed(word, english_words):
@@ -183,7 +185,7 @@ if __name__ == '__main__':
         # Checking if there are commits with repeated punctuation
         count += 1
         for punc in commit:
-            if len(punc) > 1:
+            if len(punc) > 4:
                 cmt = commits_for_write[count]
                 cmt.append('Is Funny\n')
                 commits_for_write[count] = cmt
